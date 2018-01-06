@@ -1,0 +1,152 @@
+{
+	"head": {
+		"title": "Portfolio",
+		"stylesheets": [{			
+			"path": "site.min.css",
+			"media": "all"
+		},{			
+			"path": "portfolio.min.css",
+			"media": "all"
+		},{			
+			"path": "gallery.min.css",
+			"media": "all"
+		}]
+	},
+	"client": "Martin Burford",
+	"project": "Personal portfolio",
+	"dates": "May 2017 - Jun 2017",
+	"summary": "As a developer, I've always found that I'm far too busy to put together a website for myself, including my CV, online portfolio, screenshots, videos, LinkedIn recommendations, GitHub code samples etc, which I feel truly represents the work that I do. In mid-2017, I decided to take some time off from work to put it all together. I also took the opportunity to ensure that my social channels were fully synchronized, in terms of the information the new website contained.",
+	"technologiesUsed": [
+		"CSS3",
+		"Express",
+		"Grunt",
+		"Gulp",
+		"HTML5",
+		"icoMoon",
+		"NPM",
+		"JSON",
+		"Namespacing",
+		"Native JavaScript",
+		"Node",
+		"OO JavaScript",
+		"Pug",
+		"Responsive front-end",
+		"SASS"
+	],
+	"gitHubCodeSamples": "https://github.com/martinburford/code-samples/tree/master/filtered-by-contract/2017-04-2017-06%20-%20Personal%20Portfolio",
+	"media": {
+		"available": ["video","mobile","tablet","desktop"],
+		"video": [{
+			"image": "/assets/images/portfolio/galleries/2017-05-2017-06-martin-burford/screens/thumbnails/videos/01-mobile-sidebar.png",
+			"height": 720,
+			"width": 310,
+			"label": "Mobile sidebar",
+			"videoSrc": "//www.youtube.com/embed/PNym1nQqtYo/?vq=hd1080&autoplay=1&controls=1&showinfo=0&rel=0"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-05-2017-06-martin-burford/screens/thumbnails/videos/02-desktop-sidebar.png",
+			"height": 540,
+			"width": 960,
+			"label": "Desktop sidebar",
+			"videoSrc": "//www.youtube.com/embed/aqHlYtl9NM0/?vq=hd1080&autoplay=1&controls=1&showinfo=0&rel=0"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-05-2017-06-martin-burford/screens/thumbnails/videos/03-linkedin-recommendations.png",
+			"height": 540,
+			"width": 960,
+			"label": "Linkedin recommendations",
+			"videoSrc": "//www.youtube.com/embed/NJhbS80Qgo4/?vq=hd1080&autoplay=1&controls=1&showinfo=0&rel=0"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-05-2017-06-martin-burford/screens/thumbnails/videos/04-fullsize-screenshot.png",
+			"height": 540,
+			"width": 960,
+			"label": "Fullsize screenshot",
+			"videoSrc": "//www.youtube.com/embed/lXkPGUW-8aM/?vq=hd1080&autoplay=1&controls=1&showinfo=0&rel=0"
+		}],
+		"mobile": [{
+			"image": "/assets/images/portfolio/galleries/2017-05-2017-06-martin-burford/screens/thumbnails/mobile/01-homepage.png",
+			"width": 311,
+			"label": "Homepage"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-05-2017-06-martin-burford/screens/thumbnails/mobile/02-listings.png",
+			"width": 311,
+			"label": "Listings"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-05-2017-06-martin-burford/screens/thumbnails/mobile/03-mobile-thumbnails.png",
+			"width": 311,
+			"label": "Mobile thumbnails"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-05-2017-06-martin-burford/screens/thumbnails/mobile/04-sidebar-visible.png",
+			"width": 311,
+			"label": "Sidebar visible"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-05-2017-06-martin-burford/screens/thumbnails/mobile/05-linkedin-visible.png",
+			"width": 311,
+			"label": "Linkedin visible"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-05-2017-06-martin-burford/screens/thumbnails/mobile/06-videos-page.png",
+			"width": 311,
+			"label": "Videos page"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-05-2017-06-martin-burford/screens/thumbnails/mobile/07-cv.png",
+			"width": 311,
+			"label": "CV"
+		}],
+		"tablet": [{
+			"image": "/assets/images/portfolio/galleries/2017-05-2017-06-martin-burford/screens/thumbnails/tablet/01-homepage.png",
+			"width": 504,
+			"label": "Homepage"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-05-2017-06-martin-burford/screens/thumbnails/tablet/02-listings.png",
+			"width": 504,
+			"label": "Listings"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-05-2017-06-martin-burford/screens/thumbnails/tablet/03-mobile-thumbnails.png",
+			"width": 504,
+			"label": "Mobile thumbnails"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-05-2017-06-martin-burford/screens/thumbnails/tablet/04-sidebar-visible.png",
+			"width": 504,
+			"label": "Sidebar visible"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-05-2017-06-martin-burford/screens/thumbnails/tablet/05-linkedin-visible.png",
+			"width": 504,
+			"label": "Linkedin visible"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-05-2017-06-martin-burford/screens/thumbnails/tablet/06-videos-page.png",
+			"width": 504,
+			"label": "Videos page"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-05-2017-06-martin-burford/screens/thumbnails/tablet/07-cv.png",
+			"width": 504,
+			"label": "CV"
+		}],
+		"desktop": [{
+			"image": "/assets/images/portfolio/galleries/2017-05-2017-06-martin-burford/screens/thumbnails/desktop/01-homepage.png",
+			"width": 960,
+			"label": "Homepage"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-05-2017-06-martin-burford/screens/thumbnails/desktop/02-listings.png",
+			"width": 960,
+			"label": "Listings"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-05-2017-06-martin-burford/screens/thumbnails/desktop/03-mobile-thumbnails.png",
+			"width": 960,
+			"label": "Mobile thumbnails"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-05-2017-06-martin-burford/screens/thumbnails/desktop/04-sidebar-visible.png",
+			"width": 960,
+			"label": "Sidebar visible"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-05-2017-06-martin-burford/screens/thumbnails/desktop/05-linkedin-visible.png",
+			"width": 960,
+			"label": "Linkedin visible"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-05-2017-06-martin-burford/screens/thumbnails/desktop/06-videos-page.png",
+			"width": 960,
+			"label": "Videos page"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-05-2017-06-martin-burford/screens/thumbnails/desktop/07-cv.png",
+			"width": 960,
+			"label": "CV"
+		}]
+	}
+}

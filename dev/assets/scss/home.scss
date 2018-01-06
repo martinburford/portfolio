@@ -1,0 +1,291 @@
+// File: /assets/css/home.scss
+// Author: Martin Burford (martin@martinburford.co.uk)
+
+// Import utility files
+
+@import "utilities/_mixins"; 
+@import "utilities/_variables";
+@import "utilities/_extends";
+
+// Homepage specific
+
+#home {
+	background: url(/assets/images/box-granite.png) repeat left top;
+	margin: 0 10px 30px;	
+	
+	#wrapper {
+		padding-top: 20px;
+		text-align: center;
+
+		>ul {
+			margin: 0 auto;
+			overflow: hidden;
+			padding-bottom: 25px;
+			position: relative;
+
+			&:after {
+				@include left-to-right-gradient($gradient-line-separator);
+				bottom: 0;
+			}		
+
+			li {
+				display: block;
+				float: left;
+				margin: 20px 10px 0;
+				overflow: visible;
+				position: relative;
+				text-align: center;
+				width: calc(50% - 20px);
+
+				&.cv,
+				&.cvWordDocument {
+					@include icon-icomoon('cv', $white, 80, $position: 'before', $customSideOffset: calc(50% - 40px), $spaceToContent: -80, $customTopOffset: 36);
+				}
+
+				&.portfolio {
+					@include icon-icomoon('portfolio', $white, 80, $position: 'before', $customSideOffset: calc(50% - 40px), $spaceToContent: -80, $customTopOffset: 36);
+				}
+
+				&.portfolioVideos {
+					@include icon-icomoon('video', $white, 80, $position: 'before', $customSideOffset: calc(50% - 40px), $spaceToContent: -80, $customTopOffset: 36);
+				}
+			}
+
+			a {
+				@include border-radius(50%);
+				@include circle(135, $parentHeight: false);
+				display: inline-block;
+				padding-top: 10px;
+				position: relative;
+
+				&:before {
+					@include border-radius(50%);
+					@include shadowbox($glowColor: $white, $opacity: 0.10, $shadowSize: 1px);	
+					background: url(/assets/images/transparencies/000000/percent-30.png) repeat;
+					content: '';
+					display: block;
+					left: 0;					
+					top: 0;
+					transition: background $home-hover-animation ease-in-out;
+				}
+
+				&:hover {
+					text-decoration: none;
+
+					&:before {
+						background: rgba($link-color, 0.3);
+					}
+
+					strong {
+						color: $yellow;
+					}
+				}
+			}
+
+			strong {
+				color: rgba($white, 0.8);
+				display: block;
+				font-size: 1.3em;
+				padding-top: 10px;
+				text-align: center;
+			}
+		}
+	}
+
+	h1,
+	h2 {
+		color: $white;
+		text-align: center;
+	}
+
+	.availability {
+		@include border-radius(10px);
+		@include shadowbox($glowColor: $white, $opacity: 0.1, $shadowSize: 1px);
+		border: 1px solid rgba($white, 0.2);
+		box-sizing: border-box;
+		color: $white;
+		display: inline-block;		
+		margin-top: 30px;		
+		position: relative;
+		width: 100%;
+
+		&:before {
+			@include border-radius(8px);
+			background: rgba($white, 0.1);
+			border: 1px solid rgba($white, 0.1);
+			box-sizing: border-box;
+			content: '';
+			display: block;
+			height: calc(100% - 4px);
+			left: 2px;
+			position: absolute;
+			top: 2px;
+			width: calc(100% - 4px);
+			z-index: -1;
+		}
+
+		&#available {
+			.inner {
+				background: rgba($available, 0.25);
+			}
+
+			strong {
+				@include icon-icomoon('available', $available, 24, $position: 'before');				
+			}
+		}
+
+		&#unavailable {
+			.inner {
+				background: rgba($red, 0.25);
+			}
+
+			strong {
+				@include icon-icomoon('unavailable', $red, 24, $position: 'before');
+			}
+		}
+
+		strong,
+		span {
+			color: rgba($white, 0.75);
+			display: block;
+			padding: 15px;		
+		}
+
+		strong {
+			display: inline-block;
+			font-size: 1.2em;
+			padding-right: 34px;
+		}
+
+		span {
+			display: block;
+		}
+
+		a {
+			color: $yellow;
+		}
+	}
+
+	.inner {
+		@include border-radius-top-left(8px);
+		@include border-radius-top-right(8px);		
+		border-bottom: 1px solid #222;
+		margin: 3px;
+	}
+
+	footer {
+		ul {
+			margin-top: 25px;
+		}
+
+		li:nth-child(2) {
+			margin-top: 15px;
+		}
+
+		a {			
+			@include shadowbox($glowColor: $white, $opacity: 0.10, $shadowSize: 2px);	
+			background: rgba($white, 0.9);
+			display: inline-block;
+			min-height: 32px;
+			padding-bottom: 5px;
+			padding-right: 10px;
+			padding-top: 5px;
+			position: relative;
+			transition: background $home-hover-animation ease-in-out;
+			width: 150px;
+
+			&#linkedin {
+				@include icon-icomoon('linkedin', $linkedin, 32, $position: 'before', $customSideOffset: 5px, $spaceToContent: 20);
+
+				&:after {
+					background: $white;
+					border: 10px solid $linkedin;	
+				}
+			}
+
+			&#github {
+				@include icon-icomoon('github', $white, 32, $position: 'before', $customSideOffset: 5px, $spaceToContent: 20);
+				color: $github;
+
+				&:after {
+					background: $github;
+				}
+			}
+
+			&:before {			
+				z-index: 2;
+			}
+
+			&:after {
+				box-sizing: border-box;
+				content: '';
+				display: block;
+				height: 42px;
+				left: 0;
+				position: absolute;
+				top: 0;
+				width: 42px;
+			}
+
+			&:hover {
+				background: rgba($white, 1);
+			}
+
+			span {
+				color: $link-color;
+				display: inline-block;
+				padding-top: 8px;
+				text-decoration: inherit;
+			}
+		}
+	}
+}
+
+// Breakpoints override global styles
+// 'mobile-large-upwards' || 'tablet-portrait-upwards' || 'tablet-landscape-upwards' || 'desktop-upwards'
+
+@include breakpoint-specific('tablet-portrait-upwards') {
+	#home {
+		.availability {
+			width: 50%;
+		}
+
+		#wrapper {
+			>ul {
+				margin-top: 50px;
+				padding-bottom: 85px;
+				width: 95%;
+
+				li {
+					width: calc(25% - 20px);
+				}
+
+				a {
+					font-size: 1.2em;
+				}
+			}
+		}
+	}
+}
+
+@include breakpoint-specific('tablet-landscape-upwards') {
+	#home {
+		.availability {
+			width: 40%;
+		}
+
+		#wrapper {
+			>ul {
+				width: 70%
+			}
+		}
+	}
+}
+
+@include breakpoint-specific('desktop-upwards') {
+	#home {
+		.availability {
+			width: 50%;
+		}
+	}
+}

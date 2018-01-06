@@ -1,0 +1,35 @@
+{
+	"head": {
+		"title": "Portfolio (Digitas)",
+		"stylesheets": [{			
+			"path": "site.min.css",
+			"media": "all"
+		},{			
+			"path": "portfolio.min.css",
+			"media": "all"
+		},{			
+			"path": "gallery.min.css",
+			"media": "all"
+		}]
+	},
+	"client": "Digitas",
+	"project": "Tesco",
+	"dates": "Jun 2010 - Jul 2010",
+	"summary": "I freelanced at Digitas London on an advanced JavaScript project which focused on <em>API communication</em> with both Amazons and Tescos open APIs to transparently add items to peoples shopping carts away from either of the retailers commericial .com domains. The delivery of this functionality was via Flash ad banners, and was made possible via an extensive <em>Java set of APIs</em> which were consumed using jQuery and JSON.",
+	"media": {
+		"available": ["desktop"],
+		"desktop": [{
+			"image": "/assets/images/portfolio/galleries/2010-08-2010-09-digitas/screens/thumbnails/desktop/01-select-retailer.png",
+			"width": 680,
+			"label": "Select retailer"
+		},{
+			"image": "/assets/images/portfolio/galleries/2010-08-2010-09-digitas/screens/thumbnails/desktop/02-login-error.png",
+			"width": 680,
+			"label": "Login (error)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2010-08-2010-09-digitas/screens/thumbnails/desktop/03-your-basket.png",
+			"width": 680,
+			"label": "Your basket"
+		}]
+	}
+}

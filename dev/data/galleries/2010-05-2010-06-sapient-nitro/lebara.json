@@ -1,0 +1,52 @@
+{
+	"head": {
+		"title": "Portfolio (Sapient Nitro)",
+		"stylesheets": [{			
+			"path": "site.min.css",
+			"media": "all"
+		},{			
+			"path": "portfolio.min.css",
+			"media": "all"
+		},{			
+			"path": "gallery.min.css",
+			"media": "all"
+		}]
+	},
+	"client": "Sapient Nitro",
+	"project": "Lebara",
+	"dates": "May 2010 - Jun 2010",
+	"summary": "Was bought on board at Sapient to lead the front-end development of the re-skin and re-architecture of Lebara.com, a set of <em>multi-lingual sites</em> offering purchase of pre-pay SIM cards online. Amongst other things, this included educating the development team as to the intracacies and best development practices of <em>right-to-left</em> reading sites.",
+	"linkedInRecommendations": [{
+		"name": "Danna Koonce",
+		"jobTitle": "Head of Delivery",
+		"recommendation": "I have worked with Martin on several occasions in several agencies and I believe that it is fair to say that we have mutual respect and admiration for each other. <em>Martin values people who work hard alongside him</em> and likewise, he gives the same dedication and commitment to all of the projects he is involved with. I have no idea how to translate most of the mumbo jumbo tech stuff Martin talks to me about, but one thing is for sure, no stone goes unturned when you work with him. I found him extremely effective and valuable in helping me pinpoint many of the project risks early on in the planning process as well as finding him to be <em>a tremendous support during the critical path of delivery</em>. He just makes sense in planning out the approach of delivery and seeing it through. <em>He is definitely a leader in his domain</em> with the ability to manage people as well as rapidly and effectively firefight the burning issues. <em>I love working with him as he gets the job done</em> and does not suffer fools in the process. He is also funny, amiable and just a pleasure to engage with, even when it is the 11th hour and the sky is falling. I always feel confident with Martin working alongside me."
+	}],
+	"media": {
+		"available": ["desktop"],
+		"desktop": [{
+			"image": "/assets/images/portfolio/galleries/2010-05-2010-06-sapient-nitro/screens/thumbnails/desktop/01-register-step-1-ltr.png",
+			"width": 960,
+			"label": "Register step 1 (LTR)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2010-05-2010-06-sapient-nitro/screens/thumbnails/desktop/02-register-step-2-ltr.png",
+			"width": 960,
+			"label": "Register step 2 (LTR)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2010-05-2010-06-sapient-nitro/screens/thumbnails/desktop/03-register-step-3-ltr.png",
+			"width": 960,
+			"label": "Register step 3 (LTR)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2010-05-2010-06-sapient-nitro/screens/thumbnails/desktop/04-register-step-1-rtl.png",
+			"width": 960,
+			"label": "Register step 1 (RTL)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2010-05-2010-06-sapient-nitro/screens/thumbnails/desktop/05-register-step-2-rtl.png",
+			"width": 960,
+			"label": "Register step 2 (RTL)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2010-05-2010-06-sapient-nitro/screens/thumbnails/desktop/06-register-step-3-rtl.png",
+			"width": 960,
+			"label": "Register step 3 (RTL)"
+		}]
+	}
+}

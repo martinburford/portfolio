@@ -1,0 +1,39 @@
+{
+	"head": {
+		"title": "Portfolio (Cognitive Acceleration)",
+		"stylesheets": [{			
+			"path": "site.min.css",
+			"media": "all"
+		},{			
+			"path": "portfolio.min.css",
+			"media": "all"
+		},{			
+			"path": "gallery.min.css",
+			"media": "all"
+		}]
+	},
+	"client": "Cognitive Acceleration",
+	"project": "Cognitive Acceleration",
+	"dates": "Feb 2009 - Mar 2009",
+	"summary": "I was approached by Cognitive Acceleration, to put together their online presence, alongside their own in-house designer at the time.",
+	"media": {
+		"available": ["desktop"],
+		"desktop": [{
+			"image": "/assets/images/portfolio/galleries/2009-02-2009-03-cognitive-acceleration/screens/thumbnails/desktop/01-homepage.png",
+			"width": 960,
+			"label": "Homepage"
+		},{
+			"image": "/assets/images/portfolio/galleries/2009-02-2009-03-cognitive-acceleration/screens/thumbnails/desktop/02-came-in-the-curriculum.png",
+			"width": 960,
+			"label": "CAME in the curriculum"
+		},{
+			"image": "/assets/images/portfolio/galleries/2009-02-2009-03-cognitive-acceleration/screens/thumbnails/desktop/03-came-tutors.png",
+			"width": 960,
+			"label": "CAME tutors"
+		},{
+			"image": "/assets/images/portfolio/galleries/2009-02-2009-03-cognitive-acceleration/screens/thumbnails/desktop/04-secondary-resources.png",
+			"width": 960,
+			"label": "Secondary resources"
+		}]
+	}
+}

@@ -1,0 +1,64 @@
+{
+	"head": {
+		"title": "Portfolio (The Mill)",
+		"stylesheets": [{			
+			"path": "site.min.css",
+			"media": "all"
+		},{			
+			"path": "portfolio.min.css",
+			"media": "all"
+		},{			
+			"path": "gallery.min.css",
+			"media": "all"
+		}]
+	},
+	"client": "The Mill",
+	"project": "Acer",
+	"dates": "May 2012 - Jul 2012",
+	"summary": "I worked at The Mill in London for 3 months, helping out their digital team with a couple of websites for their client, Acer. These sites were both <em>multi-lingual</em>, built to work in over <em>35 unique languages</em>. I was responsible for writing the entire code structure of the sites, inclusive of all CSS, HTML, JavaScript, along with the framework to perform the translation capabilities. The HTML5 version of the site included a huge level of fully bespoke written animation wrapped into a number of JavaScript namespaces and custom jQuery plugins.",
+	"linkedInRecommendations": [{
+		"name": "Tony Volpe",
+		"jobTitle": "Technical Director",
+		"recommendation": "Martin's work is beyond reproach. His analytical skills to define a problem and tease out it's best solution not only saved our team hours of headache, but also lead to <em>impeccable cutting edge code</em> that would not have been possible without his help. If you are considering Martin for a position I cannot recommend him highly enough and I would hire him again without hesitation."
+	},{
+		"name": "Katrina Maratheftis",
+		"jobTitle": "Technical Lead & Director at ECOM",
+		"recommendation": "Martin is a fantastic Front-End Developer who has always been <em>both reliable and produced some excellent results</em> as well as lead many teams at some of our leading clients. We look forward to working with him in the long term and recommend him for his Front-End knowledge and high quality work."
+	},{
+		"name": "Vincent Roman",
+		"jobTitle": "Senior Front-End Developer",
+		"recommendation": "What can I say that hasn't been said already? <em>Festidious and knowledgeable, and capable of great things</em> when left to roam free. An interesting period working with Martin and the others here at The Mill."
+	},{
+		"name": "Sunny Virk",
+		"jobTitle": "Web Devloper",
+		"recommendation": "I worked with Martin the tech lead at The Mill on the Acer project. <em>I found him to be extremely sharp</em> when it comes to front end coding skills. He is highly motivated, passionate and committed when it comes to making websites. I have worked as a UI Developer for 9 years and working with Martin for only a short period of time, I definitely picked up a few best practices that help the process go that little bit smoother. I would highly recommend him for any position he goes for and look forward to working with him in the future."
+	},{
+		"name": "Luke Ritchie",
+		"jobTitle": "Project Manager",
+		"recommendation": "<em>Martin quickly impressed as an experienced developer</em> who can manage himself or others at a senior level. I enjoyed thinking out solutions together and watch him quickly prototype proofs of concept. He's dependable and a good guy. We'll be working together again soon I'm sure."
+	}],
+	"media": {
+		"available": ["desktop"],
+		"desktop": [{
+			"image": "/assets/images/portfolio/galleries/2012-05-2012-07-the-mill/screens/thumbnails/desktop/01-homepage.png",
+			"width": 960,
+			"label": "Homepage"
+		},{
+			"image": "/assets/images/portfolio/galleries/2012-05-2012-07-the-mill/screens/thumbnails/desktop/02-thin.png",
+			"width": 960,
+			"label": "Thin"
+		},{
+			"image": "/assets/images/portfolio/galleries/2012-05-2012-07-the-mill/screens/thumbnails/desktop/03-fast.png",
+			"width": 960,
+			"label": "Fast"
+		},{
+			"image": "/assets/images/portfolio/galleries/2012-05-2012-07-the-mill/screens/thumbnails/desktop/04-portable.png",
+			"width": 960,
+			"label": "Portable"
+		},{
+			"image": "/assets/images/portfolio/galleries/2012-05-2012-07-the-mill/screens/thumbnails/desktop/05-tech-specs.png",
+			"width": 960,
+			"label": "Tech specs"
+		}]
+	}
+}

@@ -1,0 +1,72 @@
+{
+	"head": {
+		"title": "Portfolio (Timeout)",
+		"stylesheets": [{			
+			"path": "site.min.css",
+			"media": "all"
+		},{			
+			"path": "portfolio.min.css",
+			"media": "all"
+		},{			
+			"path": "gallery.min.css",
+			"media": "all"
+		}]
+	},
+	"client": "Timeout",
+	"project": "Timeout",
+	"dates": "Jul 2011 - Oct 2011",
+	"summary": "I re-built the <em>entire front-end platform</em> (encompassing CSS 2/3, HTML 4/5 and JavaScript/jQuery) for Timeout.com which initially covered comprehensive and complex template builds for their London, Paris and New York websites. Subsequent site deployments to a large number of world cities (in a variety of different languages) is to follow using the code I wrote as the core front-end codebase.",
+	"linkedInRecommendations": [{
+		"name": "Pooja Baburajan",
+		"jobTitle": "Quality Assurance Manager",
+		"recommendation": "I enjoyed working with Martin and would recommend him to others. Martin is highly skilled in his domain. <em>He respects the deadlines and commits to deliver within schedule</em>. Even under a lot of pressure he does not compromise on quality and standards. He demonstrated a lot of flexibility in a chaotic unstable environment of changing requirements. I look forward to working with him in the future."
+	},{
+		"name": "Martin Hearn",
+		"jobTitle": "Project Manager",
+		"recommendation": "Martin is an extremely skilled front-end developer, who <em>is able to work well under pressure</em>, and communicate the importance of web standards to a wide audience. Crucially, <em>he understands the importance of business deliverables</em> and is able to prioritise and come up with technical solutions when time is short, at the same time never comprising on quality and always delivering to an extremely high standard."
+	},{
+		"name": "Rajeevan Kumarathasan",
+		"jobTitle": "Web Developer",
+		"recommendation": "Martin is <em>one of the best frontend developers I have worked with</em>. He built our new website templates from scratch to a very high standard. Martin <em>repeatedly showed a deep understanding of front-end technologies</em> and the elegant use of JavaScript to add rich levels of interactivity. He was a great person to work with and I would not hesitate to recommend Martin, I hope to work with him in the future."
+	},{
+		"name": "Dominic Burt",
+		"jobTitle": "Lead Designer",
+		"recommendation": "Martin is definitely one of the best front end developers I have worked with. He produced pixel perfect CSS builds of my Photoshop designs as well as wonderfully slick and thoughtfully coded JavaScript interactivity and animation. <em>His attention to detail and diligence is truly remarkable</em>. He's also easy to get on with, which I think counts for a lot in this industry! It was a pleasure working with him, and hopefully I'll have the opportunity to do so again in the future."
+	},{
+		"name": "Anika Henke",
+		"jobTitle": "Web Developer",
+		"recommendation": "Martin <em>is an expert in all things front-end</em>. I was especially pleased to find in him a colleague who <em>likes to code \"the right way\"</em> and makes no compromises in quality. He understands the importance of semantics, accessibility and maintainability and is extremely thorough in producing the best solutions across all browsers."
+	},{
+		"name": "Nick Brett",
+		"jobTitle": "Recruiter",
+		"recommendation": "Martin has worked for one of my clients for the last three months and it has been an absolute pleasure working with him. He is an outstanding front-end/javascript developer who has very high standards and is very meticulous with his code; <em>a true perfectionist!</em> I wouldn't hesitate to recommend Martin to any employer looking for a top-notch front-end/javascript developer as he has done a fantastic job for us and my client. I look forward to working with him again soon."
+	},{
+		"name": "Christopher Hoult",
+		"jobTitle": "Lead Developer",
+		"recommendation": "Martin did an excellent job building our new templates from scratch to a very high standard. He showed excellent skill in creating work that degrades beautifully and <em>took special care in making accessible pages</em>. I would not hesitate to recommend Martin for any future roles, and I hope to work with him in the future."
+	}],
+	"media": {
+		"available": ["desktop"],
+		"desktop": [{
+			"image": "/assets/images/portfolio/galleries/2011-07-2011-10-timeout/screens/thumbnails/desktop/01-homepage.png",
+			"width": 960,
+			"label": "Homepage"
+		},{
+			"image": "/assets/images/portfolio/galleries/2011-07-2011-10-timeout/screens/thumbnails/desktop/02-venue-page-standard.png",
+			"width": 960,
+			"label": "Venue page (standard)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2011-07-2011-10-timeout/screens/thumbnails/desktop/03-film-cinema-page.png",
+			"width": 960,
+			"label": "Film/cinema page"
+		},{
+			"image": "/assets/images/portfolio/galleries/2011-07-2011-10-timeout/screens/thumbnails/desktop/04-search-results.png",
+			"width": 960,
+			"label": "Search results"
+		},{
+			"image": "/assets/images/portfolio/galleries/2011-07-2011-10-timeout/screens/thumbnails/desktop/05-site-navigation.png",
+			"width": 960,
+			"label": "Site navigation"
+		}]
+	}
+}

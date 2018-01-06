@@ -1,0 +1,143 @@
+{
+	"head": {
+		"title": "Portfolio",
+		"stylesheets": [{			
+			"path": "site.min.css",
+			"media": "all"
+		},{			
+			"path": "portfolio.min.css",
+			"media": "all"
+		},{			
+			"path": "gallery.min.css",
+			"media": "all"
+		}]
+	},
+	"client": "Bond & Coyne",
+	"project": "Pearson",
+	"dates": "Aug 2017 - Nov 2017",
+	"summary": "I spent a few months at Bond & Coyne, working on a website build for their largest client. The project I worked on was a single page (fully responsive) site and was built from scratch using a mixture of HTML, JavaScript and Sass. In the main, the site was built to compliment an offline brochure, however there were a few sections to the site which extended well beyond this. One such example was a data visualization feature, which was built to represent 2 different datasets with a total of a little over 175 million records. I had to write quite a few NodeJS scripts to manipulate the data into a viable format for web consumption. The creative demands on the project were extensive, leading to a number of unorthodox but fully compliant solutions that I had to build during the contract. This project was delivered on time, on budget, and the client, as well as Bond & Coyne were delighted with the end result.",
+	"technologiesUsed": [
+		"Babel", 
+		"Browserify", 
+		"CSS3", 
+		"ES6", 
+		"Grunt", 
+		"HTML5", 
+		"icoMoon", 
+		"JSON", 
+		"Native JavaScript", 
+		"Node", 
+		"NPM", 
+		"OO JavaScript", 
+		"Responsive front-end", 
+		"SASS"
+	],
+	"linkedInRecommendations": [{
+		"name": "Martin Coyne",
+		"jobTitle": "Creative Director / Owner",
+		"recommendation": "Martin has been an invaluable member of our extended team helping to deliver an elegant solution on time and on budget but more importantly one that has <em>exceeded our client expectation</em>. Having worked with many developers I can honestly say that <em>I have never worked with one as methodical as Martin</em>. This installed a great level of confidence in the studio and enabled him to become quickly embedded as part of our team. I would not hesitate to recommend Martin and hope to work with him again soon. Highly recommend."
+	},{
+		"name": "Jason Hancock",
+		"jobTitle": "Digital Director",
+		"recommendation": "Martins extensive knowledge of front-end development and process made sure that we weren't restricted when it came to design or creative within a tight timeline. <em>He doesn't just know one way of doing things, he knows many</em> and will happily share the options, the impact and accurate timelines for each. This allowed us to clearly communicate with the client and manage expectations throughout an ever changing project that concluded in us <em>delivering a solid build above client expectations, on time and on budget</em>. We can recommend Martin without hesitation and will hopefully get to work with him again in future on further development of this project or any other challenging builds that need that higher level of expertise Martin offers."
+	},{
+		"name": "Lucy Harmer",
+		"jobTitle": "Senior Designer",
+		"recommendation": "Martin joined us at Bond and Coyne right at the beginning of a project when a number of different parts were still being developed and evolving often on a daily basis. <em>He responded to changing demands that were passed his way in an unflappable manner</em> which gave me confidence that the project was being driven forward in very capable hands. <em>His expertise is clear, and his work ethic to be admired</em>, particularly with the short notice demands that the project placed on him. It was a pleasure getting to know Martin and I would highly recommend him for anyone who needs a rock solid web build."
+	},{
+		"name": "Nick Yorke",
+		"jobTitle": "Recruiter",
+		"recommendation": "Martin recently completed a 3 month project for a client of mine, which has been <em>a very smooth process with excellent results</em>. Martins organisation, communication and overall technical delivery has been brilliant, providing daily updates on progress as well as forecasted plans has given the client and myself absolute clarity, proving to be assuring for all parties involved. Moreover, <em>Martins timekeeping and punctuality is second to none</em>, and his collaborative and personable approach has allowed for a very successful project in which he has worked closely with both internal and external stakeholders. I highly recommend Martin and look forward to working with him again."
+	}],
+	"gitHubCodeSamples": "https://github.com/martinburford/code-samples/tree/master/filtered-by-contract/2017-08-2017-11%20-%20Bond%20%26%20Coyne%20(Pearson)",
+	"media": {
+		"available": ["mobile","tablet","desktop"],
+		"mobile": [{
+			"image": "/assets/images/portfolio/galleries/2017-08-2017-11-bond-and-coyne/screens/thumbnails/mobile/01-homepage.png",
+			"width": 311,
+			"label": "Homepage"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-08-2017-11-bond-and-coyne/screens/thumbnails/mobile/02-flyout-navigation.png",
+			"width": 311,
+			"label": "Flyout navigation"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-08-2017-11-bond-and-coyne/screens/thumbnails/mobile/03-methodology-trends-analysis.png",
+			"width": 311,
+			"label": "Methodology (Trends Analysis)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-08-2017-11-bond-and-coyne/screens/thumbnails/mobile/04-occupations.png",
+			"width": 311,
+			"label": "Occupations"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-08-2017-11-bond-and-coyne/screens/thumbnails/mobile/05-explore-the-trends-urbanization.png",
+			"width": 311,
+			"label": "Explore the trends (Urbanization)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-08-2017-11-bond-and-coyne/screens/thumbnails/mobile/06-top-skills.png",
+			"width": 311,
+			"label": "Top Skills"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-08-2017-11-bond-and-coyne/screens/thumbnails/mobile/07-overlay.png",
+			"width": 311,
+			"label": "Overlay"
+		}],
+		"tablet": [{
+			"image": "/assets/images/portfolio/galleries/2017-08-2017-11-bond-and-coyne/screens/thumbnails/tablet/01-homepage.png",
+			"width": 504,
+			"label": "Homepage"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-08-2017-11-bond-and-coyne/screens/thumbnails/tablet/02-flyout-navigation.png",
+			"width": 504,
+			"label": "Flyout navigation"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-08-2017-11-bond-and-coyne/screens/thumbnails/tablet/03-methodology-trends-analysis.png",
+			"width": 504,
+			"label": "Methodology (Trends Analysis)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-08-2017-11-bond-and-coyne/screens/thumbnails/tablet/04-occupations.png",
+			"width": 504,
+			"label": "Occupations"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-08-2017-11-bond-and-coyne/screens/thumbnails/tablet/05-explore-the-trends-urbanization.png",
+			"width": 504,
+			"label": "Explore the trends (Urbanization)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-08-2017-11-bond-and-coyne/screens/thumbnails/tablet/06-top-skills.png",
+			"width": 504,
+			"label": "Top Skills"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-08-2017-11-bond-and-coyne/screens/thumbnails/tablet/07-overlay.png",
+			"width": 504,
+			"label": "Overlay"
+		}],
+		"desktop": [{
+			"image": "/assets/images/portfolio/galleries/2017-08-2017-11-bond-and-coyne/screens/thumbnails/desktop/01-homepage.png",
+			"width": 960,
+			"label": "Homepage"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-08-2017-11-bond-and-coyne/screens/thumbnails/desktop/02-flyout-navigation.png",
+			"width": 960,
+			"label": "Flyout navigation"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-08-2017-11-bond-and-coyne/screens/thumbnails/desktop/03-methodology-trends-analysis.png",
+			"width": 960,
+			"label": "Methodology (Trends Analysis)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-08-2017-11-bond-and-coyne/screens/thumbnails/desktop/04-occupations.png",
+			"width": 960,
+			"label": "Occupations"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-08-2017-11-bond-and-coyne/screens/thumbnails/desktop/05-explore-the-trends-urbanization.png",
+			"width": 960,
+			"label": "Explore the trends (Urbanization)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-08-2017-11-bond-and-coyne/screens/thumbnails/desktop/06-top-skills.png",
+			"width": 960,
+			"label": "Top Skills"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-08-2017-11-bond-and-coyne/screens/thumbnails/desktop/07-overlay.png",
+			"width": 960,
+			"label": "Overlay"
+		}]
+	}
+}

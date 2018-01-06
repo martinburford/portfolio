@@ -1,0 +1,55 @@
+// File: /assets/css/error.scss
+// Author: Martin Burford (martin@martinburford.co.uk)
+
+// Import utility files
+
+@import "utilities/_mixins"; 
+@import "utilities/_variables";
+@import "utilities/_extends";
+
+// Error specific
+
+#error {
+	background: url(/assets/images/box-granite.png) repeat left top;
+	margin: 0 10px 20px;	
+	
+	#wrapper {
+		padding-top: 20px;
+		text-align: center;
+	}
+
+	h1,
+	h2 {
+		color: $white;
+		text-align: center;
+	}
+
+	p {
+		@include icon-icomoon('warning', $yellow, 32, $position: 'before', $customSideOffset: 5px, $spaceToContent: 20);
+		color: $yellow;
+		display: inline-block;
+		font-size: 1.1em;
+		margin-top: 100px;
+	}
+
+	span {
+		color: $white;
+		display: block;
+		margin-top: 100px;
+		text-align: left;
+	}
+
+	a {
+		display: inline-block;
+		margin-top: 50px;
+	}
+}
+
+// Breakpoints override global styles
+// 'mobile-large-upwards' || 'tablet-portrait-upwards' || 'tablet-landscape-upwards' || 'desktop-upwards'
+
+@include breakpoint-specific('tablet-portrait-upwards') {}
+
+@include breakpoint-specific('tablet-landscape-upwards') {}
+
+@include breakpoint-specific('desktop-upwards') {}

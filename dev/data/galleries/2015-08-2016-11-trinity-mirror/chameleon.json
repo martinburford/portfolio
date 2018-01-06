@@ -1,0 +1,170 @@
+{
+	"head": {
+		"title": "Portfolio (Trinity Mirror)",
+		"stylesheets": [{			
+			"path": "site.min.css",
+			"media": "all"
+		},{			
+			"path": "portfolio.min.css",
+			"media": "all"
+		},{			
+			"path": "gallery.min.css",
+			"media": "all"
+		}]
+	},
+	"client": "Trinity Mirror",
+	"project": "Chameleon",
+	"dates": "Aug 2015 - Nov 2016",
+	"summary": "I returned to Trinity Mirror to work on <em>a huge greenfield project (circa 60+ sites)</em>, helping with the overall architecture and development of the new digital platform for a company with <em>monthly traffic levels in the tens of millions</em>. The development teams technical stack comprised of full <em>native JavaScript using Express on Node</em>, alongside the templating language of <em>Jade</em>, which was used to translate the back-end data layer into both front-end components and pages. In addition, some of the other technologies used were Grunt, Karma, Mocha, Jade, Browserify, SASS. The list goes on. The project was spread across 10 teams of 10 individuals each, where 2 week sprints, inclusive of 2 releases per week were <em>implemented in an Agile way</em>.",
+	"technologiesUsed": [
+		"Chai",
+		"CSS3",
+		"eScenic",
+		"Express",
+		"Grunt",
+		"HTML5",
+		"icoMoon",
+		"Jade templating",
+		"JSON",
+		"Karma",
+		"Mocha",
+		"Node",
+		"NPM (private and public)",
+		"Multi-branding",
+		"Namespacing",
+		"Native JavaScript",
+		"OO JavaScript",
+		"PhantomJS",
+		"Responsive front-end",
+		"SASS",
+		"Sinon"
+	],
+	"linkedInRecommendations": [{
+		"name": "Robyn Backhouse",
+		"jobTitle": "Scrum Master/Project Manager",
+		"recommendation": "Martin is a really <em>motivated, passionate developer</em> who is always looking for ways to improve performance and maintainability of the product. He is <em>great fun to have in a team</em>, keeping a smile on his face even when under pressure and keeping the mood light with his dry sense of humour. He <em>loves nothing more than a challenge</em> to which he can put his awesome mind to solve in the best possible way. <em>Always very productive</em>, Martin is hardworking, broad-minded and very forward thinking. Intelligent, ambitious and energetic, he's a real asset on any team, <em>always ready and willing to help others</em> whenever he can. I can't recommend him highly enough."
+	},{
+		"name": "Tracey Bryant",
+		"jobTitle": "Project Manager",
+		"recommendation": "Martin is a very talented, focused and dedicated developer. He delivers high quality, well structured and <em>easily maintainable code</em>. Martin is a pleasure to work with, his <em>professionalism shines through in all situations</em>, he isn't afraid to get his hands dirty and <em>nothing is too much trouble for him</em>. In my role as project manager I had every confidence in him to deliver the goods, and he never let me down. Martin would be an enormous asset to any team, I hope I'll get the chance to work with him again in the future."
+	},{
+		"name": "Adriana Stan",
+		"jobTitle": "Software Developer",
+		"recommendation": "Working with Martin in a digital media project was a great and amazing experience. During this period I’ve managed to discover a lot of interesting things about him. I can say that <em>he is always open to provide assistance to his teammates</em>, even though he always has a lot of work to do. Being team focused, <em>he always puts the team first</em>. He loves sharing knowledge with others every time he discovers something new, and he is always the person to suggest new ideas to implement in our day-to-day work.When he finished at Trinity Mirror, he made sure that everyone was comfortable with the code he was handing over, as he left the team a huge email where all his coding had been heavily documented. This was very much appreciated. <em>I have definitely learnt a lot from him</em> and <em>he is certainly one of my favourite people</em> that I will recommend for any project or team."
+	},{
+		"name": "Daniel Landes",
+		"jobTitle": "Product Manager, Advertising & Data",
+		"recommendation": "Martin joined my team to help us out with a particularly tricky ad issue we needed to resolve before our new sites could launch. He worked autonomously, <em>building a really clever bespoke solution</em> which answered complex requirements and is now being sold by commercial teams across the business. <em>Martin has a real understanding of good UX</em>, and with his significant technical experience and thorough documentation, he has been a great help to the team."
+	},{
+		"name": "Alexandra Diaconu",
+		"jobTitle": "Senior Tester",
+		"recommendation": "Working with Martin in a digital media project was a great and rewarding experience for me as a tester. As a Senior Front-End developer, <em>he was a great asset to our entire team</em> and I am sure that he would prove to be a great asset for any project and team, regardless of the work complexity. Not only is Martin an easy-going person, positive and approachable, but he proved to also be a great professional in his field of activity, always willing to share from what he knows and to help the testing team with valuable details and instructions. Martin is hard-working, very motivated and perseverant when dealing with tasks. <em>He is always the first person to start investigating issues</em> and doesn't give up until he both finds and implements the best solution. <em>He provides a lot of support to newcomers</em>, helping them to get integrated quickly into the team. He follows the tasks assigned to him through their entire lifecycle, providing valuable inputs to testers, other developers and the management team. It is a pleasure to work with such an enjoyable person that <em>is so much aware of the technologies in his field of activity</em> and that is so involved in every project that he starts working on. I wholeheartedly recommend Martin for any project or team, as he is surely going to be a perfect match."
+	},{
+		"noAlias": true,
+		"name": "Mohamed Asruf Kanakalutha",
+		"jobTitle": "Senior Test Automation Consultant",
+		"recommendation": "I found Martin to be a very experienced and detail-oriented senior developer. It was a great experience working with him as <em>he has a great talent in explaining complex scenarios</em> in simple terms, making the testers (such as myself) feel comfortable. I have never felt that I was working with a senior guy since <em>Martin is a very down to earth person</em>. I definitely hope we can cross paths in the future and could never forget the jokes he cracked in the daily stand up meetings."
+	},{
+		"name": "Huan Zhang",
+		"jobTitle": "Front-End Developer",
+		"recommendation": "As someone who has almost more years of JavaScript experience than my age, <em>Martin is surprisingly down to earth and easy to work with</em>. I still remember him helping me with an array map problem during my first week at Trinity Mirror and he has always been happy to help, happy to explain the reasons behind decisions and in general happy to pass on all his years of experience onto anyone willing to learn. <em>I have definitely learnt a lot from working with Martin</em> and <em>he is certainly one of my favourite people</em> in the office."
+	},{
+		"name": "Bogdan Chebac",
+		"jobTitle": "Senior Front-End Developer",
+		"recommendation": "<em>Few people get the rare opportunity to work with an incredible developer such as Martin</em>. I had the pleasure to work with him throughout the beginning of 2016 and <em>I have never seen a developer deliver code as fast</em> as he did with the utmost attention to detail and clean code standards, <em>I was always in awe of his capabilities</em>. Martin was able to juggle several tasks at once all while being a mentor figure to yours truly, offering both challenge and support when the task at hand required it. Not to mention it made a dramatic difference in the team's productivity level. No matter what kind of a meeting/stand-up/planning it was, Martin always provided helpful feedback and solutions even for the most challenging of issues. As a team member or a leader, <em>Martin earns my highest recommendation</em>."
+	},{
+		"name": "Keelia Hess",
+		"jobTitle": "Scrum Master",
+		"recommendation": "Martin is an excellent developer, producing superb output. He is detail-oriented and <em>focuses on keeping high standards of development</em>. He's able to find solutions to complicated problems, <em>his performance is always outstanding</em> and he works well both in teams and on his own. He always carried out the tasks assigned to him with self-initiative and great care and is a creative individual with considerable knowledge and experience. I would highly recommend him."
+	},{
+		"name": "Mike Pearce",
+		"jobTitle": "Programme Manager",
+		"recommendation": "<em>Martin is one of the most thorough and dedicated front end software engineers</em> I've had the pleasure to work with. His understanding of the technology, coupled with <em>his passion to make it flawless, modular and scalable</em> helped with, amongst other things, maintaining an ever-changing codebase and onboarding new team members immeasurably easier. His contributions to planning, estimating and retrospectives were incredibly valuable with insight into the inner workings of the team that often led to profound changes to working practices. I would welcome the chance to work with Martin again."
+	}],
+	"gitHubCodeSamples": "https://github.com/martinburford/code-samples/tree/master/filtered-by-contract/2015-08-2016-11%20-%20Trinity%20Mirror%20(Chameleon)",
+	"media": {
+		"available": ["video","mobile","tablet","desktop"],
+		"video": [{
+			"image": "/assets/images/portfolio/galleries/2015-08-2016-11-trinity-mirror/screens/thumbnails/videos/01-mobile-navigation.png",
+			"height": 596,
+			"width": 333,
+			"label": "Mobile navigation",
+			"videoSrc": "//www.youtube.com/embed/sS6_4PAeq7s/?vq=hd1080&autoplay=1&controls=1&showinfo=0&rel=0"
+		}],
+		"mobile": [{
+			"image": "/assets/images/portfolio/galleries/2015-08-2016-11-trinity-mirror/screens/thumbnails/mobile/01-mirror-sport-homepage.png",
+			"width": 311,
+			"label": "Section homepage"
+		},{
+			"image": "/assets/images/portfolio/galleries/2015-08-2016-11-trinity-mirror/screens/thumbnails/mobile/02-content-page.png",
+			"width": 311,
+			"label": "Content page"
+		},{
+			"image": "/assets/images/portfolio/galleries/2015-08-2016-11-trinity-mirror/screens/thumbnails/mobile/03-main-navigation.png",
+			"width": 311,
+			"label": "Main navigation"
+		},{
+			"image": "/assets/images/portfolio/galleries/2015-08-2016-11-trinity-mirror/screens/thumbnails/mobile/04-get-reading-section-page.png",
+			"width": 311,
+			"label": "Get Reading section page"
+		},{
+			"image": "/assets/images/portfolio/galleries/2015-08-2016-11-trinity-mirror/screens/thumbnails/mobile/05-glasgow-live-section-page.png",
+			"width": 311,
+			"label": "Glasgow Live section page"
+		},{
+			"image": "/assets/images/portfolio/galleries/2015-08-2016-11-trinity-mirror/screens/thumbnails/mobile/06-manchester-evening-news-section-page.png",
+			"width": 311,
+			"label": "Manchester Evening News section page"
+		}],
+		"tablet": [{
+			"image": "/assets/images/portfolio/galleries/2015-08-2016-11-trinity-mirror/screens/thumbnails/tablet/01-mirror-sport-homepage.png",
+			"width": 504,
+			"label": "Section homepage"
+		},{
+			"image": "/assets/images/portfolio/galleries/2015-08-2016-11-trinity-mirror/screens/thumbnails/tablet/02-content-page.png",
+			"width": 504,
+			"label": "Content page"
+		},{
+			"image": "/assets/images/portfolio/galleries/2015-08-2016-11-trinity-mirror/screens/thumbnails/tablet/03-main-navigation.png",
+			"width": 504,
+			"label": "Main navigation"
+		},{
+			"image": "/assets/images/portfolio/galleries/2015-08-2016-11-trinity-mirror/screens/thumbnails/tablet/04-get-reading-section-page.png",
+			"width": 504,
+			"label": "Get Reading section page"
+		},{
+			"image": "/assets/images/portfolio/galleries/2015-08-2016-11-trinity-mirror/screens/thumbnails/tablet/05-glasgow-live-section-page.png",
+			"width": 504,
+			"label": "Glasgow Live section page"
+		},{
+			"image": "/assets/images/portfolio/galleries/2015-08-2016-11-trinity-mirror/screens/thumbnails/tablet/06-manchester-evening-news-section-page.png",
+			"width": 504,
+			"label": "Manchester Evening News section page"
+		}],
+		"desktop": [{
+			"image": "/assets/images/portfolio/galleries/2015-08-2016-11-trinity-mirror/screens/thumbnails/desktop/01-mirror-sport-homepage.png",
+			"width": 960,
+			"label": "Section homepage"
+		},{
+			"image": "/assets/images/portfolio/galleries/2015-08-2016-11-trinity-mirror/screens/thumbnails/desktop/02-content-page.png",
+			"width": 960,
+			"label": "Content page"
+		},{
+			"image": "/assets/images/portfolio/galleries/2015-08-2016-11-trinity-mirror/screens/thumbnails/desktop/03-main-navigation.png",
+			"width": 960,
+			"label": "Main navigation"
+		},{
+			"image": "/assets/images/portfolio/galleries/2015-08-2016-11-trinity-mirror/screens/thumbnails/desktop/04-get-reading-section-page.png",
+			"width": 960,
+			"label": "Get Reading section page"
+		},{
+			"image": "/assets/images/portfolio/galleries/2015-08-2016-11-trinity-mirror/screens/thumbnails/desktop/05-glasgow-live-section-page.png",
+			"width": 960,
+			"label": "Glasgow Live section page"
+		},{
+			"image": "/assets/images/portfolio/galleries/2015-08-2016-11-trinity-mirror/screens/thumbnails/desktop/06-manchester-evening-news-section-page.png",
+			"width": 960,
+			"label": "Manchester Evening News section page"
+		}]
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"head": {
+		"title": "Portfolio (Stink Digital)",
+		"stylesheets": [{			
+			"path": "site.min.css",
+			"media": "all"
+		},{			
+			"path": "portfolio.min.css",
+			"media": "all"
+		},{			
+			"path": "gallery.min.css",
+			"media": "all"
+		}]
+	},
+	"client": "Stink Digital",
+	"project": "Sonar",
+	"dates": "Apr 2012 - May 2012",
+	"summary": "I was hired by Stink Digital to build a <em>YouTube channel</em> for their client, Sonar. Sonar is an annual multi-day music festival, in 2012, taking place in Sao Paulo, Brazil. The requirement from Stink was to build the channel in <em>3 separate languages</em>, English, Portugese and Spanish. Many of the components I built for this project were <em>XML driven</em>, at the request of Stink, along with a number of custom written jQuery plugins and a significant language translation engine I bespoke wrote, to work alongside the Python and AppEngine back-end.",
+	"media": {
+		"available": ["desktop"],
+		"desktop": [{
+			"image": "/assets/images/portfolio/galleries/2012-04-2012-05-stink-digital/screens/thumbnails/desktop/01-pre-live.png",
+			"width": 960,
+			"label": "Pre-live"
+		},{
+			"image": "/assets/images/portfolio/galleries/2012-04-2012-05-stink-digital/screens/thumbnails/desktop/02-live.png",
+			"width": 960,
+			"label": "Live"
+		},{
+			"image": "/assets/images/portfolio/galleries/2012-04-2012-05-stink-digital/screens/thumbnails/desktop/03-post-live.png",
+			"width": 960,
+			"label": "Post-live"
+		}]
+	}
+}

@@ -1,0 +1,317 @@
+{
+	"head": {
+		"title": "Portfolio (Barclays)",
+		"stylesheets": [{			
+			"path": "site.min.css",
+			"media": "all"
+		},{			
+			"path": "portfolio.min.css",
+			"media": "all"
+		},{			
+			"path": "gallery.min.css",
+			"media": "all"
+		}]
+	},
+	"client": "Barclays",
+	"project": "Account Opening",
+	"dates": "Aug 2014 - Aug 2015",
+	"summary": "I worked at Barclays on <em>a front and back-end component library</em>, built via a combination of <em>custom templates and a JSON configuration engine</em>. My responsibility related to the complete ownership of the JavaScript controller and the interactive functionality of all individual components. In addition to that, I also <em>wrote the projects entire set of GruntJS automation scripts</em>, enabling full sites (consisting of hundreds of pages) to be compiled in a matter of seconds. For the 12 months I spent at Barclays, I played a lead role in the team overseeing all aspects of the overall front-end development.",
+	"technologiesUsed": [
+		"CSS3",
+		"Grunt",
+		"HTML5",		
+		"jQuery",
+		"JSON",
+		"Lo-dash",
+		"Namespacing",
+		"OO JavaScript",
+		"Responsive front-end",
+		"SASS"
+	],
+	"linkedInRecommendations": [{
+		"name": "Jyothish Nair",
+		"jobTitle": "Creative Director",
+		"recommendation": "Martin is one of the best Front-end Developer I have met so far in my entire career. <em>His passion for quality is absolutely mind blowing</em>. He is always looking to improve his standards not just to satisfy his own quest but also to go above and beyond the project brief. I have worked with Martin in two companies - Sapient Nitro and at Barclays Design Office most recently. At Barclays, we were doing some challenging work that needs a lot of patience and in-depth knowledge of coding for the mobile web. Martin as always found creative ways to work with the existing code, not throwing away the work that has been done by existing developer community. He had found ways to <em>clean the existing code and bring the development team to a much higher standard</em>. I will always look forward to working with him not just on official projects, but also on personal projects. <em>If I were to have an 'A' team for any of my work, the first person I'd get in touch with for front-end coding and UI development would be Martin</em>."
+	},{
+		"name": "Richard Locke",
+		"jobTitle": "Front-End Developer",
+		"recommendation": "I worked with Martin for several months at Barclays. If you want someone who does not shy away from a challenge, then Martin is that someone. He learnt GruntJS whilst working alongside me. As soon as he had grasped the concepts of how Grunt worked, he then went on to come up with a great solution using it. <em>One thing is for certain, Martin knows JavaScript. There is not much about JavaScript he does not know</em>. All of his code is clean and consistently formatted with meaningful comments throughout. Using his attention to consistency, Martin helped bring that to the team along with some more advanced coding concepts. He also managed to bring his JavaScript coding consistency and best practices to Sass/Scss. Whilst we worked together, <em>Martin also helped mentor a junior member of the team</em>, imparting his knowledge and experience.His vast experience and exposure to technology is something that would benefit any team Martin is part of. I would definitely work with him again if our paths crossed. Highly recommended."
+	},{
+		"noAlias": true,
+		"name": "Deep Dhir",
+		"jobTitle": "Senior Project Manager",
+		"recommendation": "<em>It's rare to come across a talent like Martin</em>. When it comes to front-end web development <em>the man really knows his stuff</em>. I had the pleasure of working with Martin (again) at Barclays where he supported me and delivered on a complex multi-faceted design and development project for the past year. He also showed me technical leadership, planning and mentoring qualities. <em>He has a calm persona about him</em>. I find him very approachable and highly engaging. On top of all that he's witty, loves a terrible pun and my dad jokes. He's an alright fella in my book and would love to work with him again...soon"
+	},{
+		"name": "Mohd Asad",
+		"jobTitle": "Assistant Vice President",
+		"recommendation": "I had the pleasure of working with Martin for a year in the Design Office project team at Barclays. He is one of <em>the most accomplished</em> developers I have come across. <em>His knowledge about front-end development, especially advanced JavaScript is exceptional</em> and I learned quite a lot about structured development whilst working with him."
+	},{
+		"name": "Raj Tarat",
+		"jobTitle": "Recruiter",
+		"recommendation": "Barclays had asked for a senior developer who they could trust to lead one of the largest, most complex programs at the bank. Martin deservedly has a reputation in the industry as an excellent front end developer and from our first conversation, it was clear that he was more than capable of delivering. <em>He continually impressed</em> from interview through to his last day working there and <em>I've received excellent feedback for him</em>. I'd highly recommend him!"
+	},{
+		"noAlias": true,
+		"name": "Mark Pickering",
+		"jobTitle": "Lead Web UI Designer/Developer",
+		"recommendation": "I worked on a project with Martin at Barclays. Not only is he a friendly, professional person to work with but he really knows his trade. <em>The quality of his work is so high that it inspires others to raise their game</em> and he is always happy to share his knowledge, bounce ideas and adapt solutions to address evolving requirements. He will be missed."
+	},{
+		"name": "Anastasija Krysa",
+		"jobTitle": "Lead UX Designer",
+		"recommendation": "Martin was a lead developer on one of the biggest programmes at Barclays Plc. He was brought into the project to make sure that journeys designed by UI/UX team would look and work responsively across different devices and operating systems. He was mainly involved in developing a responsive component library that was to be used accross key areas of Barclays website and applications. From the very beginning of our work together Martin was very helpful with many useful suggestions and out of the box solutions for the project. His key strengths are - <em>impressive development skills</em>, knowledge of the latest web trends, problem-solving, pro-actively offering solutions, bringing creative ideas to the table, adapting to fast changing situations and being adept at all aspects of communications. <em>I would have absolutely no hesitation in recommending Martin for a Lead Developer role</em>."
+	},{
+		"name": "Giles McCartney",
+		"jobTitle": "UI Consultant",
+		"recommendation": "Martin is an exceptionally talented, seasoned developer and is a pleasure to work with. Unusually, given his seniority, Martin is also flexible in his approach and will work in whatever way a project demands.Martin is highly self-motivated and left alone he will burn through work at a terrific rate. In fact <em>you will need a small team to create enough work for him</em>! If you have a world-class project then you need <em>a world-class developer like Martin</em>. I very much look forward to working with him again soon."
+	},{
+		"name": "Claire Littley",
+		"jobTitle": "Senior Digital Creative Consultant",
+		"recommendation": "<em>Martin has a real 'can-do' attitude</em> and he always does his best to find a solution, even if it doesn't seem viable initially. He enjoys the challenge of making things work in code, but also <em>is meticulous and driven</em> to do things in the best and most efficient way possible. Martin's a lovely guy and I would definitely love to work with him again in the future."
+	}],
+	"gitHubCodeSamples": "https://github.com/martinburford/code-samples/tree/master/filtered-by-contract/2014-08-2015-08%20-%20Barclays%20(Account%20Opening)",
+	"media": {
+		"available": ["mobile","tablet","desktop"],
+		"mobile": [{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/mobile/01-apply.png",
+			"width": 311,
+			"label": "Apply"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/mobile/02-your-personal-details.png",
+			"width": 311,
+			"label": "Your personal details"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/mobile/03-your-personal-details-error.png",
+			"width": 311,
+			"label": "Your personal details (error)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/mobile/04-employment-details.png",
+			"width": 311,
+			"label": "Employment details"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/mobile/05-review-your-application.png",
+			"width": 311,
+			"label": "Review your application"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/mobile/06-cant-complete-application.png",
+			"width": 311,
+			"label": "Can't complete application"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/mobile/07-cant-offer-account-type.png",
+			"width": 311,
+			"label": "Can't offer account type"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/mobile/08-can-offer-premier-account.png",
+			"width": 311,
+			"label": "Can offer Premier account"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/mobile/09-features-store.png",
+			"width": 311,
+			"label": "Features store"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/mobile/10-pack-details.png",
+			"width": 311,
+			"label": "Pack details"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/mobile/11-pack-your-details.png",
+			"width": 311,
+			"label": "Pack (your details)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/mobile/12-pack-review-and-confirm.png",
+			"width": 311,
+			"label": "Pack (review and confirm)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/mobile/13-pack-confirmation.png",
+			"width": 311,
+			"label": "Pack (confirmation)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/mobile/14-processing-application.png",
+			"width": 311,
+			"label": "Processing application"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/mobile/15-thankyou.png",
+			"width": 311,
+			"label": "Thankyou"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/mobile/16-congratulations.png",
+			"width": 311,
+			"label": "Congratulations"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/mobile/17-search-local-branches.png",
+			"width": 311,
+			"label": "Search local branches"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/mobile/18-review-details.png",
+			"width": 311,
+			"label": "Review details"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/mobile/19-unable-to-book-appointment.png",
+			"width": 311,
+			"label": "Unable to book appointment"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/mobile/20-appointment-confirmation.png",
+			"width": 311,
+			"label": "Appointment confirmation"
+		}],
+		"tablet": [{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/tablet/01-apply.png",
+			"width": 504,
+			"label": "Apply"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/tablet/02-your-personal-details.png",
+			"width": 504,
+			"label": "Your personal details"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/tablet/03-your-personal-details-error.png",
+			"width": 504,
+			"label": "Your personal details (error)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/tablet/04-employment-details.png",
+			"width": 504,
+			"label": "Employment details"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/tablet/05-review-your-application.png",
+			"width": 504,
+			"label": "Review your application"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/tablet/06-cant-complete-application.png",
+			"width": 504,
+			"label": "Can't complete application"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/tablet/07-cant-offer-account-type.png",
+			"width": 504,
+			"label": "Can't offer account type"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/tablet/08-can-offer-premier-account.png",
+			"width": 504,
+			"label": "Can offer Premier account"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/tablet/09-features-store.png",
+			"width": 504,
+			"label": "Features store"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/tablet/10-pack-details.png",
+			"width": 504,
+			"label": "Pack details"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/tablet/11-pack-your-details.png",
+			"width": 504,
+			"label": "Pack (your details)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/tablet/12-pack-review-and-confirm.png",
+			"width": 504,
+			"label": "Pack (review and confirm)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/tablet/13-pack-confirmation.png",
+			"width": 504,
+			"label": "Pack (confirmation)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/tablet/14-processing-application.png",
+			"width": 504,
+			"label": "Processing application"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/tablet/15-thankyou.png",
+			"width": 504,
+			"label": "Thankyou"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/tablet/16-congratulations.png",
+			"width": 504,
+			"label": "Congratulations"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/tablet/17-search-local-branches.png",
+			"width": 504,
+			"label": "Search local branches"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/tablet/18-review-details.png",
+			"width": 504,
+			"label": "Review details"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/tablet/19-unable-to-book-appointment.png",
+			"width": 504,
+			"label": "Unable to book appointment"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/tablet/20-appointment-confirmation.png",
+			"width": 504,
+			"label": "Appointment confirmation"
+		}],
+		"desktop": [{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/desktop/01-apply.png",
+			"width": 960,
+			"label": "Apply"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/desktop/02-your-personal-details.png",
+			"width": 960,
+			"label": "Your personal details"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/desktop/03-your-personal-details-error.png",
+			"width": 960,
+			"label": "Your personal details (error)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/desktop/04-employment-details.png",
+			"width": 960,
+			"label": "Employment details"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/desktop/05-review-your-application.png",
+			"width": 960,
+			"label": "Review your application"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/desktop/06-cant-complete-application.png",
+			"width": 960,
+			"label": "Can't complete application"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/desktop/07-cant-offer-account-type.png",
+			"width": 960,
+			"label": "Can't offer account type"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/desktop/08-can-offer-premier-account.png",
+			"width": 960,
+			"label": "Can offer Premier account"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/desktop/09-features-store.png",
+			"width": 960,
+			"label": "Features store"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/desktop/10-pack-details.png",
+			"width": 960,
+			"label": "Pack details"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/desktop/11-pack-your-details.png",
+			"width": 960,
+			"label": "Pack (your details)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/desktop/12-pack-review-and-confirm.png",
+			"width": 960,
+			"label": "Pack (review and confirm)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/desktop/13-pack-confirmation.png",
+			"width": 960,
+			"label": "Pack (confirmation)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/desktop/14-processing-application.png",
+			"width": 960,
+			"label": "Processing application"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/desktop/15-thankyou.png",
+			"width": 960,
+			"label": "Thankyou"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/desktop/16-congratulations.png",
+			"width": 960,
+			"label": "Congratulations"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/desktop/17-search-local-branches.png",
+			"width": 960,
+			"label": "Search local branches"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/desktop/18-review-details.png",
+			"width": 960,
+			"label": "Review details"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/desktop/19-unable-to-book-appointment.png",
+			"width": 960,
+			"label": "Unable to book appointment"
+		},{
+			"image": "/assets/images/portfolio/galleries/2014-08-2015-08-barclays/screens/thumbnails/desktop/20-appointment-confirmation.png",
+			"width": 960,
+			"label": "Appointment confirmation"
+		}]
+	}
+}

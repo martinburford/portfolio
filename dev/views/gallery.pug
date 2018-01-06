@@ -1,0 +1,171 @@
+include ./../../dev/src/components/head/pug/head.pug
+include ./../../dev/src/components/linkedin-recommendations/pug/linkedin-recommendations.pug
+
+//- MIXINS
+//- ****
+
+mixin thumbnailToggleIcons(availableMedia, activeMediaType)
+	ul
+		each mediaType, index in availableMedia
+			-
+				var attributes = {};			
+				if(mediaType === activeMediaType){
+					attributes = {"class": "active"};
+				}
+
+			li(class=mediaType)&attributes(attributes)
+				a(href="#" + mediaType + "-screenshots")= mediaType
+
+mixin renderThumbnails(data, mediaType)
+	- 
+		var attributes = {};
+		switch(mediaType){
+			case 'video':
+				attributes = {"class": "videos"};
+				break;
+			case 'mobile':
+				attributes = {"class": "mobile"};
+				break;
+			case 'tablet':
+				attributes = {"class": "tablet"};
+				break;
+		}
+
+	ol&attributes(attributes)
+		each thumbnail, index in data
+			li
+				div.inner
+					picture
+						+renderThumbnail(thumbnail, mediaType)
+				ul
+					li= thumbnail.label
+
+mixin renderThumbnail(data, mediaType)
+	- 
+		var attributes = {
+			"data-inview": true,
+			"data-lazyload-module": "mod-image",
+			"data-src": data.image,
+			"data-width": data.width,
+			"src": global.galleryPlaceholderPath
+		};
+
+		//- Additional attributes are required for video thumbnails
+		if(mediaType === 'video'){
+			attributes['data-video-src'] = data.videoSrc;
+			attributes['data-height'] = data.height;
+			attributes['data-width'] = data.width;
+		}
+
+	img&attributes(attributes)
+
+doctype html
+html(prefix="og: http://ogp.me/ns#")
+
+	+head(head, versionSuffix, true)
+
+	body(id="portfolio", class="gallery")
+		div#wrapper
+			if otherProjects
+				div#menu
+					a#toggle(href="#")
+						span= global.strings.toggleSidebar
+
+			header.disabled
+				div.inner.box
+					h1
+						span= "Client: "
+						= client
+					h2= dates
+
+			a#home(href="/")= global.strings.backToHomepage
+
+			//- Project sidebar (non-mandatory)
+			if otherProjects
+				div#projects-box.box(data-contracted="true")
+					div#projects.scrollable
+						p= global.strings.projectsSidebarIntroduction
+						ul
+							- var attributes = {};
+
+							each project, index in otherProjects
+								- attributes = project.isActive ? {"class": "active"} : {};
+
+								li&attributes(attributes)
+									div.thumbnail
+										picture
+											img(src=global.galleryPlaceholderPath, data-src=project.thumbnail, data-lazyload-module="mod-image", data-inview="true")
+									a(href=project.url)= project.label
+
+			div#outer
+				//- Heading
+				h3= global.strings.project + ": "
+					span= project
+
+				main.thumbnail-listing
+					div.summary
+						//- Summary text
+						p!= summary
+
+						if linkedInRecommendations || gitHubCodeSamples
+							ul#project-links
+
+								if linkedInRecommendations
+
+									-
+										var recommendationsFormatting = linkedInSuffixes(linkedInRecommendations);
+										var linkedInRecommendationsReceived = global.strings.linkedIn.recommendationsReceived2.replace('{count}', recommendationsFormatting.count).replace('{recommendation/s}', recommendationsFormatting.recommendationSingularPlural);
+
+									li.linkedin-launch
+										a(href="#linkedin-recommendations")= linkedInRecommendationsReceived
+
+								if gitHubCodeSamples
+									li.github-code
+										a(href=gitHubCodeSamples, rel="external")= global.strings.gitHub.viewCodeSamples
+
+						//- Technologies used
+						if technologiesUsed
+							span= global.strings.technologiesUsed
+							ul.technologies-used
+								each technology, index in technologiesUsed
+									li= technology
+
+						//- LinkedIn recommendations
+						if linkedInRecommendations
+							div#linkedin-recommendations.linkedin-recommendations
+								h3= global.strings.recommendations
+								div.inner
+									+linkedinRecommendations(linkedInRecommendations)
+
+					//- Media thumbnails
+					each mediaType, index in media.available
+						- 
+							//- Generate a unique reference for breakpoints vs. videos
+							var mediaReference = mediaType === "video" ? "video" : mediaType + "Breakpoint";
+
+							//- Auto activate/expand the first group, regardless of what type screenshot it is
+							var attributes = {};
+							if(index === 0){
+								attributes = {
+									"class": "active"
+								}
+							}
+
+						section(data-type=mediaType + "-screenshots")&attributes(attributes)
+							- 
+								var mediaSuffix = mediaType === "video" ? "videos" : "screenshots";
+								if(media[mediaType].length === 1){
+									mediaSuffix = mediaSuffix.substr(0, mediaSuffix.length-1);
+								}
+
+							h3= global.strings[mediaReference]
+								span= "(" + media[mediaType].length + " " + mediaSuffix + ")"
+
+							//- Show the icons for toggling any of the groups open
+							+thumbnailToggleIcons(media.available, mediaType)
+
+							//- Render the thumbnails out to the screen
+							//- There are slight variations in the generated markup, depending on the mediaType (video/mobile/tablet/desktop)
+							+renderThumbnails(media[mediaType], mediaType)
+
+		script(src="/assets/scripts/app.min.js" + versionSuffix)

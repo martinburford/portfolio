@@ -1,0 +1,928 @@
+// File: /assets/css/gallery.scss
+// Author: Martin Burford (martin@martinburford.co.uk)
+
+// Import utility files
+
+@import "utilities/_mixins"; 
+@import "utilities/_variables";
+@import "utilities/_extends";
+
+// Global gallery styles
+
+#menu {
+	content: '';
+	cursor: pointer;
+	height: 71px;
+	left: 0;
+	opacity: 1;
+	overflow: visible;
+	padding: 0 10px;
+	position: fixed;
+	top: 0;
+	transition: opacity $sidebar-animation-time;
+	width: 40px;
+	will-change: opacity;
+	z-index: 3;
+}
+
+#toggle {
+	cursor: inherit;
+	display: block;
+	height: 100%;
+	width: 100%;
+    position: relative;
+
+    span {
+    	@extend %hamburger-bar;
+    	top: calc(50% - 2px);
+    	transition: transform $sidebar-animation-time;
+    	will-change: transform;
+
+    	&:before {
+			@extend %hamburger-bar;
+			top: -10px;
+			transform-origin: top right;
+			transition: transform $sidebar-animation-time, width $hamburger-fast-animate, top $hamburger-fast-animate;
+			will-change: transform, width, top;
+    	}
+
+    	&:after {
+			@extend %hamburger-bar;
+			bottom: -10px;
+			transform-origin: bottom right;
+			transition: transform $sidebar-animation-time, width $hamburger-fast-animate, bottom $hamburger-fast-animate;
+			will-change: transform, width, bottom;
+    	}
+    }
+}
+
+header {
+	.inner {
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+
+	h1 span {		
+		display: none;
+		font: inherit;
+	}
+}
+
+#portfolio {
+ 	h3 {	
+ 		font-family: 'expert-sans-bold';
+		font-size: 1.25em;
+		letter-spacing: -1px;
+		margin-bottom: 0;
+		margin-top: 0;	
+
+		span {
+			color: inherit;
+			display: inline-block;
+			margin-left: 5px;
+		}
+	}
+
+	#outer > h3 {
+		border: 0;
+		color: $yellow;
+		font-family: 'expert-sans-bold';
+		font-size: 1.6em;
+		margin-top: 20px;
+		text-align: center;
+		text-transform: none;
+
+		span {
+			color: inherit;
+			font-size: inherit;
+		}
+	}
+}
+
+// Global gallery styles (non-touch styles only)
+// Animate the background colour, to represent a change in state when hovering
+
+body:not(.has-touch) {
+	#toggle {
+	    span {
+	    	transition: background $sidebar-animation-time, transform $sidebar-animation-time;
+	    	will-change: background, transform;
+
+	    	&:before {
+				transition: background $sidebar-animation-time, transform $sidebar-animation-time, width $hamburger-fast-animate, top $hamburger-fast-animate;
+				will-change: background, transform, width, top;
+	    	}
+
+	    	&:after {
+				transition: background $sidebar-animation-time, transform $sidebar-animation-time, width $hamburger-fast-animate, bottom $hamburger-fast-animate;
+				will-change: background, transform, width, bottom;
+	    	}
+	    }
+
+		&:hover {
+			span {
+				background: $link-color;	
+
+				&:before,
+				&:after {
+					background: $link-color;
+				}
+			}
+		}
+	}
+}
+
+// Projects list
+
+#projects-box {
+	@include box-sizing;
+	background: url(/assets/images/transparencies/ffffff/percent-10.png) repeat;
+	height: calc(100% - 91px);
+	left: 10px;
+	margin-left: -100%;
+	opacity: 0;
+	position: fixed;
+	top: 81px;
+	transition: margin-left $sidebar-animation-time ease-in-out, opacity $sidebar-animation-time ease-in-out;
+	width: calc(100% - 20px);
+	will-change: margin-left, opacity;
+	z-index: 2;
+
+	&[data-contracted] {
+		visibility: hidden;
+	}
+}
+
+#projects {
+	-webkit-overflow-scrolling: touch;
+	height: calc(100% - 10px);
+	margin: 5px 5px 5px 0;
+	overflow-x: hidden;
+	overflow-y: auto;
+
+	h3 {
+		margin: 0;
+	}
+
+	p {
+		padding: 5px 10px 0;
+		text-align: left;
+	}
+
+	ul {
+		padding-top: 10px;
+		overflow: hidden;
+	}
+
+	li {
+		border-top: 1px solid $projects-separator;
+		box-sizing: border-box;
+		overflow: hidden;
+		padding: 10px;
+		position: relative;
+
+		&:first-child {
+			border: 0;
+		}
+
+		&.active {
+			background: url(/assets/images/transparencies/ffffff/percent-10.png) repeat;
+		}
+	}
+
+	.thumbnail {
+		float: left;
+		width: 35%;
+	}
+
+	picture {
+		@include icon-icomoon('camera', rgba($white, 0.2), 48, $position: 'before', $spaceToContent: 0, $customSideOffset: calc(50% - 24px));
+		@include shadowbox($glowColor: $white, $opacity: 0.25, $shadowSize: 1px);
+		display: block;
+		overflow: hidden;
+		padding-top: 75%;
+		position: relative;
+	}
+
+	img {
+		background: url(/assets/images/transparencies/000000/percent-50.png) repeat;
+		display: block;
+		height: 100%;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+	}
+
+	a {
+		display: block;
+		font-family: 'expert-sans-regular';
+		font-size: 1.4em;
+		left: calc(35% + 20px);
+		padding-right: 10px;
+	    position: absolute;
+    	top: 50%;
+    	transform: translateY(-50%);
+	}
+}
+
+// Client/contract summary
+
+.summary {	
+	margin: 20px 0;
+	overflow: hidden;
+	position: relative;
+
+	span {
+		box-sizing: border-box;
+		color: $yellow;
+		display: block;
+		margin-top: 20px;
+		padding-right: 10px;
+	}
+
+	.technologies-used {
+		margin-top: 5px;
+		overflow: hidden;
+
+		li {
+			@include border-radius(5px);
+			@include icon-icomoon('tick', $technology-used, 12, $position: 'before', $customSideOffset: 5px);
+			@include shadowbox($glowColor: $white, $opacity: 0.25, $shadowSize: 1px);
+			background: url(/assets/images/transparencies/ffffff/percent-10.png) repeat;
+			color: rgba($white,0.75);
+			display: inline-block;
+			margin: 4px 5px 3px 1px;
+			padding-bottom: 3px;
+			padding-right: 6px;
+			padding-top: 3px;
+			position: relative;
+		}
+	}
+
+	p {
+		&:nth-of-type(1) {
+			padding-bottom: 20px;
+			position: relative;
+
+			&:after {
+				@include left-to-right-gradient($listings-client-separator);
+				bottom: 0;
+				content: '';
+				height: 1px;
+				left: 0;
+				position: absolute;
+				width: 100%;
+			}
+		}
+
+		&:nth-of-type(2) {
+			margin-top: 2px;
+		}
+	}
+}
+
+// Project links (LinkedIn and GitHub)
+
+#project-links {
+	background: url(/assets/images/transparencies/ffffff/percent-5.png) repeat;
+	padding: 8px 0;
+	position: relative;
+
+	&:after {
+		@include left-to-right-gradient($listings-client-separator);
+		bottom: 0;
+		content: '';
+		height: 1px;
+		left: 0;
+		position: absolute;		
+		width: 100%;
+	}
+
+	li {		
+		box-sizing: border-box;
+		height: 36px;
+		margin: 8px 8px 0;		
+		position: relative;
+
+		&:first-child {
+			margin-top: 0;
+		}
+
+		a {
+			-webkit-transform: translateY(-50%);
+			display: inline-block;
+			position: relative;
+			top: 50%;	
+			transform: translateY(-50%);
+		}
+	}
+
+	.linkedin-launch {
+		@include border-radius(36px);
+		@include icon-icomoon('linkedin-logo', $white, 20, $position: 'before', $customSideOffset: 8px, $spaceToContent: 26);
+
+		&:before {
+			z-index: 1;
+		}
+
+		&:after {
+			@include border-radius(36px);
+			@include shadowbox($glowColor: $white, $opacity: 0.1, $shadowSize: 1px);
+			background: $linkedin;
+			content: '';
+			height: 36px;
+			left: 0;
+			position: absolute;
+			top: 0;
+			width: 36px;
+		}
+
+		&+.github-code {
+			margin-top: 12px;
+
+			&:after {
+				@include left-to-right-gradient($listings-client-separator);
+				content: '';
+				height: 1px;
+				left: 0;
+				position: absolute;
+				top: -6px;
+				width: 100%;
+			}
+		}
+	}
+
+	.github-code {
+		sborder: 1px solid red;
+
+		@include icon-icomoon('github', $white, 36, $position: 'before');
+
+		&:before {
+			@include border-radius(36px);
+			@include shadowbox($glowColor: $black, $opacity: 0.5, $shadowSize: 1px);
+		}
+
+		a {
+			@include icon-icomoon('external-link', $link-color-light, 16, $valignment: 'top', $position: 'after', $spaceToContent: 5);
+
+			&:after {
+				top: -4px;
+			}
+		}
+	}
+}
+
+// Thumbnail listing (specific gallery styles)
+
+.thumbnail-listing {
+	section {
+		position: relative;
+
+		&:before {
+			@include left-to-right-gradient($listings-client-separator);
+			content: '';
+			height: 1px;
+			left: 0;
+			position: absolute;
+			top: 0;
+			width: 100%;
+		}
+
+		&:hover:before {
+			@include left-to-right-gradient($listings-client-separator-hover);
+		}
+
+		&:last-of-type {
+			ol {
+				margin-bottom: 0;
+			}
+		}
+
+		&.active {
+			h3:before {
+				transform: rotate(180deg);
+			}
+
+			ol {
+				display: block;
+			}
+		}
+
+		h3 {
+			@include icon-icomoon('double-arrow-down', $white, 20, $position: 'before', $customSideOffset: 5px);
+			border-bottom: none;
+			cursor: pointer;
+			font-family: 'expert-sans-regular';
+			padding-bottom: 10px;
+			padding-top: 10px;
+			position: relative;	
+			text-align: left;
+			text-transform: none;
+
+			&:before {
+				text-align: center;
+				transform: rotate(0deg);
+				transition: transform $section-group-toggle-time ease-in-out;
+				will-change: transform;
+			}
+
+			&:hover {
+				text-decoration: underline;
+			}			
+		}
+
+		& > ul {
+			display: block;
+			margin: 0 1px 0 0;
+			overflow: hidden;
+			padding: 7px 0 7px 5px;
+			position: absolute;
+			right: 5px;
+			text-align: center;
+			top: -2px;
+
+			li {
+				box-sizing: border-box;
+				display: none;
+				float: left;				
+				height: 32px;
+
+				a:before {
+					transition: color 250ms ease-in-out;
+				}
+
+				&.video a {
+					@include icon-icomoon('video', rgba($white, 0.075), 28, $position: 'before', $spaceToContent: 0);
+					margin-right: 1px;
+				}
+
+				&.mobile a {
+					@include icon-icomoon('mobile', rgba($white, 0.075), 28, $position: 'before', $spaceToContent: 0);
+				}
+
+				&.tablet a {
+					@include icon-icomoon('tablet', rgba($white, 0.075), 28, $position: 'before', $spaceToContent: 0);
+					margin-left: 2px;
+				}
+
+				&.desktop a {
+					@include icon-icomoon('desktop', rgba($white, 0.075), 28, $position: 'before', $spaceToContent: 0);
+					margin-left: 5px;
+				}
+
+				&.active {
+					display: block;
+
+					a {
+						color: $white;
+						cursor: default;
+
+						&:before {
+							color: $white;
+						}
+					}
+				}
+
+				&:not(.active) a:hover:before {
+					color: $link-color;
+					cursor: pointer;
+				}
+
+				a {
+					display: block;
+					font-size: 0;
+					height: 32px;
+				}
+			}
+		}
+	}
+
+	ol {
+		@include thumbnail-layout($columns: 1, $gutterSpacing: 10);
+
+		display: none;
+		overflow: hidden;
+
+		> li {
+			@include border-radius(5px);
+			background: url(/assets/images/transparencies/ffffff/percent-5.png) repeat;
+			border: 1px solid rgba(#efefef, 0.05);
+			box-sizing: border-box;
+			cursor: pointer;
+			padding-top: 0;
+			transition: background 250ms ease-in-out;
+
+			&:hover {
+				background-image: url(/assets/images/transparencies/dfebee/percent-30.png);
+			}
+
+			ul li {
+				padding: 10px 15px;
+			}
+		}
+
+		.inner {
+			@include border-radius(5px);					
+			box-sizing: border-box;
+			padding-bottom: 0;
+		}
+
+		ul {
+			@include border-radius-bottom-left(5px);
+			@include border-radius-bottom-right(5px);
+			left: auto;
+			padding-bottom: 0;
+			padding-top: 0;
+			position: relative;
+			transform: none;
+			width: 100%;
+
+			li {
+				box-sizing: border-box;
+				overflow: hidden;
+				padding: 15px;
+				text-align: center;
+				text-overflow: ellipsis;
+				white-space: nowrap;				
+				width: 100%;
+
+				&:first-child {
+					color: $white;
+					margin: 0;
+				}
+			}
+		}
+
+		picture {
+			@include border-radius(5px);
+			@include icon-icomoon('camera', rgba($white, 0.2), 128, $position: 'before', $spaceToContent: 5, $customSideOffset: calc(50% - 64px));
+			padding-left: 0;			
+		}
+
+		&.mobile {
+			@include thumbnail-layout($columns: 2, $gutterSpacing: 10);
+
+			picture {
+				padding-top: 230%;
+			}
+		}
+
+		&.videos {
+			@include thumbnail-layout($columns: 2, $gutterSpacing: 10);
+
+			picture {
+				padding-top: 75%;
+			}
+		}	
+
+		&.tablet {
+			@include thumbnail-layout($columns: 2, $gutterSpacing: 10);
+
+			picture {
+				padding-top: 133%;
+			}
+		}
+	}
+
+	[data-type="video-screenshots"] ol {
+		picture {
+			@include icon-icomoon('play', rgba($white, 0.75), 48, $position: 'before', $customSideOffset: calc(50% - 24px));
+			padding-left: 0;
+
+			&:before {
+				@include border-radius(50%);
+				@include shadowbox($glowColor: $black, $opacity: 0.25, $shadowSize: 2px);
+				background: rgba($link-color, 0.75);
+				transition: background $video-play-hover ease-in-out, color $video-play-hover ease-in-out;
+				z-index: 1;	
+			}
+		}
+
+		>li:hover picture:before {
+			background: $link-color;
+			color: $white;
+		}
+	}
+}
+
+// Projects sidebar (active)
+
+.sidebar {
+	background: $white;	
+
+    #toggle span {
+    	transform: rotate(180deg);
+
+		&:before,
+		&:after {
+		  width: 50%;
+		}
+
+		&:before {
+			top: 0;
+			transform: translateX(20px) translateY(1px) rotate(45deg);
+		}
+
+		&:after {
+			bottom: 0;
+			transform: translateX(20px) translateY(-1px) rotate(-45deg);
+		}
+    }
+
+	#projects-box {
+		margin-left: 0;
+		opacity: 1;
+	}
+}
+
+// Inline overlay (LinkedIn specific)
+
+#overlay-full {
+	.linkedin-recommendations {
+		display: block;
+		margin-top: 0;
+	}
+}
+
+// Image preview
+
+#image-preview {	
+	text-align: center;
+
+	img {
+		display: block;
+	}
+
+	&.scaled {
+		img {
+			width: 100%;
+		}
+	}
+}
+
+// Video preview
+
+#video-preview iframe {
+	display: block;
+}
+
+// Breakpoints override global styles
+// 'mobile-large-upwards' || 'tablet-portrait-upwards' || 'tablet-landscape-upwards' || 'desktop-upwards'x`
+
+@include breakpoint-specific('mobile-large-upwards') {
+	// Global gallery styles
+	header h1 span {
+		display: inline;
+	}
+
+	// Projects listing
+
+	#projects picture {
+		@include icon-icomoon('camera', rgba($white, 0.2), 32, $position: 'before', $spaceToContent: \0, $customSideOffset: calc(50% - 16px));
+	}
+
+	// Thumbnail listing (specific gallery styles
+
+	.thumbnail-listing {
+		ol {
+			&.videos,
+			&.mobile {
+				@include thumbnail-layout($columns: 3, $gutterSpacing: 10);
+			}
+		}
+	}
+}
+
+@include breakpoint-specific('tablet-portrait-upwards') {
+	// Global gallery styles
+
+	#menu {
+		padding: 0 20px;
+	}
+
+	// Projects list
+
+	#portfolio #projects ul a {
+		text-align: left;
+	}
+	
+	#projects-box {
+		border-right: 1px solid $projects-separator;
+		display: block;
+		height: calc(100% - 91px);
+		margin-left: -261px;		
+		padding-top: 0;
+		width: 250px;
+		z-index: 1;
+	}
+
+	#projects {
+		p,
+		ul {
+			background: none;
+		}
+
+		p {
+			margin-top: 0;
+		}
+
+		ul {
+			margin-right: 5px;
+		}
+
+		li {
+			border-top: 1px solid $projects-separator;
+			width: 100%;
+		}
+
+		.thumbnail {
+			float: left;
+			width: 35%;
+		}
+
+		a {
+			font-size: 1.1em;
+			left: calc(35% + 20px);
+			margin-top: 0;
+			padding-right: 10px;
+		    position: absolute;
+		    top: 50%;
+		    transform: translateY(-50%);
+		    white-space: pre-wrap;
+		}
+	}
+
+	// Client/contract summary
+
+	.summary img {
+		width: 320px;
+	}
+
+	// LinkedIn recommendations (specific gallery styles)
+
+	.linkedin-recommendations {
+		p span {
+			margin-right: 75px;
+		}
+
+		a {
+			font-size: 1.1em;
+			height: auto;
+			top: 8px;
+			width: auto;
+		}
+	}
+
+	// Thumbnail listing (specific gallery styles)
+
+	.thumbnail-listing {
+		section {
+			position: relative;
+
+			h3 {				
+				padding-right: 140px;
+			}
+
+			& > ul {
+				margin-right: 10px;
+				right: 0;
+
+				li {
+					display: block;
+				}
+			}
+		}
+
+		ol {
+			@include thumbnail-layout($columns: 2, $gutterSpacing: 10);
+
+			picture {
+				@include icon-icomoon('camera', rgba($white, 0.2), 96, $position: 'before', $customSideOffset: calc(50% - 48px));
+				padding-left: 0;
+			}
+
+			ul {
+				li:first-child {
+					margin-bottom: 0;
+					padding-left: 0;
+					padding-right: 0;
+				}
+			}
+
+			&.mobile {
+				@include thumbnail-layout($columns: 4, $gutterSpacing: 10);
+			}
+		}
+	}
+
+	// Projects sidebar (active)
+
+	.sidebar {
+		header {
+			opacity: 1;
+		}
+
+		#outer-box {
+			display: block;
+			left: 270px;
+			width: calc(100% - 280px);
+		}
+	}
+}
+
+@include breakpoint-specific('tablet-landscape-upwards') {
+	// Project links (LinkedIn and GitHub)
+
+	#project-links {
+		text-align: center;
+
+		li {
+			box-sizing: border-box;
+			display: inline-block;
+			margin-top: 0;
+		}
+
+		.linkedin-launch + .github-code {
+			margin-top: initial;
+
+			&:after {
+				display: none;
+			}
+		}
+	}
+
+	// Thumbnail listing (specific gallery styles)
+
+	.thumbnail-listing ol {
+		@include thumbnail-layout($columns: 3, $gutterSpacing: 10);
+
+		&.videos,
+		&.mobile {
+			@include thumbnail-layout($columns: 5, $gutterSpacing: 10);
+		}
+
+		&.tablet {
+			@include thumbnail-layout($columns: 3, $gutterSpacing: 10);
+		}
+	}
+}
+
+@include breakpoint-specific('desktop-upwards') {
+	// Global gallery styles
+
+	main {
+		width: 100%;
+	}
+
+	#menu {
+		left: calc(50% - 610px);
+	}
+
+	// Projects sidebar (active)
+
+	.sidebar #inline-overlay {
+		left: calc(50% - 340px);
+	    margin-left: 0;
+	    width: 930px;
+	}
+
+	// Projects list
+
+	#projects-box {
+		left: calc(50% - 600px);
+	}	
+
+	// Thumbnail listing (specific gallery styles)
+
+	.thumbnail-listing {
+		ol {
+			@include thumbnail-layout($columns: 4, $gutterSpacing: 10);
+
+			&.tablet {
+				@include thumbnail-layout($columns: 4, $gutterSpacing: 10);
+			}
+
+			&.videos {
+				@include thumbnail-layout($columns: 5, $gutterSpacing: 10);	
+			}
+		}
+
+		picture {
+			@include icon-icomoon('camera', rgba($white, 0.2), 64, $position: 'before', $spaceToContent: 5, $customSideOffset: calc(50% - 32px));
+			padding-left: 0;
+		}
+
+		// New hover states
+
+		img {
+			opacity: 1;
+			transition: opacity 250ms ease-in-out;
+		}
+
+		[data-type="video-screenshots"] ol picture {
+			@include icon-icomoon('play', rgba($white, 0.75), 64, $position: 'before', $customSideOffset: calc(50% - 32px));			
+			padding-left: 0;
+		}
+	}
+}

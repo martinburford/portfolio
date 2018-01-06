@@ -1,0 +1,230 @@
+// File: /assets/css/utilities/_mixins.scss
+// Author: Martin Burford (martin@martinburford.co.uk)
+
+@mixin box-sizing {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+@mixin icon($iconName,$color){
+	color: $color;
+	content: map-get($icons,$iconName);	
+}
+
+@mixin icon-icomoon($iconName, $color, $size, $customSideOffset: 0, $customTopOffset: 0, $position: 'before', $valignment: 'middle', $spaceToContent: 10){
+	$padding-type: if($position == 'before', 'left', 'right');
+	$sideOffset: if($customSideOffset != 0, $customSideOffset, '0px');
+
+	padding-#{$padding-type}: #{$size + $spaceToContent}px;	
+	position: relative;
+
+	&:#{$position} {
+		@include icon($iconName, $color);	
+		display: block;
+		font-family: 'icomoon';
+		font-size: #{$size}px;
+		height: #{$size}px;
+		line-height: #{$size}px;
+		position: absolute;
+		top: calc(50% - #{$size/2}px);
+		width: #{$size}px;
+
+		#{$padding-type}: #{$sideOffset}; // Either left or right position
+
+		@if $valignment == 'top' {
+			top: 0;
+		}
+
+		@if $customTopOffset != 0 {
+			top: #{$customTopOffset}px;
+		}
+	}
+}
+
+@mixin clearfix {
+	clear: both;
+	
+	&:after {
+		clear: both;
+		content: ".";
+		display: block;
+		height: 0;
+		visibility: hidden;
+	}
+}
+
+@mixin border-radius($radius){
+	-moz-border-radius: $radius;
+	-webkit-border-radius: $radius;
+	border-radius: $radius;
+}
+
+@mixin border-radius-top-right($radius) {
+	-moz-border-radius-topright: $radius;
+	-webkit-border-top-right-radius: $radius;
+	border-top-right-radius: $radius;
+}
+
+@mixin border-radius-bottom-right($radius) {
+	-moz-border-radius-bottomright: $radius;
+	-webkit-border-bottom-right-radius: $radius;
+	border-bottom-right-radius: $radius;
+}
+
+@mixin border-radius-bottom-left($radius) {
+	-moz-border-radius-bottomleft: $radius;
+	-webkit-border-bottom-left-radius: $radius;
+	border-bottom-left-radius: $radius;
+}
+
+@mixin border-radius-top-left($radius) {
+	-moz-border-radius-topleft: $radius;
+	-webkit-border-top-left-radius: $radius;
+	border-top-left-radius: $radius;
+}
+
+@mixin gradient-top-to-bottom-full($top,$bottom) {
+	background-color: $bottom;
+	background: -moz-linear-gradient($top,$bottom);
+	background: -o-linear-gradient($top,$bottom);
+	background: -webkit-linear-gradient($top,$bottom);
+	background: linear-gradient($top,$bottom);	
+}
+
+@mixin left-to-right-gradient($color) {
+	background: -moz-linear-gradient(left, rgba($color,0) 0%, rgba($color,0.5) 40%, rgba($color,0.6) 50%, rgba($color,0.5) 60%, rgba($color,0) 100%);
+	background: -webkit-linear-gradient(left, rgba($color,0) 0%, rgba($color,0.5) 40%, rgba($color,0.6) 50%, rgba($color,0.5) 60%, rgba($color,0) 100%);
+	background: linear-gradient(to right, rgba($color,0) 0%, rgba($color,0.5) 40%, rgba($color,0.6) 50%, rgba($color,0.5) 60%, rgba($color,0) 100%);
+	content: '';
+	height: 1px;
+	left: 0;
+	position: absolute;
+	width: 100%;
+}
+
+@mixin positions-tabular-layout {
+	thead {
+		display: table-header-group;
+		width: 100%;
+
+		th {
+			background: $mid-grey;
+			font-weight: 700;
+
+			&:nth-child(1) {
+				width: 30%;
+			}
+
+			&:nth-child(2) {
+				width: 40%;
+			}
+
+			&:nth-child(3),
+			&:nth-child(4) {
+				width: 15%;
+			}
+		}
+	}
+
+	tbody tr {
+		td:first-of-type {
+			color: $black;
+		}
+	}
+
+	th,
+	td {
+		border: 1px solid $dark-grey;
+		padding: 5px;
+	}
+
+	td {
+		display: table-cell;
+
+		&:nth-child(3):after {
+			content: "";
+		}
+
+		&:nth-child(3),
+		&:nth-child(4) {
+			display: table-cell;
+		}
+	}
+}
+
+@mixin shadowbox($glowColor: $white, $opacity: 0.075, $inset: false, $shadowSize: 2px){
+	$useInset: null;
+
+	@if $inset {
+		$useInset: inset;
+	}
+
+	-webkit-box-shadow: $useInset 0px 0px $shadowSize $shadowSize rgba($glowColor, $opacity);
+	-moz-box-shadow: $useInset 0px 0px $shadowSize $shadowSize rgba($glowColor, $opacity);
+	box-shadow: $useInset 0px 0px $shadowSize $shadowSize rgba($glowColor, $opacity);	
+}
+
+@mixin circle($size, $parentHeight: true){
+	@if $parentHeight {
+		height: #{$size}px;
+		width: #{$size}px;
+	}
+
+	&:before {
+		height: #{$size}px;
+		width: #{$size}px;
+	}
+}
+
+// RESPONSIVE OVERRIDES
+// The ability to provide custom media queries, either in line with grid breakpoints, or bespoke
+@mixin breakpoint-specific($settings) {
+	@if map-has-key($breakpoints, $settings) {
+		@media all and #{map-get($breakpoints, $settings)} {
+			@content;
+		}
+	} @else {
+		$query: '';
+
+		@if (map-has-key($settings, min-width)) {
+			$media-min: map-get($settings, min-width);
+			$query: $query + unquote(' and (min-width: #{$media-min})');
+		}
+
+		@if (map-has-key($settings, max-width)) {
+			$media-max: map-get($settings, max-width);
+			$query: $query+unquote(' and (max-width: #{$media-max})');
+		}
+
+		@media all #{$query} {
+			@content;
+		}
+	}
+}
+
+@mixin thumbnail-layout($columns, $gutterSpacing){
+	$columnWidth: percentage(1/$columns);
+	$innerPadding: $gutterSpacing/2;
+
+	margin-bottom: #{$gutterSpacing}px;
+	margin-left: -#{$gutterSpacing}px;
+
+	> li {
+		float: left;
+		margin-left: #{$gutterSpacing}px;
+		margin-top: #{$gutterSpacing}px;
+		width: calc(#{$columnWidth} - #{$gutterSpacing}px);
+	}
+
+	.inner {
+		padding-left: #{$innerPadding}px;
+		padding-right: #{$innerPadding}px;
+		padding-top: #{$innerPadding}px;
+	}
+
+	ul {
+		padding-left: #{$innerPadding}px;
+		padding-right: #{$innerPadding}px;
+	}
+}

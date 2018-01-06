@@ -1,0 +1,60 @@
+{
+	"head": {
+		"title": "Portfolio (Ogilvy)",
+		"stylesheets": [{			
+			"path": "site.min.css",
+			"media": "all"
+		},{			
+			"path": "portfolio.min.css",
+			"media": "all"
+		},{			
+			"path": "gallery.min.css",
+			"media": "all"
+		}]
+	},
+	"client": "Ogilvy",
+	"project": "Astra Zeneca",
+	"dates": "Sep 2012 - Oct 2012",
+	"otherProjects": [{
+		"isActive": false,
+		"thumbnail": "/assets/images/portfolio/galleries/2012-09-2012-10-ogilvy/astellas-edetail.png",
+		"url": "/portfolio/gallery/2012-09-2012-10-ogilvy/astellas-edetail",
+		"label": "Astellas eDetail"
+	},{
+		"isActive": true,
+		"thumbnail": "/assets/images/portfolio/galleries/2012-09-2012-10-ogilvy/astra-zeneca.png",
+		"url": "/portfolio/gallery/2012-09-2012-10-ogilvy/astra-zeneca",
+		"label": "Astra Zeneca"
+	}],
+	"summary": "I was hired by Ogilvy Action originally to build a highly interactive JavaScript website from scratch. That was cancelled on my first morning, so I ended up working on lots of bits and pieces for around 2 months. This included a <em>HTML5 LocalStorage reporting framework</em>, a bespoke PhoneGap iPad app from the ground up as well as creating a new eDetail iPad platform, with some fairly significant <em>CSS3 flip effect</em> functionality.",
+	"linkedInRecommendations": [{
+		"noAlias": true,
+		"name": "Aladin Scott",
+		"jobTitle": "Flash Developer",
+		"recommendation": "Martin is a top-notch front end developer and object oriented coder who was <em>clearly born to engineer</em>. He is highly disciplined and approaches his subject with skill, organisation and extremely creative problem solving abilities. These undeniable attributes have clearly been honed through many years of hard earned experience and it really shows in his professionalism and attitude. He has a vast breadth of knowledge of all things software and web, and is undoubtedly at the forefront of where the web platform in particular is heading. In addition to being <em>a code samurai he is inspirational to be around and highly personable company</em>. Hire him before someone else does!"
+	}],
+	"media": {
+		"available": ["desktop"],
+		"desktop": [{
+			"image": "/assets/images/portfolio/galleries/2012-09-2012-10-ogilvy/astra-zeneca/screens/thumbnails/desktop/01-homepage.png",
+			"width": 768,
+			"label": "Homepage"
+		},{
+			"image": "/assets/images/portfolio/galleries/2012-09-2012-10-ogilvy/astra-zeneca/screens/thumbnails/desktop/02-komboglyze.png",
+			"width": 768,
+			"label": "Komboglyze"
+		},{
+			"image": "/assets/images/portfolio/galleries/2012-09-2012-10-ogilvy/astra-zeneca/screens/thumbnails/desktop/03-onglyza.png",
+			"width": 768,
+			"label": "Onglyza"
+		},{
+			"image": "/assets/images/portfolio/galleries/2012-09-2012-10-ogilvy/astra-zeneca/screens/thumbnails/desktop/04-prescribing-komboglyze.png",
+			"width": 768,
+			"label": "Prescribing Komboglyze"
+		},{
+			"image": "/assets/images/portfolio/galleries/2012-09-2012-10-ogilvy/astra-zeneca/screens/thumbnails/desktop/05-prescribing-onglyza.png",
+			"width": 768,
+			"label": "Prescribing Onglyza"
+		}]
+	}
+}

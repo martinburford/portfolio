@@ -1,0 +1,56 @@
+{
+	"head": {
+		"title": "Portfolio (Engine Group)",
+		"stylesheets": [{			
+			"path": "site.min.css",
+			"media": "all"
+		},{			
+			"path": "portfolio.min.css",
+			"media": "all"
+		},{			
+			"path": "gallery.min.css",
+			"media": "all"
+		}]
+	},
+	"client": "Engine Group",
+	"project": "Sky",
+	"dates": "Oct 2012 - Nov 2012",
+	"summary": "This was a 1 month contract where I was hired to build a <em>fully functional set of CSS, HTML and JavaScript-rich templates</em> for Jams client, Sky. Once supplied to Sky, their own in-house development team were then fully responsible for data integration, which for this particular project, consumed a number of their own secure APIs, providing data for Skys tv listings and functionality for many of their unique offerings such as remote record.",
+	"linkedInRecommendations": [{
+		"name": "Nadine Drelaud",
+		"jobTitle": "Digital Production Manager",
+		"recommendation": "If Carlsberg made developers ... <em>Martin is a rarity - his vast experience, common sense, genius brain</em>, passion for what he does and conscientious nature is what facilitates his obsession with best practise & creating the best work. He is a 'real developer' coding from scratch when needed in a fraction of the time it takes most developers and to <em>a quality Tech directors can only dream of</em>. Martin studied at St Martins, so has a creative eye, yet has an incredible technical brain, can communicate like 'normal people' explaining very technical 'stuff' in a way anyone can understand - just some of the the myriad of reasons that make him one of the best front end devs around. The work speaks for itself & so do his recommendations (& the people who recommend him)."
+	},{
+		"name": "Jason Hyland",
+		"jobTitle": "Technical Director",
+		"recommendation": "Martin worked with us on a front end interface project, I found him to be extremely professional, <em>a fast and meticulous developer with an excellent eye for detail and design</em>. His expert knowledge in his field gave me a lot of confidence and assurance when he promised delivery times. Would certainly work with Martin again."
+	}],
+	"media": {
+		"available": ["desktop"],
+		"desktop": [{
+			"image": "/assets/images/portfolio/galleries/2012-10-2012-11-engine-group/screens/thumbnails/desktop/01-homepage-v1.png",
+			"width": 720,
+			"label": "Homepage (v1)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2012-10-2012-11-engine-group/screens/thumbnails/desktop/02-homege-with-flyout-v1.png",
+			"width": 720,
+			"label": "Homepage with flyout (v1)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2012-10-2012-11-engine-group/screens/thumbnails/desktop/03-homepage-v2.png",
+			"width": 720,
+			"label": "Homepage (v2)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2012-10-2012-11-engine-group/screens/thumbnails/desktop/04-homege-with-flyout-v2.png",
+			"width": 720,
+			"label": "Homepage with flyout (v2)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2012-10-2012-11-engine-group/screens/thumbnails/desktop/05-homepage-v3.png",
+			"width": 720,
+			"label": "Homepage (v3)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2012-10-2012-11-engine-group/screens/thumbnails/desktop/06-homege-with-flyout-v3.png",
+			"width": 720,
+			"label": "Homepage with flyout (v3)"
+		}]
+	}
+}

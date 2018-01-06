@@ -1,0 +1,469 @@
+{
+	"cv": {
+		"head": {
+			"title": "CV",
+			"stylesheets": [{			
+				"path": "site.min.css",
+				"media": "all"
+			},{			
+				"path": "cv.min.css",
+				"media": "all"
+			},{			
+				"path": "print.min.css",
+				"media": "print"
+			}],
+			"openGraph": {
+				"title": "Martin Burford - CV",
+				"description": "Welcome to the CV of Martin Burford, a freelance Front-End Developer based in London, UK, with close to 20 years commercial experience in building complex web-based user interfaces.",
+				"imagePath": "http://www.martinburford.co.uk/assets/images/cv/open-graph.png",
+				"url": "http://www.martinburford.co.uk/cv/"
+			}
+		},
+		"body": {
+			"header": {
+				"emailMeLabel": "Email",
+				"githubLabel": "GitHub",
+				"linkedInLabel": "LinkedIn",
+				"portfolioLabel": "Portfolio",
+				"nextAvailability": {
+					"leadInText": "Next availability for contract work: ",
+					"subText": "Immediately available"
+				}
+			},
+			"main": {
+				"currentAvailability": {
+					"status": "available",
+					"text": "Currently {availability} for contract work"
+				},
+				"sections": [{
+					"heading": "About Me",
+					"introduction": {
+						"text": "I started coding professionally in 1999, and have a deep passion for beautifully crafted web interfaces. My approach to work is always the same. I am driven by working with nice, smart people. I’m incredibly passionate about how the mechanics and visuals of a website work together in harmony, resulting in a stunning user experience. Yes, I code HTML, JavaScript, ES6, Node, SASS etc in every contract, but my true passion is in building the very best UI a website can have, with whatever technologies are required to do the job. Couple this with an obsessive side to my personality where I continually strive for the cleanest, most extendable and robust code possible. I work hard to ensure I only ever leave companies with code that I myself would be happy to inherit. If you wish to discuss potential contract roles with me, then ",
+						"linkLabel": "please do get in touch"
+					},
+					"TODO - takingTimeOut": "I am currently taking some time out of work, to spend some time with my recently born son, along with taking the opportunity to spend some time looking at some web technologies I haven't had time to look at over the last year or so (eg: Babel, React, Redux, Webpack) and technologies I've used, but would like to know more about (eg: Browserify, ES6, Gulp, Node). Whilst I'm studying, I am also happy to look at the possibility of starting a new Front-End development contract position. So please get in touch if you have anything which you think may be of interest."
+				},{
+					"heading": "Experience",
+					"experience": {				
+						"companyLogo": "/assets/images/portfolio/company-logos/edge-to-edge/bond-and-coyne.png",
+						"summary": {
+							"jobTitle": "Senior Front-End Developer",
+							"companyName": "Bond & Coyne",
+							"contractDates": "August 2017 - November 2017",
+							"location": "London, UK"
+						},
+						"workHighlights": [{
+							"text": "Built a greenfield single page website."
+						},{
+							"text": "Fully responsive across 5 breakpoints, mobile-first adoption."
+						},{
+							"text": "Site included a fully responsive Data Visualization feature representing approximately 175 million records."
+						},{
+							"text": "I had to write a number of NodeJS scripts in order to extract and format the data into extremely bespoke formats prior to attaching the data to the SVH graphing components within the site."
+						},{
+							"text": "Project was delivered on time, on budget, and the client were delighted with the end result."
+						}],
+						"technologiesUsed": [
+							"Babel", 
+							"Browserify", 
+							"CSS3", 
+							"ES6", 
+							"Grunt", 
+							"HTML5", 
+							"icoMoon", 
+							"JSON", 
+							"Native JavaScript", 
+							"Node", 
+							"NPM", 
+							"OO JavaScript", 
+							"Responsive front-end", 
+							"SASS"
+						],
+						"linkedInRecommendations": [{
+							"name": "Martin Coyne",
+							"jobTitle": "Creative Director / Owner",
+							"recommendation": "Martin has been an invaluable member of our extended team helping to deliver an elegant solution on time and on budget but more importantly one that has <em>exceeded our client expectation</em>. Having worked with many developers I can honestly say that <em>I have never worked with one as methodical as Martin</em>. This installed a great level of confidence in the studio and enabled him to become quickly embedded as part of our team. I would not hesitate to recommend Martin and hope to work with him again soon. Highly recommend."
+						},{
+							"name": "Jason Hancock",
+							"jobTitle": "Digital Director",
+							"recommendation": "Martins extensive knowledge of front-end development and process made sure that we weren't restricted when it came to design or creative within a tight timeline. <em>He doesn't just know one way of doing things, he knows many</em> and will happily share the options, the impact and accurate timelines for each. This allowed us to clearly communicate with the client and manage expectations throughout an ever changing project that concluded in us <em>delivering a solid build above client expectations, on time and on budget</em>. We can recommend Martin without hesitation and will hopefully get to work with him again in future on further development of this project or any other challenging builds that need that higher level of expertise Martin offers."
+						},{
+							"name": "Nick Yorke",
+							"jobTitle": "Recruiter",
+							"recommendation": "Martin recently completed a 3 month project for a client of mine, which has been <em>a very smooth process with excellent results</em>. Martins organisation, communication and overall technical delivery has been brilliant, providing daily updates on progress as well as forecasted plans has given the client and myself absolute clarity, proving to be assuring for all parties involved. Moreover, <em>Martins timekeeping and punctuality is second to none</em>, and his collaborative and personable approach has allowed for a very successful project in which he has worked closely with both internal and external stakeholders. I highly recommend Martin and look forward to working with him again."
+						}]
+					}
+				},{
+					"experience": {
+						"summary": {
+							"jobTitle": "Cereer Break",
+							"companyName": "Parental Leave",
+							"contractDates": "March 2017 - July 2017",
+							"location": "London, UK"
+						},
+						"workHighlights": [{
+							"text": "I took 5 months off from work to spend some time with my son who was born in March 2017."
+						}]
+					}
+				},{
+					"experience": {				
+						"companyLogo": "/assets/images/portfolio/company-logos/edge-to-edge/mansion-house-consulting.png",
+						"summary": {
+							"jobTitle": "Lead Web Developer",
+							"companyName": "Mansion House Consulting",
+							"contractDates": "January 2017 - February 2017",
+							"location": "London, UK"
+						},
+						"workHighlights": [{
+							"text": "Wrote the initial templates for a comprehensive internal prototype."
+						},{
+							"text": "Fully dynamic interface, via communication with a vast array of APIs."
+						},{
+							"text": "Fully responsive across 3 breakpoints, mobile-first adoption."
+						},{
+							"text": "Handed over the code to an internal development team for the longer-term integration, once the prototype was complete, and had been welcomed very favourably by the relevant business units."
+						}],
+						"technologiesUsed": [
+							"CSS3",
+							"HTML5",
+							"icoMoon",
+							"NPM",
+							"JSON",
+							"Namespacing",
+							"Native JavaScript",
+							"OO JavaScript",
+							"Responsive front-end"
+						],
+						"linkedInRecommendations": [{
+							"name": "Ritu Arora",
+							"jobTitle": "Java/Ruby Automation Test Analyst (Frontend/Backend), REST, Serenity, Selenium, IAM, OAuth, SSO, IDP, CRM, SalesForce",
+							"recommendation": "Martin is the complete package for any front-end development work. <em>He knows his job inside out</em> and is happy to work with multiple different technologies. <em>He goes the extra mile</em> in order to deliver top class solutions within project time frames. When you work with him, it's impossible to not notice his vast experience in the industry and the reputation he has gained over many years. <em>He has an unstoppable source of energy and passion</em> towards the success of the program he works on. I have seen him spend time to analyse the work and requirements at hand, before jumping straight to a solution or implementation. <em>He is a team player</em> and a fun loving guy to work with. I would have no hesitation in recommending him to any employer who are seeking a top notch front-end developer. Undoubtedly, he would be a great asset to any team."
+						},{
+							"name": "Sebastien Rousseau",
+							"jobTitle": "Senior Product Manager, Project Manager, Technical Lead and Solution Architect, Digital and Mobile Payments",
+							"recommendation": "Martin is an exceptional lead web developer, very passionate, extremely focused in his approach to his work with <em>a remarkable attention to detail</em>. He was able to jump in on a very complex project, communicated efficiently technical blockers and delivered creative solutions. He gave excellent feedback to the UX/Design team, took active interest in the overall development process and <em>wrote clean, well documented and highly maintainable code</em> with an end-result that always has been better than we had imagined. I was glad to work with him and would be happy to do so again. Highly recommended."
+						}]
+					}
+				},{
+					"experience": {				
+						"companyLogo": "/assets/images/portfolio/company-logos/edge-to-edge/trinity-mirror.png",
+						"summary": {
+							"jobTitle": "Senior Front-End Developer",
+							"companyName": "Trinity Mirror",
+							"contractDates": "August 2015 - November 2016",
+							"location": "London, UK"
+						},
+						"workHighlights": [{
+							"text": "Repeat contract."
+						},{
+							"text": "Helped lead the re-architecture and building of a brand new (from the ground up) digital platform to support 60+ sites with monthly traffic levels in the tens of millions."
+						},{
+							"text": "Single-handedly built white-labelling capabilities into the platform, to allow the easy creation of sites now and in the future as more publications come online over time."
+						},{
+							"text": "Created elegant front-end solutions to seamlessly work in collaboration with dozens of back-end restful APIs."
+						},{
+							"text": "Fully responsive across 5 breakpoints, mobile-first adoption."
+						},{
+							"text": "Wrote supporting test scripts to enable continuous integration to be possible, thus streamlining the automated deployment procedure."
+						}],
+						"technologiesUsed": [
+							"Chai",
+							"CSS3",
+							"eScenic",
+							"Express",
+							"Grunt",
+							"HTML5",
+							"icoMoon",
+							"Jade templating",
+							"Karma",
+							"Node",
+							"NPM (private and public)",
+							"JSON",
+							"Multi-branding",
+							"Namespacing",
+							"Native JavaScript",
+							"OO JavaScript",
+							"PhantomJS",
+							"Responsive front-end",
+							"SASS",
+							"Sinon"
+						],
+						"linkedInRecommendations": [{
+							"name": "Daniel Landes",
+							"jobTitle": "Product Manager, Advertising & Data",
+							"recommendation": "Martin joined my team to help us out with a particularly tricky ad issue we needed to resolve before our new sites could launch. He worked autonomously, <em>building a really clever bespoke solution</em> which answered complex requirements and is now being sold by commercial teams across the business. <em>Martin has a real understanding of good UX</em>, and with his significant technical experience and thorough documentation, he has been a great help to the team."
+						},{
+							"name": "Huan Zhang",
+							"jobTitle": "Front-End Developer",
+							"recommendation": "As someone who has almost more years of JavaScript experience than my age, <em>Martin is surprisingly down to earth and easy to work with</em>. I still remember him helping me with an array map problem during my first week at Trinity Mirror and he has always been happy to help, happy to explain the reasons behind decisions and in general happy to pass on all his years of experience onto anyone willing to learn. <em>I have definitely learnt a lot from working with Martin</em> and <em>he is certainly one of my favourite people</em> in the office."
+						},{
+							"name": "Bogdan Chebac",
+							"jobTitle": "Senior Front-End Developer",
+							"recommendation": "<em>Few people get the rare opportunity to work with an incredible developer such as Martin</em>. I had the pleasure to work with him throughout the beginning of 2016 and <em>I have never seen a developer deliver code as fast</em> as he did with the utmost attention to detail and clean code standards, <em>I was always in awe of his capabilities</em>. Martin was able to juggle several tasks at once all while being a mentor figure to yours truly, offering both challenge and support when the task at hand required it. Not to mention it made a dramatic difference in the team's productivity level. No matter what kind of a meeting/stand-up/planning it was, Martin always provided helpful feedback and solutions even for the most challenging of issues. As a team member or a leader, <em>Martin earns my highest recommendation</em>"
+						}]
+					}
+				},{
+					"subHeading": "Other contracts",
+					"tableIntroduction": "Besides my most recent 3 contracts, as above, I have worked in many other companies, on a contract basis:",
+					"tableOfRoles": [{
+						"companyName": "Barclays",
+						"jobTitle": "Lead UI Developer",
+						"contractFrom": "Aug 2014",
+						"contractTo": "Aug 2015"
+					},{
+						"companyName": "Trinity Mirror",
+						"jobTitle": "Senior Front-End Developer",
+						"contractFrom": "Jul 2013",
+						"contractTo": "Aug 2014"
+					},{
+						"companyName": "VML",
+						"jobTitle": "Senior Interactive Developer",
+						"contractFrom": "Mar 2013",
+						"contractTo": "Jul 2013"
+					},{
+						"companyName": "Profero",
+						"jobTitle": "Senior Front-End Developer",
+						"contractFrom": "Dec 2012",
+						"contractTo": "Mar 2013"
+					},{
+						"companyName": "Jam @ Engine Group",
+						"jobTitle": "Senior Front-End Developer",
+						"contractFrom": "Oct 2012",
+						"contractTo": "Nov 2012"
+					},{
+						"companyName": "Ogilvy",
+						"jobTitle": "Senior Front-End Developer",
+						"contractFrom": "Sep 2012",
+						"contractTo": "Oct 2012"
+					},{
+						"companyName": "New Brand Vision",
+						"jobTitle": "Senior Front-End Developer",
+						"contractFrom": "Sep 2012",
+						"contractTo": "Sep 2012"
+					},{
+						"companyName": "Fox Parrack Singapour",
+						"jobTitle": "Senior JavaScript Developer",
+						"contractFrom": "Aug 2012",
+						"contractTo": "Aug 2012"
+					},{
+						"companyName": "The Mill",
+						"jobTitle": "Front-End Technical Lead",
+						"contractFrom": "May 2012",
+						"contractTo": "Jul 2012"
+					},{
+						"companyName": "Stink Digital",
+						"jobTitle": "Senior Front-End Developer",
+						"contractFrom": "Apr 2012",
+						"contractTo": "May 2012"
+					},{
+						"companyName": "LBi",
+						"jobTitle": "Lead Internet Engineer",
+						"contractFrom": "Dec 2011",
+						"contractTo": "Mar 2012"
+					},{
+						"companyName": "AKQA",
+						"jobTitle": "Senior Web Developer",
+						"contractFrom": "Oct 2011",
+						"contractTo": "Dec 2011"
+					},{
+						"companyName": "Timeout",
+						"jobTitle": "Lead Front-End Engineer",
+						"contractFrom": "Jul 2011",
+						"contractTo": "Oct 2011"
+					},{
+						"companyName": "Publicis Modem",
+						"jobTitle": "Senior JavaScript Engineer",
+						"contractFrom": "Jun 2011",
+						"contractTo": "Jul 2011"
+					},{
+						"companyName": "Tribal DDB",
+						"jobTitle": "Senior JavaScript Engineer",
+						"contractFrom": "May 2011",
+						"contractTo": "Jun 2011"
+					},{
+						"companyName": "Publicis Modem",
+						"jobTitle": "Senior JavaScript Engineer",
+						"contractFrom": "Jan 2011",
+						"contractTo": "May 2011"
+					},{
+						"companyName": "Wunderman",
+						"jobTitle": "Senior JavaScript Engineer",
+						"contractFrom": "Dec 2010",
+						"contractTo": "Jan 2011"
+					},{
+						"companyName": "R/GA",
+						"jobTitle": "Senior Developer",
+						"contractFrom": "Oct 2010",
+						"contractTo": "Dec 2010"
+					},{
+						"companyName": "Digitas",
+						"jobTitle": "Senior JavaScript Engineer",
+						"contractFrom": "Aug 2010",
+						"contractTo": "Sep 2010"
+					},{
+						"companyName": "LBi",
+						"jobTitle": "Lead Internet Engineer",
+						"contractFrom": "Jul 2010",
+						"contractTo": "Aug 2010"
+					},{
+						"companyName": "Digitas",
+						"jobTitle": "Senior JavaScript Engineer",
+						"contractFrom": "Jun 2010",
+						"contractTo": "Jul 2010"
+					},{
+						"companyName": "Sapient Nitro",
+						"jobTitle": "Senior Interactive Developer",
+						"contractFrom": "May 2010",
+						"contractTo": "Jun 2010"
+					},{
+						"companyName": "LBi",
+						"jobTitle": "Lead Internet Engineer",
+						"contractFrom": "Dec 2009",
+						"contractTo": "May 2010"
+					},{
+						"companyName": "Good Technology",
+						"jobTitle": "Senior Interactive Developer",
+						"contractFrom": "Nov 2009",
+						"contractTo": "Dec 2009"
+					},{
+						"companyName": "Autoquake",
+						"jobTitle": "Lead Client-Side Developer",
+						"contractFrom": "Aug 2009",
+						"contractTo": "Nov 2009"
+					},{
+						"companyName": "Clash-Media",
+						"jobTitle": "Lead Developer",
+						"contractFrom": "Apr 2009",
+						"contractTo": "Jun 2009"
+					},{
+						"companyName": "Euro RSCG 4D Digital",
+						"jobTitle": "Chief Technical Architect",
+						"contractFrom": "Feb 2009",
+						"contractTo": "Apr 2009"
+					},{
+						"companyName": "FutureBrand",
+						"jobTitle": "PHP Developer",
+						"contractFrom": "Jan 2009",
+						"contractTo": "Feb 2009"
+					}]
+				},{
+					"subHeading": "Permanent positions",
+					"tableIntroduction": "Before becoming a contractor, I worked in permanent positions, working my way through a number of companies until I reached the position of UK Technical Director for one of the leading NMA Top 100 agencies at the time:",
+					"tableOfRoles": [{
+						"companyName": "Grand Union",
+						"jobTitle": "Technical Director",
+						"contractFrom": "Sep 2008",
+						"contractTo": "Jan 2009"
+					},{
+						"companyName": "Digitas",
+						"jobTitle": "Principal Software Engineer",
+						"contractFrom": "Sep 2004",
+						"contractTo": "Aug 2008"
+					},{
+						"companyName": "NBAT Tectonics",
+						"jobTitle": "Senior Web Developer",
+						"contractFrom": "Jun 2002",
+						"contractTo": "Jul 2004"
+					},{
+						"companyName": "Volt Europe",
+						"jobTitle": "Trainee Developer",
+						"contractFrom": "Jun 2001",
+						"contractTo": "Jun 2002"
+					},{
+						"companyName": "The Team",
+						"jobTitle": "ASP/HTML Developer",
+						"contractFrom": "Jul 2000",
+						"contractTo": "Sep 2000"
+					},{
+						"companyName": "House of Fraser",
+						"jobTitle": "HTML Developer",
+						"contractFrom": "Jul 1999",
+						"contractTo": "Jul 2000"
+					}]
+				}],
+				"aside": {
+					"lifePhilosophy": {
+						"heading": "Life philosophy",
+						"quote": "If you’re not aiming for perfection in what you do, go do something else"
+					},
+					"strengths": {
+						"heading": "Strengths",
+						"listedStrengths": [
+							"Hard-working",
+							"Precision",
+							"Friendly",
+							"Approachable",
+							"Building relationships",
+							"Responsive development",
+							"Clean code",
+							"Always exceeding client expectations",
+							"No compromise on quality",
+							"W3C",
+							"Consistent",
+							"Trustworthy",
+							"Standards-based programming",
+							"Building beautiful visual interfaces",
+							"User interaction",
+							"Accessibility",
+							"Back-end integration",
+							"Prototyping",
+							"Working with multiple disciplines",
+							"Cross-browser compliancy"
+						]
+					},
+					"codingExperience": {
+						"heading": "Coding experience",
+						"listedExperience": [{
+							"language": "HTML 4/5",
+							"experience": "19 years"
+						},{
+							"language": "CSS 2/3",
+							"experience": "19 years"
+						},{
+							"language": "JavaScript (native)",
+							"experience": "19 years"
+						},{
+							"language": "JavaScript (object-oriented)",
+							"experience": "19 years"
+						},{
+							"language": "AJAX",
+							"experience": "15 years"
+						},{
+							"language": "RESTful webservices",
+							"experience": "15 years"
+						},{
+							"language": "JSON",
+							"experience": "15 years"
+						},{
+							"language": "XML",
+							"experience": "15 years"
+						},{
+							"language": "Responsive web builds",
+							"experience": "12 years"
+						},{
+							"language": "jQuery base framework",
+							"experience": "8 years"
+						},{
+							"language": "jQuery custom plugin writing",
+							"experience": "8 years"
+						}],
+						"footerText": "Whilst the above are a consolidated list of my main strengths, I have of course been exposed to countless technologies, too many to mention on a CV. For example, I am familiar with GIT and SVN, I am happy to work on either Macs or PCs. I have coded PHP before, a little Java, some Python. I've done quite a bit of working with SVG and data visualization too, plus much more besides. In a contract, I do whatever I have to do, and use whichever technologies I have to use. If that involves learning something new, then that's just fine by me."
+					},
+					"education": {
+						"heading": "Education",
+						"university": {
+							"name": "Staffordshire University",
+							"degree": "BSc Hons (2:1) in Internet Technology",
+							"courseDates": "September 1997 - June 2001"
+						}
+					},
+					"typicalWorkDay": {
+						"heading": "A typical work day",
+						"introduction": "There are many fairly common tasks that my contract roles normally include. Obviously, this differs between roles, but in the main, the majority of my days are split into the following segments:",
+						"image": "/assets/images/work-day.png"
+					}
+				}
+			}
+		}
+	}
+}

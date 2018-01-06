@@ -1,0 +1,68 @@
+{
+	"head": {
+		"title": "Portfolio (Sapient Nitro)",
+		"stylesheets": [{			
+			"path": "site.min.css",
+			"media": "all"
+		},{			
+			"path": "portfolio.min.css",
+			"media": "all"
+		},{			
+			"path": "gallery.min.css",
+			"media": "all"
+		}]
+	},
+	"client": "Sapient Nitro",
+	"project": "Good News Feed",
+	"dates": "Dec 2016 - Dec 2016",
+	"summary": "I was hired by Sapient to work on the front-end element of an internal Christmas project. The timeframes were extremely tight, and the hours were long. In working alongside a couple of very talented developers, and a supporting team of designers and UX staff, we managed to deliver something pretty amazing, taking into account the time we had available. The concept was to allow a user to submit URLs, which proved that 2016 wasn't all bad news, and that some of the things that happened over the course of the year were incredible and heart-warming. URLs provided were then scraped, tidied up a bit, and adapted into a more digestible format for the site we were building. The rendered output was <em>a very rich interface</em>, <em>fully responsive</em>, with animations primarily becoming active as elements of the page came into view. I built features such as <em>advanced lazyloading</em>, all <em>custom animations</em>, <em>infinite page scrolling</em>/loading, URL submission, <em>Captcha validation</em>, along with many more.",
+	"technologiesUsed": [
+		"CSS3",
+		"HTML5",
+		"icoMoon",
+		"NPM",
+		"JSON",
+		"Namespacing",
+		"Native JavaScript",
+		"OO JavaScript",
+		"Responsive front-end"
+	],
+	"linkedInRecommendations": [{
+		"noAlias": true,
+		"name": "Muhammad Moazzam Humayun",
+		"jobTitle": "Manager, Technology",
+		"recommendation": "Martin is a very detail-oriented individual and <em>is extremely hands-on</em> regarding the technologies he works with. He produced great work for the project we were both recently involved with. The best thing he does is the notes he writes for the whole days activities which gives a very detailed picture of all of his amazing work. He <em>helped fellow colleagues on numerous occasions</em>. I have found out that <em>he is an expert in JavaScript, HTML5 and responsive web development</em>. I can simply say \"Martin knows his stuff!!!\""
+	}],
+	"gitHubCodeSamples": "https://github.com/martinburford/code-samples/tree/master/filtered-by-contract/2016-12-2016-12%20-%20Sapient%20Nitro%20(Good%20News%20Feed)",
+	"media": {
+		"available": ["video","mobile","tablet","desktop"],
+		"video": [{
+			"image": "/assets/images/portfolio/galleries/2016-12-2016-12-sapient-nitro/screens/thumbnails/videos/01-homepage-mobile.png",
+			"height": 551,
+			"width": 310,
+			"label": "Full Journey flow (mobile)",
+			"videoSrc": "//www.youtube.com/embed/VFzfbq4lhFQ/?vq=hd1080&autoplay=1&controls=1&showinfo=0&rel=0"
+		},{
+			"image": "/assets/images/portfolio/galleries/2016-12-2016-12-sapient-nitro/screens/thumbnails/videos/02-homepage-desktop.png",
+			"height": 540,
+			"width": 960,
+			"label": "Full Journey flow (desktop)",
+			"videoSrc": "//www.youtube.com/embed/TDd8ytq1jbk/?vq=hd1080&autoplay=1&controls=1&showinfo=0&rel=0"
+		}],
+		"mobile": [{
+			"image": "/assets/images/portfolio/galleries/2016-12-2016-12-sapient-nitro/screens/thumbnails/mobile/01-homepage.png",
+			"width": 311,
+			"label": "Homepage"
+		}],
+		"tablet": [{
+			"image": "/assets/images/portfolio/galleries/2016-12-2016-12-sapient-nitro/screens/thumbnails/tablet/01-homepage.png",
+			"width": 504,
+			"label": "Homepage"
+		}],
+		"desktop": [{
+			"image": "/assets/images/portfolio/galleries/2016-12-2016-12-sapient-nitro/screens/thumbnails/desktop/01-homepage.png",
+			"width": 960,
+			"label": "Homepage"
+		}]
+	}
+}

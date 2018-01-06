@@ -1,0 +1,68 @@
+{
+	"head": {
+		"title": "Portfolio (LBi)",
+		"stylesheets": [{			
+			"path": "site.min.css",
+			"media": "all"
+		},{			
+			"path": "portfolio.min.css",
+			"media": "all"
+		},{			
+			"path": "gallery.min.css",
+			"media": "all"
+		}]
+	},
+	"client": "LBi",
+	"project": "GP2",
+	"dates": "Dec 2011 - Mar 2012",
+	"otherProjects": [{
+		"isActive": true,
+		"thumbnail": "/assets/images/portfolio/galleries/2011-12-2012-03-lbi/gp2.png",
+		"url": "/portfolio/gallery/2011-12-2012-03-lbi/gp2",
+		"label": "GP2"
+	},{
+		"isActive": false,
+		"thumbnail": "/assets/images/portfolio/galleries/2011-12-2012-03-lbi/gp3.png",
+		"url": "/portfolio/gallery/2011-12-2012-03-lbi/gp3",
+		"label": "GP3"
+	}],
+	"summary": "I was hired by LBi to work on quite a few different projects. This included building a number of interactive, <em>webservice driven</em> image galleries, with both left-to-right and full <em>right-to-left support</em>. On another client, FOM, I was asked to build some of the more complex elements to the GP2 and GP3 motorsport series websites. This functionality involved intricate <em>countdown timers</em>, catering for all associated timezones, offsets, UTC vs GMT and so on. Finally, I built the entire front-end framework for a tablet-focused site for Barclays, which formed their main UK .co.uk website.",
+	"linkedInRecommendations": [{
+		"name": "Andres Gutierrez",
+		"jobTitle": "Project Manager",
+		"recommendation": "Martin was recommended by the technical lead on the project. At the time we were struggling for time and <em>when Martin came in he made an immediate impact to the project</em>. He worked on a JavaScript heavy component of the GP2 and GP3 sites; <em>he didn't struggle at all where previous developers did</em>. He showed superior knowledge of JavaScript and <em>tremendous work ethic in order to get the job done</em>. He was passionate for this project and he went that extra mile, which for a freelancer is rare. Without doubt I would recommend Martin as a solid senior front-end developer."
+	},{
+		"noAlias": true,
+		"name": "Kevin Mar Molinero",
+		"jobTitle": "Front-End Developer",
+		"recommendation": "<em>Diligent, creative and intelligent</em>. Martin's breadth of knowledge of both the industry and building blocks of his trade is second to none. A developer who viewed a project as a whole and followed his vision through with great passion. As a person a great teacher and a pleasure to work with, i'd recommend Martin to anyone who'd care to listen"
+	},{
+		"name": "Afua Apraku",
+		"jobTitle": "Test Consultant",
+		"recommendation": "Martin displays great expertise in his field. He takes pride in his work and strives to develop to the best of his ability. <em>His knowledge of interface development holds no bounds</em> and he is instrumental to the success of the projects he works on."
+	},{
+		"name": "Rory Oliver",
+		"jobTitle": "Product Owner",
+		"recommendation": "Martin and I worked together at LBi - the care, attention, diligence and professional level he brings to the projects he works on is obvious. <em>A class act and a pleasure to work with</em>."
+	}],
+	"media": {
+		"available": ["desktop"],
+		"desktop": [{
+			"image": "/assets/images/portfolio/galleries/2011-12-2012-03-lbi/gp2/screens/thumbnails/desktop/01-countdown-to-session.png",
+			"width": 480,
+			"label": "Countdown to session"
+		},{
+			"image": "/assets/images/portfolio/galleries/2011-12-2012-03-lbi/gp2/screens/thumbnails/desktop/02-live-session.png",
+			"width": 480,
+			"label": "Live session"
+		},{
+			"image": "/assets/images/portfolio/galleries/2011-12-2012-03-lbi/gp2/screens/thumbnails/desktop/03-out-of-season.png",
+			"width": 480,
+			"label": "Out of season"
+		},{
+			"image": "/assets/images/portfolio/galleries/2011-12-2012-03-lbi/gp2/screens/thumbnails/desktop/04-homepage.png",
+			"width": 960,
+			"label": "Homepage"
+		}]
+	}
+}

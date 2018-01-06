@@ -1,0 +1,39 @@
+{
+	"head": {
+		"title": "Portfolio (Clash Media)",
+		"stylesheets": [{			
+			"path": "site.min.css",
+			"media": "all"
+		},{			
+			"path": "portfolio.min.css",
+			"media": "all"
+		},{			
+			"path": "gallery.min.css",
+			"media": "all"
+		}]
+	},
+	"client": "Clash Media",
+	"project": "Clash Media",
+	"dates": "Apr 2009 - Jun 2009",
+	"summary": "Clash Media hired me to <em>re-build their global online presence</em>. This is currently an ongoing project and involves the building of a complete CMS along with all of the elements to build the front-end sites across 6 separate languages.",
+	"media": {
+		"available": ["desktop"],
+		"desktop": [{
+			"image": "/assets/images/portfolio/galleries/2009-04-2009-06-clash-media/screens/thumbnails/desktop/01-news.png",
+			"width": 964,
+			"label": "News"
+		},{
+			"image": "/assets/images/portfolio/galleries/2009-04-2009-06-clash-media/screens/thumbnails/desktop/02-publisher-solutions.png",
+			"width": 964,
+			"label": "Publisher solutions"
+		},{
+			"image": "/assets/images/portfolio/galleries/2009-04-2009-06-clash-media/screens/thumbnails/desktop/03-management-team.png",
+			"width": 964,
+			"label": "Management team"
+		},{
+			"image": "/assets/images/portfolio/galleries/2009-04-2009-06-clash-media/screens/thumbnails/desktop/04-contact-us.png",
+			"width": 964,
+			"label": "Contact us"
+		}]
+	}
+}

@@ -1,0 +1,113 @@
+// File: /assets/css/videos.scss
+// Author: Martin Burford (martin@martinburford.co.uk)
+
+// Import utility files
+
+@import "utilities/_mixins"; 
+@import "utilities/_variables";
+@import "utilities/_extends";
+
+// Videos specific
+
+.videos {
+	h4 {
+		color: $yellow;
+		font-family: 'expert-sans-light';
+		font-size: 1.3em;
+		text-align: center;
+
+		span {
+			color: inherit;
+		}
+	}
+
+	.summary {
+		margin-bottom: 10px;
+
+		p:nth-of-type(1) {
+			padding-bottom: 0;
+
+			&:after {
+				display: none;
+			}
+		}
+	}
+
+	.thumbnail-listing {
+		h3 {
+			background: none;
+			padding-top: 20px;
+			position: relative;
+
+			&:before {
+				@include left-to-right-gradient($listings-client-separator);				
+				content: '';
+				height: 1px;
+				left: 0;
+				position: absolute;
+				top: 0;
+				width: 100%;
+			}
+
+			&:hover {
+				background: none;
+			}
+
+			&:nth-of-type(1) {
+				padding-top: 0;
+
+				&:before {
+					display: none;
+				}
+			}
+		}
+
+		section:before {
+			display: none;
+		}
+
+		ol {
+			display: block;
+
+			ul li {
+				text-overflow: initial;
+				white-space: initial;
+
+				a {
+					@include icon-icomoon('launch-gallery', $link-color-light, 14, $position: 'after', $valignment: 'top', $spaceToContent: 5);
+					box-sizing: border-box;
+					display: inline-block;
+					margin-bottom: -5px;
+					overflow: hidden;
+					text-overflow: ellipsis;
+					white-space: nowrap;				
+					max-width: 100%;
+				}
+
+				strong {
+					display: none;
+					font-size: inherit;
+				}
+			}
+		}
+	}
+}
+
+// Breakpoints override global styles
+// 'mobile-large-upwards' || 'tablet-portrait-upwards' || 'tablet-landscape-upwards' || 'desktop-upwards'
+
+@include breakpoint-specific('tablet-portrait-upwards') {
+	.videos .thumbnail-listing ol ul li {
+		strong {
+			display: inline;
+		}
+	}
+}
+
+@include breakpoint-specific('tablet-landscape-upwards') {
+	
+}
+
+@include breakpoint-specific('desktop-upwards') {
+	
+}

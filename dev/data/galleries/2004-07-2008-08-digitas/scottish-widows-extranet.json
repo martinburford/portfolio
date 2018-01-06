@@ -1,0 +1,160 @@
+{
+	"head": {
+		"title": "Portfolio (Digitas)",
+		"stylesheets": [{			
+			"path": "site.min.css",
+			"media": "all"
+		},{			
+			"path": "portfolio.min.css",
+			"media": "all"
+		},{			
+			"path": "gallery.min.css",
+			"media": "all"
+		}]
+	},
+	"client": "Digitas",
+	"project": "Scottish Widows extranet",
+	"dates": "Jul 2004 - Aug 2008",
+	"otherProjects": [{
+		"isActive": false,
+		"thumbnail": "/assets/images/portfolio/galleries/2004-07-2008-08-digitas/nakheel-intranet.png",
+		"url": "/portfolio/gallery/2004-07-2008-08-digitas/nakheel-intranet",
+		"label": "Nakheel intranet"
+	},{
+		"isActive": false,
+		"thumbnail": "/assets/images/portfolio/galleries/2004-07-2008-08-digitas/persil-dirt-is-good.png",
+		"url": "/portfolio/gallery/2004-07-2008-08-digitas/persil-dirt-is-good",
+		"label": "Persil dirt is good"
+	},{
+		"isActive": false,
+		"thumbnail": "/assets/images/portfolio/galleries/2004-07-2008-08-digitas/persil-united-kingdom-of-dirt.png",
+		"url": "/portfolio/gallery/2004-07-2008-08-digitas/persil-united-kingdom-of-dirt",
+		"label": "Persil united kingdom of dirt"
+	},{
+		"isActive": false,
+		"thumbnail": "/assets/images/portfolio/galleries/2004-07-2008-08-digitas/samsung-b2b.png",
+		"url": "/portfolio/gallery/2004-07-2008-08-digitas/samsung-b2b",
+		"label": "Samsung B2B"
+	},{
+		"isActive": true,
+		"thumbnail": "/assets/images/portfolio/galleries/2004-07-2008-08-digitas/scottish-widows-extranet.png",
+		"url": "/portfolio/gallery/2004-07-2008-08-digitas/scottish-widows-extranet",
+		"label": "Scottish Widows extranet"
+	},{
+		"isActive": false,
+		"thumbnail": "/assets/images/portfolio/galleries/2004-07-2008-08-digitas/scottish-widows-internet.png",
+		"url": "/portfolio/gallery/2004-07-2008-08-digitas/scottish-widows-internet",
+		"label": "Scottish Widows internet"
+	},{
+		"isActive": false,
+		"thumbnail": "/assets/images/portfolio/galleries/2004-07-2008-08-digitas/scottish-widows-preparation-nation.png",
+		"url": "/portfolio/gallery/2004-07-2008-08-digitas/scottish-widows-preparation-nation",
+		"label": "Scottish Widows Preparation Nation"
+	},{
+		"isActive": false,
+		"thumbnail": "/assets/images/portfolio/galleries/2004-07-2008-08-digitas/sega-total-war.png",
+		"url": "/portfolio/gallery/2004-07-2008-08-digitas/sega-total-war",
+		"label": "Sega Total War"
+	},{
+		"isActive": false,
+		"thumbnail": "/assets/images/portfolio/galleries/2004-07-2008-08-digitas/shell.png",
+		"url": "/portfolio/gallery/2004-07-2008-08-digitas/shell",
+		"label": "Shell"
+	},{
+		"isActive": false,
+		"thumbnail": "/assets/images/portfolio/galleries/2004-07-2008-08-digitas/travelex.png",
+		"url": "/portfolio/gallery/2004-07-2008-08-digitas/travelex",
+		"label": "Travelex"
+	},{
+		"isActive": false,
+		"thumbnail": "/assets/images/portfolio/galleries/2004-07-2008-08-digitas/vauxhall-drivers-centre.png",
+		"url": "/portfolio/gallery/2004-07-2008-08-digitas/vauxhall-drivers-centre",
+		"label": "Vauxhall Drivers Centre"
+	}],
+	"summary": "At Digitas, my role varied greatly from day to day. With extensive front-end and back-end development experience along with <em>team management</em> skills, I was involved in the majority of technology-based client work that Digitas did. This typically ranged from general management of an entire project to full CMS builds to <em>multi-lingual xml</em>-based flash integrations. All work in this role (subject to client requirements) met \"AA\" <em>W3C WAI compliancy</em> regulations utilizing CSS2, and where applicable, CSS3. All layouts were 100% relative, were stringently built to be <em>fully cross-browser</em> between PC and Mac web browsers, and were always coded highly semantically. Towards the end of my contract, the role shifted somewhat to more of a <em>leadership</em> position with direct line management of a number of technical staff along with being the figurehead in the organization for ensuring consistently high quality code production via a number of means, one of which being regular code reviews.",
+	"linkedInRecommendations": [{
+		"name": "Ian Nutt",
+		"jobTitle": "Project Director",
+		"recommendation": "Martin writes <em>code that contains remarkably few bugs</em>, you watch and see."
+	},{
+		"noAlias": true,
+		"name": "Micha de Vries",
+		"jobTitle": "Head of QA",
+		"recommendation": "I have pleasantly worked together with Martin at Digitas. Martin impressed me because of his knowledge and drive to mature software engineering: <em>Martin always put coding standards and practices first</em> ensuring high quality source code that was easy to maintain, extend and reuse. He also developed tools that would make his source code easy to test both from a development but also from a QA perspective. In addition Martin always impressed me with his knowledge about modern web technologies, both front as well as back-end related. Martin is a pleasant colleague with a good sense of humor and a no nonsense approach when it comes down to his professionalism. I would recommend Martin to any company looking for a driving and innovative force in their media and web development department."
+	},{
+		"name": "Erika Saroli",
+		"jobTitle": "Search Engine Marketing Campaign Manager",
+		"recommendation": "I would truly recommend Martin as a colleague and employee for his <em>dedication, professionalism and in-depth knowledge</em> of web development / programming. Martin is very approachable and people never failed to find in him the technical solution they were looking for."
+	},{
+		"name": "Isabelle Lepoint",
+		"jobTitle": "Associate Project Manager",
+		"recommendation": "Martin stepped up to the plate when I spoke to him about numerous technical projects even though he was incredibly busy. He clarified the main requirements and outcomes for my team and played an expert role in numerous client conference calls. He's a real team player, talented and approachable and would be a great asset to any company."
+	},{
+		"noAlias": true,
+		"name": "Adam Grioli",
+		"jobTitle": "Technical Analyst",
+		"recommendation": "Being a colleague of Martins for 2 years at London Digitas. I am aware of Martins enthusiasm for the industry. He holds a vast resource of knowledge which is always useful to tap into and which he will enthusiastically share. He is a dependable team member who <em>isn't afraid of hard work</em> and new challenges. This enthusiasm also feeds into his personality which comes across well in client relationship"
+	},{
+		"name": "Neill Bruce",
+		"jobTitle": "Senior Copywriter",
+		"recommendation": "In the long hot summer of 2006, I was contracted by Digitas as editor and lead writer on a complete corporate rebuild of the Scottish Widows website, <em>Martins help, advice and technical guidance was invaluable</em>. His unruffled cheerfulness in the face of considerable time constraints got us through several challenging workstages. Upwards of 250 webpages got written, designed, coded and uploaded by the deadline."
+	},{
+		"name": "Craig Wills",
+		"jobTitle": "Account Director",
+		"recommendation": "Working with Martin was an absolute pleasure, he's extremely dedicated and hard working. Martin would <em>always find a solution, no matter how complex the problem</em>. With Martin, you could be confident that your project would be efficent, cost effective and a polished end result."
+	},{
+		"name": "Brian Boothe",
+		"jobTitle": "Associate Technical Director",
+		"recommendation": "I worked with Martin for around 3 years at Digitas. He was <em>seen across the company as the go to person for both front-end and back-end development work</em>. He worked on a range of projects ranging from small microsites all the way through to huge enterprise level solutions. His attention to detail is of an incredibly high standard, and he worked endlessly towards high accuracy in delivering work to clients of the very highest quality. He's a great team player, and <em>liked by colleagues and clients alike</em>. I'd highly recommend Martin for any technology focused company."
+	},{
+		"name": "Andrew Mason",
+		"jobTitle": "Senior Developer",
+		"recommendation": "<em>There are few techies I know of with the skills Martin has</em>. His depth of knowledge, attention to detail and passion for a standard based approach is exceptional. Martin has proven himself many times to be a dedicated developer and successful manager (and mentor) to those who reported to him."
+	},{
+		"name": "Rupert Breheny",
+		"jobTitle": "Lead Client-Side Developer",
+		"recommendation": "I have worked closely with Martin on two very high-profile deadline driven web redesign projects, and on both occasions it was a challenging and pleasurable assignment. Martin is driven by a sense of craftsmanship which manifest itself in <em>terrific attention to detail</em>, technical competence, and a focused work ethic. I wouldn't hesitate to recommend him professionally or personally to a potential employer or business partner."
+	},{
+		"noAlias": true,
+		"name": "Bernardo Carvalho Wertheim",
+		"jobTitle": "Project Co-ordinator",
+		"recommendation": "Whilst working with Martin at Digitas I was always impressed by his knowledge depth. There was never a moment where the guy didn't have an answer and when the job was tough there was <em>simply no one else I could trust</em>. Martin helped us launching the massive Shell.com website project, a £1.7M monster, CMS-driven, global solution that involved hundreds of stakeholders. Easy to manage and to be managed by, always a cool cat, Martin knows his stuff and would be a huge help to any digital team. Highly recommended."
+	},{
+		"noAlias": true,
+		"name": "Dave Curtis",
+		"jobTitle": "Associate Director",
+		"recommendation": "As Digitas' Tech Lead on the Shell account, I worked very closely with Martin on the Shell.com redesign. He was a pleasure to work with at every step of the development. <em>His knowledge of development is fantiastic</em>, always driving for the best possible solution, whilst working within the clients constraints and business requirements. He has a great knowledge of the Software Development Lifecycle, and ensures that his, and his teams, code is developed using best practices, including code structure, extensibility, reuse, and accessibility. To summarise, I can highly recommend working with Martin on any of your web projects."
+	},{
+		"name": "Daniel Goldsworthy",
+		"jobTitle": "Senior Flash Developer",
+		"recommendation": "Martin is the consummate professional. I worked with Martin at Digitas and it was </em>always great to have him involved in the projects I was working on</em>. He is very thorough and takes great pride in making sure his work is to a very high standard. Martins breadth of knowledge makes him a great asset and also <em>somebody I frequently 'go to' for development advice</em> and best practices."
+	},{
+		"name": "Albert Seleznyov",
+		"jobTitle": "Associate Creative Director",
+		"recommendation": "<em>I've been lucky to have worked with Martin</em> on several projects during my time at Digitas. Martins enthusiasm for delivering the best work has made the task of accumulating some outstanding results from a variety of clients so much more fun. In short, he is indispensable when it comes to pushing for best creative work!"
+	},{
+		"name": "Bharat Trivedi",
+		"jobTitle": "Associate Director",
+		"recommendation": "Martin was an outstanding senior software engineer with skills that spanned a variety of front and back-end technologies. I managed Martin at Modem Media / Digitas where he was lead developer on a variety of high profile projects for the likes of GSK, Samsung, Scottish Widows, Lloyds TSB and Unilever. Martin was <em>a real team player</em> and was comfortable taking ownership of tech projects from scoping right through to delivery. <em>The quality of Martins work was consistently high</em> and he was never afraid to embrace a new technology or process. He was a confident communicator and was ever dependable in client situations. Martins strong technical skills allied with professionalism made him <em>one of the real stars of the tech team</em> and it was a real pleasure to work with him. I wholeheartedly recommend Martin and believe he'd be an invaluable asset to any organisation."
+	}],
+	"media": {
+		"available": ["desktop"],
+		"desktop": [{
+			"image": "/assets/images/portfolio/galleries/2004-07-2008-08-digitas/scottish-widows-extranet/screens/thumbnails/desktop/01-homepage.png",
+			"width": 770,
+			"label": "Homepage"
+		},{
+			"image": "/assets/images/portfolio/galleries/2004-07-2008-08-digitas/scottish-widows-extranet/screens/thumbnails/desktop/02-section-landing.png",
+			"width": 770,
+			"label": "Section landing"
+		},{
+			"image": "/assets/images/portfolio/galleries/2004-07-2008-08-digitas/scottish-widows-extranet/screens/thumbnails/desktop/03-content-page.png",
+			"width": 770,
+			"label": "Content page"
+		},{
+			"image": "/assets/images/portfolio/galleries/2004-07-2008-08-digitas/scottish-widows-extranet/screens/thumbnails/desktop/04-quicklinks.png",
+			"width": 770,
+			"label": "Quicklinks"
+		}]
+	}
+}

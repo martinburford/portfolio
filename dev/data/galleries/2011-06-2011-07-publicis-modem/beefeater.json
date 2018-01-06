@@ -1,0 +1,43 @@
+{
+	"head": {
+		"title": "Portfolio (Publicis Modem)",
+		"stylesheets": [{			
+			"path": "site.min.css",
+			"media": "all"
+		},{			
+			"path": "portfolio.min.css",
+			"media": "all"
+		},{			
+			"path": "gallery.min.css",
+			"media": "all"
+		}]
+	},
+	"client": "Publicis Modem",
+	"project": "Beefeater",
+	"dates": "Jun 2011 - Jul 2011",
+	"summary": "I contracted back at Publicis, returning to work on the site I built for around 5 months in the early part of 2011. The work this time involved <em>adding localization to the site</em>. To start with, full support had to be added for Spanish and Russian languages.",
+	"media": {
+		"available": ["desktop"],
+		"desktop": [{
+			"image": "/assets/images/portfolio/galleries/2011-06-2011-07-publicis-modem/screens/thumbnails/desktop/01-homepage.png",
+			"width": 960,
+			"label": "Homepage"
+		},{
+			"image": "/assets/images/portfolio/galleries/2011-06-2011-07-publicis-modem/screens/thumbnails/desktop/02-cocktails-fiter-tab.png",
+			"width": 960,
+			"label": "Cocktails (filter tab)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2011-06-2011-07-publicis-modem/screens/thumbnails/desktop/03-cocktails-specialities-tab.png",
+			"width": 960,
+			"label": "Cocktails (specialities tab)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2011-06-2011-07-publicis-modem/screens/thumbnails/desktop/04-our-gins.png",
+			"width": 960,
+			"label": "Our gins"
+		},{
+			"image": "/assets/images/portfolio/galleries/2011-06-2011-07-publicis-modem/screens/thumbnails/desktop/05-search-results.png",
+			"width": 960,
+			"label": "Search results"
+		}]
+	}
+}

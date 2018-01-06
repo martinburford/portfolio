@@ -1,0 +1,78 @@
+{
+	"head": {
+		"title": "Portfolio (Fox Parrack Singapour)",
+		"stylesheets": [{			
+			"path": "site.min.css",
+			"media": "all"
+		},{			
+			"path": "portfolio.min.css",
+			"media": "all"
+		},{			
+			"path": "gallery.min.css",
+			"media": "all"
+		}]
+	},
+	"client": "Fox Parrack Singapour",
+	"project": "Cisco",
+	"dates": "Aug 2012 - Aug 2012",
+	"summary": "I was hired by Fox Parrack Singapour to convert a piece of print work produced for Cisco over to a website. The delivery of this was via a <em>single-page site</em>, but using the concept of slides, where many slides could belong to a single page. It worked a little like an interactive slideshow, with many clever jQuery animations built, to make it both look and function very smoothly. I built all CSS, HTML and JavaScript over the course of the 1 week long contract.",
+	"media": {
+		"available": ["video","desktop"],
+		"video": [{
+			"image": "/assets/images/portfolio/galleries/2012-08-2012-08-fox-parrack-singapour/screens/thumbnails/videos/01-full-walkthrough.png",
+			"height": 540,
+			"width": 960,
+			"label": "Full walkthrough",
+			"videoSrc": "//www.youtube.com/embed/w97Lmtuvuto/?vq=hd1080&autoplay=1&controls=1&showinfo=0&rel=0"
+		}],
+		"desktop": [{
+			"image": "/assets/images/portfolio/galleries/2012-08-2012-08-fox-parrack-singapour/screens/thumbnails/desktop/01-slide-01.png",
+			"width": 788,
+			"label": "Slide 01"
+		},{
+			"image": "/assets/images/portfolio/galleries/2012-08-2012-08-fox-parrack-singapour/screens/thumbnails/desktop/02-slide-02.png",
+			"width": 788,
+			"label": "Slide 02"
+		},{
+			"image": "/assets/images/portfolio/galleries/2012-08-2012-08-fox-parrack-singapour/screens/thumbnails/desktop/03-slide-03.png",
+			"width": 788,
+			"label": "Slide 03"
+		},{
+			"image": "/assets/images/portfolio/galleries/2012-08-2012-08-fox-parrack-singapour/screens/thumbnails/desktop/04-slide-04.png",
+			"width": 788,
+			"label": "Slide 04"
+		},{
+			"image": "/assets/images/portfolio/galleries/2012-08-2012-08-fox-parrack-singapour/screens/thumbnails/desktop/05-slide-05.png",
+			"width": 788,
+			"label": "Slide 05"
+		},{
+			"image": "/assets/images/portfolio/galleries/2012-08-2012-08-fox-parrack-singapour/screens/thumbnails/desktop/06-slide-06.png",
+			"width": 788,
+			"label": "Slide 06"
+		},{
+			"image": "/assets/images/portfolio/galleries/2012-08-2012-08-fox-parrack-singapour/screens/thumbnails/desktop/07-slide-07.png",
+			"width": 788,
+			"label": "Slide 07"
+		},{
+			"image": "/assets/images/portfolio/galleries/2012-08-2012-08-fox-parrack-singapour/screens/thumbnails/desktop/08-slide-08.png",
+			"width": 788,
+			"label": "Slide 08"
+		},{
+			"image": "/assets/images/portfolio/galleries/2012-08-2012-08-fox-parrack-singapour/screens/thumbnails/desktop/09-slide-09.png",
+			"width": 788,
+			"label": "Slide 09"
+		},{
+			"image": "/assets/images/portfolio/galleries/2012-08-2012-08-fox-parrack-singapour/screens/thumbnails/desktop/10-slide-10.png",
+			"width": 788,
+			"label": "Slide 10"
+		},{
+			"image": "/assets/images/portfolio/galleries/2012-08-2012-08-fox-parrack-singapour/screens/thumbnails/desktop/11-slide-11.png",
+			"width": 788,
+			"label": "Slide 11"
+		},{
+			"image": "/assets/images/portfolio/galleries/2012-08-2012-08-fox-parrack-singapour/screens/thumbnails/desktop/12-slide-12.png",
+			"width": 788,
+			"label": "Slide 12"
+		}]
+	}
+}

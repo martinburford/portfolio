@@ -1,0 +1,39 @@
+{
+	"head": {
+		"title": "Portfolio (LBi)",
+		"stylesheets": [{			
+			"path": "site.min.css",
+			"media": "all"
+		},{			
+			"path": "portfolio.min.css",
+			"media": "all"
+		},{			
+			"path": "gallery.min.css",
+			"media": "all"
+		}]
+	},
+	"client": "LBi",
+	"project": "Saudi Aramco",
+	"dates": "Jul 2010 - Aug 2010",
+	"summary": "Having built the entire front-end framework for LBis client, House of Parliament during a previous 6 month contract, I was asked to return for a shorter contract in order to build a <em>highly interactive jQuery-based slideshow</em>. This was coded as a standalone jQuery plugin, and contained high levels of animation, time sequencing, inline vs overlay functionality along with dynamic content population via <em>.net webservices</em> serving up JSON data objects.",
+	"media": {
+		"available": ["desktop"],
+		"desktop": [{
+			"image": "/assets/images/portfolio/galleries/2010-07-2010-08-lbi/screens/thumbnails/desktop/01-left-to-right-style-1.png",
+			"width": 660,
+			"label": "Left to right (style 1)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2010-07-2010-08-lbi/screens/thumbnails/desktop/02-right-to-left-style-1.png",
+			"width": 660,
+			"label": "Right to left (style 1)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2010-07-2010-08-lbi/screens/thumbnails/desktop/03-left-to-right-style-2.png",
+			"width": 660,
+			"label": "Left to right (style 2)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2010-07-2010-08-lbi/screens/thumbnails/desktop/04-right-to-left-style-2.png",
+			"width": 660,
+			"label": "Right to left (style 2)"
+		}]
+	}
+}

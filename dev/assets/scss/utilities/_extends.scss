@@ -1,0 +1,21 @@
+// File: /assets/css/utilities/_extends.scss
+// Author: Martin Burford (martin@martinburford.co.uk)
+
+%hamburger-bar {
+	@include border-radius(4px);
+	background: $white;
+	content: '';
+	display: block;
+	height: 4px;
+	left: 0;
+	position: absolute;
+	text-indent: -9999px;
+	width: 100%;
+	z-index: 2;
+}
+
+%nowrap-text {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}

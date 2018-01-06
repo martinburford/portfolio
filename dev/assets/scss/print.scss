@@ -1,0 +1,197 @@
+@import "utilities/_mixins"; 
+@import "utilities/_variables";
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+
+html, 
+body, 
+div, 
+span, 
+applet, 
+object, 
+iframe, 
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+p, 
+blockquote, 
+pre, 
+a, 
+abbr, 
+acronym, 
+address, 
+big, 
+cite, 
+code, 
+del, 
+dfn, 
+em, 
+font, 
+img, 
+ins, 
+kbd, 
+q, 
+s, 
+samp, 
+small, 
+strike, 
+strong, 
+sub, 
+sup, 
+tt, 
+var, 
+dl, 
+dt, 
+dd, 
+ol, 
+ul, 
+li, 
+fieldset, 
+form, 
+label, 
+legend, 
+table, 
+caption, 
+tbody, 
+tfoot, 
+thead, 
+tr, 
+th, 
+td,
+time {
+	color: $black;
+	font-size: 16px;	
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+h4 {
+	color: $red;
+	font-size: 1.4em;
+	margin-top: 10px;
+}
+
+h4 {
+	font-size: 1.4em;
+}
+
+h5 {
+	font-size: 1.4em;
+	margin-bottom: 0;
+}
+
+#wrapper {
+	border: 0;
+	box-shadow: none;
+}
+
+header {
+	background: none;
+	border-bottom: 0;
+	margin-bottom: 20px;
+	padding: 0;
+
+	> ul,
+	>img {
+		display: none;
+	}
+}
+
+main {
+	margin-top: 10px;
+	padding: 0;
+}
+
+aside {
+	position: relative;
+
+	> h3:first-of-type,
+	> blockquote {
+		display: none;
+	}
+
+	ul li {
+		font-size: .95em;
+		padding: 3px 5px;
+	}
+
+	ol li {
+		font-size: .95em;
+		padding-bottom: 3px;
+		padding-right: 110px;
+		padding-top: 3px;
+
+		em {
+			width: 100px;
+		}
+	}
+}
+
+section {
+	@include positions-tabular-layout;
+	border-top: 0;
+	margin-top: 0;
+
+	blockquote {
+		font-size: 1em;
+		padding: 0 5px;
+	}
+
+	.recommendations {
+		strong {
+			padding: 3px 5px;
+		}
+
+		span {
+			color: $body-font-color;
+			font-family: 'expert-sans-light';
+			font-size: .95em;
+			padding-bottom: 5px;
+		}
+	}
+
+	th,
+	td {
+		font-size: .95em;
+		padding-bottom: 2px;
+		padding-top: 2px;
+		vertical-align: middle;
+	}
+
+	td:nth-child(1) {
+		font-family: 'expert-sans-light';
+	}
+}
+
+.linkedin-recommendations {
+	box-shadow: none;
+	padding-left: 20px;
+	padding-right: 20px;
+
+	li {
+		box-shadow: none;
+
+		&:after {
+			color: $linkedin;
+		}		
+	}
+
+	blockquote {
+		color: inherit;
+	}
+}

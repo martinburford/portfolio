@@ -1,0 +1,40 @@
+//- FUNCTIONS
+//- ****
+
+-
+	function linkedInSuffixes(linkedInRecommendations){
+		return {
+			"count": linkedInRecommendations.length,
+			"itOrThem": linkedInRecommendations.length > 1 ? "them" : "it",
+			"recommendationSingularPlural": linkedInRecommendations.length > 1 ? 'recommendations' : 'recommendation'
+		}
+	}
+
+- 
+	function recommenationNameFormat(name){
+		return name.replace(' ', '-').toLowerCase();
+	}
+
+//- MIXINS
+//- ****
+
+mixin linkedinRecommendations(data)
+	ul
+		each recommendation, index in data
+			- 
+				var liType;
+
+				if(recommendation.hasOwnProperty("noAlias")){
+					liType = {
+						"class": "no-photo"
+					}
+				} else {
+					liType = {
+						"id": recommenationNameFormat(recommendation.name)
+					}
+				}
+
+			li&attributes(liType)
+				strong= recommendation.name
+				span= recommendation.jobTitle
+				blockquote!= recommendation.recommendation

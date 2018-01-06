@@ -1,0 +1,46 @@
+{
+	"head": {
+		"title": "Portfolio (New Brand Vision)",
+		"stylesheets": [{			
+			"path": "site.min.css",
+			"media": "all"
+		},{			
+			"path": "portfolio.min.css",
+			"media": "all"
+		},{			
+			"path": "gallery.min.css",
+			"media": "all"
+		}]
+	},
+	"client": "New Brand Vision",
+	"project": "Thames Water",
+	"dates": "Sep 2012 - Sep 2012",
+	"summary": "I was hired by New Brand Vision to bring to life a concept their internal team had come up with, whereby they wanted a <em>fullscreen horizontal scroller</em> to indicate different sections of a clients website, much like the new BBC site. I built this from scratch within 2-3 days, and was inclusive of full \"no JavaScript\" support, as well as <em>full multi-gesture support</em>, for the scrolling between different slides. In addition to this work, there were also a number of other templates which required building, for content population by the internal team after I finished.",
+	"media": {
+		"available": ["video","desktop"],
+		"video": [{
+			"image": "/assets/images/portfolio/galleries/2012-09-2012-09-new-brand-vision/screens/thumbnails/videos/01-slide-animation.png",
+			"height": 540,
+			"width": 960,
+			"label": "Slide animation",
+			"videoSrc": "//www.youtube.com/embed/6x1nYuXCvto/?vq=hd1080&autoplay=1&controls=1&showinfo=0&rel=0"
+		}],
+		"desktop": [{
+			"image": "/assets/images/portfolio/galleries/2012-09-2012-09-new-brand-vision/screens/thumbnails/desktop/01-homepage.png",
+			"width": 960,
+			"label": "Homepage"
+		},{
+			"image": "/assets/images/portfolio/galleries/2012-09-2012-09-new-brand-vision/screens/thumbnails/desktop/02-content-page.png",
+			"width": 960,
+			"label": "Content page"
+		},{
+			"image": "/assets/images/portfolio/galleries/2012-09-2012-09-new-brand-vision/screens/thumbnails/desktop/03-sitemap.png",
+			"width": 960,
+			"label": "Sitemap"
+		},{
+			"image": "/assets/images/portfolio/galleries/2012-09-2012-09-new-brand-vision/screens/thumbnails/desktop/04-navigation.png",
+			"width": 960,
+			"label": "Navigation"
+		}]
+	}
+}

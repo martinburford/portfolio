@@ -1,0 +1,615 @@
+// File: /assets/css/cv.scss
+// Author: Martin Burford (martin@martinburford.co.uk)
+
+// Import utility files
+
+@import "utilities/_mixins";  
+@import "utilities/_variables";
+@import "utilities/_extends";
+
+// Global CV styles
+
+body {
+	background: $mid-grey url(/assets/images/background-repeater.gif) repeat left top;
+}
+
+#wrapper {
+	@include shadowbox($glowColor: $dark-grey, $opacity: 1, $shadowSize: 1px);
+	background: $white;
+	box-sizing: border-box;
+	margin: 0 auto;
+	opacity: .95;
+	padding: 0;
+	position: relative;	
+}
+
+header {
+	background: $mid-grey;
+	border-bottom: 1px solid $dark-grey;
+	padding: 10px;
+	position: relative;
+	text-align: center;
+
+	h1,
+	h2 {
+		text-align: inherit;
+	}
+
+	strong {
+		background: rbga($red, 0.9);
+		color: $white;
+		display: block;
+		margin-top: 10px;
+		padding: 10px;
+
+		&.available {
+			background: rgba($available, 0.9); 
+		}
+
+		span {
+			color: $white;
+			font-size: .9em;
+		}
+	}
+
+	ul {
+		@include clearfix;
+		display: inline-block;
+		margin-top: 20px;
+		width: 100%;
+	}
+
+	li {
+	    box-sizing: border-box;
+	    float: left;
+	    width: 25%;
+
+		&:nth-child(1) a {
+			@include icon-icomoon('email', $link-color, 32, $spaceToContent: -32);
+
+			&:hover:before {
+				color: $icon-grey;
+			}
+		}
+
+		&:nth-child(2) a {
+			@include icon-icomoon('linkedin', $link-color, 32, $spaceToContent: -32);
+
+			&:before {
+				background: $white;
+			}
+
+			&:hover:before {
+				color: $icon-grey;
+			}
+		}
+
+		&:nth-child(3) a {
+			@include icon-icomoon('portfolio', $link-color, 32, $spaceToContent: -32);
+
+			&:hover:before {
+				color: $icon-grey;
+			}
+		}
+
+		&:nth-child(4) a {
+			@include icon-icomoon('github', $link-color, 32, $spaceToContent: -32);
+
+			&:hover:before {
+				color: $icon-grey;
+			}
+		}
+	}
+
+	a {
+		display: inline-block;
+		height: 32px;		
+		width: 32px;
+
+		&:before {
+			transition: color 250ms ease-in-out;
+		}
+
+		&:hover span {
+			text-decoration: underline;
+		}
+	}
+
+	span {
+		color: inherit;
+		display: block;
+		font-size: 0.95em;
+		left: calc(50% - 50px);
+		padding-top: 5px;
+		position: absolute;
+		top: 32px;
+		width: 100px;
+	}
+}
+
+#availability {	
+	box-sizing: border-box;
+	color: $white;
+	padding: 10px 20px;
+	text-align: center;
+
+	&.available {
+		background: rgba($available, 0.75);
+	}
+
+	&.unavailable {
+		background: rgba($red, 0.75);
+	}
+}
+
+main {
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#taking-time-out {
+	@include border-radius(5px);
+	@include icon-icomoon('information', $icon-grey, 32, $spaceToContent: 20);
+	@include shadowbox($glowColor: $dark-grey, $opacity: 1, $shadowSize: 1px);
+	background: $light-grey;
+	line-height: 1.4em;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+
+	&:before {
+		left: 10px;
+		top: 10px;
+	}
+}
+
+section {
+	@include clearfix;
+	border-top: 1px solid $light-grey;
+	margin-top: 20px;
+	padding-top: 15px;
+	position: relative;
+
+	&:nth-of-type(-n+2){
+		border-top: 0;
+		margin-top: 0;
+		padding-top: 0;
+	}
+
+	&:nth-of-type(1) {
+		margin-bottom: 20px;
+	}
+
+	> img {
+		display: none;
+	}
+
+	.summary {
+		time,
+		span {
+			box-sizing: border-box;
+			display: block;
+			margin-top: 2px;
+			min-height: 22px;
+			padding-top: 4px;
+		}
+
+		time {
+			@include icon-icomoon('calendar', $calendar, 20, $spaceToContent: 6);
+			margin-top: 15px;
+		}
+
+		span {
+			@include icon-icomoon('location', $location, 22, $spaceToContent: 3);
+			position: relative;
+
+			&:before {
+				left: -2px;
+				top: calc(50% - 10px);
+			}
+		}
+	}
+
+	> ul li {
+		list-style-type: disc;
+		margin-left: 16px;
+		margin-top: 2px;
+	}
+
+	ul {
+		margin-top: 15px;
+
+		li {
+			&:first-of-type {
+				margin-top: 0;
+			}
+
+			ul {
+				margin-left: 8px;
+				margin-top: 4px;
+
+				li {
+					list-style-type: circle;
+				}					
+			}
+		}
+	}
+
+	p {
+		margin-top: 15px;
+	}
+
+	blockquote {
+		margin-top: 5px;
+		padding: 5px 0;
+	}	
+
+	table {
+		border-collapse: collapse;
+		margin-top: 15px;
+		width: 100%;
+	}
+
+	th,
+	td {		
+		border-collapse: collapse;
+		box-sizing: border-box;
+	}
+
+	thead {
+		display: none;
+	}
+
+	td {
+		border: 0;
+		display: block;
+		padding: 0;
+
+		&:nth-child(1) {
+			border-top: 1px solid $mid-grey;
+			font-family: 'expert-sans-bold';
+			margin-top: 5px;
+			padding-top: 5px;		
+		}
+
+		&:nth-child(3),
+		&:nth-child(4) {
+			display: inline;
+		}
+
+		&:nth-child(3) {
+			&:after {
+				content: " to ";
+			}
+		}
+	}
+
+	thead {
+		display: none;
+	}
+}
+
+aside {
+	ul,
+	ol {
+		@include clearfix;
+	}
+
+	li {
+		float: left;
+	}
+
+	ul li {
+		@include border-radius(5px);
+		@include gradient-top-to-bottom-full($mid-grey,$white);
+		@include shadowbox($glowColor: $dark-grey, $opacity: 1, $shadowSize: 1px);
+		margin-bottom: 8px;
+		margin-right: 8px;
+		padding: 5px 8px;
+	}
+
+	ol {
+		margin-bottom: 15px;
+
+		li {
+			border-top: 1px solid $dark-grey;
+			box-sizing: border-box;
+			color: $black;
+			padding: 5px 70px 5px 0;
+			position: relative;
+			width: 100%;
+
+			&:first-of-type {
+				border-top: 0;
+				padding-top: 0;
+
+				em {
+					padding-top: 0;
+				}
+			}
+
+			em {
+				display: block;
+				padding-top: 5px;
+				position: absolute;
+				right: 0;
+				text-align: right;
+				top: 0;
+				width: 60px;
+			}
+		}
+	}
+
+	time {
+		display: block;
+	}
+
+	a {
+		color: $link-color;
+	}
+
+	blockquote {
+		font-size: 1.6em;
+	}
+
+	#university {
+		color: $black;
+		font-family: 'expert-sans-bold';
+		font-size: 1.1em;
+	}
+
+	#work-day > img {
+		display: block;
+		margin: 15px auto 0;
+		width: 100%;
+	}
+}
+
+// Breakpoints override CV styles
+// 'mobile-large-upwards' || 'tablet-portrait-upwards' || 'tablet-landscape-upwards' || 'desktop-upwards'
+
+@include breakpoint-specific('mobile-large-upwards') {
+	header {
+		> strong {
+			font-size: 1.2em;
+		}
+
+		li {
+		    &:nth-child(1) a {
+				@include icon-icomoon('email', $link-color, 48, $spaceToContent: -48);
+			}
+
+			&:nth-child(2) a {
+				@include icon-icomoon('linkedin', $link-color, 48, $spaceToContent: -48);
+			}
+
+			&:nth-child(3) a {
+				@include icon-icomoon('portfolio', $link-color, 48, $spaceToContent: -48);
+			}
+
+			&:nth-child(4) a {
+				@include icon-icomoon('github', $link-color, 48, $spaceToContent: -48);
+			}
+		}
+
+		a {
+			height: 48px;
+			width: 48px;
+		}
+
+		span {
+			top: 48px;
+		}
+	}
+
+	section {
+		.summary {
+			time,
+			span {
+				display: inline-block;
+				font-size: inherit;
+			}
+
+			span {
+				margin-left: 20px;
+
+				&:before {
+					left: 0;
+				}
+			}
+		}
+	}
+
+	aside #work-day img {
+		width: 50%;
+	}
+}
+
+@include breakpoint-specific('tablet-portrait-upwards') {
+	header {
+		overflow: hidden;
+		padding: 20px;
+
+		h1,
+		h2 {
+			text-align: left;
+		}
+
+		> strong {
+			font-size: 1.4em;
+		}
+
+		ul {
+			margin-top: 0;
+			position: absolute;
+			right: 0;
+			top: 32px;
+			width: 360px;
+		}
+
+		li {
+		    width: 90px;
+
+			&:nth-child(1) a {
+				@include icon-icomoon('email', $link-color, 32, $spaceToContent: -32);
+			}
+
+			&:nth-child(2) a {
+				@include icon-icomoon('linkedin', $link-color, 32, $spaceToContent: -32);
+			}
+
+			&:nth-child(3) a {
+				@include icon-icomoon('portfolio', $link-color, 32, $spaceToContent: -32);
+			}
+
+			&:nth-child(4) a {
+				@include icon-icomoon('github', $link-color, 32, $spaceToContent: -32);
+			}
+		}
+
+		a {
+			height: 32px;
+			width: 32px;
+		}
+
+		span {
+			top: 32px;
+		}
+	}
+
+	#availability {
+		text-align: left;
+	}
+
+	main {
+		padding-bottom: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	section {
+		&:nth-of-type(2) {
+			> img {
+				top: 5px;
+			}
+		}
+
+		> img {
+			display: block;
+			position: absolute;
+			right: 0;
+			top: 15px;
+			width: 200px;
+		}
+	}
+
+	aside {
+		#work-day {
+			@include clearfix;
+
+			p {
+				float: left;
+				width: calc(100% - 300px);
+			}
+			
+			img {
+				float: right;
+				margin-top: 0;
+				width: 250px;
+			}
+		}
+	}
+}
+
+@include breakpoint-specific('tablet-landscape-upwards') {
+	header {
+		ul {
+			right: 5px;
+			top: 24px;
+			width: 480px;
+		}
+
+		li {
+			width: 120px;
+
+			&:nth-child(1) a {
+				@include icon-icomoon('email', $link-color, 48, $spaceToContent: -48);
+			}
+
+			&:nth-child(2) a {
+				@include icon-icomoon('linkedin', $link-color, 48, $spaceToContent: -48);
+			}
+
+			&:nth-child(3) a {
+				@include icon-icomoon('portfolio', $link-color, 48, $spaceToContent: -48);
+			}
+
+			&:nth-child(4) a {
+				@include icon-icomoon('github', $link-color, 48, $spaceToContent: -48);
+			}
+		}
+
+		a {
+			height: 48px;
+			width: 48px;
+		}
+
+		span {
+			top: 48px;
+		}
+	}
+	
+	section {
+		@include positions-tabular-layout;
+	}
+}
+
+@include breakpoint-specific('desktop-upwards') {
+    #wrapper {
+    	width: 1000px;
+    }  
+
+    main {
+		display: block;
+		padding-top: 20px;
+    	padding-right: 310px;
+    	position: relative;
+
+    	&:before {
+    		background: $sidebar-background;
+    		border-left: 1px solid $mid-grey;
+    		content: '';
+    		height: 100%;
+    		left: calc(100% - 290px);
+    		position: absolute;
+    		top: 0;
+    		width: 289px;
+    	}
+
+    	> h3 {
+    		margin-top: 0;
+    	}
+    }
+
+    aside {
+    	box-sizing: border-box;
+		padding: 0 20px;
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 290px;
+
+		#work-day {
+			p {
+				float: none;
+				width: 100%;
+			}
+			
+			img {
+				float: none;
+				margin-top: 15px;
+			}
+		}		
+    }
+}

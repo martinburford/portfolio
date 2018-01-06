@@ -1,0 +1,76 @@
+{
+	"head": {
+		"title": "Portfolio (RGA)",
+		"stylesheets": [{			
+			"path": "site.min.css",
+			"media": "all"
+		},{			
+			"path": "portfolio.min.css",
+			"media": "all"
+		},{			
+			"path": "gallery.min.css",
+			"media": "all"
+		}]
+	},
+	"client": "RGA",
+	"project": "Nokia",
+	"dates": "Oct 2010 - Dec 2010",
+	"summary": "I worked at R/GA on a complex HTML and JavaScript (jQuery) build which is a functional set of administration screens to a nationwide touchscreen in-store system for Nokia. Architecture-wise, <em>.net 4 MVC</em> was used, and I was responsible for creating all of the front-end development, whilst working with the lead .net developer to ensure simple <em>front-end to back-end integration</em>. I wrote 6 bespoke jQuery plugins, enabling both optimal code and ease of extensibility in the future, combined with <em>progressive enhancement</em> and complete browser consistency.",
+	"linkedInRecommendations": [{
+		"name": "Pedro Alonso",
+		"jobTitle": "Lead Software Engineer",
+		"recommendation": "Martin is a very talented and challenge driven web developer. He has a really good understanding of how the web works, and that allows him to build complex platforms at the highest standards. It has been <em>very straightforward to integrate the front-end that he has been in charge of</em>, with the back end code of the application, his advice and documentation to make integration smoother have been great. I look forward to work with him again!"
+	},{
+		"name": "Lill Skjerdal",
+		"jobTitle": "Executive Producer",
+		"recommendation": "Martin has recently worked on a large Retail project at R/GA and has been in charge of all the front end (user interface) programming for a bespoke Admin Tool that's been created as part of the project. Due to very tight deadlines the project requires a great deal of autonomy and initiative from all team-members and Martin has been the ideal person to have on such a project. <em>He's super-good at what he does</em>, has a logical approach to his work that ensures that you get correct outcome even if you're not managing and reviewing his work on a frequent basis, which has been vital to our progress and success for us. Martin also finds great solutions, <em>understands the user-perspective really well and is a perfectionist<?em>, so what you get in the end will work, it will be intuitive and it will look nice too! I think I'll want Martin on all my projects of this type in the future!"
+	}],
+	"media": {
+		"available": ["desktop"],
+		"desktop": [{
+			"image": "/assets/images/portfolio/galleries/2010-10-2010-12-rga/screens/thumbnails/desktop/01-login-with-errors.png",
+			"width": 960,
+			"label": "Login (with errors)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2010-10-2010-12-rga/screens/thumbnails/desktop/02-devices-dashboard.png",
+			"width": 960,
+			"label": "Devices dashboard"
+		},{
+			"image": "/assets/images/portfolio/galleries/2010-10-2010-12-rga/screens/thumbnails/desktop/03-add-summary-and-key-features.png",
+			"width": 960,
+			"label": "Add key summary and key features"
+		},{
+			"image": "/assets/images/portfolio/galleries/2010-10-2010-12-rga/screens/thumbnails/desktop/04-add-secondary-features.png",
+			"width": 960,
+			"label": "Add secondary features"
+		},{
+			"image": "/assets/images/portfolio/galleries/2010-10-2010-12-rga/screens/thumbnails/desktop/05-add-tech-specs.png",
+			"width": 960,
+			"label": "Add tech specs"
+		},{
+			"image": "/assets/images/portfolio/galleries/2010-10-2010-12-rga/screens/thumbnails/desktop/06-summary-and-key-features-with-errors.png",
+			"width": 960,
+			"label": "Summary and key features (with errors)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2010-10-2010-12-rga/screens/thumbnails/desktop/07-secondary-features-with-errors.png",
+			"width": 960,
+			"label": "Secondary features (with errors)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2010-10-2010-12-rga/screens/thumbnails/desktop/08-tech-specs-with-errors.png",
+			"width": 960,
+			"label": "Tech specs (with errors)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2010-10-2010-12-rga/screens/thumbnails/desktop/09-summary-and-key-features-preview.png",
+			"width": 960,
+			"label": "Summary and key features (preview)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2010-10-2010-12-rga/screens/thumbnails/desktop/10-secondary-features-preview.png",
+			"width": 960,
+			"label": "Secondary features (preview)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2010-10-2010-12-rga/screens/thumbnails/desktop/11-tech-specs-preview.png",
+			"width": 960,
+			"label": "Tech specs (preview)"
+		}]
+	}
+}

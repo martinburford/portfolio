@@ -1,0 +1,67 @@
+{
+	"head": {
+		"title": "Portfolio (Ogilvy)",
+		"stylesheets": [{			
+			"path": "site.min.css",
+			"media": "all"
+		},{			
+			"path": "portfolio.min.css",
+			"media": "all"
+		},{			
+			"path": "gallery.min.css",
+			"media": "all"
+		}]
+	},
+	"client": "Ogilvy",
+	"project": "Astellas eDetail",
+	"dates": "Sep 2012 - Oct 2012",
+	"otherProjects": [{
+		"isActive": true,
+		"thumbnail": "/assets/images/portfolio/galleries/2012-09-2012-10-ogilvy/astellas-edetail.png",
+		"url": "/portfolio/gallery/2012-09-2012-10-ogilvy/astellas-edetail",
+		"label": "Astellas eDetail"
+	},{
+		"isActive": false,
+		"thumbnail": "/assets/images/portfolio/galleries/2012-09-2012-10-ogilvy/astra-zeneca.png",
+		"url": "/portfolio/gallery/2012-09-2012-10-ogilvy/astra-zeneca",
+		"label": "Astra Zeneca"
+	}],
+	"summary": "I was hired by Ogilvy Action originally to build a highly interactive JavaScript website from scratch. That was cancelled on my first morning, so I ended up working on lots of bits and pieces for around 2 months. This included a <em>HTML5 LocalStorage reporting framework</em>, a bespoke PhoneGap iPad app from the ground up as well as creating a new eDetail iPad platform, with some fairly significant <em>CSS3 flip effect</em> functionality.",
+	"linkedInRecommendations": [{
+		"noAlias": true,
+		"name": "Aladin Scott",
+		"jobTitle": "Flash Developer",
+		"recommendation": "Martin is a top-notch front end developer and object oriented coder who was <em>clearly born to engineer</em>. He is highly disciplined and approaches his subject with skill, organisation and extremely creative problem solving abilities. These undeniable attributes have clearly been honed through many years of hard earned experience and it really shows in his professionalism and attitude. He has a vast breadth of knowledge of all things software and web, and is undoubtedly at the forefront of where the web platform in particular is heading. In addition to being <em>a code samurai he is inspirational to be around and highly personable company</em>. Hire him before someone else does!"
+	}],
+	"media": {
+		"available": ["video","desktop"],
+		"video": [{
+			"image": "/assets/images/portfolio/galleries/2012-09-2012-10-ogilvy/astellas-edetail/screens/thumbnails/videos/01-flip-animation.png",
+			"height": 540,
+			"width": 960,
+			"label": "Flip animation",
+			"videoSrc": "//www.youtube.com/embed/ZOYw7F60hfE/?vq=hd1080&autoplay=1&controls=1&showinfo=0&rel=0"
+		}],
+		"desktop": [{
+			"image": "/assets/images/portfolio/galleries/2012-09-2012-10-ogilvy/astellas-edetail/screens/thumbnails/desktop/01-homepage.png",
+			"width": 768,
+			"label": "Homepage"
+		},{
+			"image": "/assets/images/portfolio/galleries/2012-09-2012-10-ogilvy/astellas-edetail/screens/thumbnails/desktop/02-the-need-to-modify.png",
+			"width": 768,
+			"label": "The need to modify"
+		},{
+			"image": "/assets/images/portfolio/galleries/2012-09-2012-10-ogilvy/astellas-edetail/screens/thumbnails/desktop/03-in-vulnerable.png",
+			"width": 768,
+			"label": "In vulnerable"
+		},{
+			"image": "/assets/images/portfolio/galleries/2012-09-2012-10-ogilvy/astellas-edetail/screens/thumbnails/desktop/04-zinforo-provides-coverage.png",
+			"width": 768,
+			"label": "Zinforo provides coverage"
+		},{
+			"image": "/assets/images/portfolio/galleries/2012-09-2012-10-ogilvy/astellas-edetail/screens/thumbnails/desktop/05-zinforo-acquisition.png",
+			"width": 768,
+			"label": "Zinforo acquisition"
+		}]
+	}
+}

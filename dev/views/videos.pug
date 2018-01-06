@@ -1,0 +1,37 @@
+include ./../../dev/src/components/head/pug/head.pug
+
+doctype html
+html(prefix="og: http://ogp.me/ns#")
+
+	+head(videos.head, versionSuffix, false)
+
+	body(id="portfolio", class="gallery videos")
+		div#wrapper
+			header.disabled
+				div.inner.box
+					h1
+						span= global.name + ": "
+						= global.strings.portfolio
+					h2= global.strings.videosOfMyWork
+			a#home(href="/")= global.strings.backToHomepage
+			main.thumbnail-listing
+				div#outer
+					each contract, index in videos.body.contracts
+						h3= contract.client
+						h4= contract.dates
+						div.summary
+							p!= contract.summary
+						section(data-type="video-screenshots")
+							ol.videos
+								each video in contract.videos
+									li
+										div.inner
+											picture
+												img(src=global.galleryPlaceholderPath, data-src=video.image, data-video-src=video.videoSrc, data-height=video.height, data-width=video.width, data-lazyload-module="mod-image", data-inview="true")
+										ul
+											li
+												a(href=video.galleryUrl)= global.strings.view + " "
+													strong= video.project
+													= " " + global.strings.gallery
+
+		script(src="/assets/scripts/app.min.js" + versionSuffix)

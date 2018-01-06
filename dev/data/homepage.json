@@ -1,0 +1,55 @@
+{
+	"homepage": {
+		"head": {
+			"title": "Homepage",
+			"stylesheets": [{			
+				"path": "site.min.css",
+				"media": "all"
+			},{			
+				"path": "home.min.css",
+				"media": "all"
+			}],
+			"openGraph": {
+				"title": "Martin Burford - Freelance Front-End Developer",
+				"description": "Welcome to the portfolio of Martin Burford, a freelance Front-End Developer based in London, UK, with close to 20 years commercial experience in building complex web-based user interfaces.",
+				"imagePath": "http://www.martinburford.co.uk/assets/images/open-graph.png",
+				"url": "http://www.martinburford.co.uk"
+			}
+		},
+		"body": {
+			"availability": {
+				"available": true,
+				"availableStatus": {
+					"leadInText": "Currently available for work",
+					"linkText": "Please get in touch",
+					"subText": " if you have any work requirements which you think I may be able to help out with"
+				},
+				"unavailableStatus": {
+					"leadInText": "Currently in a contract",
+					"subText": "Next availability: DD Month YYYY"
+				}
+			},
+			"sectionLinks": [{
+				"identifier": "cv",
+				"linkType": "View",
+				"label": " my latest CV"
+			},{
+				"identifier": "cvWordDocument",
+				"linkType": "Download",
+				"label": " my latest CV"
+			},{
+				"identifier": "portfolio",
+				"linkType": "View",
+				"label": " my portfolio"
+			},{
+				"identifier": "portfolioVideos",
+				"linkType": "View",
+				"label": " videos of my work"
+			}],
+			"footerLinks": {
+				"linkedInLabel": "View my LinkedIn profile",
+				"githubLabel": "View my GitHub profile"
+			}
+		}
+	}
+}

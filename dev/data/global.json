@@ -1,0 +1,53 @@
+{
+	"global": {
+		"name": "Martin Burford",
+		"jobTitle": "Freelance Front-End Developer",
+		"emailAddress": "martin@martinburford.co.uk",
+		"siteUrl": "http://www.martinburford.co.uk/",
+		"galleryPlaceholderPath": "/assets/images/portfolio/aspect-ratio-placeholder.gif",
+		"links": {
+			"cv": "/cv",
+			"cvWordDocument": "/cv/martin-burford-cv.docx",
+			"github": "https://github.com/martinburford",
+			"linkedInProfilePage": "https://www.linkedin.com/in/martinburford",
+			"portfolio": "/portfolio",
+			"portfolioVideos": "/portfolio/videos"
+		},
+		"strings": {
+			"anErrorHasOccured": "An error has occured",
+			"backToHomepage": "Back to homepage",
+			"client": "Client",
+			"company": "Company",
+			"dates": "Dates",
+			"duration": "Duration",
+			"from": "From",			
+			"gallery": "gallery",
+			"galleryNDARestrictions": "Unfortunately, contractual NDAs restrict content regarding this project to be published.",
+			"gitHub": {
+				"viewCodeSamples": "View project code samples on GitHub"
+			},
+			"launchGallery": "Launch gallery",
+			"linkedIn": {
+				"recommendationsRead": "Click here to read {it-them}",
+				"recommendationsReceived": "In this role, I received {count} LinkedIn {recommendation/s} from colleagues.",
+				"recommendationsReceived2": "View the {count} {recommendation/s} I received in this role"
+			},
+			"linkedInRecommenations": "LinkedIn recommendations",
+			"location": "Location",
+			"portfolio": "Portfolio",
+			"project": "Project",
+			"projectsSidebarIntroduction": "I worked on multiple different projects whilst in this contract. Please select a project from the list below to see screenshots for that work:",
+			"recommendations": "Recommendations",
+			"role": "Role",
+			"technologiesUsed": "Technologies used",
+			"to": "To",
+			"toggleSidebar": "Toggle sidebar",
+			"video": "Videos",
+			"videosOfMyWork": "Videos of my work",
+			"view": "View",
+			"mobileBreakpoint": "Mobile breakpoint",
+			"tabletBreakpoint": "Tablet breakpoint",
+			"desktopBreakpoint": "Desktop breakpoint"
+		}
+	}
+}

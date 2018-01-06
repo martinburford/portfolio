@@ -1,0 +1,25 @@
+{
+	"error": {
+		"head": {
+			"title": "Error",
+			"stylesheets": [{
+				"path": "site.min.css",
+				"media": "all"
+			},{
+				"path": "error.min.css",
+				"media": "all"
+			}],
+			"openGraph": {
+				"title": "Martin Burford - Error",
+				"description": "http://www.martinburford.co.uk - Error",
+				"imagePath": "http://www.martinburford.co.uk/assets/images/error/open-graph.png",
+				"url": "http://www.martinburford.co.uk"
+			}
+		}
+	},
+	"errorData": {
+		"message": "Message",
+		"status": "Status",
+		"stack": "Stack"
+	}
+}

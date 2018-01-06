@@ -1,0 +1,99 @@
+{
+	"head": {
+		"title": "Portfolio (VML)",
+		"stylesheets": [{			
+			"path": "site.min.css",
+			"media": "all"
+		},{			
+			"path": "portfolio.min.css",
+			"media": "all"
+		},{			
+			"path": "gallery.min.css",
+			"media": "all"
+		}]
+	},
+	"client": "VML",
+	"project": "Whitbread",
+	"dates": "Mar 2013 - Jul 2013",
+	"summary": "I was hired by VML to lead the development of a <em>full responsive site build</em> for their client Whitbread. The site comprised of approximately <em>125 pages and approaching 100 unique components</em>. Due to the browser/device requirements, and a lack of browser support, I was unable to use CSS media queries. As a result, I opted to use the Adapt.js responsive framework. The website designs required both visual and functional differences between the different render modes (mobile and desktop), so I built an extensive framework to compliment Adapt, in order to activate and de-activate significant areas of site functionality when switching between device resolutions. This was coupled with <em>13 unique colour themes throughout the site</em>, a combination of website section themes and corporate brand colours. These themes were made possible via a comprehensive use of CSS specificity. All JavaScript was built into a number of namespaces, built to work alongside jQuery, with functionality such as carousels built via bespoke jQuery plugins in order to deliver against the exact project requirements. Also whilst at VML, I was asked to implement a solution for another client, Premier League, whereby <em>SVG graphing</em> tracked the progress of teams throughout the football season. This was something that had been a pending piece of work for around 18 months at the time, and was something I was able to complete in just a single day, delighting their client.",
+	"linkedInRecommendations": [{
+		"noAlias": true,
+		"name": "Richard Hackett",
+		"jobTitle": "Senior Producer",
+		"recommendation": "I've just finished working with Martin on a very challenging high profile FTSE 100 client project. <em>Martin was pivotal to the projects success</em> with his deep knowledge of responsive solutions and cross-platform technologies. He very confidently led the technical development from VML London, whilst also leading a remote development team in Russia, working across multiple integration environments and time zones. Immediately we formed a strong working relationship and I could sense <em>a level of confidence that we were going to achieve great things</em>. His dedication to the project and the project team was truly remarkable and <em>he was always willing to go above and beyond</em> to meet delivery targets, so much so that <em>we even delivered the project 2 weeks ahead of schedule</em>. Martin is one of the most talented, conscientious and committed programmers I have had the pleasure of working with. <em>His technical leadership was outstanding</em> throughout the entire project and speedy development, attention to detail and product quality was impeccable. He was always striving to drive the technical quality to the highest standards to create a superior end solution for the client. I can't recommend Martin highly enough and I look forward to working with him again in the future."
+	}],
+	"media": {
+		"available": ["video","mobile","desktop"],
+		"video": [{
+			"image": "/assets/images/portfolio/galleries/2013-03-2013-07-vml/screens/thumbnails/videos/01-mobile-navigation.png",
+			"height": 596,
+			"width": 334,
+			"label": "Mobile navigation",
+			"videoSrc": "//www.youtube.com/embed/gmWz57PBn9o/?vq=hd1080&autoplay=1&controls=1&showinfo=0&rel=0"
+		},{
+			"image": "/assets/images/portfolio/galleries/2013-03-2013-07-vml/screens/thumbnails/videos/02-carousel.png",
+			"height": 540,
+			"width": 960,
+			"label": "Carousel",
+			"videoSrc": "//www.youtube.com/embed/HC2H1KlzS8I/?vq=hd1080&autoplay=1&controls=1&showinfo=0&rel=0"
+		}],
+		"mobile": [{
+			"image": "/assets/images/portfolio/galleries/2013-03-2013-07-vml/screens/thumbnails/mobile/01-homepage.png",
+			"width": 311,
+			"label": "Homepage"
+		},{
+			"image": "/assets/images/portfolio/galleries/2013-03-2013-07-vml/screens/thumbnails/mobile/02-about-us.png",
+			"width": 311,
+			"label": "About us"
+		},{
+			"image": "/assets/images/portfolio/galleries/2013-03-2013-07-vml/screens/thumbnails/mobile/03-our-brands.png",
+			"width": 311,
+			"label": "Our Brands"
+		},{
+			"image": "/assets/images/portfolio/galleries/2013-03-2013-07-vml/screens/thumbnails/mobile/04-investors.png",
+			"width": 311,
+			"label": "Investors"
+		},{
+			"image": "/assets/images/portfolio/galleries/2013-03-2013-07-vml/screens/thumbnails/mobile/05-careers.png",
+			"width": 311,
+			"label": "Careers"
+		},{
+			"image": "/assets/images/portfolio/galleries/2013-03-2013-07-vml/screens/thumbnails/mobile/06-media.png",
+			"width": 311,
+			"label": "Media"
+		},{
+			"image": "/assets/images/portfolio/galleries/2013-03-2013-07-vml/screens/thumbnails/mobile/07-navigation.png",
+			"width": 311,
+			"label": "Navigation"
+		}],
+		"desktop": [{
+			"image": "/assets/images/portfolio/galleries/2013-03-2013-07-vml/screens/thumbnails/desktop/01-homepage.png",
+			"width": 960,
+			"label": "Homepage"
+		},{
+			"image": "/assets/images/portfolio/galleries/2013-03-2013-07-vml/screens/thumbnails/desktop/02-about-us.png",
+			"width": 960,
+			"label": "About us"
+		},{
+			"image": "/assets/images/portfolio/galleries/2013-03-2013-07-vml/screens/thumbnails/desktop/03-our-brands.png",
+			"width": 960,
+			"label": "Our Brands"
+		},{
+			"image": "/assets/images/portfolio/galleries/2013-03-2013-07-vml/screens/thumbnails/desktop/04-investors.png",
+			"width": 960,
+			"label": "Investors"
+		},{
+			"image": "/assets/images/portfolio/galleries/2013-03-2013-07-vml/screens/thumbnails/desktop/05-careers.png",
+			"width": 960,
+			"label": "Careers"
+		},{
+			"image": "/assets/images/portfolio/galleries/2013-03-2013-07-vml/screens/thumbnails/desktop/06-media.png",
+			"width": 960,
+			"label": "Media"
+		},{
+			"image": "/assets/images/portfolio/galleries/2013-03-2013-07-vml/screens/thumbnails/desktop/07-navigation.png",
+			"width": 960,
+			"label": "Navigation"
+		}]
+	}
+}

@@ -1,0 +1,48 @@
+include ./../../dev/src/components/head/pug/head.pug
+
+doctype html
+html(prefix="og: http://ogp.me/ns#")
+
+	+head(homepage.head, versionSuffix, false)
+
+	body(id="home")
+		
+		div#wrapper
+
+			h1= global.name
+			h2= global.jobTitle
+
+			//- What availability ... available or unavailable?
+			- 
+				var available = homepage.body.availability.available;
+				var availableData = homepage.body.availability.availableStatus;
+				var unavailableData = homepage.body.availability.unavailableStatus;
+				var leadInText = available ? availableData.leadInText : unavailableData.leadInText;
+
+			div.availability(id= available ? "available" : "unavailable")
+				div.inner
+					strong= leadInText
+				span
+					if available
+						a(href="mailto:" + global.emailAddress)= availableData.linkText
+						= availableData.subText
+					else
+						= unavailableData.subText
+
+			//- Loop through the 4x main section links and render them on the page
+			ul
+				each data, index in homepage.body.sectionLinks
+					li(class=data.identifier)
+						a(href= global.links[data.identifier])
+							strong= data.linkType
+							= data.label
+
+			//- Linkedin and GitHub footer element
+			footer
+				ul
+					li
+						a#linkedin(href=global.links.linkedInProfilePage)
+							span= homepage.body.footerLinks.linkedInLabel
+					li
+						a#github(href=global.links.github)
+							span= homepage.body.footerLinks.githubLabel

@@ -1,0 +1,106 @@
+//- FUNCTIONS
+//- ****
+-
+	/**
+	 * Construct the full URL, for social platform sharing
+	 * @function fullGalleryURL
+	 * @param {string} contractDates - eg: Aug 2012 - Sep 2013
+	 * @param {string} client - The client name eg: Sapient Nitro
+	 * @param {string} project - The project name eg: Good News Feed
+	 * @returns {string} The gallery name eg: http://www.martinburford.co.uk/portfolio/gallery/2012-08-2013-09-sapient-nitro/good-news-feed/
+	 */
+	function fullGalleryURL(contractDates, client, project){
+		var galleryName = fullGalleryName(contractDates, client, project);
+		var projectName = formatGallerySegment(project);
+
+		return galleryName + projectName + '/';
+	}
+
+	function fullGalleryName(contractDates, client, project){
+		var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+		var monthsArr = contractDates.split(' ');
+		var clientName = formatGallerySegment(client);	
+
+		return monthsArr[1] + '-' + twoDigits((months.indexOf(monthsArr[0])+1),2) + '-' + monthsArr[4] + '-' + twoDigits((months.indexOf(monthsArr[3])+1),2) + '-' + clientName + '/';
+	}
+
+	/**
+	 * Ensure that month numbers which are single digit are constructed with a leading zero
+	 * @function twoDigits
+	 * @param {number} number - The number to return as a double digit
+	 * @param {number} size - The number of digits the provided number should be returned as
+	 * @returns {string} - A double digit number eg: 2 would be returned as 02, 11 would be returned as 11
+	 */
+	function twoDigits(number, size){
+		var numberAsString = number + '';
+		while (numberAsString.length < size){
+			numberAsString = '0' + numberAsString;
+			return numberAsString;
+		}
+
+		return numberAsString;
+	}
+
+	/**
+	 * Format a folder name as lowercase and dash-separated
+	 * @function formatGallerySegment
+	 * @param {string} segment - The foldername to reformat
+	 * @returns {string} - The formatted folder name (eg: Match Centre returns match-centre)
+	 */
+	function formatGallerySegment(segment){
+		return segment.split(' ').join('-').toLowerCase();
+	}
+
+//- MIXINS
+//- ****
+
+mixin head(data, versionSuffix, isShareableGallery)
+	head
+		meta(http-equiv="Content-Type", content="text/html; charset=utf-8")
+		meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no")
+		
+		-
+			var title;
+			var description;
+			var url;
+			var imagePath;
+
+		//- Attach Open Graph tags if the page is shareable via social platforms (for now, this only applies to galleries)			
+		if isShareableGallery
+
+			- 
+				var isChildGallery = otherProjects !== undefined;
+
+				title = project;
+				description = summary.replace(/<\/?[^>]+(>|$)/g, "");				
+				url = global.siteUrl + 'portfolio/gallery/' + fullGalleryURL(dates, client, project);
+				imagePath = global.siteUrl + 'assets/images/portfolio/galleries/' + fullGalleryName(dates, client, project);
+
+				if(isChildGallery){
+					imagePath += formatGallerySegment(project) + '/';
+				}				
+
+				imagePath += 'open-graph.png';
+
+		else
+
+			-
+				title = data.openGraph.title;
+				description = data.openGraph.description;
+				url = data.openGraph.url;
+				imagePath = data.openGraph.imagePath;
+
+			meta(property="og:title" content=title)
+			meta(property="og:description" content=description)
+			meta(property="og:url" content=url)
+			meta(property="og:image" content=imagePath + versionSuffix)
+			meta(property="og:image:width" content="1200")
+			meta(property="og:image:height" content="630")
+
+		title= global.name + ' - ' + data.title
+
+		each stylesheet, index in data.stylesheets
+			link(rel="stylesheet", href='/assets/css/' + stylesheet.path + versionSuffix + '' media= stylesheet.media)
+
+		link(rel="shortcut icon", href="/favicon.ico")
+		link(rel="apple-touch-icon-precomposed", href="favicon.png")

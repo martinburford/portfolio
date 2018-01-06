@@ -1,0 +1,319 @@
+{
+	"videos": {
+		"head": {
+			"title": "Portfolio",
+			"stylesheets": [{			
+				"path": "site.min.css",
+				"media": "all"
+			},{			
+				"path": "portfolio.min.css",
+				"media": "all"
+			},{			
+				"path": "gallery.min.css",
+				"media": "all"
+			},{			
+				"path": "videos.min.css",
+				"media": "all"
+			}],
+			"openGraph": {
+				"title": "Martin Burford - Portfolio (videos)",
+				"description": "Welcome to the online portfolio of Martin Burford, a freelance Front-End Developer based in London, UK, with close to 20 years commercial experience in building complex web-based user interfaces.",
+				"imagePath": "http://www.martinburford.co.uk/assets/images/portfolio/videos/open-graph.png",
+				"url": "http://www.martinburford.co.uk/portfolio/videos/"
+			}			
+		},
+		"body": {
+			"contracts": [{
+				"client": "Martin Burford",
+				"dates": "May 2017 - Jun 2017",
+				"summary": "As a developer, I've always found that I'm far too busy to put together a website for myself, including my CV, online portfolio, screenshots, videos, LinkedIn recommendations, GitHub code samples etc, which I feel truly represents the work that I do. In mid-2017, I decided to take some time off from work to put it all together. I also took the opportunity to ensure that my social channels were fully synchronized, in terms of the information the new website contained.",
+				"videos": [{
+					"project": "Personal portfolio",
+					"galleryUrl": "/portfolio/gallery/2017-05-2017-06-martin-burford/personal-portfolio",
+					"image": "/assets/images/portfolio/galleries/2017-05-2017-06-martin-burford/screens/thumbnails/videos/01-mobile-sidebar.png",
+					"height": 720,
+					"width": 310,
+					"label": "Mobile sidebar",
+					"videoSrc": "//www.youtube.com/embed/PNym1nQqtYo/?vq=hd1080&autoplay=1&controls=1&showinfo=0&rel=0"
+				},{
+					"project": "Personal portfolio",
+					"galleryUrl": "/portfolio/gallery/2017-05-2017-06-martin-burford/personal-portfolio",
+					"image": "/assets/images/portfolio/galleries/2017-05-2017-06-martin-burford/screens/thumbnails/videos/02-desktop-sidebar.png",
+					"height": 540,
+					"width": 960,
+					"label": "Desktop sidebar",
+					"videoSrc": "//www.youtube.com/embed/aqHlYtl9NM0/?vq=hd1080&autoplay=1&controls=1&showinfo=0&rel=0"
+				},{
+					"project": "Personal portfolio",
+					"galleryUrl": "/portfolio/gallery/2017-05-2017-06-martin-burford/personal-portfolio",
+					"image": "/assets/images/portfolio/galleries/2017-05-2017-06-martin-burford/screens/thumbnails/videos/03-linkedin-recommendations.png",
+					"height": 540,
+					"width": 960,
+					"label": "Linkedin recommendations",
+					"videoSrc": "//www.youtube.com/embed/NJhbS80Qgo4/?vq=hd1080&autoplay=1&controls=1&showinfo=0&rel=0"
+				},{
+					"project": "Personal portfolio",
+					"galleryUrl": "/portfolio/gallery/2017-05-2017-06-martin-burford/personal-portfolio",
+					"image": "/assets/images/portfolio/galleries/2017-05-2017-06-martin-burford/screens/thumbnails/videos/04-fullsize-screenshot.png",
+					"height": 540,
+					"width": 960,
+					"label": "Fullsize screenshot",
+					"videoSrc": "//www.youtube.com/embed/lXkPGUW-8aM/?vq=hd1080&autoplay=1&controls=1&showinfo=0&rel=0"
+				}]
+			},{
+				"client": "Sapient Nitro",			
+				"dates": "Dec 2016 - Dec 2016",
+				"summary": "I was hired by Sapient to work on the front-end element of an internal Christmas project. The timeframes were extremely tight, and the hours were long. In working alongside a couple of very talented developers, and a supporting team of designers and UX staff, we managed to deliver something pretty amazing, taking into account the time we had available. The concept was to allow a user to submit URLs, which proved that 2016 wasn't all bad news, and that some of the things that happened over the course of the year were incredible and heart-warming. URLs provided were then scraped, tidied up a bit, and adapted into a more digestible format for the site we were building. The rendered output was <em>a very rich interface</em>, <em>fully responsive</em>, with animations primarily becoming active as elements of the page came into view. I built features such as <em>advanced lazyloading</em>, all <em>custom animations</em>, <em>infinite page scrolling</em>/loading, URL submission, <em>Captcha validation</em>, along with many more.",
+				"videos": [{
+					"project": "Good News Feed",
+					"galleryUrl": "/portfolio/gallery/2016-12-2016-12-sapient-nitro/good-news-feed",
+					"image": "/assets/images/portfolio/galleries/2016-12-2016-12-sapient-nitro/screens/thumbnails/videos/01-homepage-mobile.png",
+					"height": 551,
+					"width": 310,
+					"label": "Full Journey flow (mobile)",
+					"videoSrc": "//www.youtube.com/embed/VFzfbq4lhFQ/?vq=hd1080&autoplay=1&controls=1&showinfo=0&rel=0"
+				},{
+					"project": "Good News Feed",
+					"galleryUrl": "/portfolio/gallery/2016-12-2016-12-sapient-nitro/good-news-feed",
+					"image": "/assets/images/portfolio/galleries/2016-12-2016-12-sapient-nitro/screens/thumbnails/videos/02-homepage-desktop.png",
+					"height": 540,
+					"width": 960,
+					"label": "Full Journey flow (desktop)",
+					"videoSrc": "//www.youtube.com/embed/TDd8ytq1jbk/?vq=hd1080&autoplay=1&controls=1&showinfo=0&rel=0"
+				}]
+			},{
+				"client": "Trinity Mirror",			
+				"dates": "Aug 2015 - Nov 2016",
+				"summary": "I returned to Trinity Mirror to work on <em>a huge greenfield project (circa 60+ sites)</em>, helping with the overall architecture and development of the new digital platform for a company with <em>monthly traffic levels in the tens of millions</em>. The development teams technical stack comprised of full <em>native JavaScript using Express on Node</em>, alongside the templating language of <em>Jade</em>, which was used to translate the back-end data layer into both front-end components and pages. In addition, some of the other technologies used were Grunt, Karma, Mocha, Jade, Browserify, SASS. The list goes on. The project was spread across 10 teams of 10 individuals each, where 2 week sprints, inclusive of 2 releases per week were <em>implemented in an Agile way</em>.",
+				"videos": [{
+					"project": "Chameleon",
+					"galleryUrl": "/portfolio/gallery/2015-08-2016-11-trinity-mirror/chameleon",					
+					"image": "/assets/images/portfolio/galleries/2015-08-2016-11-trinity-mirror/screens/thumbnails/videos/01-mobile-navigation.png",
+					"height": 596,
+					"width": 333,
+					"label": "Mobile navigation",
+					"videoSrc": "//www.youtube.com/embed/sS6_4PAeq7s/?vq=hd1080&autoplay=1&controls=1&showinfo=0&rel=0"
+				}]
+			},{
+				"client": "Trinity Mirror",			
+				"dates": "July 2013 - Aug 2014",
+				"summary": "I was originally hired by Trinity Mirror to <em>bring to life several complex prototypes</em> in order establish the feasibility of a number of new technologies, in respect of Trinity Mirrors existing content. After completing these prototypes, one such piece of work I built was so well received by the business that budget was allocated for the technologies I had written to be harnessed for a much larger football based project. Partnering with Opta, who perform statistical analysis on the Barclays Premier League, I wrote <em>a real-time consumption framework</em> of their data to allow Trinity Mirror to show live updates of the entire league during match days. After this work was completed, I extended the code to work for the 2014 football World Cup. The framework was coded to work on desktop browsers, tablets and mobile devices. In addition to this, a cross-section of other work I built during my time at Trinity Mirror included an entire <em>JSON driven data visualization</em> framework, canvas-based <em>real-time heatmaps</em>, particle fireworks, circular navigation systems, mobile friendly touch sensitive draggable voting plugins and a vast number of <em>(websocket based) real-time</em> JavaScript plugins, such as live football league tables, live graphs and live blog feeds.",
+				"videos": [{
+					"project": "Match Centre",
+					"galleryUrl": "/portfolio/gallery/2013-07-2014-08-trinity-mirror/match-centre",
+					"image": "/assets/images/portfolio/galleries/2013-07-2014-08-trinity-mirror/match-centre/screens/thumbnails/videos/01-websocket-updates.png",
+					"height": 540,
+					"width": 960,
+					"label": "Websocket updates",
+					"videoSrc": "//www.youtube.com/embed/vYv0_23KN5o/?vq=hd1080&autoplay=1&controls=1&showinfo=0&rel=0"
+				},{
+					"project": "Match Centre",
+					"galleryUrl": "/portfolio/gallery/2013-07-2014-08-trinity-mirror/match-centre",
+					"image": "/assets/images/portfolio/galleries/2013-07-2014-08-trinity-mirror/match-centre/screens/thumbnails/videos/02-footer-bar-updates.png",
+					"height": 540,
+					"width": 960,
+					"label": "Footer bar updates",
+					"videoSrc": "//www.youtube.com/embed/li2hLozfxuQ/?vq=hd1080&autoplay=1&controls=1&showinfo=0&rel=0"
+				},{
+					"project": "Match Centre",
+					"galleryUrl": "/portfolio/gallery/2013-07-2014-08-trinity-mirror/match-centre",				
+					"image": "/assets/images/portfolio/galleries/2013-07-2014-08-trinity-mirror/match-centre/screens/thumbnails/videos/03-mobile-filters.png",
+					"height": 551,
+					"width": 310,
+					"label": "Mobile filters",
+					"videoSrc": "//www.youtube.com/embed/zrA0BriH2mo/?vq=hd1080&autoplay=1&controls=1&showinfo=0&rel=0"	
+				},{
+					"project": "Match Centre",
+					"galleryUrl": "/portfolio/gallery/2013-07-2014-08-trinity-mirror/match-centre",
+					"image": "/assets/images/portfolio/galleries/2013-07-2014-08-trinity-mirror/match-centre/screens/thumbnails/videos/04-desktop-filters.png",
+					"height": 540,
+					"width": 960,
+					"label": "Desktop filters",
+					"videoSrc": "//www.youtube.com/embed/Cw-38lNM4nc/?vq=hd1080&autoplay=1&controls=1&showinfo=0&rel=0"
+				},{
+					"project": "Match Centre",
+					"galleryUrl": "/portfolio/gallery/2013-07-2014-08-trinity-mirror/match-centre",
+					"image": "/assets/images/portfolio/galleries/2013-07-2014-08-trinity-mirror/match-centre/screens/thumbnails/videos/05-league-table-reorder.png",
+					"height": 627,
+					"width": 298,
+					"label": "League table re-order",
+					"videoSrc": "//www.youtube.com/embed/VH4lbIj_P24/?vq=hd1080&autoplay=1&controls=1&showinfo=0&rel=0"
+				},{
+					"project": "Match Centre",
+					"galleryUrl": "/portfolio/gallery/2013-07-2014-08-trinity-mirror/match-centre",
+					"image": "/assets/images/portfolio/galleries/2013-07-2014-08-trinity-mirror/match-centre/screens/thumbnails/videos/06-slider-bar.png",
+					"height": 540,
+					"width": 960,	
+					"label": "Slider bar",
+					"videoSrc": "//www.youtube.com/embed/1TtNtcMbadM/?vq=hd1080&autoplay=1&controls=1&showinfo=0&rel=0" 	
+				},{
+					"project": "Heatmaps",
+					"galleryUrl": "/portfolio/gallery/2013-07-2014-08-trinity-mirror/heatmaps",
+					"image": "/assets/images/portfolio/galleries/2013-07-2014-08-trinity-mirror/heatmaps/screens/thumbnails/videos/01-realtime-heatmaps.png",
+					"height": 540,
+					"width": 960,
+					"label": "Real-time heatmap",
+					"videoSrc": "//www.youtube.com/embed/8YHGgy-ColE/?vq=hd1080&autoplay=1&controls=1&showinfo=0&rel=0"
+				},{
+					"project": "Data visualization",
+					"galleryUrl": "/portfolio/gallery/2013-07-2014-08-trinity-mirror/data-visualization",
+					"image": "/assets/images/portfolio/galleries/2013-07-2014-08-trinity-mirror/data-visualization/screens/thumbnails/videos/01-bar-graph.png",
+					"height": 540,
+					"width": 960,
+					"label": "Bar graph",
+					"videoSrc": "//www.youtube.com/embed/xMzluRoeShc/?vq=hd1080&autoplay=1&controls=1&showinfo=0&rel=0"
+				},{
+					"project": "Data visualization",
+					"galleryUrl": "/portfolio/gallery/2013-07-2014-08-trinity-mirror/data-visualization",
+					"image": "/assets/images/portfolio/galleries/2013-07-2014-08-trinity-mirror/data-visualization/screens/thumbnails/videos/02-multiple-types.png",
+					"height": 540,
+					"width": 960,
+					"label": "Multiple types",
+					"videoSrc": "//www.youtube.com/embed/lAPsLt7VANI/?vq=hd1080&autoplay=1&controls=1&showinfo=0&rel=0"
+				},{
+					"project": "Animated gauges",
+					"galleryUrl": "/portfolio/gallery/2013-07-2014-08-trinity-mirror/animated-gauges",
+					"image": "/assets/images/portfolio/galleries/2013-07-2014-08-trinity-mirror/animated-gauges/screens/thumbnails/videos/01-animated-gauges.png",
+					"height": 540,
+					"width": 960,
+					"label": "Animated gauges",
+					"videoSrc": "//www.youtube.com/embed/5tYMfXLAWEY/?vq=hd1080&autoplay=1&controls=1&showinfo=0&rel=0"
+				},{
+					"project": "Departure board",
+					"galleryUrl": "/portfolio/gallery/2013-07-2014-08-trinity-mirror/departure-board",
+					"image": "/assets/images/portfolio/galleries/2013-07-2014-08-trinity-mirror/departure-board/screens/thumbnails/videos/01-departure-board.png",
+					"height": 540,
+					"width": 960,
+					"label": "Departure board",
+					"videoSrc": "//www.youtube.com/embed/d3VhtLtOQy0/?vq=hd1080&autoplay=1&controls=1&showinfo=0&rel=0"
+				},{
+					"project": "Particle fireworks",
+					"galleryUrl": "/portfolio/gallery/2013-07-2014-08-trinity-mirror/particle-fireworks",
+					"image": "/assets/images/portfolio/galleries/2013-07-2014-08-trinity-mirror/particle-fireworks/screens/thumbnails/videos/01-particle-fireworks.png",
+					"height": 540,
+					"width": 960,
+					"label": "Particle fireworks",
+					"videoSrc": "//www.youtube.com/embed/2g_3F_Pl1t8/?vq=hd1080&autoplay=1&controls=1&showinfo=0&rel=0"
+				},{
+					"project": "Rotational navigation",
+					"galleryUrl": "/portfolio/gallery/2013-07-2014-08-trinity-mirror/rotational-navigation",
+					"image": "/assets/images/portfolio/galleries/2013-07-2014-08-trinity-mirror/rotational-navigation/screens/thumbnails/desktop/01-rotational-navigation.png",
+					"height": 612,
+					"width": 1088,
+					"label": "Rotational navigation",
+					"videoSrc": "//www.youtube.com/embed/ut2vGZyQfAM/?vq=hd1080&autoplay=1&controls=1&showinfo=0&rel=0"
+				},{
+					"project": "Rotation with slider",
+					"galleryUrl": "/portfolio/gallery/2013-07-2014-08-trinity-mirror/rotation-with-slider",
+					"image": "/assets/images/portfolio/galleries/2013-07-2014-08-trinity-mirror/rotation-with-slider/screens/thumbnails/videos/01-rotate-slider.png",
+					"height": 540,
+					"width": 960,
+					"label": "Rotate slider",
+					"videoSrc": "//www.youtube.com/embed/uI3oF67haF8/?vq=hd1080&autoplay=1&controls=1&showinfo=0&rel=0"
+				},{
+					"project": "Vote slider",
+					"galleryUrl": "/portfolio/gallery/2013-07-2014-08-trinity-mirror/vote-slider",
+					"image": "/assets/images/portfolio/galleries/2013-07-2014-08-trinity-mirror/vote-slider/screens/thumbnails/videos/01-vote-slider.png",
+					"height": 540,
+					"width": 960,
+					"label": "Vote slider",
+					"videoSrc": "//www.youtube.com/embed/L64cewyMyn8/?vq=hd1080&autoplay=1&controls=1&showinfo=0&rel=0"
+				}]
+			},{
+				"client": "VML",
+				"dates": "Mar 2013 - Jul 2013",
+				"summary": "I was hired by VML to lead the development of a <em>full responsive site build</em> for their client Whitbread. The site comprised of approximately <em>125 pages and approaching 100 unique components</em>. Due to the browser/device requirements, and a lack of browser support, I was unable to use CSS media queries. As a result, I opted to use the Adapt.js responsive framework. The website designs required both visual and functional differences between the different render modes (mobile and desktop), so I built an extensive framework to compliment Adapt, in order to activate and de-activate significant areas of site functionality when switching between device resolutions. This was coupled with <em>13 unique colour themes throughout the site</em>, a combination of website section themes and corporate brand colours. These themes were made possible via a comprehensive use of CSS specificity. All JavaScript was built into a number of namespaces, built to work alongside jQuery, with functionality such as carousels built via bespoke jQuery plugins in order to deliver against the exact project requirements. Also whilst at VML, I was asked to implement a solution for another client, Premier League, whereby <em>SVG graphing</em> tracked the progress of teams throughout the football season. This was something that had been a pending piece of work for around 18 months at the time, and was something I was able to complete in just a single day, delighting their client.",
+				"videos": [{
+					"project": "Whitbread",
+					"galleryUrl": "/portfolio/gallery/2013-03-2013-07-vml/whitbread",
+					"image": "/assets/images/portfolio/galleries/2013-03-2013-07-vml/screens/thumbnails/videos/01-mobile-navigation.png",
+					"height": 596,
+					"width": 334,
+					"label": "Mobile navigation",
+					"videoSrc": "//www.youtube.com/embed/gmWz57PBn9o/?vq=hd1080&autoplay=1&controls=1&showinfo=0&rel=0"
+				},{
+					"project": "Whitbread",
+					"galleryUrl": "/portfolio/gallery/2013-03-2013-07-vml/whitbread",
+					"image": "/assets/images/portfolio/galleries/2013-03-2013-07-vml/screens/thumbnails/videos/02-carousel.png",
+					"height": 540,
+					"width": 960,
+					"label": "Carousel",
+					"videoSrc": "//www.youtube.com/embed/HC2H1KlzS8I/?vq=hd1080&autoplay=1&controls=1&showinfo=0&rel=0"
+				}]
+			},{
+				"client": "Profero",
+				"dates": "Dec 2012 - Mar 2013",
+				"summary": "I worked on 2 fairly similar projects during my 4 months at Profero. Both were extremely rich (in functionality) responsive front-end websites, built to work across desktop, mobile and tablet using a combination of HTML4/5, CSS 2/3 and JavaScript. The first site was designed and built as a <em>full-screen immersive user experience</em>, whereas the second was restricted and governed by a Sharepoint set of templates, running at fixed-width dimensions. Both were built 100% by me from scratch through to completion. The full-screen site required the building of a complete <em>timelining JavaScript framework</em>, allowing for a Flash-esque timeline and queuing mechanism, along with being dynamic in its ability to <em>render in 1 of 4 different languages</em>. The fixed-width site was more of a scroll site, albeit with gesture based alternatives for mobile and tablet switched in at appropriate times.",
+				"videos": [{
+					"project": "Accenture",
+					"galleryUrl": "/portfolio/gallery/2012-12-2013-03-profero/accenture",
+					"image": "/assets/images/portfolio/galleries/2012-12-2013-03-profero/accenture/screens/thumbnails/videos/01-homepage.png",
+					"height": 540,
+					"width": 960,
+					"label": "Homepage",
+					"videoSrc": "//www.youtube.com/embed/0kUZRmqnpa4/?vq=hd1080&autoplay=1&controls=1&showinfo=0&rel=0"
+				},{
+					"project": "UPC",
+					"galleryUrl": "/portfolio/gallery/2012-12-2013-03-profero/upc",
+					"image": "/assets/images/portfolio/galleries/2012-12-2013-03-profero/upc/screens/thumbnails/videos/01-section-animations.png",
+					"height": 540,
+					"width": 960,
+					"label": "Section animations",
+					"videoSrc": "//www.youtube.com/embed/ZLZkKurf92I/?vq=hd1080&autoplay=1&controls=1&showinfo=0&rel=0"
+				}]
+			},{
+				"client": "Ogilvy",
+				"dates": "Sep 2012 - Oct 2012",
+				"summary": "I was hired by Ogilvy Action originally to build a highly interactive JavaScript website from scratch. That was cancelled on my first morning, so I ended up working on lots of bits and pieces for around 2 months. This included a <em>HTML5 LocalStorage reporting framework</em>, a bespoke PhoneGap iPad app from the ground up as well as creating a new eDetail iPad platform, with some fairly significant <em>CSS3 flip effect</em> functionality.",
+				"videos": [{
+					"project": "Astellas eDetail",
+					"galleryUrl": "/portfolio/gallery/2012-09-2012-10-ogilvy/astellas-edetail",
+					"image": "/assets/images/portfolio/galleries/2012-09-2012-10-ogilvy/astellas-edetail/screens/thumbnails/videos/01-flip-animation.png",
+					"height": 540,
+					"width": 960,
+					"label": "Flip animation",
+					"videoSrc": "//www.youtube.com/embed/ZOYw7F60hfE/?vq=hd1080&autoplay=1&controls=1&showinfo=0&rel=0"
+				}]
+			},{
+				"client": "New Brand Vision",
+				"dates": "Sep 2012 - Sep 2012",
+				"summary": "I was hired by New Brand Vision to bring to life a concept their internal team had come up with, whereby they wanted a <em>fullscreen horizontal scroller</em> to indicate different sections of a clients website, much like the new BBC site. I built this from scratch within 2-3 days, and was inclusive of full \"no JavaScript\" support, as well as <em>full multi-gesture support</em>, for the scrolling between different slides. In addition to this work, there were also a number of other templates which required building, for content population by the internal team after I finished.",
+				"videos": [{
+					"project": "Thames Water",
+					"galleryUrl": "/portfolio/gallery/2012-09-2012-09-new-brand-vision/thames-water",
+					"image": "/assets/images/portfolio/galleries/2012-09-2012-09-new-brand-vision/screens/thumbnails/videos/01-slide-animation.png",
+					"height": 540,
+					"width": 960,
+					"label": "Slide animation",
+					"videoSrc": "//www.youtube.com/embed/6x1nYuXCvto/?vq=hd1080&autoplay=1&controls=1&showinfo=0&rel=0"
+				}]
+			},{
+				"client": "Fox Parrack Singapour",
+				"dates": "Aug 2012 - Aug 2012",
+				"summary": "I was hired by Fox Parrack Singapour to convert a piece of print work produced for Cisco over to a website. The delivery of this was via a <em>single-page site</em>, but using the concept of slides, where many slides could belong to a single page. It worked a little like an interactive slideshow, with many clever jQuery animations built, to make it both look and function very smoothly. I built all CSS, HTML and JavaScript over the course of the 1 week long contract.",
+				"videos": [{
+					"project": "Cisco",
+					"galleryUrl": "/portfolio/gallery/2012-08-2012-08-fox-parrack-singapour/cisco",
+					"image": "/assets/images/portfolio/galleries/2012-08-2012-08-fox-parrack-singapour/screens/thumbnails/videos/01-full-walkthrough.png",
+					"height": 540,
+					"width": 960,
+					"label": "Full walkthrough",
+					"videoSrc": "//www.youtube.com/embed/w97Lmtuvuto/?vq=hd1080&autoplay=1&controls=1&showinfo=0&rel=0"
+				}]
+			},{
+				"client": "Publicis Modem",
+				"dates": "Jan 2011 - May 2011",
+				"summary": "For my 5 months at Publicis Modem, I worked on a rich interface build, including significant levels of <em>sequence animations</em> to work with both standard web browsers as well as touchscreen devices, inclusive of iPhone and iPad. In order to allow for this, I built a robust and extendable framework to allow for numerous rendering modes, handling a variety of browser and device quirks. The site was also built to fully support complete customization and <em>localization</em>.",
+				"videos": [{
+					"project": "Beefeater",
+					"galleryUrl": "/portfolio/gallery/2011-01-2011-05-publicis-modem/beefeater",
+					"image": "/assets/images/portfolio/galleries/2011-01-2011-05-publicis-modem/screens/thumbnails/videos/01-cocktails-search.png",
+					"height": 540,
+					"width": 960,
+					"label": "Cocktails search",
+					"videoSrc": "//www.youtube.com/embed/3OPla3ycj1Q/?vq=hd1080&autoplay=1&controls=1&showinfo=0&rel=0"
+				}]
+			}]
+		}
+	}
+}

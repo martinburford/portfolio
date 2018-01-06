@@ -1,0 +1,53 @@
+{
+	"head": {
+		"title": "Portfolio (Tribal DDB)",
+		"stylesheets": [{			
+			"path": "site.min.css",
+			"media": "all"
+		},{			
+			"path": "portfolio.min.css",
+			"media": "all"
+		},{			
+			"path": "gallery.min.css",
+			"media": "all"
+		}]
+	},
+	"client": "Tribal DDB",
+	"project": "Volkswagen",
+	"dates": "May 2011 - Jun 2011",
+	"summary": "I spent just under a month at Tribal building a highly interactive JavaScript overlay widget for the existing Volkswagen UK website, which offers the functionality of <em>booking a testdrive</em> from a range of different VW cars/models. Functionality was also built to support <em>real-time</em> (closest) dealer lookups as well as reservation slots in order to make the user experience as easy and interactive as possible.",
+	"linkedInRecommendations": [{
+		"name": "Trent Rosenbaum",
+		"jobTitle": "Senior Java Developer",
+		"recommendation": "Martin is <em>a talented and self motivated individual</em>. While working with Martin I was able to experience first hand his focused development and ability to explore the problem space. He was able to rapidly develop a solution and refine it to meet the current requirements."
+	},{
+		"name": "Chris Haslam",
+		"jobTitle": "Recruiter",
+		"recommendation": "Martin not only helped us deliver for one of our biggest clients but did it before schedule, to <em>a much higher standard then most would</em> and stayed in contact throughout the process. <em>It is very rare to find all of these qualities in one of your candidates</em>. If you do, rule of thumb is to make sure he doesn't need to work for anyone else. I lost that battle and am truly disappointed. I would hire Martin again without a seconds thought..."
+	},{
+		"noAlias": true,
+		"name": "William Greenly",
+		"jobTitle": "Technical Lead",
+		"recommendation": "Martin already came quite recommended but he didn't let that detract from proving he could do a very good job on a relatively sharp project. Would hire again."
+	}],
+	"media": {
+		"available": ["desktop"],
+		"desktop": [{
+			"image": "/assets/images/portfolio/galleries/2011-05-2011-06-tribal-ddb/screens/thumbnails/desktop/01-select-a-car.png",
+			"width": 870,
+			"label": "Select a car"
+		},{
+			"image": "/assets/images/portfolio/galleries/2011-05-2011-06-tribal-ddb/screens/thumbnails/desktop/02-find-my-retailer.png",
+			"width": 870,
+			"label": "Find my retailer"
+		},{
+			"image": "/assets/images/portfolio/galleries/2011-05-2011-06-tribal-ddb/screens/thumbnails/desktop/03-select-date-and-time.png",
+			"width": 870,
+			"label": "Select date/time"
+		},{
+			"image": "/assets/images/portfolio/galleries/2011-05-2011-06-tribal-ddb/screens/thumbnails/desktop/04-personal-details.png",
+			"width": 870,
+			"label": "Personal details"
+		}]
+	}
+}

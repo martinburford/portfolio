@@ -1,0 +1,81 @@
+{
+	"head": {
+		"title": "Portfolio (AKQA)",
+		"stylesheets": [{			
+			"path": "site.min.css",
+			"media": "all"
+		},{			
+			"path": "portfolio.min.css",
+			"media": "all"
+		},{			
+			"path": "gallery.min.css",
+			"media": "all"
+		}]
+	},
+	"client": "AKQA",
+	"project": "Nike",
+	"dates": "Oct 2011 - Dec 2011",
+	"summary": "I worked at AKQA on a large project for one of their biggest clients, Nike, focusing on a <em>complex mapping implementation</em>. This involved latitudinal and longitudinal projections to enable <em>dynamic tile loading</em> via cached webservices. The main reason for this was because the mapping application was expected to receive around <em>100,000+ marker points</em>, which quite obviously couldn't all be added to a single map instance at once. I wrote all the JavaScript through a number of custom Nike namespaces to allow a huge number of configurable variations of just how (and more importantly, when) different geolocational datasets were appended to the map.",
+	"linkedInRecommendations": [{
+		"name": "Chris Denman",
+		"jobTitle": "Lead Engineer",
+		"recommendation": "Martin is a fantastic front-end developer, whilst working together at AKQA <em>he demonstrated exceptional technical skills and professionalism</em>. I recommend him to any organisation."
+	}],
+	"gitHubCodeSamples": "https://github.com/martinburford/code-samples/tree/master/filtered-by-contract/2011-10-2011-12%20-%20AKQA%20(Nike)",
+	"media": {
+		"available": ["desktop"],
+		"desktop": [{
+			"image": "/assets/images/portfolio/galleries/2011-10-2011-12-akqa/screens/thumbnails/desktop/01-zoom-level-04.png",
+			"width": 960,
+			"label": "Zoom level 4"
+		},{
+			"image": "/assets/images/portfolio/galleries/2011-10-2011-12-akqa/screens/thumbnails/desktop/02-zoom-level-05.png",
+			"width": 960,
+			"label": "Zoom level 5"
+		},{
+			"image": "/assets/images/portfolio/galleries/2011-10-2011-12-akqa/screens/thumbnails/desktop/03-zoom-level-06.png",
+			"width": 960,
+			"label": "Zoom level 6"
+		},{
+			"image": "/assets/images/portfolio/galleries/2011-10-2011-12-akqa/screens/thumbnails/desktop/04-zoom-level-07.png",
+			"width": 960,
+			"label": "Zoom level 7"
+		},{
+			"image": "/assets/images/portfolio/galleries/2011-10-2011-12-akqa/screens/thumbnails/desktop/05-zoom-level-08.png",
+			"width": 960,
+			"label": "Zoom level 8"
+		},{
+			"image": "/assets/images/portfolio/galleries/2011-10-2011-12-akqa/screens/thumbnails/desktop/06-zoom-level-09.png",
+			"width": 960,
+			"label": "Zoom level 9"
+		},{
+			"image": "/assets/images/portfolio/galleries/2011-10-2011-12-akqa/screens/thumbnails/desktop/07-zoom-level-10.png",
+			"width": 960,
+			"label": "Zoom level 10"
+		},{
+			"image": "/assets/images/portfolio/galleries/2011-10-2011-12-akqa/screens/thumbnails/desktop/08-zoom-level-11.png",
+			"width": 960,
+			"label": "Zoom level 11"
+		},{
+			"image": "/assets/images/portfolio/galleries/2011-10-2011-12-akqa/screens/thumbnails/desktop/09-zoom-level-12.png",
+			"width": 960,
+			"label": "Zoom level 12"
+		},{
+			"image": "/assets/images/portfolio/galleries/2011-10-2011-12-akqa/screens/thumbnails/desktop/10-zoom-level-13.png",
+			"width": 960,
+			"label": "Zoom level 13"
+		},{
+			"image": "/assets/images/portfolio/galleries/2011-10-2011-12-akqa/screens/thumbnails/desktop/11-zoom-level-14.png",
+			"width": 960,
+			"label": "Zoom level 14"
+		},{
+			"image": "/assets/images/portfolio/galleries/2011-10-2011-12-akqa/screens/thumbnails/desktop/12-zoom-level-15.png",
+			"width": 960,
+			"label": "Zoom level 15"
+		},{
+			"image": "/assets/images/portfolio/galleries/2011-10-2011-12-akqa/screens/thumbnails/desktop/13-zoom-level-16.png",
+			"width": 960,
+			"label": "Zoom level 16"
+		}]
+	}
+}

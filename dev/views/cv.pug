@@ -1,0 +1,149 @@
+include ./../../dev/src/components/head/pug/head.pug
+include ./../../dev/src/components/linkedin-recommendations/pug/linkedin-recommendations.pug
+
+//- MIXINS
+//- ****
+
+mixin tableOfRoles(rolesData)
+	table
+		thead
+			tr
+				th= global.strings.company
+				th= global.strings.role
+				th= global.strings.from
+				th= global.strings.to
+		tbody
+			each contract, index in rolesData
+				tr
+					td= contract.companyName
+					td= contract.jobTitle
+					td= contract.contractFrom
+					td= contract.contractTo
+
+doctype html
+html(prefix="og: http://ogp.me/ns#")
+
+	+head(cv.head, versionSuffix, false)
+				
+	body
+		div#wrapper
+
+			//- Header
+			header
+				h1= global.name
+				h2= global.jobTitle
+
+				ul
+					li
+						a(href="mailto:" + global.emailAddress)
+							span= cv.body.header.emailMeLabel
+					li
+						a(href= global.links.linkedInProfilePage)
+							span= cv.body.header.linkedInLabel
+					li
+						a(href= global.links.portfolio)
+							span= cv.body.header.portfolioLabel
+
+					li
+						a(href= global.links.github)
+							span= cv.body.header.githubLabel
+
+			//- Current availability?
+			-
+				var availability = cv.body.main.currentAvailability.text.replace('{availability}',cv.body.main.currentAvailability.status);
+
+			p#availability(class=cv.body.main.currentAvailability.status)= availability
+
+			//- Loop through all sections
+			main
+				each section, index in cv.body.main.sections
+					//- Some sections do not have headings
+					if section.heading
+						h3= section.heading
+
+					section
+
+						//- Some sections only had sub-headings
+						if section.subHeading
+							h4= section.subHeading
+
+						if section.introduction
+							p= section.introduction.text
+								a(href="mailto:" + global.emailAddress)= section.introduction.linkLabel + "."
+
+						if section.tableIntroduction
+							p= section.tableIntroduction
+
+						if section.experience
+							//- Contract details
+							if section.experience.companyLogo
+								img(src=section.experience.companyLogo, alt=section.experience.summary.companyName)
+									
+							div.summary
+								h4= section.experience.summary.jobTitle
+								h5= section.experience.summary.companyName
+								time= section.experience.summary.contractDates
+								span= section.experience.summary.location
+							ul
+								each highlight, index in section.experience.workHighlights
+									li= highlight.text
+
+										if highlight.subLinks
+											ul
+												each subLink in highlight.subLinks
+													li= subLink
+
+							//- Technologies used
+							if section.experience.technologiesUsed
+								p
+									strong= global.strings.technologiesUsed + ": "
+									= section.experience.technologiesUsed.join(', ')
+
+							//- LinkedIn recommendations
+							if section.experience.linkedInRecommendations
+								- var avatar = {};
+
+								div.linkedin-recommendations
+									h3= global.strings.recommendations
+									div.inner
+										+linkedinRecommendations(section.experience.linkedInRecommendations)
+
+						if section.tableOfRoles
+							+tableOfRoles(section.tableOfRoles)
+
+						if index === 0 && section.takingTimeOut
+							p#taking-time-out= section.takingTimeOut
+
+				aside
+					- var aside = cv.body.main.aside;
+
+					//- Life philosophy
+					h3= aside.lifePhilosophy.heading
+					blockquote= aside.lifePhilosophy.quote
+
+					//- Strengths
+					h3= aside.strengths.heading
+					ul
+						each strength, index in aside.strengths.listedStrengths
+							li= strength
+
+					//- Coding experience
+					h3= aside.codingExperience.heading
+					ol
+						each language, index in aside.codingExperience.listedExperience
+							li= language.language
+								em=language.experience
+
+					p= aside.codingExperience.footerText
+
+					//- Education
+					h3= aside.education.heading
+					p#university= aside.education.university.degree
+					strong= aside.education.university.name
+					time= aside.education.university.courseDates
+
+					//- A typical work day
+					h3= aside.typicalWorkDay.heading
+					div#work-day
+						p= aside.typicalWorkDay.introduction
+						img(src=aside.typicalWorkDay.image, alt=aside.typicalWorkDay.heading)

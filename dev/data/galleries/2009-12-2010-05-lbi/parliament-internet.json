@@ -1,0 +1,121 @@
+{
+	"head": {
+		"title": "Portfolio (LBi)",
+		"stylesheets": [{			
+			"path": "site.min.css",
+			"media": "all"
+		},{			
+			"path": "portfolio.min.css",
+			"media": "all"
+		},{			
+			"path": "gallery.min.css",
+			"media": "all"
+		}]
+	},
+	"client": "LBi",
+	"project": "Parliament internet",
+	"dates": "Dec 2009 - May 2010",
+	"otherProjects": [{
+		"isActive": true,
+		"thumbnail": "/assets/images/portfolio/galleries/2009-12-2010-05-lbi/parliament-internet.png",
+		"url": "/portfolio/gallery/2009-12-2010-05-lbi/parliament-internet",
+		"label": "Parliament internet"
+	},{
+		"isActive": false,
+		"thumbnail": "/assets/images/portfolio/galleries/2009-12-2010-05-lbi/parliament-intranet.png",
+		"url": "/portfolio/gallery/2009-12-2010-05-lbi/parliament-intranet",
+		"label": "Parliament intranet"
+	},{
+		"isActive": false,
+		"thumbnail": "/assets/images/portfolio/galleries/2009-12-2010-05-lbi/parliament-works-of-art.png",
+		"url": "/portfolio/gallery/2009-12-2010-05-lbi/parliament-works-of-art",
+		"label": "Parliament works of art"
+	},{
+		"isActive": false,
+		"thumbnail": "/assets/images/portfolio/galleries/2009-12-2010-05-lbi/parliament-education.png",
+		"url": "/portfolio/gallery/2009-12-2010-05-lbi/parliament-education",
+		"label": "Parliament education"
+	}],
+	"summary": "This was initially a 3 month contract (extended to 5 months) whereby I re-wrote the official website for the UK Parliament, http://www.parliament.uk. I <em>coded the entire front-end</em> using HTML, CSS, JavaScript (jQuery), <em>AJAX and JSON</em>. I also worked closely with the back-end development team to ensure integration into the back-end epiServer architecture was as simple and effective as possible.",
+	"linkedInRecommendations": [{
+		"name": "Ian Drury",
+		"jobTitle": "Project Manager",
+		"recommendation": "Martin was our Interface Developer on a very large, complex and key project for LBi, and was solely responsible for all front end development for the Houses of Parliament rebuild. <em>Martin's professionalism and thoroughness were outstanding</em>. He developed all HTML, CSS, JavaScript and the outputs were of a very high quality <em>resulting in high client satisfaction</em> and, importantly, produced very few issues from testing. His knowledge extended beyond his core activities however and <em>he was a constant reference for issues from accessibility to mobile development</em>. His work rate is also to be noted, he was responsible for keeping this workstream ahead of schedule whilst not compromising quality, to a degree which I personally feel sets him aside from his peers. Martin is first to mind now on all new projects as I know the quality of work he will produce, and I hope to have him back on a project in the future."
+	},{
+		"name": "Stuart Lo",
+		"jobTitle": "Recruiter",
+		"recommendation": "I would describe Martin as a very talented, smart UI developer, his approach is flexible and he understands complex UI challenges that my clients are faced with on a regular basis. <em>Martin is one of the first people I contact for any UI assigment</em>, definately an obvious choice for me."
+	},{
+		"name": "Fabrizio Cicero",
+		"jobTitle": "Senior Applications Developer",
+		"recommendation": "Martin worked with me, as an Interface Developer, on a key project for LBi. It was a pleasure to work with Martin throughout the project lifecycle. He worked consistently with great interest and passion for high quality Web 2.0 delivery. In the 6 months I worked with Martin, he produced an XHTML strict, progressively enhanced front end which worked seamlessly with an EPiServer backend. His clear and concise communication skills along with his understanding of integration points with CMS platforms were a blessing on a project which had tight deadlines and changing requirements. He architected and built, along with the team, an excellent front end framework accompanied with hand over documentation which is still being used today. <em>He is a credit to the success of the project</em> and I have no hesitation in recommending Martin on any other projects I am involved in."
+	},{
+		"name": "Sean Johnston",
+		"jobTitle": "Recruiter",
+		"recommendation": "I'm very happy to endorse Martin, as he is without doubt, <em>one of the strongest Web Interface Development contractors currently working in the UK</em>. He has the unique ability to quickly recognize the challenges faced by my clients and more importantly to propose and implement solutions that exceed their expectation. He has a consultative approach and integrates well with my client's project teams and this, coupled with his extensive top-quality technical skills, <em>always ensures delivery and a happy customer</em>. Furthermore he's a damn nice chap and a pleasure to deal with - thoroughly recommended."
+	},{
+		"name": "Bahareh Boostani",
+		"jobTitle": ".Net Developer",
+		"recommendation": "Martin did a fantastic job during his time at LBi. His understanding of the UI development technologies and deep interest in the latest programming techniques contributed to major achievement in the working practices of the development team of the HoP project, particularly with regards to his effort in developing reusable modules and facilitating integration with back end code. His sound knowledge coupled with an easy-going and friendly outlook, made him a joy to work with."
+	}],
+	"media": {
+		"available": ["desktop"],
+		"desktop": [{
+			"image": "/assets/images/portfolio/galleries/2009-12-2010-05-lbi/parliament-internet/screens/thumbnails/desktop/01-homepage.png",
+			"width": 980,
+			"label": "Homepage"
+		},{
+			"image": "/assets/images/portfolio/galleries/2009-12-2010-05-lbi/parliament-internet/screens/thumbnails/desktop/02-landing-page.png",
+			"width": 980,
+			"label": "Landing page"
+		},{
+			"image": "/assets/images/portfolio/galleries/2009-12-2010-05-lbi/parliament-internet/screens/thumbnails/desktop/03-a-z-index.png",
+			"width": 980,
+			"label": "A-Z index"
+		},{
+			"image": "/assets/images/portfolio/galleries/2009-12-2010-05-lbi/parliament-internet/screens/thumbnails/desktop/04-contact-us.png",
+			"width": 980,
+			"label": "Contact us"
+		},{
+			"image": "/assets/images/portfolio/galleries/2009-12-2010-05-lbi/parliament-internet/screens/thumbnails/desktop/05-gallery-artwork.png",
+			"width": 980,
+			"label": "Gallery artwork"
+		},{
+			"image": "/assets/images/portfolio/galleries/2009-12-2010-05-lbi/parliament-internet/screens/thumbnails/desktop/06-generic-content.png",
+			"width": 980,
+			"label": "Generic content"
+		},{
+			"image": "/assets/images/portfolio/galleries/2009-12-2010-05-lbi/parliament-internet/screens/thumbnails/desktop/07-news-article.png",
+			"width": 980,
+			"label": "News article"
+		},{
+			"image": "/assets/images/portfolio/galleries/2009-12-2010-05-lbi/parliament-internet/screens/thumbnails/desktop/08-news-landing.png",
+			"width": 980,
+			"label": "News landing"
+		},{
+			"image": "/assets/images/portfolio/galleries/2009-12-2010-05-lbi/parliament-internet/screens/thumbnails/desktop/09-news-topic.png",
+			"width": 980,
+			"label": "News topic"
+		},{
+			"image": "/assets/images/portfolio/galleries/2009-12-2010-05-lbi/parliament-internet/screens/thumbnails/desktop/10-passage-of-a-bill-detail.png",
+			"width": 980,
+			"label": "Passage of a bill (detail)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2009-12-2010-05-lbi/parliament-internet/screens/thumbnails/desktop/11-publications-calendar-listing.png",
+			"width": 980,
+			"label": "Publications calendar listing"
+		},{
+			"image": "/assets/images/portfolio/galleries/2009-12-2010-05-lbi/parliament-internet/screens/thumbnails/desktop/12-send-to-a-friend.png",
+			"width": 980,
+			"label": "Send to a friend"
+		},{
+			"image": "/assets/images/portfolio/galleries/2009-12-2010-05-lbi/parliament-internet/screens/thumbnails/desktop/13-gallery-set.png",
+			"width": 980,
+			"label": "Gallery set"
+		},{
+			"image": "/assets/images/portfolio/galleries/2009-12-2010-05-lbi/parliament-internet/screens/thumbnails/desktop/14-search-listing-with-search-form.png",
+			"width": 980,
+			"label": "Search listing (with search form)"
+		}]
+	}
+}

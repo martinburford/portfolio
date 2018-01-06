@@ -1,0 +1,94 @@
+// File: /assets/css/utilities/_variables.scss
+// Author: Martin Burford (martin@martinburford.co.uk)
+
+$icons: (
+	available: '\ea10',	
+	calendar: '\e953',
+	camera: '\e90f',
+	circle-down: '\ea43',
+	close: '\ea0d',
+	cv: '\e906',
+	desktop: '\e956',
+	double-arrow-down: '\f103',
+	double-arrow-up: '\f102',
+	email: '\e908',
+	external-link: '\ea7e',
+	github: '\eab0',
+	home: '\e90c',
+	information: '\ea0c',
+	launch-gallery: '\ea7e',	
+	linkedin: '\e907',
+	linkedin-logo: '\e902',
+	location: '\e900',
+	mobile: '\e958',
+	play: '\e904',
+	portfolio: '\e905',
+	right-arrow-circular-button-outline: '\e901',
+	tablet: '\e95a',
+	tick: '\ea10',
+	unavailable: '\ea0f',
+	user: '\e971',
+	video: '\e903',
+	warning: '\ea07'
+);
+
+$red: #c00000;
+$black: #000000;
+$white: #ffffff;
+$yellow: #e5e500;
+$orange: orange;
+$sidebar-background: #fbfbfb;
+$light-grey: #f6f6f6;
+$mid-grey: #efefef;
+$dark-grey: #dedede;
+$available: green;
+$linkedin: #0177b5;
+$linkedin-dark: #31859b;
+$linkedin-light: #eaf7fa;
+$linkedin-copytext: #999999;
+$linkedin-no-photo: #ccc;
+$github: #24292e;
+$location: #eb5e58;
+$body-font-color: #606060;
+$body-font: 'expert-sans-light';
+$h3: #6a6a6a;
+$h4: #c00000;
+$h5: $black;
+$link-color: #31859b;
+$link-color-light: #92cddc;
+$body-background: #efefef;
+$icon-grey: #9a9a9a;
+$red: #c00000;
+$header-background: #222;
+$projects-separator: #333;
+$overlay-close: #999;
+$quote-marks: #777;
+$listings-client-separator: #333;
+$listings-client-separator-hover: #565656;
+$listings-header: #cccccc;
+$listings-job-type: #555555;
+$breakpoints-border: #333;
+$technology-used: #dedede;
+$calendar: #999;
+$gradient-line-separator: #555555;
+
+// Timings
+$sidebar-animation-time: 500ms;
+$hamburger-fast-animate: 250ms;
+$home-hover-animation: 200ms;
+$section-group-toggle-time: 250ms;
+$video-play-hover: 250ms;
+
+// Responsive breakpoints
+$base-layout: 1;
+$mobile-large: 480;
+$tablet-portrait: 728;
+$tablet-landscape: 1024;
+$desktop: 1240;
+
+$breakpoints: (
+	mobile-large-upwards: '(min-width: #{$mobile-large}px)',
+	tablet-portrait-upwards: '(min-width: #{$tablet-portrait}px)',
+	tablet-landscape-upwards: '(min-width: #{$tablet-landscape}px)',
+	desktop-upwards: '(min-width: #{$desktop}px)'
+);

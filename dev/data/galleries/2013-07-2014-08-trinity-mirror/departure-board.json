@@ -1,0 +1,131 @@
+{
+	"head": {
+		"title": "Portfolio (Trinity Mirror)",
+		"stylesheets": [{			
+			"path": "site.min.css",
+			"media": "all"
+		},{			
+			"path": "portfolio.min.css",
+			"media": "all"
+		},{			
+			"path": "gallery.min.css",
+			"media": "all"
+		}]
+	},
+	"client": "Trinity Mirror",
+	"project": "Departure Board",
+	"dates": "Jul 2013 - Aug 2014",
+	"otherProjects": [{
+		"isActive": false,
+		"thumbnail": "/assets/images/portfolio/galleries/2013-07-2014-08-trinity-mirror/match-centre.png",
+		"url": "/portfolio/gallery/2013-07-2014-08-trinity-mirror/match-centre",
+		"label": "Match Centre"
+	},{
+		"isActive": false,
+		"thumbnail": "/assets/images/portfolio/galleries/2013-07-2014-08-trinity-mirror/heatmaps.png",
+		"url": "/portfolio/gallery/2013-07-2014-08-trinity-mirror/heatmaps",
+		"label": "Heatmaps"
+	},{
+		"isActive": false,
+		"thumbnail": "/assets/images/portfolio/galleries/2013-07-2014-08-trinity-mirror/world-cup.png",
+		"url": "/portfolio/gallery/2013-07-2014-08-trinity-mirror/world-cup",
+		"label": "World Cup"
+	},{
+		"isActive": false,
+		"thumbnail": "/assets/images/portfolio/galleries/2013-07-2014-08-trinity-mirror/tablet-site.png",
+		"url": "/portfolio/gallery/2013-07-2014-08-trinity-mirror/tablet-site",
+		"label": "Tablet site"
+	},{
+		"isActive": false,
+		"thumbnail": "/assets/images/portfolio/galleries/2013-07-2014-08-trinity-mirror/data-visualization.png",
+		"url": "/portfolio/gallery/2013-07-2014-08-trinity-mirror/data-visualization",
+		"label": "Data visualization"
+	},{
+		"isActive": false,
+		"thumbnail": "/assets/images/portfolio/galleries/2013-07-2014-08-trinity-mirror/animated-gauges.png",
+		"url": "/portfolio/gallery/2013-07-2014-08-trinity-mirror/animated-gauges",
+		"label": "Animated gauges"
+	},{
+		"isActive": true,
+		"thumbnail": "/assets/images/portfolio/galleries/2013-07-2014-08-trinity-mirror/departure-board.png",
+		"url": "/portfolio/gallery/2013-07-2014-08-trinity-mirror/departure-board",
+		"label": "Departure board"
+	},{
+		"isActive": false,
+		"thumbnail": "/assets/images/portfolio/galleries/2013-07-2014-08-trinity-mirror/particle-fireworks.png",
+		"url": "/portfolio/gallery/2013-07-2014-08-trinity-mirror/particle-fireworks",
+		"label": "Particle fireworks"
+	},{
+		"isActive": false,
+		"thumbnail": "/assets/images/portfolio/galleries/2013-07-2014-08-trinity-mirror/rotational-navigation.png",
+		"url": "/portfolio/gallery/2013-07-2014-08-trinity-mirror/rotational-navigation",
+		"label": "Rotational navigation"
+	},{
+		"isActive": false,
+		"thumbnail": "/assets/images/portfolio/galleries/2013-07-2014-08-trinity-mirror/rotation-with-slider.png",
+		"url": "/portfolio/gallery/2013-07-2014-08-trinity-mirror/rotation-with-slider",
+		"label": "Rotation with slider"
+	},{
+		"isActive": false,
+		"thumbnail": "/assets/images/portfolio/galleries/2013-07-2014-08-trinity-mirror/vote-slider.png",
+		"url": "/portfolio/gallery/2013-07-2014-08-trinity-mirror/vote-slider",
+		"label": "Vote slider"
+	}],
+	"summary": "I was originally hired by Trinity Mirror to <em>bring to life several complex prototypes</em> in order establish the feasibility of a number of new technologies, in respect of Trinity Mirrors existing content. After completing these prototypes, one such piece of work I built was so well received by the business that budget was allocated for the technologies I had written to be harnessed for a much larger football based project. Partnering with Opta, who perform statistical analysis on the Barclays Premier League, I wrote <em>a real-time consumption framework</em> of their data to allow Trinity Mirror to show live updates of the entire league during match days. After this work was completed, I extended the code to work for the 2014 football World Cup. The framework was coded to work on desktop browsers, tablets and mobile devices. In addition to this, a cross-section of other work I built during my time at Trinity Mirror included an entire <em>JSON driven data visualization</em> framework, canvas-based <em>real-time heatmaps</em>, particle fireworks, circular navigation systems, mobile friendly touch sensitive draggable voting plugins and a vast number of <em>(websocket based) real-time</em> JavaScript plugins, such as live football league tables, live graphs and live blog feeds.",
+	"technologiesUsed": [
+		"Adapt.js",
+		"amCharts",
+		"CSS2/3",
+		"HTML4/5",		
+		"jQuery",
+		"JSON",
+		"Lo-dash",
+		"Namespacing",
+		"OO JavaScript",
+		"Pusher JS",
+		"Real-time interfaces",
+		"Responsive front-end",
+		"SASS",
+		"Websockets"
+	],
+	"linkedInRecommendations": [{
+		"name": "Grant Maskell",
+		"jobTitle": "Freelance Digital Consultant",
+		"recommendation": "I worked with Martin over a period of 14 months as a contract front-end specialist for the Trinity Mirror Group. Initially starting on a 3 month contract, this was extended multiple times due to the contribution he made to improving the quality of UI with the organisation. <em>Martins knowledge of front-end languages is exceptional</em>. He contributed on a daily basis helping the UX and Design team at Trinity Mirror achieve its goal of creating interactive and user focused front-ends for a portfolio of products. I would recommend Martin for any position where you need <em>a clever, hard working front-end specialist</em> who takes pride in creating quality coded experiences."
+	},{
+		"name": "Jim Howard",
+		"jobTitle": "Product Manager",
+		"recommendation": "I worked with Martin on the high-profile prototype and live football projects at the Daily Mirror. I always found Martin personable and easy to work with – even when there was a great deal of pressure on us around key dates. <em>His attention to detail was excellent</em> and he is very knowledgeable on the platforms that we wanted to develop for, whilst ensuring we kept the quality we needed in a very competitive environment. He had an intrinsic understanding of the data we needed from multiple sources in order for the Product to work and how the availability of that data would impact on the front-end development. He was a key part in making sure that we had an initial front-end infrastructure in which the Product can develop over time. I would happily collaborate with Martin again in the future if the opportunity arose."
+	},{
+		"name": "Chris Lam",
+		"jobTitle": "Lead Product Designer",
+		"recommendation": "I worked with Martin for just over a year on various projects at Trinity Mirror and <em>we were sad to see him go</em>. He is <em>without a doubt the best front-end developer I have worked with</em>. His attention to detail and communication skills were a real asset to the team and I learned a lot from his way of working. He was always willing to add his technical expertise during the design process and this thoroughly helped projects run smoothly."
+	},{
+		"name": "Stuart Campbell",
+		"jobTitle": "Senior Front End Developer",
+		"recommendation": "Martin is an exceptionally talented, dedicated and productive front end developer. I both enjoyed working with him and learned a good deal - he has very strong technical skills but is also <em>willing to adopt new techniques and processes</em>. I began working with Martin towards the end of a project and his expertise was crucial to successfully handing the work over and leaving it in a maintainable state. <em>He also produces very detailed and accurate documentation</em> - a rarity amongst developers!"
+	},{
+		"name": "James Brewin",
+		"jobTitle": "Recruiter",
+		"recommendation": "The recommendations on LinkedIn clearly show that <em>Martin is one of the best Developers around</em> and I can only endorse this further. He not only has the highest standards in his work but also in the professional way he engages with you. He always gives you the time to talk through whatever is needed to work well together. I hope to work with him again in the future."
+	},{
+		"name": "Adriaan Pelzer",
+		"jobTitle": "Lead Developer",
+		"recommendation": "<em>Martin is one of the best software engineers</em> I've ever worked with, and the best front end engineer. He produces extremely robust code, and <em>stops at nothing</em> to achieve his own extremely high standard. On top of that, Martin is an excellent communicator, always producing documentation with his code that meets the same high standards. <em>If I had to hand-pick a team for a no-expenses-spared project, he'd be on it, without a doubt</em>."
+	}],
+	"media": {
+		"available": ["video","desktop"],
+		"video": [{
+			"image": "/assets/images/portfolio/galleries/2013-07-2014-08-trinity-mirror/departure-board/screens/thumbnails/videos/01-departure-board.png",
+			"height": 540,
+			"width": 960,
+			"label": "Departure board",
+			"videoSrc": "//www.youtube.com/embed/d3VhtLtOQy0/?vq=hd1080&autoplay=1&controls=1&showinfo=0&rel=0"
+		}],
+		"desktop": [{
+			"image": "/assets/images/portfolio/galleries/2013-07-2014-08-trinity-mirror/departure-board/screens/thumbnails/desktop/01-departure-board.png",
+			"width": 640,
+			"label": "Departure board"
+		}]
+	}
+}

@@ -1,0 +1,60 @@
+{
+	"head": {
+		"title": "Martin Burford - Portfolio (****TODO****)",
+		"stylesheets": [{			
+			"path": "site.min.css",
+			"media": "all"
+		},{			
+			"path": "portfolio.min.css",
+			"media": "all"
+		},{			
+			"path": "gallery.min.css",
+			"media": "all"
+		}]
+	},
+	"client": "****TODO****",
+	"project": "****TODO****",
+	"dates": "****TODO****",
+	"otherProjects": [{
+		"isActive": "****TODO****",
+		"thumbnail": "/assets/images/portfolio/galleries/****TODO****.png",
+		"url": "/portfolio/galleries/****TODO****",
+		"label": ""
+	}],
+	"summary": "****TODO****",
+	"technologiesUsed": [
+		"****TODO****",
+		"****TODO****",
+		"****TODO****"
+	],
+	"linkedInRecommendations": [{
+		"name": "****TODO****",
+		"jobTitle": "****TODO****",
+		"recommendation": "****TODO****"
+	}],
+	"media": {
+		"available": ["video","mobile","tablet","desktop"],
+		"video": [{
+			"image": "/assets/images/portfolio/galleries/****TODO****",
+			"height": 0,
+			"width": 0,
+			"label": "****TODO****",
+			"videoSrc": "****TODO****"
+		}],
+		"mobile": [{
+			"image": "/assets/images/portfolio/galleries/****TODO****",
+			"width": 0,
+			"label": "****TODO****"
+		}],
+		"tablet": [{
+			"image": "/assets/images/portfolio/galleries/****TODO****",
+			"width": 0,
+			"label": "****TODO****"
+		}],
+		"desktop": [{
+			"image": "/assets/images/portfolio/galleries/****TODO****",
+			"width": 0,
+			"label": "****TODO****"
+		}]
+	}
+}

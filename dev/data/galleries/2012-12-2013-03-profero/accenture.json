@@ -1,0 +1,87 @@
+{
+	"head": {
+		"title": "Portfolio (Profero)",
+		"stylesheets": [{			
+			"path": "site.min.css",
+			"media": "all"
+		},{			
+			"path": "portfolio.min.css",
+			"media": "all"
+		},{			
+			"path": "gallery.min.css",
+			"media": "all"
+		}]
+	},
+	"client": "Profero",
+	"project": "Accenture",
+	"dates": "Dec 2012 - Mar 2013",
+	"otherProjects": [{
+		"isActive": true,
+		"thumbnail": "/assets/images/portfolio/galleries/2012-12-2013-03-profero/accenture.png",
+		"url": "/portfolio/gallery/2012-12-2013-03-profero/accenture",
+		"label": "Accenture"
+	},{
+		"isActive": false,
+		"thumbnail": "/assets/images/portfolio/galleries/2012-12-2013-03-profero/upc.png",
+		"url": "/portfolio/gallery/2012-12-2013-03-profero/upc",
+		"label": "UPC"
+	}],
+	"summary": "I worked on 2 fairly similar projects during my 4 months at Profero. Both were extremely rich (in functionality) responsive front-end websites, built to work across desktop, mobile and tablet using a combination of HTML4/5, CSS 2/3 and JavaScript. The first site was designed and built as a <em>full-screen immersive user experience</em>, whereas the second was restricted and governed by a Sharepoint set of templates, running at fixed-width dimensions. Both were built 100% by me from scratch through to completion. The full-screen site required the building of a complete <em>timelining JavaScript framework</em>, allowing for a Flash-esque timeline and queuing mechanism, along with being dynamic in its ability to <em>render in 1 of 4 different languages</em>. The fixed-width site was more of a scroll site, albeit with gesture based alternatives for mobile and tablet switched in at appropriate times.",
+	"linkedInRecommendations": [{
+		"name": "Matt Fenn",
+		"jobTitle": "Design Lead",
+		"recommendation": "Martin worked with us on three challenging projects as a front end developer. <em>His work was excellent and he always added massive value</em>. Martin has excellent attention to detail and always strives for the best possible final product. He naturally added polish to everything he worked on. I can not recommend Martin enough, without doubt he is <em>one of the best front end developers I have worked with in the last 14 years</em>. It would be a pleasure to work with him again."
+	},{
+		"name": "Kelly Barker",
+		"jobTitle": "Senior Project Manager",
+		"recommendation": "Martin came in as a freelancer to help out on a project and certainly did that. Martin’s technical ability, passion and willingness to get stuck in make working with Martin easy and enjoyable. Martin is <em>always striving to create the best work</em> and his proficient way of working allows this to happen. <em>He has great attention to detail</em> and is a great problem solver, explaining his process and decision making alone the way, giving everyone involved the understanding and confidence needed to get the project done. I couldn't recommend Martin enough and will certainly be trying to snap him up when I need more freelance cover."
+	}],
+	"gitHubCodeSamples": "https://github.com/martinburford/code-samples/tree/master/filtered-by-contract/2012-12-2013-03%20-%20Profero%20(Accenture)",
+	"media": {
+		"available": ["video","desktop"],
+		"video": [{
+			"image": "/assets/images/portfolio/galleries/2012-12-2013-03-profero/accenture/screens/thumbnails/videos/01-homepage.png",
+			"height": 540,
+			"width": 960,
+			"label": "Homepage",
+			"videoSrc": "//www.youtube.com/embed/0kUZRmqnpa4/?vq=hd1080&autoplay=1&controls=1&showinfo=0&rel=0"
+		}],
+		"desktop": [{
+			"image": "/assets/images/portfolio/galleries/2012-12-2013-03-profero/accenture/screens/thumbnails/desktop/01-homepage.png",
+			"width": 734,
+			"label": "Homepage"
+		},{
+			"image": "/assets/images/portfolio/galleries/2012-12-2013-03-profero/accenture/screens/thumbnails/desktop/02-homepage-revealed.png",
+			"width": 734,
+			"label": "Homepage (revealed)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2012-12-2013-03-profero/accenture/screens/thumbnails/desktop/03-relationships-at-scale.png",
+			"width": 734,
+			"label": "Relationships at scale"
+		},{
+			"image": "/assets/images/portfolio/galleries/2012-12-2013-03-profero/accenture/screens/thumbnails/desktop/04-relationships-at-scale-reverse.png",
+			"width": 734,
+			"label": "Relationships at scale (reverse)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2012-12-2013-03-profero/accenture/screens/thumbnails/desktop/05-design-for-analytics.png",
+			"width": 734,
+			"label": "Design for analytics"
+		},{
+			"image": "/assets/images/portfolio/galleries/2012-12-2013-03-profero/accenture/screens/thumbnails/desktop/06-data-velocity.png",
+			"width": 734,
+			"label": "Data velocity"
+		},{
+			"image": "/assets/images/portfolio/galleries/2012-12-2013-03-profero/accenture/screens/thumbnails/desktop/07-seamless-collaboration.png",
+			"width": 734,
+			"label": "Seamless collaboration"
+		},{
+			"image": "/assets/images/portfolio/galleries/2012-12-2013-03-profero/accenture/screens/thumbnails/desktop/08-software-defined-networking.png",
+			"width": 734,
+			"label": "Software defined networking"
+		},{
+			"image": "/assets/images/portfolio/galleries/2012-12-2013-03-profero/accenture/screens/thumbnails/desktop/09-active-defense.png",
+			"width": 734,
+			"label": "Active defense"
+		}]
+	}
+}

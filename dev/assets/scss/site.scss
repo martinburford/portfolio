@@ -1,0 +1,482 @@
+// File: /assets/css/site.scss
+// Author: Martin Burford (martin@martinburford.co.uk)
+
+// Import utility files
+
+@import "utilities/_mixins"; 
+@import "utilities/_variables";
+@import "utilities/_extends";
+
+// Additional site files
+
+@import 'reset';
+@import 'fonts';
+
+// Global site styles
+
+html {
+    -webkit-text-size-adjust: 100%;
+}
+
+* {
+	color: $body-font-color;
+	font-family: $body-font;
+	line-height: 1.3em;
+}
+
+h1 {	
+	color: $black;
+	font-family: 'expert-sans-bold';
+	font-size: 3em;
+	line-height: 1.2em;
+}
+
+h2 {
+	color: $black;
+	font-family: 'expert-sans-bold';
+	font-size: 1.4em;
+}
+
+h3 {
+	border-bottom: 2px solid $dark-grey;
+	clear: both;
+	font-family: 'expert-sans-regular';
+	font-size: 1.9em;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	text-transform: uppercase;
+}
+
+h4 {	
+	color: $h4;
+	font-family: 'expert-sans-bold';
+	font-size: 1.6em;
+	line-height: 1.2em;
+}
+
+h5 {
+	color: $h5;
+	font-family: 'expert-sans-bold';
+	font-size: 1.4em;
+}
+
+strong {
+	font-family: 'expert-sans-bold';
+}
+
+a {
+	color: $link-color;
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+blockquote {
+	font-family: 'none';
+	font-style: italic;
+
+	&:before,
+	&:after {
+	    content: '"';
+	}
+}
+
+// Overlay (global)
+
+#overlay-full {
+	@include box-sizing;
+	content: '';
+	display: block;
+	height: calc(100% - 91px);
+	left: 0;
+	opacity: 0;
+	overflow: hidden;
+	position: fixed;
+	top: 81px;
+	transition: opacity $sidebar-animation-time ease-in-out, width $sidebar-animation-time ease-in-out;
+	width: 100%;
+	will-change: margin-left, opacity, width;
+	z-index: 3;
+}
+
+#overlay-inner {
+	@include border-radius(10px);
+	background: url(/assets/images/transparencies/ffffff/percent-10.png) repeat;
+	box-sizing: border-box;	
+	left: 0;
+	max-height: calc(100vh - 91px);
+	padding: 10px 0 10px 10px;
+	position: absolute;
+	width: 100%;
+}
+
+#overlay-close {
+	@include icon-icomoon('close', $red, 32, $position: 'before', $spaceToContent: 0);	
+	content: '';
+	font-size: 0;
+	position: absolute;
+	left: calc(100% - 50px);
+	top: 35px;
+	z-index: 1;
+
+	&:before {
+		@include border-radius(16px);
+		@include shadowbox($glowColor: $black, $opacity: 0.25, $shadowSize: 1px);
+		background: $white;
+	}
+}
+
+#overlay-scroller {
+	max-height: calc(100vh - 91px);
+	overflow-x: hidden;
+	overflow-y: scroll;
+
+	.linkedin-recommendations {
+		display: block !important;
+		margin-top: 0 !important;
+	}
+}
+
+// Overlay (touch devices only)
+
+.has-touch {
+	#overlay-close {
+		left: calc(100% - 52px);
+	}
+
+	#overlay-inner {
+		padding-right: 10px;
+	}
+}
+
+// Overlay (visible)
+
+.overlay-visible {
+	overflow-y: hidden;
+
+	#menu {
+		cursor: default;
+		opacity: 0.1;
+	}
+
+	#home {
+		cursor: default;
+		opacity: 0.1;
+	}
+
+	#outer {
+		opacity: 0;
+	}
+
+	#overlay-full {
+		opacity: 1;
+	}
+}
+
+// LinkedIn recommendations (used in CV and portfolio gallery)
+
+.linkedin-recommendations {
+	@include shadowbox($glowColor: $linkedin, $opacity: 0.1, $inset: true, $shadowSize: 1px);	
+	background: url(/assets/images/transparencies/dfebee/percent-90.png) repeat;
+	box-sizing: border-box;
+	margin-top: 20px;
+	padding: 10px;
+	position: relative;
+
+	* {
+		color: $black;
+	}
+
+	h3  {
+		@include box-sizing;
+		border-bottom: 0;
+		color: $linkedin;
+		font-size: 1.4em;
+		letter-spacing: 0;
+		margin-bottom: 0;
+		margin-top: 0;
+		text-transform: none;
+
+		&:before {
+			background: $white;
+		}
+	}
+
+	a {
+		@include icon-icomoon('circle-down', $linkedin, 24, $position: 'after', $spaceToContent: 5);
+		color: $link-color;
+		font-family: 'expert-sans-bold';
+		font-size: 0;
+		height: 24px;
+		position: absolute;
+		right: 0;
+		top: 5px;		
+		width: 24px;
+	}
+
+	ul {
+		margin-top: 10px;
+	}
+
+	li {
+		@include icon-icomoon('linkedin', rgba($linkedin, 0.9), 24, $position: 'after', $valignment: 'top', $customSideOffset: '5px', $customTopOffset: 6);
+		@include shadowbox($glowColor: $light-grey, $opacity: 1, $inset: true, $shadowSize: 1px);	
+		background: url(/assets/images/transparencies/ffffff/percent-70.png) repeat;
+		border: 1px solid $mid-grey;
+		list-style-type: none;
+		margin-left: 0;
+		margin-top: 5px;		
+		padding-bottom: 10px;
+		padding-left: 42px;
+		padding-right: 10px;
+		padding-top: 6px;
+		position: relative;
+
+		&:first-child {
+			margin-top: 0;
+		}
+
+		&:not(.no-photo):before {
+			background-size: 100%;
+			content: '';
+			display: block;
+			height: 32px;
+			left: 5px;
+			position: absolute;
+			top: 8px;
+			width: 32px;
+		}
+
+		&.no-photo {
+			@include icon-icomoon('user', $linkedin-no-photo, 28, $position: 'before', $valignment: 'top', $customSideOffset: '5px', $customTopOffset: 6);
+		}		
+
+		strong,
+		span {
+			display: block;
+			padding-right: 37px;
+		}
+
+		span {
+			margin-top: 0;
+			min-height: auto;
+			padding-top: 0;
+		}
+	}
+
+	blockquote {
+		color: $linkedin-copytext;
+		display: inline-block;
+		font-family: 'expert-sans-light';
+		font-size: 1em;
+		font-style: normal;
+		line-height: 1.35em;
+		margin: 10px 0 0;
+		padding: 0 10px 0 0;
+		position: relative;
+		quotes: "\201C" "\201D";		
+
+		&:before,
+		&:after {
+			color: $quote-marks;
+			font:bold 32px/1px Times, serif;
+			position: absolute;
+		}
+
+		&:before {
+			content: open-quote;
+			margin: 10px 0 0 -20px;
+		}
+
+		&:after {
+			content: close-quote;
+			margin: 11px 0 0 2px;
+		}
+
+		em {
+			background: rgba($linkedin, 0.10);
+			color: inherit;
+		}
+	}
+
+	#martin-coyne:before {background-image: url(/assets/images/portfolio/recommenders/martin-coyne.jpg);}
+	#jason-hancock:before {background-image: url(/assets/images/portfolio/recommenders/jason-hancock.jpg);}
+	#lucy-harmer:before {background-image: url(/assets/images/portfolio/recommenders/lucy-harmer.jpg);}
+	#nick-yorke:before {background-image: url(/assets/images/portfolio/recommenders/nick-yorke.jpg);}
+	#ritu-arora:before {background-image: url(/assets/images/portfolio/recommenders/ritu-arora.jpg);}
+	#sebastien-rousseau:before {background-image: url(/assets/images/portfolio/recommenders/sebastien-rousseau.jpg);}
+	#muhammad-moazzam-humayun:before {background-image: url(/assets/images/portfolio/recommenders/muhammad-moazzam-humayun.jpg);}
+	#robyn-backhouse:before {background-image: url(/assets/images/portfolio/recommenders/robyn-backhouse.jpg);}
+	#kolade-salami:before {background-image: url(/assets/images/portfolio/recommenders/kolade-salami.jpg);}
+	#tracey-bryant:before {background-image: url(/assets/images/portfolio/recommenders/tracey-bryant.jpg);}
+	#adriana-stan:before {background-image: url(/assets/images/portfolio/recommenders/adriana-stan.jpg);}
+	#daniel-landes:before {background-image: url(/assets/images/portfolio/recommenders/daniel-landes.jpg);}
+	#alexandra-diaconu:before {background-image: url(/assets/images/portfolio/recommenders/alexandra-diaconu.jpg);}
+	#mohamed-asruf-kanakalutha:before {background-image: url(/assets/images/portfolio/recommenders/mohamed-asruf-kanakalutha.jpg);}
+	#huan-zhang:before {background-image: url(/assets/images/portfolio/recommenders/huan-zhang.jpg);}
+	#bogdan-chebac:before {background-image: url(/assets/images/portfolio/recommenders/bogdan-chebac.jpg);}
+	#keelia-hess:before {background-image: url(/assets/images/portfolio/recommenders/keelia-hess.jpg);}
+	#mike-pearce:before {background-image: url(/assets/images/portfolio/recommenders/mike-pearce.jpg);}
+	#jyothish-nair:before {background-image: url(/assets/images/portfolio/recommenders/jyothish-nair.jpg);}
+	#richard-locke:before {background-image: url(/assets/images/portfolio/recommenders/richard-locke.jpg);}
+	#mohd-asad:before {background-image: url(/assets/images/portfolio/recommenders/mohd-asad.jpg);}
+	#raj-tarat:before {background-image: url(/assets/images/portfolio/recommenders/raj-tarat.jpg);}
+	#anastasija-krysa:before {background-image: url(/assets/images/portfolio/recommenders/anastasija-krysa.jpg);}
+	#giles-mccartney:before {background-image: url(/assets/images/portfolio/recommenders/giles-mccartney.jpg);}
+	#claire-littley:before {background-image: url(/assets/images/portfolio/recommenders/claire-littley.jpg);}
+	#grant-maskell:before {background-image: url(/assets/images/portfolio/recommenders/grant-maskell.jpg);}
+	#jim-howard:before {background-image: url(/assets/images/portfolio/recommenders/jim-howard.jpg);}
+	#chris-lam:before {background-image: url(/assets/images/portfolio/recommenders/chris-lam.jpg);}
+	#stuart-campbell:before {background-image: url(/assets/images/portfolio/recommenders/stuart-campbell.jpg);}
+	#james-brewin:before {background-image: url(/assets/images/portfolio/recommenders/james-brewin.jpg);}
+	#adriaan-pelzer:before {background-image: url(/assets/images/portfolio/recommenders/adriaan-pelzer.jpg);}
+	#matt-fenn:before {background-image: url(/assets/images/portfolio/recommenders/matt-fenn.jpg);}
+	#kelly-barker:before {background-image: url(/assets/images/portfolio/recommenders/kelly-barker.jpg);}
+	#nadine-drelaud:before {background-image: url(/assets/images/portfolio/recommenders/nadine-drelaud.jpg);}
+	#jason-hyland:before {background-image: url(/assets/images/portfolio/recommenders/jason-hyland.jpg);}
+	#tony-volpe:before {background-image: url(/assets/images/portfolio/recommenders/tony-volpe.jpg);}
+	#katrina-maratheftis:before {background-image: url(/assets/images/portfolio/recommenders/katrina-maratheftis.jpg);}
+	#vincent-roman:before {background-image: url(/assets/images/portfolio/recommenders/vincent-roman.jpg);}
+	#sunny-virk:before {background-image: url(/assets/images/portfolio/recommenders/sunny-virk.jpg);}
+	#luke-ritchie:before {background-image: url(/assets/images/portfolio/recommenders/luke-ritchie.jpg);}
+	#andres-gutierrez:before {background-image: url(/assets/images/portfolio/recommenders/andres-gutierrez.jpg);}
+	#afua-apraku:before {background-image: url(/assets/images/portfolio/recommenders/afua-apraku.jpg);}
+	#rory-oliver:before {background-image: url(/assets/images/portfolio/recommenders/rory-oliver.jpg);}
+	#chris-denman:before {background-image: url(/assets/images/portfolio/recommenders/chris-denman.jpg);}
+	#pooja-baburajan:before {background-image: url(/assets/images/portfolio/recommenders/pooja-baburajan.jpg);}
+	#martin-hearn:before {background-image: url(/assets/images/portfolio/recommenders/martin-hearn.jpg);}
+	#rajeevan-kumarathasan:before {background-image: url(/assets/images/portfolio/recommenders/rajeevan-kumarathasan.jpg);}
+	#dominic-burt:before {background-image: url(/assets/images/portfolio/recommenders/dominic-burt.jpg);}
+	#anika-henke:before {background-image: url(/assets/images/portfolio/recommenders/anika-henke.jpg);}
+	#nick-brett:before {background-image: url(/assets/images/portfolio/recommenders/nick-brett.jpg);}
+	#christopher-hoult:before {background-image: url(/assets/images/portfolio/recommenders/christopher-hoult.jpg);}
+	#trent-rosenbaum:before {background-image: url(/assets/images/portfolio/recommenders/trent-rosenbaum.jpg);}
+	#chris-haslam:before {background-image: url(/assets/images/portfolio/recommenders/chris-haslam.jpg);}
+	#david-clarke:before {background-image: url(/assets/images/portfolio/recommenders/david-clarke.jpg);}
+	#dev-bhukya:before {background-image: url(/assets/images/portfolio/recommenders/dev-bhukya.jpg);}
+	#charles-head:before {background-image: url(/assets/images/portfolio/recommenders/charles-head.jpg);}
+	#graham-warren:before {background-image: url(/assets/images/portfolio/recommenders/graham-warren.jpg);}
+	#pedro-alonso:before {background-image: url(/assets/images/portfolio/recommenders/pedro-alonso.jpg);}
+	#lill-skjerdal:before {background-image: url(/assets/images/portfolio/recommenders/lill-skjerdal.jpg);}
+	#richard-taylor:before {background-image: url(/assets/images/portfolio/recommenders/richard-taylor.jpg);}
+	#jamie-chaffey:before {background-image: url(/assets/images/portfolio/recommenders/jamie-chaffey.jpg);}
+	#paul-worrall:before {background-image: url(/assets/images/portfolio/recommenders/paul-worrall.jpg);}
+	#ian-drury:before {background-image: url(/assets/images/portfolio/recommenders/ian-drury.jpg);}
+	#danna-koonce:before {background-image: url(/assets/images/portfolio/recommenders/danna-koonce.jpg);}
+	#stuart-lo:before {background-image: url(/assets/images/portfolio/recommenders/stuart-lo.jpg);}
+	#fabrizio-cicero:before {background-image: url(/assets/images/portfolio/recommenders/fabrizio-cicero.jpg);}
+	#sean-johnston:before {background-image: url(/assets/images/portfolio/recommenders/sean-johnston.jpg);}
+	#bahareh-boostani:before {background-image: url(/assets/images/portfolio/recommenders/bahareh-boostani.jpg);}
+	#sam-carrington:before {background-image: url(/assets/images/portfolio/recommenders/sam-carrington.jpg);}
+	#anurag-sharan:before {background-image: url(/assets/images/portfolio/recommenders/anurag-sharan.jpg);}
+	#saiprasad-krishnamurthy:before {background-image: url(/assets/images/portfolio/recommenders/saiprasad-krishnamurthy.jpg);}
+	#sameer-garg:before {background-image: url(/assets/images/portfolio/recommenders/sameer-garg.jpg);}
+	#mulendra-singh-solanki:before {background-image: url(/assets/images/portfolio/recommenders/mulendra-singh-solanki.jpg);}
+	#mark-starkey:before {background-image: url(/assets/images/portfolio/recommenders/mark-starkey.jpg);}
+	#chris-minas:before {background-image: url(/assets/images/portfolio/recommenders/chris-minas.jpg);}
+	#david-riley:before {background-image: url(/assets/images/portfolio/recommenders/david-riley.jpg);}
+	#jo-oliveira:before {background-image: url(/assets/images/portfolio/recommenders/jo-oliveira.jpg);}
+	#marek-karwowski:before {background-image: url(/assets/images/portfolio/recommenders/marek-karwowski.jpg);}
+	#bridget-barton:before {background-image: url(/assets/images/portfolio/recommenders/bridget-barton.jpg);}
+	#luke-christison:before {background-image: url(/assets/images/portfolio/recommenders/luke-christison.jpg);}
+	#natalie-morrish:before {background-image: url(/assets/images/portfolio/recommenders/natalie-morrish.jpg);}
+	#rich-mumford:before {background-image: url(/assets/images/portfolio/recommenders/rich-mumford.jpg);}
+	#andrew-white:before {background-image: url(/assets/images/portfolio/recommenders/andrew-white.jpg);}
+	#steve-aubrey-bradshaw:before {background-image: url(/assets/images/portfolio/recommenders/steve-aubrey-bradshaw.jpg);}
+	#ian-nutt:before {background-image: url(/assets/images/portfolio/recommenders/ian-nutt.jpg);}
+	#micha-de-vries:before {background-image: url(/assets/images/portfolio/recommenders/micha-de-vries.jpg);}
+	#erika-saroli:before {background-image: url(/assets/images/portfolio/recommenders/erika-saroli.jpg);}
+	#isabelle-lepoint:before {background-image: url(/assets/images/portfolio/recommenders/isabelle-lepoint.jpg);}
+	#neill-bruce:before {background-image: url(/assets/images/portfolio/recommenders/neill-bruce.jpg);}
+	#craig-wills:before {background-image: url(/assets/images/portfolio/recommenders/craig-wills.jpg);}
+	#brian-boothe:before {background-image: url(/assets/images/portfolio/recommenders/brian-boothe.jpg);}
+	#andrew-mason:before {background-image: url(/assets/images/portfolio/recommenders/andrew-mason.jpg);}
+	#rupert-breheny:before {background-image: url(/assets/images/portfolio/recommenders/rupert-breheny.jpg);}
+	#bernardo-carvalho-wertheim:before {background-image: url(/assets/images/portfolio/recommenders/bernardo-carvalho-wertheim.jpg);}
+	#daniel-goldsworthy:before {background-image: url(/assets/images/portfolio/recommenders/daniel-goldsworthy.jpg);}
+	#albert-seleznyov:before {background-image: url(/assets/images/portfolio/recommenders/albert-seleznyov.jpg);}
+	#bharat-trivedi:before {background-image: url(/assets/images/portfolio/recommenders/bharat-trivedi.jpg);}
+	#chris-williams:before {background-image: url(/assets/images/portfolio/recommenders/chris-williams.jpg);}
+}
+
+// Breakpoints override global styles
+// 'mobile-large-upwards' || 'tablet-portrait-upwards' || 'tablet-landscape-upwards' || 'desktop-upwards'
+
+@include breakpoint-specific(('min-width': #{$base-layout}px, 'max-width': #{$tablet-portrait - 1}px)) {
+	// Overlay (when LinkedIn requires scrolling)
+
+	#overlay-full.scroll #overlay-close {
+		left: calc(100% - 52px);
+	}
+
+	.has-touch #overlay-full.scroll #overlay-close {
+		left: calc(100% - 52px);
+	}
+}
+
+@include breakpoint-specific('tablet-portrait-upwards') {
+	body {
+		margin: 20px 0;
+	}
+
+	#wrapper {
+		padding: 20px;
+		width: calc(100% - 40px);
+	}
+
+	// LinkedIn recommendations
+
+	.linkedin-recommendations {
+		margin-left: 0;
+		width: 100%;
+	}
+
+	// Overlay (global)
+
+	#overlay-inner {
+		-webkit-transform: translateY(-50%);
+		left: 50px;
+		max-height: calc(100vh - 200px);
+		top: 50%;
+		transform: translateY(-50%);
+		width: calc(100% - 100px);
+	}
+
+	#overlay-close {	
+		@include icon-icomoon('close', $red, 48, $position: 'before', $spaceToContent: 0);
+		left: calc(100% - 24px);
+		position: absolute;
+		top: 0;
+
+		&:before {
+			@include border-radius(48px);
+		}
+	}
+
+	#overlay-scroller {
+		max-height: calc(100vh - 220px);
+	}
+
+	// Overlay (touch devices only)
+
+	.has-touch #overlay-close {
+		left: calc(100% - 24px);
+	}
+}
+
+@include breakpoint-specific('desktop-upwards') {
+	#wrapper {
+		margin: 0 auto;
+		width: 1024px;
+	}
+
+	#overlay-inner {
+		@include border-radius(10px);
+		background: url(/assets/images/transparencies/ffffff/percent-10.png) repeat;
+		left: calc(50% - 590px);
+		padding: 10px 0 10px 10px;
+		width: 1180px;	
+	}
+}

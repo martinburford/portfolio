@@ -1,0 +1,55 @@
+{
+	"head": {
+		"title": "Portfolio (Publicis Modem)",
+		"stylesheets": [{			
+			"path": "site.min.css",
+			"media": "all"
+		},{			
+			"path": "portfolio.min.css",
+			"media": "all"
+		},{			
+			"path": "gallery.min.css",
+			"media": "all"
+		}]
+	},
+	"client": "Publicis Modem",
+	"project": "Beefeater",
+	"dates": "Jan 2011 - May 2011",
+	"summary": "For my 5 months at Publicis Modem, I worked on a rich interface build, including significant levels of <em>sequence animations</em> to work with both standard web browsers as well as touchscreen devices, inclusive of iPhone and iPad. In order to allow for this, I built a robust and extendable framework to allow for numerous rendering modes, handling a variety of browser and device quirks. The site was also built to fully support complete customization and <em>localization</em>.",
+	"linkedInRecommendations": [{
+		"name": "David Clarke",
+		"jobTitle": "Technical Director",
+		"recommendation": "During the concepting stage of the project, it quickly became clear that we would need <em>somebody with serious JavaScript skills</em> to even get this app built, let alone within the timeframes and to the levels of performance we required. Martin was the first person to spring to mind and he didn't let us down. Professional, flexible, great communicator and above all a superb coder - I can't wait to have him back for phase II."
+	}],
+	"media": {
+		"available": ["video","desktop"],
+		"video": [{
+			"image": "/assets/images/portfolio/galleries/2011-01-2011-05-publicis-modem/screens/thumbnails/videos/01-cocktails-search.png",
+			"height": 540,
+			"width": 960,
+			"label": "Cocktails search",
+			"videoSrc": "//www.youtube.com/embed/3OPla3ycj1Q/?vq=hd1080&autoplay=1&controls=1&showinfo=0&rel=0"
+		}],
+		"desktop": [{
+			"image": "/assets/images/portfolio/galleries/2011-01-2011-05-publicis-modem/screens/thumbnails/desktop/01-homepage.png",
+			"width": 960,
+			"label": "Homepage"
+		},{
+			"image": "/assets/images/portfolio/galleries/2011-01-2011-05-publicis-modem/screens/thumbnails/desktop/02-cocktails-fiter-tab.png",
+			"width": 960,
+			"label": "Cocktails (filter tab)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2011-01-2011-05-publicis-modem/screens/thumbnails/desktop/03-cocktails-specialities-tab.png",
+			"width": 960,
+			"label": "Cocktails (specialities tab)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2011-01-2011-05-publicis-modem/screens/thumbnails/desktop/04-our-gins.png",
+			"width": 960,
+			"label": "Our gins"
+		},{
+			"image": "/assets/images/portfolio/galleries/2011-01-2011-05-publicis-modem/screens/thumbnails/desktop/05-search-results.png",
+			"width": 960,
+			"label": "Search results"
+		}]
+	}
+}

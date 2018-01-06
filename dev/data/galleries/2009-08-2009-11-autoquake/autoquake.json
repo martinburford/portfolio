@@ -1,0 +1,82 @@
+{
+	"head": {
+		"title": "Portfolio (Autoquake)",
+		"stylesheets": [{			
+			"path": "site.min.css",
+			"media": "all"
+		},{			
+			"path": "portfolio.min.css",
+			"media": "all"
+		},{			
+			"path": "gallery.min.css",
+			"media": "all"
+		}]
+	},
+	"client": "Autoquake",
+	"project": "Autoquake",
+	"dates": "Aug 2009 - Nov 2009",
+	"summary": "Autoquake are the UKs biggest online retailer of used cars, and hired me to enable their existing platform to be able to support <em>white-labelling</em>, allowing for the underlying architecture and functionality to be easily and cost-effectively rolled out to partnering suppliers of cars. The role, recently completed, enabled Autoquake to offer clients the ability to operate standalone versions of their ecommerce platform, branded to meet any design. Technically, this was possible via a highly configurable <em>Spring and JSTL back-end</em> along with a strongly architected front-end allowing for <em>visual and functional theme switching</em>. My 3 month role at Autoquake involved rebuilding the core Autoquake platform from scratch (http://www.autoquake.com), along with the creation of their first white-labelled site, for their client, ALD (http://ald.autoquake.com).",
+	"linkedInRecommendations": [{
+		"name": "Anurag Sharan",
+		"jobTitle": "Front-End Developer",
+		"recommendation": "As I know, <em>Martin is a very productive person</em>. I had the privledge of working with Martin on a web based project at Autoquake.com. Martin is an innovative and experienced expert, understands complex matters even when outside of his direct area of expertise. Has an in-depth understanding of modern web technologies.I wish him good luck for all his project."
+	},{
+		"name": "Saiprasad Krishnamurthy",
+		"jobTitle": "Java Developer",
+		"recommendation": "I'm delighted to write a recommendation of Martin whom I worked with in a completely web-based project @ Autoquake. This project is basically about building a strong and robust architecture for the Autoquake.com website to be able to re-skin to multiple flavors. <em>Martin's skills and expertise in the area of CSS/Javascript/AJAX was simply fantastic</em> and was just what we needed to make our website a world-class one. Our website's front-end architecture was completely laid by Martin and he was the one to define all the standards and guidelines. The design was very robust yet flexible enough to make changes very easy for us in the future. Apart from <em>his deep knowledge in Javascript/AJAX/CSS</em>, it's definitely worth to mention is about his professionalism, patience and sense of humour. It was really a pleasure, fun and a great learning experience working with Martin and he is certainly one of the guys who I want to work with again."
+	},{
+		"name": "Sameer Garg",
+		"jobTitle": "Technical Lead",
+		"recommendation": "Martin posesses great frontend skills. <em>He is an absolute expert in javascript, html, css, ajax, seo friendly html</em>. He is a keen learner and adapts really well. He worked just for three months with autoquake in which he not only rewrite whole autoquake.com presentation tier but also created affinity site for autoquake. He is a perfectionist who loves his work and carry that out with real professionalism. <em>His work has won lots of praise</em> from inside as well as outside autoquake.com"
+	},{
+		"noAlias": true,
+		"name": "Ross Bond",
+		"jobTitle": "Recruiter",
+		"recommendation": "Martin is <em>an exceptional developer and technical architect</em> with an in-depth knowledge of front end development / web technologies amongst other skills. My client was looking for a perfectionist for their recent white labelling project which required redesigning their core code and Martin achieved fantastic results. Martin's strong technical ability coupled with excellent communication skills would make him a welcome addition to any team and I would have no hesitation in recommending him on both a technical and personal level."
+	},{
+		"noAlias": true,
+		"name": "Mulendra Singh Solanki",
+		"jobTitle": "Senior Business Analyst",
+		"recommendation": "Martin is a very dedicated and a <em>highly focused person with a professional approach</em>. He successfully improved Autoquake's website performance with a fresh architechture approach and in time."
+	},{
+		"name": "Mark Starkey",
+		"jobTitle": "Head of Design",
+		"recommendation": "Martins straight talking and professional approach to web development was a real asset to a project well executed. I would rate <em>his knowledge of javascript, json, ajax, css and html as exceptional</em>. The project was delivered on time and surpassed my original expectations."
+	}],
+	"media": {
+		"available": ["desktop"],
+		"desktop": [{
+			"image": "/assets/images/portfolio/galleries/2009-08-2009-11-autoquake/screens/thumbnails/desktop/01-homepage.png",
+			"width": 980,
+			"label": "Homepage"
+		},{
+			"image": "/assets/images/portfolio/galleries/2009-08-2009-11-autoquake/screens/thumbnails/desktop/02-used-cars-by-make.png",
+			"width": 980,
+			"label": "Used cars by make"
+		},{
+			"image": "/assets/images/portfolio/galleries/2009-08-2009-11-autoquake/screens/thumbnails/desktop/03-vehicle-details-exterior-pictures.png",
+			"width": 980,
+			"label": "Vehicle details (exterior pictures)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2009-08-2009-11-autoquake/screens/thumbnails/desktop/04-vehicle-details-specifications.png",
+			"width": 980,
+			"label": "Vehicle details (specifications)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2009-08-2009-11-autoquake/screens/thumbnails/desktop/05-finance.png",
+			"width": 980,
+			"label": "Finance"
+		},{
+			"image": "/assets/images/portfolio/galleries/2009-08-2009-11-autoquake/screens/thumbnails/desktop/06-delivery.png",
+			"width": 980,
+			"label": "Delivery"
+		},{
+			"image": "/assets/images/portfolio/galleries/2009-08-2009-11-autoquake/screens/thumbnails/desktop/07-warranty.png",
+			"width": 980,
+			"label": "Warranty"
+		},{
+			"image": "/assets/images/portfolio/galleries/2009-08-2009-11-autoquake/screens/thumbnails/desktop/08-online-reservation.png",
+			"width": 980,
+			"label": "Online reservation"
+		}]
+	}
+}

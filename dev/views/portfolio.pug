@@ -1,0 +1,83 @@
+include ./../../dev/src/components/head/pug/head.pug
+include ./../../dev/src/components/linkedin-recommendations/pug/linkedin-recommendations.pug
+
+doctype html
+html(prefix="og: http://ogp.me/ns#")
+
+	+head(portfolio.head, versionSuffix, false)
+
+	body#portfolio.listing
+		div#wrapper
+			header
+				div.inner.box
+					h1= global.name
+					h2= global.jobTitle
+			a#home(href="/")= global.strings.backToHomepage
+			div#outer
+				main.thumbnail-listing
+					ol
+						- var requiredClasses;
+
+						each contract, index in portfolio.body.contracts
+							- 
+								requiredClasses = [];
+								if(!contract.containsGallery){
+									requiredClasses.push('no-gallery');
+								}
+								if(!contract.responsive){
+									requiredClasses.push('non-responsive');
+								}
+
+								requiredClasses = requiredClasses.join(' ');
+
+							li&attributes({"class": requiredClasses})
+								picture.teaser
+									if contract.containsGallery === true
+										a(href=contract.url)
+											img(src="/assets/images/portfolio/aspect-ratio-placeholder.gif", data-src=contract.image, data-lazyload-module="mod-image", data-inview)
+									else
+										img(src="/assets/images/portfolio/aspect-ratio-placeholder.gif", data-src=contract.image, data-lazyload-module="mod-image", data-inview)
+											
+								ul
+									li
+										strong= contract.companyName
+										= contract.jobTitle
+									li.role-type= contract.roleType
+									li
+										strong= global.strings.dates + ": "
+										= contract.contractDates
+									li
+										strong= global.strings.duration + ": "
+										= contract.duration
+									li
+										strong= global.strings.location + ": "
+										= contract.location
+									li.overview
+										p!= contract.overview
+
+									if contract.containsGallery === false
+										li.linkedin
+											strong= global.strings.linkedInRecommenations
+
+											- 
+												var recommendationsFormatting = linkedInSuffixes(contract.linkedInRecommendations);												
+												var linkedInRecommendationsReceived = global.strings.linkedIn.recommendationsReceived.replace('{count}', recommendationsFormatting.count).replace('{recommendation/s}', recommendationsFormatting.recommendationSingularPlural);
+												var linkedInRecommendationsLinkText = global.strings.linkedIn.recommendationsRead.replace('{it-them}', recommendationsFormatting.itOrThem);
+
+											p= linkedInRecommendationsReceived + " "
+												a.linkedin-launch(href="linkedin-recommendations-" + (index+1), data-linked-container-class="no-gallery", data-linked-element=".linkedin-recommendations")= linkedInRecommendationsLinkText + "."
+									else
+										li
+											a.launch-gallery(href=contract.url)= global.strings.launchGallery
+
+								if contract.ndaRestrictions
+									div.nda
+										strong= global.strings.galleryNDARestrictions
+
+								if contract.containsGallery === false
+									div(id="linkedin-recommendations-" + (index+1), class="linkedin-recommendations")
+										h3= global.strings.recommendations
+										div.inner
+											+linkedinRecommendations(contract.linkedInRecommendations)
+
+		script(src="/assets/scripts/app.min.js" + versionSuffix)

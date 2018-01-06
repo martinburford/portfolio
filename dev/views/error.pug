@@ -1,0 +1,14 @@
+include ./../../dev/src/components/head/pug/head.pug
+
+doctype html
+html(prefix="og: http://ogp.me/ns#")
+
+	+head(error.head, versionSuffix, false)
+
+	body#error
+		div#wrapper
+			h1= global.name
+			h2= global.jobTitle
+			p= global.strings.anErrorHasOccured + " (" + errorData.message + ", " + errorData.status + ")"
+			span= errorData.stack
+			a(href="/")= global.strings.backToHomepage
