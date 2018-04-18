@@ -48,7 +48,7 @@
 	 * @returns {string} - The formatted folder name (eg: Match Centre returns match-centre)
 	 */
 	function formatGallerySegment(segment){
-		return segment.split(' ').join('-').toLowerCase();
+		return segment.split(' ').join('-').replace('&','and').toLowerCase();
 	}
 
 //- MIXINS
@@ -58,7 +58,7 @@ mixin head(data, versionSuffix, isShareableGallery)
 	head
 		meta(http-equiv="Content-Type", content="text/html; charset=utf-8")
 		meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no")
-		
+
 		-
 			var title;
 			var description;
@@ -90,13 +90,12 @@ mixin head(data, versionSuffix, isShareableGallery)
 				url = data.openGraph.url;
 				imagePath = data.openGraph.imagePath;
 
-			meta(property="og:title" content=title)
-			meta(property="og:description" content=description)
-			meta(property="og:url" content=url)
-			meta(property="og:image" content=imagePath + versionSuffix)
-			meta(property="og:image:width" content="1200")
-			meta(property="og:image:height" content="630")
-
+		meta(property="og:title" content=title)
+		meta(property="og:description" content=description)
+		meta(property="og:url" content=url)
+		meta(property="og:image" content=imagePath + versionSuffix)
+		meta(property="og:image:width" content="1200")
+		meta(property="og:image:height" content="630")
 		title= global.name + ' - ' + data.title
 
 		each stylesheet, index in data.stylesheets

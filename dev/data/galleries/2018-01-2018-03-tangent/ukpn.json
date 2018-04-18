@@ -1,0 +1,174 @@
+{
+	"head": {
+		"title": "Portfolio",
+		"stylesheets": [{			
+			"path": "site.min.css",
+			"media": "all"
+		},{			
+			"path": "portfolio.min.css",
+			"media": "all"
+		},{			
+			"path": "gallery.min.css",
+			"media": "all"
+		}]
+	},
+	"client": "Tangent",
+	"project": "UKPN",
+	"dates": "Jan 2018 - Mar 2018",
+	"summary": "I was hired by Tangent to help with the second phase of a digital project rollout for one of their largest clients. Whilst phase 1 was largely completed by the time I started working, phase 2 was built using a completely different development platform, so was essentially a greenfield project. The relationship with this particular client was based on Tangent providing static front-end pages/assets to a remotely located back-end integration company, responsible for integrating that code into Sitecore. Despite this, the front-end tech stack worked on the basis of JSON data generating HTML pages via Pug templates, running on Node, using Express. In the 3 months I was at Tangent, I'd say approximately 125 or so new components were built (ES6 JavaScript, Pug templates, SASS), across around a dozen separate page templates. The timings were tight on the project, however the front-end and testing teams put in place were fantastic, and I think alot of people were surprised at just how quickly work was produced.",
+	"technologiesUsed": [
+		"Babel",
+		"BEM",
+		"Bootstrap Grid",
+		"CSS3",
+		"ES6",
+		"Flexbox",
+		"Gulp",
+		"HTML5",
+		"JSON",
+		"Node",
+		"Responsive front-end",
+		"SASS",
+		"Yarn"
+	],
+	"linkedInRecommendations": [{
+		"name": "Anders Jensen",
+		"jobTitle": "Front-End Developer",
+		"recommendation": "I really enjoyed working with Martin at Tangent! <em>He's a great Developer and a really funny guy</em>. We worked together on a project for a big client, which had a tight deadline plus an incredible workload and <em>I can't thank him enough for his help</em>. More than anything, I am grateful for Martins ability to take on a brief and deliver quality results. I had to oversee a few other projects at the same time, so I wasn't always present, but I knew that I could trust Martin with whatever task he'd get. He is perfectly able to work independently and will make sure to eliminate any wrong assumptions or ambiguities. This is really important in my opinion. Likewise he is also a great sport when working in a team, and <em>he was always happy to help any of the other team members</em>. Martin is a top professional. He keeps track of all tasks and <em>is incredibly informative</em>, writing documentation and a daily note of what he has completed. <em>I hope I'll get the pleasure of working with him again, because that's what it was ... a real pleasure</em>."
+	},{
+		"name": "Louise Simpson",
+		"jobTitle": "Senior Project Manager",
+		"recommendation": "Martin joined our project team at a critical point in delivery and <em>without him we would not have been able to deliver</em> our project. <em>He worked brilliantly as part of the team</em> and under extreme time pressures, with the added complexity of joining in the second phase of the project. <em>His extensive knowledge of front-end development was absolutely vital</em> in finding solutions to complex conditional forms and many other key components. His documentation and explanation of his work not only benefited our team but also our partner, and will benefit future teams supporting the project. He was also <em>very able and willing to lead and guide other members of the team</em>. He is very well organized and fully responsible for his own workload. As a Project Manager I did not once have to worry about Martin delivering on time or the quality of his work. I would recommend Martin to anyone looking for a highly skilled Developer and I would work with him again without hesitation. <em>He is a brilliant asset to any project team</em>."
+	},{
+		"name": "Iustin Daniel Balta Cojocaru Stan",
+		"jobTitle": "QA/Web Manager",
+		"recommendation": "Martin was one of the first contractors I have had the pleasure to work with on a project with a very important client. The project was very time critical, and I have to say that, <em>hands down, Martin is one of the best Developers I have encountered</em>. For me, <em>he shattered the idea that some people have about contractors where they do not care about the projects they are working on</em>. He was more involved and interested in the project than people who were actually fully employed on the project. He is a highly skilled Developer who never takes a back seat or cannot be bothered to help, explain or fix an issue. He is a very detailed person who doesn't crack under pressure and <em>he knows how to explain something so that everyone understands</em> (be it on a ticket or verbally). He also takes the time to make sure that the same point of view is reached by all in the end. <em>He has some of the cleanest code I have ever come across</em>. Couple this with the high level of details he provides in Jira tickets, and it made checking and testing a breeze. <em>Working with Martin was a joy</em> not only because he was a devoted worker who gave his time for anybody that needed it, but also due to the fact that <em>he is a very interesting and fun person with a lovely personality that made it a treat to be around</em>. I truly hope to work alongside him again. Highly recommended for any type of project, big or small."
+	}],
+	"gitHubCodeSamples": "https://github.com/martinburford/code-samples/tree/master/filtered-by-contract/2018-01-2018-03%20-%20Tangent%20(UKPN)",
+	"media": {
+		"available": ["mobile","tablet","desktop"],
+		"mobile": [{
+			"image": "/assets/images/portfolio/galleries/2018-01-2018-03-tangent/screens/thumbnails/mobile/01-sample-global-page.png",
+			"width": 311,
+			"label": "Sample global page"
+		},{
+			"image": "/assets/images/portfolio/galleries/2018-01-2018-03-tangent/screens/thumbnails/mobile/02-dynamic-global-components.png",
+			"width": 311,
+			"label": "Dynamic global components"
+		},{
+			"image": "/assets/images/portfolio/galleries/2018-01-2018-03-tangent/screens/thumbnails/mobile/03-static-global-components.png",
+			"width": 311,
+			"label": "Static global components"
+		},{
+			"image": "/assets/images/portfolio/galleries/2018-01-2018-03-tangent/screens/thumbnails/mobile/04-sample-form-page.png",
+			"width": 311,
+			"label": "Sample form page"
+		},{
+			"image": "/assets/images/portfolio/galleries/2018-01-2018-03-tangent/screens/thumbnails/mobile/05-calculators.png",
+			"width": 311,
+			"label": "Calculators"
+		},{
+			"image": "/assets/images/portfolio/galleries/2018-01-2018-03-tangent/screens/thumbnails/mobile/06-conditional-forms.png",
+			"width": 311,
+			"label": "Conditional forms"
+		},{
+			"image": "/assets/images/portfolio/galleries/2018-01-2018-03-tangent/screens/thumbnails/mobile/07-form-error-states.png",
+			"width": 311,
+			"label": "Form error states"
+		},{
+			"image": "/assets/images/portfolio/galleries/2018-01-2018-03-tangent/screens/thumbnails/mobile/08-repeatable-sections.png",
+			"width": 311,
+			"label": "Repeatable sections"
+		},{
+			"image": "/assets/images/portfolio/galleries/2018-01-2018-03-tangent/screens/thumbnails/mobile/09-tooltips.png",
+			"width": 311,
+			"label": "Tooltips"
+		},{
+			"image": "/assets/images/portfolio/galleries/2018-01-2018-03-tangent/screens/thumbnails/mobile/10-sample-homepage.png",
+			"width": 311,
+			"label": "Sample homepage"
+		}],
+		"tablet": [{
+			"image": "/assets/images/portfolio/galleries/2018-01-2018-03-tangent/screens/thumbnails/tablet/01-sample-global-page.png",
+			"width": 504,
+			"label": "Sample global page"
+		},{
+			"image": "/assets/images/portfolio/galleries/2018-01-2018-03-tangent/screens/thumbnails/tablet/02-dynamic-global-components.png",
+			"width": 504,
+			"label": "Dynamic global components"
+		},{
+			"image": "/assets/images/portfolio/galleries/2018-01-2018-03-tangent/screens/thumbnails/tablet/03-static-global-components.png",
+			"width": 504,
+			"label": "Static global components"
+		},{
+			"image": "/assets/images/portfolio/galleries/2018-01-2018-03-tangent/screens/thumbnails/tablet/04-sample-form-page.png",
+			"width": 504,
+			"label": "Sample form page"
+		},{
+			"image": "/assets/images/portfolio/galleries/2018-01-2018-03-tangent/screens/thumbnails/tablet/05-calculators.png",
+			"width": 504,
+			"label": "Calculators"
+		},{
+			"image": "/assets/images/portfolio/galleries/2018-01-2018-03-tangent/screens/thumbnails/tablet/06-conditional-forms.png",
+			"width": 504,
+			"label": "Conditional forms"
+		},{
+			"image": "/assets/images/portfolio/galleries/2018-01-2018-03-tangent/screens/thumbnails/tablet/07-form-error-states.png",
+			"width": 504,
+			"label": "Form error states"
+		},{
+			"image": "/assets/images/portfolio/galleries/2018-01-2018-03-tangent/screens/thumbnails/tablet/08-repeatable-sections.png",
+			"width": 504,
+			"label": "Repeatable sections"
+		},{
+			"image": "/assets/images/portfolio/galleries/2018-01-2018-03-tangent/screens/thumbnails/tablet/09-tooltips.png",
+			"width": 504,
+			"label": "Tooltips"
+		},{
+			"image": "/assets/images/portfolio/galleries/2018-01-2018-03-tangent/screens/thumbnails/tablet/10-sample-homepage.png",
+			"width": 504,
+			"label": "Sample homepage"
+		}],
+		"desktop": [{
+			"image": "/assets/images/portfolio/galleries/2018-01-2018-03-tangent/screens/thumbnails/desktop/01-sample-global-page.png",
+			"width": 960,
+			"label": "Sample global page"
+		},{
+			"image": "/assets/images/portfolio/galleries/2018-01-2018-03-tangent/screens/thumbnails/desktop/02-dynamic-global-components.png",
+			"width": 960,
+			"label": "Dynamic global components"
+		},{
+			"image": "/assets/images/portfolio/galleries/2018-01-2018-03-tangent/screens/thumbnails/desktop/03-static-global-components.png",
+			"width": 960,
+			"label": "Static global components"
+		},{
+			"image": "/assets/images/portfolio/galleries/2018-01-2018-03-tangent/screens/thumbnails/desktop/04-sample-form-page.png",
+			"width": 960,
+			"label": "Sample form page"
+		},{
+			"image": "/assets/images/portfolio/galleries/2018-01-2018-03-tangent/screens/thumbnails/desktop/05-calculators.png",
+			"width": 960,
+			"label": "Calculators"
+		},{
+			"image": "/assets/images/portfolio/galleries/2018-01-2018-03-tangent/screens/thumbnails/desktop/06-conditional-forms.png",
+			"width": 960,
+			"label": "Conditional forms"
+		},{
+			"image": "/assets/images/portfolio/galleries/2018-01-2018-03-tangent/screens/thumbnails/desktop/07-form-error-states.png",
+			"width": 960,
+			"label": "Form error states"
+		},{
+			"image": "/assets/images/portfolio/galleries/2018-01-2018-03-tangent/screens/thumbnails/desktop/08-repeatable-sections.png",
+			"width": 960,
+			"label": "Repeatable sections"
+		},{
+			"image": "/assets/images/portfolio/galleries/2018-01-2018-03-tangent/screens/thumbnails/desktop/09-tooltips.png",
+			"width": 960,
+			"label": "Tooltips"
+		},{
+			"image": "/assets/images/portfolio/galleries/2018-01-2018-03-tangent/screens/thumbnails/desktop/10-sample-homepage.png",
+			"width": 960,
+			"label": "Sample homepage"
+		}]
+	}
+}

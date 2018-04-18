@@ -45,6 +45,53 @@
 				},{
 					"heading": "Experience",
 					"experience": {				
+						"companyLogo": "/assets/images/portfolio/company-logos/edge-to-edge/tangent.png",
+						"summary": {
+							"jobTitle": "Senior Front-End Developer",
+							"companyName": "Tangent",
+							"contractDates": "January 2018 - March 2018",
+							"location": "London, UK"
+						},
+						"workHighlights": [{
+							"text": "Bought in to help with the second phase of work for Tangents largest client."
+						},{
+							"text": "Fully responsive website across 3 breakpoints, mobile-first adoption."
+						},{
+							"text": "Component-based site development, which was subsequently handed over to a Sitecore integration company."
+						},{
+							"text": "Over 100+ new components built within 12 weeks."
+						}],
+						"technologiesUsed": [
+							"Babel",
+							"BEM",
+							"Bootstrap Grid",
+							"CSS3",
+							"ES6",
+							"Flexbox",
+							"Gulp",
+							"HTML5",
+							"JSON",
+							"Node",
+							"Responsive front-end",
+							"SASS",
+							"Yarn"
+						],
+						"linkedInRecommendations": [{
+							"name": "Anders Jensen",
+							"jobTitle": "Front-End Developer",
+							"recommendation": "I really enjoyed working with Martin at Tangent! <em>He's a great Developer and a really funny guy</em>. We worked together on a project for a big client, which had a tight deadline plus an incredible workload and <em>I can't thank him enough for his help</em>. More than anything, I am grateful for Martins ability to take on a brief and deliver quality results. I had to oversee a few other projects at the same time, so I wasn't always present, but I knew that I could trust Martin with whatever task he'd get. He is perfectly able to work independently and will make sure to eliminate any wrong assumptions or ambiguities. This is really important in my opinion. Likewise he is also a great sport when working in a team, and <em>he was always happy to help any of the other team members</em>. Martin is a top professional. He keeps track of all tasks and <em>is incredibly informative</em>, writing documentation and a daily note of what he has completed. <em>I hope I'll get the pleasure of working with him again, because that’s what it was ... a real pleasure.</em>"
+						},{
+							"name": "Louise Simpson",
+							"jobTitle": "Senior Project Manager",
+							"recommendation": "Martin joined our project team at a critical point in delivery and <em>without him we would not have been able to deliver our project</em>. <em>He worked brilliantly as part of the team</em> and under extreme time pressures, with the added complexity of joining in the second phase of the project. <em>His extensive knowledge of front-end development was absolutely vital</em> in finding solutions to complex conditional forms and many other key components. His documentation and explanation of his work not only benefited our team but also our partner, and will benefit future teams supporting the project. He was also <em>very able and willing to lead and guide other members of the team</em>. He is very well organized and fully responsible for his own workload. As a Project Manager I did not once have to worry about Martin delivering on time or the quality of his work. I would recommend Martin to anyone looking for a highly skilled Developer and I would work with him again without hesitation. <em>He is a brilliant asset to any project team.</em>"
+						},{
+							"name": "Iustin Daniel Balta Cojocaru Stan",
+							"jobTitle": "QA/Web Manager",
+							"recommendation": "Martin was one of the first contractors I have had the pleasure to work with on a project with a very important client. The project was very time critical, and I have to say that, <em>hands down, Martin is one of the best Developers I have encountered</em>. For me, <em>he shattered the idea that some people have about contracts where they do not care about the projects they are working on</em>. He was more involved and interested in the project than people who were actually fully employed on the project. He is a highly skilled Developer who never takes a back seat or cannot be bothered to help, explain or fix an issue. He is a very detailed person who doesn't crack under pressure and <em>he knows how to explain something so that everyone understands</em> (be it on a ticket or verbally). He also takes the time to make sure that the same point of view is reached by all in the end. <em>He has some of the cleanest code I have ever come across</em>. Couple this with the high level of details he provides in Jira tickets, and it made checking and testing a breeze. <em>Working with Martin was a joy</em> not only because he was a devoted worker who gave his time for anybody that needed it, but also due to the fact that <em>he is a very interesting and fun person with a lovely personality that made it a treat to be around</em>. I truly hope to work alongside him again. Highly recommended for any type of project, big or small."
+						}]
+					}
+				},{
+					"experience": {				
 						"companyLogo": "/assets/images/portfolio/company-logos/edge-to-edge/bond-and-coyne.png",
 						"summary": {
 							"jobTitle": "Senior Front-End Developer",
@@ -145,67 +192,14 @@
 						}]
 					}
 				},{
-					"experience": {				
-						"companyLogo": "/assets/images/portfolio/company-logos/edge-to-edge/trinity-mirror.png",
-						"summary": {
-							"jobTitle": "Senior Front-End Developer",
-							"companyName": "Trinity Mirror",
-							"contractDates": "August 2015 - November 2016",
-							"location": "London, UK"
-						},
-						"workHighlights": [{
-							"text": "Repeat contract."
-						},{
-							"text": "Helped lead the re-architecture and building of a brand new (from the ground up) digital platform to support 60+ sites with monthly traffic levels in the tens of millions."
-						},{
-							"text": "Single-handedly built white-labelling capabilities into the platform, to allow the easy creation of sites now and in the future as more publications come online over time."
-						},{
-							"text": "Created elegant front-end solutions to seamlessly work in collaboration with dozens of back-end restful APIs."
-						},{
-							"text": "Fully responsive across 5 breakpoints, mobile-first adoption."
-						},{
-							"text": "Wrote supporting test scripts to enable continuous integration to be possible, thus streamlining the automated deployment procedure."
-						}],
-						"technologiesUsed": [
-							"Chai",
-							"CSS3",
-							"eScenic",
-							"Express",
-							"Grunt",
-							"HTML5",
-							"icoMoon",
-							"Jade templating",
-							"Karma",
-							"Node",
-							"NPM (private and public)",
-							"JSON",
-							"Multi-branding",
-							"Namespacing",
-							"Native JavaScript",
-							"OO JavaScript",
-							"PhantomJS",
-							"Responsive front-end",
-							"SASS",
-							"Sinon"
-						],
-						"linkedInRecommendations": [{
-							"name": "Daniel Landes",
-							"jobTitle": "Product Manager, Advertising & Data",
-							"recommendation": "Martin joined my team to help us out with a particularly tricky ad issue we needed to resolve before our new sites could launch. He worked autonomously, <em>building a really clever bespoke solution</em> which answered complex requirements and is now being sold by commercial teams across the business. <em>Martin has a real understanding of good UX</em>, and with his significant technical experience and thorough documentation, he has been a great help to the team."
-						},{
-							"name": "Huan Zhang",
-							"jobTitle": "Front-End Developer",
-							"recommendation": "As someone who has almost more years of JavaScript experience than my age, <em>Martin is surprisingly down to earth and easy to work with</em>. I still remember him helping me with an array map problem during my first week at Trinity Mirror and he has always been happy to help, happy to explain the reasons behind decisions and in general happy to pass on all his years of experience onto anyone willing to learn. <em>I have definitely learnt a lot from working with Martin</em> and <em>he is certainly one of my favourite people</em> in the office."
-						},{
-							"name": "Bogdan Chebac",
-							"jobTitle": "Senior Front-End Developer",
-							"recommendation": "<em>Few people get the rare opportunity to work with an incredible developer such as Martin</em>. I had the pleasure to work with him throughout the beginning of 2016 and <em>I have never seen a developer deliver code as fast</em> as he did with the utmost attention to detail and clean code standards, <em>I was always in awe of his capabilities</em>. Martin was able to juggle several tasks at once all while being a mentor figure to yours truly, offering both challenge and support when the task at hand required it. Not to mention it made a dramatic difference in the team's productivity level. No matter what kind of a meeting/stand-up/planning it was, Martin always provided helpful feedback and solutions even for the most challenging of issues. As a team member or a leader, <em>Martin earns my highest recommendation</em>"
-						}]
-					}
-				},{
 					"subHeading": "Other contracts",
 					"tableIntroduction": "Besides my most recent 3 contracts, as above, I have worked in many other companies, on a contract basis:",
 					"tableOfRoles": [{
+						"companyName": "Trinity Mirror",
+						"jobTitle": "Senior Front-End Developer",
+						"contractFrom": "Aug 2015",
+						"contractTo": "Nov 2016"
+					},{
 						"companyName": "Barclays",
 						"jobTitle": "Lead UI Developer",
 						"contractFrom": "Aug 2014",
