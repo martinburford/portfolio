@@ -104,6 +104,7 @@ blockquote {
 #overlay-inner {
 	@include border-radius(10px);
 	background: url(/assets/images/transparencies/ffffff/percent-10.png) repeat;
+	border: 1px solid rgba(#ffffff, 0.1);
 	box-sizing: border-box;	
 	left: 0;
 	max-height: calc(100vh - 91px);
