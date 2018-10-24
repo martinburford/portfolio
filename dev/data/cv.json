@@ -45,6 +45,54 @@
 				},{
 					"heading": "Experience",
 					"experience": {				
+						"companyLogo": "/assets/images/portfolio/company-logos/edge-to-edge/biglight.png",
+						"summary": {
+							"jobTitle": "Senior Front-End Developer",
+							"companyName": "Biglight",
+							"contractDates": "May 2018 - October 2018",
+							"location": "London, UK"
+						},
+						"workHighlights": [{
+							"text": "I was the single Front-End Developer on a greenfield component-based internal<br />reporting suite."
+						},{
+							"text": "Created an interactive dashboard for accessing hundreds of previous tests with<br />advanced filtering."
+						},{
+							"text": "Interactive forms allowed for the creation of entirely new tests."
+						},{
+							"text": "The website I built replaced the previous much-used, but ageing spreadsheets based solution."
+						},{
+							"text": "Full user-management built in, to enable hierarchical admin and read-only user groups."
+						},{
+							"text": "The data to include within the site was structurally complex, so a number of mechanisms were concepted, prototyped, and ultimately built, covering data visualization, contextual forms, progressive saving, localStorge data management and many more."
+						}],
+						"technologiesUsed": [
+							".net Core", 
+							"Babel", 
+							"BEM", 
+							"CSS3", 
+							"ES6", 
+							"Fetch", 
+							"Flexbox", 
+							"Grunt", 
+							"HTML5", 
+							"JSON", 
+							"Node", 
+							"NPM", 
+							"RESTful API", 
+							"SASS"
+						],
+						"linkedInRecommendations": [{
+							"name": "Chris Haslam",
+							"jobTitle": "Talent Acquisition",
+							"recommendation": "Martin backed up everything that was said about him prior to him joining Biglight. <em>He's professional, fast and there’s no BS</em>. It's not the first time we have worked together and it won't be the last."
+						},{
+							"name": "Paul Finan",
+							"jobTitle": "Director",
+							"recommendation": "<em>Martin is the epitome of professionalism</em>. Very detail orientated, Martin provided step-by-step documentation to work completed for the client and of course, he delivered when he said he would. In all my years of me doing this, <em>I hold Martin in very high regard when it comes to work ethic, technical knowledge, approach and his overall professionalism</em> when tasked with a project. I'll be looking him up again soon."
+						}]
+					}
+				},{
+					"experience": {				
 						"companyLogo": "/assets/images/portfolio/company-logos/edge-to-edge/tangent.png",
 						"summary": {
 							"jobTitle": "Senior Front-End Developer",
@@ -126,6 +174,7 @@
 							"Responsive front-end", 
 							"SASS"
 						],
+						"gitHubCodeSamples": "https://github.com/martinburford/code-samples/tree/master/filtered-by-contract/2017-08-2017-11%20-%20Bond%20%26%20Coyne%20(Pearson)",
 						"linkedInRecommendations": [{
 							"name": "Martin Coyne",
 							"jobTitle": "Creative Director / Owner",
@@ -153,48 +202,14 @@
 						}]
 					}
 				},{
-					"experience": {				
-						"companyLogo": "/assets/images/portfolio/company-logos/edge-to-edge/mansion-house-consulting.png",
-						"summary": {
-							"jobTitle": "Lead Web Developer",
-							"companyName": "Mansion House Consulting",
-							"contractDates": "January 2017 - February 2017",
-							"location": "London, UK"
-						},
-						"workHighlights": [{
-							"text": "Wrote the initial templates for a comprehensive internal prototype."
-						},{
-							"text": "Fully dynamic interface, via communication with a vast array of APIs."
-						},{
-							"text": "Fully responsive across 3 breakpoints, mobile-first adoption."
-						},{
-							"text": "Handed over the code to an internal development team for the longer-term integration, once the prototype was complete, and had been welcomed very favourably by the relevant business units."
-						}],
-						"technologiesUsed": [
-							"CSS3",
-							"HTML5",
-							"icoMoon",
-							"NPM",
-							"JSON",
-							"Namespacing",
-							"Native JavaScript",
-							"OO JavaScript",
-							"Responsive front-end"
-						],
-						"linkedInRecommendations": [{
-							"name": "Ritu Arora",
-							"jobTitle": "Java/Ruby Automation Test Analyst (Frontend/Backend), REST, Serenity, Selenium, IAM, OAuth, SSO, IDP, CRM, SalesForce",
-							"recommendation": "Martin is the complete package for any front-end development work. <em>He knows his job inside out</em> and is happy to work with multiple different technologies. <em>He goes the extra mile</em> in order to deliver top class solutions within project time frames. When you work with him, it's impossible to not notice his vast experience in the industry and the reputation he has gained over many years. <em>He has an unstoppable source of energy and passion</em> towards the success of the program he works on. I have seen him spend time to analyse the work and requirements at hand, before jumping straight to a solution or implementation. <em>He is a team player</em> and a fun loving guy to work with. I would have no hesitation in recommending him to any employer who are seeking a top notch front-end developer. Undoubtedly, he would be a great asset to any team."
-						},{
-							"name": "Sebastien Rousseau",
-							"jobTitle": "Senior Product Manager, Project Manager, Technical Lead and Solution Architect, Digital and Mobile Payments",
-							"recommendation": "Martin is an exceptional lead web developer, very passionate, extremely focused in his approach to his work with <em>a remarkable attention to detail</em>. He was able to jump in on a very complex project, communicated efficiently technical blockers and delivered creative solutions. He gave excellent feedback to the UX/Design team, took active interest in the overall development process and <em>wrote clean, well documented and highly maintainable code</em> with an end-result that always has been better than we had imagined. I was glad to work with him and would be happy to do so again. Highly recommended."
-						}]
-					}
-				},{
 					"subHeading": "Other contracts",
 					"tableIntroduction": "Besides my most recent 3 contracts, as above, I have worked in many other companies, on a contract basis:",
 					"tableOfRoles": [{
+						"companyName": "HSBC (via Mansion House)",
+						"jobTitle": "Lead Web Developer",
+						"contractFrom": "Jan 2017",
+						"contractTo": "Feb 2017"
+					},{
 						"companyName": "Trinity Mirror",
 						"jobTitle": "Senior Front-End Developer",
 						"contractFrom": "Aug 2015",

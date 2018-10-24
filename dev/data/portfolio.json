@@ -20,6 +20,19 @@
 			"contracts": [{
 				"containsGallery": true,
 				"ndaRestrictions": false,
+				"responsive": false,
+				"image": "/assets/images/portfolio/listing-thumbnails/biglight.png",
+				"companyName": "Biglight",
+				"jobTitle": "Senior Front-End Developer",
+				"roleType": "Contract",
+				"contractDates": "May 2018 - October 2018",
+				"duration": "6 months",
+				"location": "London, UK",
+				"overview": "Biglight hired me as the only Front-End Developer to work on an internal project for them, which would be used for managing test campaigns across all of their brands. Prior to the existence of this, the system in place was in need of updating as it involved data being kept in multiple spreadsheets, and was therefore not the easiest to work with. The new system was a completely greenfield project, whereby myself and a single back-end Developer worked on creating a new platform for the business which would replace in its entirety the existing system. It was also a requirement that clients would be granted access to the tests, so a set of rules were built into what was created to allow for both read and write priviliedges across a multi-tiered user hierarchy. From a tech stack perspective, Biglight are a Microsoft house, so there was a requirement to use .net Core for the back-end. The front-end that I wrote was very much written in a way whereby the project was responsive to a users input. This was achieved by implementing a RESTful API on the back-end with multiple touchpoints between the front and back-end. Upon delivery of the finished project, there were around 20 different endpoints, catering for all of the data transmission. This covered complete user management, a free-text search engine, an interactive dashboard, saving tests as PDF routine, the creation of complete tests and their subsequent editing along with MANY more features.",
+				"url": "/portfolio/gallery/2018-05-2018-10-biglight/cxodb"
+			},{
+				"containsGallery": true,
+				"ndaRestrictions": false,
 				"responsive": true,
 				"image": "/assets/images/portfolio/listing-thumbnails/tangent.png",
 				"companyName": "Tangent",

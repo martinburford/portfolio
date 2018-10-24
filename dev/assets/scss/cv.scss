@@ -288,6 +288,21 @@ section {
 	thead {
 		display: none;
 	}
+
+	.github-project-code {
+		@include icon-icomoon('github', $link-color, 32, $customSideOffset: 10px, $spaceToContent: 20);
+		background: $light-grey;
+		border: 1px solid $dark-grey;
+		display: block;
+		margin-top: 20px;
+		padding-bottom: 15px;
+		padding-right: 15px;
+		padding-top: 15px;
+
+		& + .linkedin-recommendations {
+			margin-top: 10px;
+		}
+	}
 }
 
 aside {

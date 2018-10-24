@@ -86,7 +86,7 @@ html(prefix="og: http://ogp.me/ns#")
 								span= section.experience.summary.location
 							ul
 								each highlight, index in section.experience.workHighlights
-									li= highlight.text
+									li!= highlight.text
 
 										if highlight.subLinks
 											ul
@@ -98,6 +98,9 @@ html(prefix="og: http://ogp.me/ns#")
 								p
 									strong= global.strings.technologiesUsed + ": "
 									= section.experience.technologiesUsed.join(', ')
+
+							if section.experience.gitHubCodeSamples
+								a.github-project-code(href=section.experience.gitHubCodeSamples, target="_blank")= "View code samples from this project on GitHub"
 
 							//- LinkedIn recommendations
 							if section.experience.linkedInRecommendations
