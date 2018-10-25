@@ -1,0 +1,125 @@
+{
+	"head": {
+		"title": "Portfolio",
+		"stylesheets": [{			
+			"path": "site.min.css",
+			"media": "all"
+		},{			
+			"path": "portfolio.min.css",
+			"media": "all"
+		},{			
+			"path": "gallery.min.css",
+			"media": "all"
+		}]
+	},
+	"client": "Biglight",
+	"project": "CXODB",
+	"dates": "May 2018 - Oct 2018",
+	"summary": "Biglight hired me as the only Front-End Developer to work on an internal project for them, which would be used for managing test campaigns across all of their brands. Prior to the existence of this, the system in place was in need of updating as it involved data being kept in multiple spreadsheets, and was therefore not the easiest to work with. The new system was a completely greenfield project, whereby myself and a single back-end Developer worked on creating a new platform for the business which would replace in its entirety the existing system. It was also a requirement that clients would be granted access to the tests, so a set of rules were built into what was created to allow for both read and write priviliedges across a multi-tiered user hierarchy. From a tech stack perspective, Biglight are a Microsoft house, so there was a requirement to use .net Core for the back-end. The front-end that I wrote was very much written in a way whereby the project was responsive to a users input. This was achieved by implementing a RESTful API on the back-end with multiple touchpoints between the front and back-end. Upon delivery of the finished project, there were around 20 different endpoints, catering for all of the data transmission. This covered complete user management, a free-text search engine, an interactive dashboard, saving tests as PDF routine, the creation of complete tests and their subsequent editing along with MANY more features.",
+	"technologiesUsed": [
+		".net Core", 
+		"Babel", 
+		"BEM", 
+		"CSS3", 
+		"ES6", 
+		"Fetch", 
+		"Flexbox", 
+		"Grunt", 
+		"HTML5", 
+		"JSON", 
+		"Node", 
+		"NPM", 
+		"RESTful API", 
+		"SASS"
+	],
+	"linkedInRecommendations": [{
+		"name": "Paul Finan",
+		"jobTitle": "Director",
+		"recommendation": "<em>Martin is the epitome of professionalism</em>. Very detail orientated, Martin provided step-by-step documentation to work completed for the client and of course, delivered on time when he said he would. In all my years hiring, <em>I hold Martin in very high regard when it comes to work ethic, technical knowledge, direct approach and overall professionalism</em>. I'll be looking him up again soon, thanks for your hard work and dedication."
+	},{
+		"name": "Chris Haslam",
+		"jobTitle": "Talent Acquisition",
+		"recommendation": "Martin backed up everything that was said about him prior to him joining Biglight. <em>He's professional, fast and there's no BS</em>. It's not the first time we have worked together and it won't be the last."
+	}],
+	"gitHubCodeSamples": "https://github.com/martinburford/code-samples/tree/master/filtered-by-contract/2018-05-2018-10%20-%20Biglight%20(CXODB)",
+	"media": {
+		"available": ["desktop"],
+		"desktop": [{
+			"image": "/assets/images/portfolio/galleries/2018-05-2018-10-biglight/screens/thumbnails/desktop/01-login.png",
+			"width": 960,
+			"label": "Login"
+		},{
+			"image": "/assets/images/portfolio/galleries/2018-05-2018-10-biglight/screens/thumbnails/desktop/02-forgotten-password.png",
+			"width": 960,
+			"label": "Forgotten password"
+		},{
+			"image": "/assets/images/portfolio/galleries/2018-05-2018-10-biglight/screens/thumbnails/desktop/03-password-reset.png",
+			"width": 960,
+			"label": "Password reset"
+		},{
+			"image": "/assets/images/portfolio/galleries/2018-05-2018-10-biglight/screens/thumbnails/desktop/04-dashboard.png",
+			"width": 960,
+			"label": "Dashboard"
+		},{
+			"image": "/assets/images/portfolio/galleries/2018-05-2018-10-biglight/screens/thumbnails/desktop/05-dashboard-dot-menu-visible.png",
+			"width": 960,
+			"label": "Dashboard (dot menu visible)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2018-05-2018-10-biglight/screens/thumbnails/desktop/06-dashboard-brand-selector-visible.png",
+			"width": 960,
+			"label": "Dashboard (brand selector visible)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2018-05-2018-10-biglight/screens/thumbnails/desktop/07-dashboard-search-visible.png",
+			"width": 960,
+			"label": "Dashboard (search visible)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2018-05-2018-10-biglight/screens/thumbnails/desktop/08-dashboard-filters-visible.png",
+			"width": 960,
+			"label": "Dashboard (filters visible)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2018-05-2018-10-biglight/screens/thumbnails/desktop/09-test-add.png",
+			"width": 960,
+			"label": "Test (create)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2018-05-2018-10-biglight/screens/thumbnails/desktop/10-test-edit.png",
+			"width": 960,
+			"label": "Test (edit mode)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2018-05-2018-10-biglight/screens/thumbnails/desktop/11-test-edit-with-errors.png",
+			"width": 960,
+			"label": "Test (edit mode with errors)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2018-05-2018-10-biglight/screens/thumbnails/desktop/12-test-status-switcher.png",
+			"width": 960,
+			"label": "Test (status switcher)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2018-05-2018-10-biglight/screens/thumbnails/desktop/13-test-copy-url.png",
+			"width": 960,
+			"label": "Test (copy URL)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2018-05-2018-10-biglight/screens/thumbnails/desktop/14-test-status-types.png",
+			"width": 960,
+			"label": "Dashboard (dot menu visible)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2018-05-2018-10-biglight/screens/thumbnails/desktop/15-overview.png",
+			"width": 960,
+			"label": "Overview"
+		},{
+			"image": "/assets/images/portfolio/galleries/2018-05-2018-10-biglight/screens/thumbnails/desktop/16-variations.png",
+			"width": 960,
+			"label": "Variations"
+		},{
+			"image": "/assets/images/portfolio/galleries/2018-05-2018-10-biglight/screens/thumbnails/desktop/17-users.png",
+			"width": 960,
+			"label": "Users"
+		},{
+			"image": "/assets/images/portfolio/galleries/2018-05-2018-10-biglight/screens/thumbnails/desktop/18-create-user.png",
+			"width": 960,
+			"label": "Create user"
+		},{
+			"image": "/assets/images/portfolio/galleries/2018-05-2018-10-biglight/screens/thumbnails/desktop/19-update-user.png",
+			"width": 960,
+			"label": "Update user"
+		}]
+	}
+}
