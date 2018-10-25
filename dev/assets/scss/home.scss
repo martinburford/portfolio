@@ -61,7 +61,7 @@
 				&:before {
 					@include border-radius(50%);
 					@include shadowbox($glowColor: $white, $opacity: 0.10, $shadowSize: 1px);	
-					background: url(/assets/images/transparencies/000000/percent-30.png) repeat;
+					background: rgba($black, 0.3);
 					content: '';
 					display: block;
 					left: 0;					

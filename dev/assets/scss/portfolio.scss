@@ -144,7 +144,7 @@ header {
 
 .box {
 	@include shadowbox($glowColor: $white, $opacity: 0.1);	
-	background: url(/assets/images/transparencies/000000/percent-100.png) repeat left top;
+	background: $black;
 }
 
 a {
@@ -222,7 +222,7 @@ a {
 
 				&:before,
 				&:after {
-					background: url(/assets/images/transparencies/ffffff/percent-10.png) repeat;
+					background: rgba($white, 0.1);
 					content: '';
 					display: block;
 					height: 100%;
@@ -313,20 +313,20 @@ a {
 
 .thumbnail-listing {
 	h3 {
-		background: url(/assets/images/transparencies/ffffff/percent-5.png) repeat;
+		background: rgba($white, 0.05);
 		font-family: 'expert-sans-bold';
 		letter-spacing: -1px;
 		text-align: center;
 		transition: background 250ms ease-in-out;
 
 		&:hover {
-			background-image: url(/assets/images/transparencies/000000/percent-30.png);
+			background: rgba($black, 0.3);
 		}
 	}
 
 	section {
 		&.active h3 {
-			background-image: url(/assets/images/transparencies/000000/percent-30.png);
+			background: rgba($black, 0.3);
 		}
 
 		picture {
@@ -492,7 +492,7 @@ a {
 
 				.role-type {
 					@include shadowbox($glowColor: $white, $opacity: 0.05, $shadowSize: 1px);
-					background: url(/assets/images/transparencies/ffffff/percent-10.png) repeat;
+					background: rgba($white, 0.1);
 					border: 1px solid $listings-job-type;
 					display: inline-block;
 					font-family: 'expert-sans-light';

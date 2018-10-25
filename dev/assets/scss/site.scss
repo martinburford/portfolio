@@ -105,7 +105,7 @@ blockquote {
 
 #overlay-inner {
 	@include border-radius(10px);
-	background: url(/assets/images/transparencies/ffffff/percent-10.png) repeat;
+	background: rgba($white, 0.1);
 	border: 1px solid rgba(#ffffff, 0.1);
 	box-sizing: border-box;	
 	left: 0;
@@ -183,7 +183,7 @@ blockquote {
 .linkedin-recommendations {
 	@include border-radius(5px);
 	@include shadowbox($glowColor: $linkedin, $opacity: 0.1, $inset: true, $shadowSize: 1px);	
-	background: url(/assets/images/transparencies/dfebee/percent-90.png) repeat;
+	background: rgba(#dfebee, 0.9);
 	box-sizing: border-box;
 	margin-top: 20px;
 	padding: 10px;
@@ -490,7 +490,7 @@ blockquote {
 
 	#overlay-inner {
 		@include border-radius(10px);
-		background: url(/assets/images/transparencies/ffffff/percent-10.png) repeat;
+		background: rgba($white, 0.1);
 		left: calc(50% - 590px);
 		padding: 10px 0 10px 10px;
 		width: 1180px;	

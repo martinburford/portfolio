@@ -142,7 +142,7 @@ body:not(.has-touch) {
 
 #projects-box {
 	@include box-sizing;
-	background: url(/assets/images/transparencies/ffffff/percent-10.png) repeat;
+	background: rgba($white, 0.1);
 	height: calc(100% - 91px);
 	left: 10px;
 	margin-left: -100%;
@@ -192,7 +192,7 @@ body:not(.has-touch) {
 		}
 
 		&.active {
-			background: url(/assets/images/transparencies/ffffff/percent-10.png) repeat;
+			background: rgba($white, 0.1);
 		}
 	}
 
@@ -211,7 +211,7 @@ body:not(.has-touch) {
 	}
 
 	img {
-		background: url(/assets/images/transparencies/000000/percent-50.png) repeat;
+		background: rgba($black, 0.5);
 		display: block;
 		height: 100%;
 		left: 0;
@@ -255,7 +255,7 @@ body:not(.has-touch) {
 			@include border-radius(5px);
 			@include icon-icomoon('tick', $technology-used, 12, $position: 'before', $customSideOffset: 5px);
 			@include shadowbox($glowColor: $white, $opacity: 0.25, $shadowSize: 1px);
-			background: url(/assets/images/transparencies/ffffff/percent-10.png) repeat;
+			background: rgba($white, 0.1);
 			color: rgba($white,0.75);
 			display: inline-block;
 			margin: 4px 5px 3px 1px;
@@ -291,7 +291,7 @@ body:not(.has-touch) {
 // Project links (LinkedIn and GitHub)
 
 #project-links {
-	background: url(/assets/images/transparencies/ffffff/percent-5.png) repeat;
+	background: rgba($white, 0.05);
 	padding: 8px 0;
 	position: relative;
 
@@ -512,7 +512,7 @@ body:not(.has-touch) {
 
 		> li {
 			@include border-radius(5px);
-			background: url(/assets/images/transparencies/ffffff/percent-5.png) repeat;
+			background: rgba($white, 0.05);
 			border: 1px solid rgba(#ffffff, 0.1);
 			box-sizing: border-box;
 			cursor: pointer;
