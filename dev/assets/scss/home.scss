@@ -69,7 +69,9 @@
 					transition: background $home-hover-animation ease-in-out;
 				}
 
+				&:focus,
 				&:hover {
+					background: none;
 					text-decoration: none;
 
 					&:before {
@@ -163,6 +165,11 @@
 
 		a {
 			color: $yellow;
+
+			&:focus,
+			&:hover {
+				background: none;
+			}
 		}
 	}
 

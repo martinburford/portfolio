@@ -93,8 +93,13 @@ $fast-animate: 250ms;
 		transition: color $fast-animate ease-in-out;
 	}	
 
-	&:hover:before {
-		color: $link-color;
+	&:focus,
+	&:hover {
+		background: none;
+
+		&:before {
+			color: $link-color;
+		}
 	}
 }
 
@@ -165,6 +170,28 @@ a {
 	picture {
 		margin-bottom: 10px;
 
+		a {
+			@include border-radius(10px);
+			@include box-sizing;
+			border: 1px solid transparent;
+			height: 100%;
+			left: 0;
+			position: absolute;
+			top: 0;
+			transition: background 250ms ease-in-out, border-color 250ms ease-in-out;
+			width: 100%;
+			will-change: background, border-color;
+
+			&:focus {
+				background: rgba($white, 0.05);
+				border-color: rgba($white, 0.15);
+			}
+
+			&:hover {
+				background: none;
+			}
+		}
+
 		img {
 			@include border-radius(10px);
 
@@ -229,6 +256,13 @@ a {
 				display: block;
 				font-family: 'expert-sans-light';
 				width: auto;
+			}
+
+			&-launch {
+				&:focus,
+				&:hover {
+					background: none;
+				}
 			}
 		}
 	}
@@ -359,7 +393,7 @@ a {
 
 		img {
 			@include border-radius(5px);			
-    		background: url(/assets/images/transparencies/000000/percent-50.png) repeat;
+    		background: rgba($black, 0.5);
 			display: block;
 			height: 100%;
 			left: 0;
@@ -370,10 +404,6 @@ a {
 
 		&.company {
 			display: none;
-		}
-
-		&.teaser {
-
 		}
 	}
 
@@ -386,6 +416,11 @@ a {
 		display: inline-block;		
 		font-size: 1.1em;
 		margin-top: 10px;
+
+		&:hover,
+		&:focus {
+			background: none;
+		}
 	}
 }
 
