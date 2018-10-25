@@ -53,7 +53,7 @@
 							"location": "London, UK"
 						},
 						"workHighlights": [{
-							"text": "I was the single Front-End Developer on a greenfield component-based internal<br />reporting suite."
+							"text": "I was the sole Front-End Developer on a greenfield component-based internal<br />reporting suite."
 						},{
 							"text": "Created an interactive dashboard for accessing hundreds of previous tests with<br />advanced filtering."
 						},{
@@ -81,6 +81,7 @@
 							"RESTful API", 
 							"SASS"
 						],
+						"gitHubCodeSamples": "https://github.com/martinburford/code-samples/tree/master/filtered-by-contract/2018-05-2018-10%20-%20Biglight%20(CXODB)",
 						"linkedInRecommendations": [{
 							"name": "Chris Haslam",
 							"jobTitle": "Talent Acquisition",

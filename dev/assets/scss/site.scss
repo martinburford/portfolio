@@ -68,7 +68,9 @@ a {
 	color: $link-color;
 	text-decoration: none;
 
+	&:focus,
 	&:hover {
+		background: yellow;
 		text-decoration: underline;
 	}
 }
@@ -179,6 +181,7 @@ blockquote {
 // LinkedIn recommendations (used in CV and portfolio gallery)
 
 .linkedin-recommendations {
+	@include border-radius(5px);
 	@include shadowbox($glowColor: $linkedin, $opacity: 0.1, $inset: true, $shadowSize: 1px);	
 	background: url(/assets/images/transparencies/dfebee/percent-90.png) repeat;
 	box-sizing: border-box;
@@ -222,10 +225,11 @@ blockquote {
 	}
 
 	li {
+		@include border-radius(5px);
 		@include icon-icomoon('linkedin', rgba($linkedin, 0.9), 24, $position: 'after', $valignment: 'top', $customSideOffset: '5px', $customTopOffset: 6);
 		@include shadowbox($glowColor: $light-grey, $opacity: 1, $inset: true, $shadowSize: 1px);	
-		background: url(/assets/images/transparencies/ffffff/percent-70.png) repeat;
-		border: 1px solid $mid-grey;
+		background: rgba($white, 0.7);
+		border: 1px solid $dark-grey;
 		list-style-type: none;
 		margin-left: 0;
 		margin-top: 5px;		
@@ -235,12 +239,19 @@ blockquote {
 		padding-top: 6px;
 		position: relative;
 
+		&:after {
+			@include border-radius(5px);
+		}
+
 		&:first-child {
 			margin-top: 0;
 		}
 
 		&:not(.no-photo):before {
+			@include border-radius(5px);
+			@include box-sizing;
 			background-size: 100%;
+			border: 1px solid $dark-grey;
 			content: '';
 			display: block;
 			height: 32px;

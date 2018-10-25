@@ -64,9 +64,15 @@ header {
 	    float: left;
 	    width: 25%;
 
+	    a:focus,
+	    a:hover {
+	    	background: none;
+	    }
+
 		&:nth-child(1) a {
 			@include icon-icomoon('email', $link-color, 32, $spaceToContent: -32);
 
+			&:focus:before,
 			&:hover:before {
 				color: $icon-grey;
 			}
@@ -79,6 +85,7 @@ header {
 				background: $white;
 			}
 
+			&:focus:before,
 			&:hover:before {
 				color: $icon-grey;
 			}
@@ -87,6 +94,7 @@ header {
 		&:nth-child(3) a {
 			@include icon-icomoon('portfolio', $link-color, 32, $spaceToContent: -32);
 
+			&:focus:before,
 			&:hover:before {
 				color: $icon-grey;
 			}
@@ -95,6 +103,7 @@ header {
 		&:nth-child(4) a {
 			@include icon-icomoon('github', $link-color, 32, $spaceToContent: -32);
 
+			&:focus:before,
 			&:hover:before {
 				color: $icon-grey;
 			}
@@ -110,6 +119,7 @@ header {
 			transition: color 250ms ease-in-out;
 		}
 
+		&:focus span,
 		&:hover span {
 			text-decoration: underline;
 		}
@@ -290,7 +300,9 @@ section {
 	}
 
 	.github-project-code {
+		@include border-radius(5px);
 		@include icon-icomoon('github', $link-color, 32, $customSideOffset: 10px, $spaceToContent: 20);
+		@include shadowbox($glowColor: $mid-grey, $opacity: 1, $inset: true, $shadowSize: 1px);
 		background: $light-grey;
 		border: 1px solid $dark-grey;
 		display: block;
@@ -298,9 +310,16 @@ section {
 		padding-bottom: 15px;
 		padding-right: 15px;
 		padding-top: 15px;
+		transition: background 250ms ease-in-out, text-decoration 250ms ease-in-out;
+		will-change: background;
 
 		& + .linkedin-recommendations {
 			margin-top: 10px;
+		}
+
+		&:focus,
+		&:hover {
+			background: $mid-grey;
 		}
 	}
 }
