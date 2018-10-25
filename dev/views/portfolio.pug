@@ -16,68 +16,74 @@ html(prefix="og: http://ogp.me/ns#")
 			div#outer
 				main.thumbnail-listing
 					ol
-						- var requiredClasses;
+						-
+
 
 						each contract, index in portfolio.body.contracts
 							- 
-								requiredClasses = [];
-								if(!contract.containsGallery){
-									requiredClasses.push('no-gallery');
-								}
-								if(!contract.responsive){
-									requiredClasses.push('non-responsive');
-								}
+								var listItemClasses = [];
+								var parentLinkClasses = [];
+								var parentLinkAttributes = {};
 
-								requiredClasses = requiredClasses.join(' ');
+							//- If the contract has no gallery
+							if contract.containsGallery === false
+								-
+									listItemClasses.push('no-gallery');
+									parentLinkClasses.push('linkedin-launch');
 
-							li&attributes({"class": requiredClasses})
-								picture.teaser
-									if contract.containsGallery === true
-										a(href=contract.url)
-											img(src="/assets/images/portfolio/aspect-ratio-placeholder.gif", data-src=contract.image, data-lazyload-module="mod-image", data-inview)
-									else
+									//- Generate the text for contract with no gallery (but LinkedIn recommendations)
+									var recommendationsFormatting = linkedInSuffixes(contract.linkedInRecommendations);												
+									var linkedInRecommendationsReceived = global.strings.linkedIn.recommendationsReceived.replace('{count}', recommendationsFormatting.count).replace('{recommendation/s}', recommendationsFormatting.recommendationSingularPlural);
+									var linkedInRecommendationsLinkText = global.strings.linkedIn.recommendationsRead.replace('{it-them}', recommendationsFormatting.itOrThem);
+
+									parentLinkAttributes.href = "linkedin-recommendations-" + (index+1);
+									parentLinkAttributes["data-linked-container-class"] = "no-gallery";
+									parentLinkAttributes["data-linked-element"] = ".linkedin-recommendations";
+
+							//- If the contract is not responsive
+							if contract.responsive === false
+								- 
+									listItemClasses.push('non-responsive');
+									listItemClasses = listItemClasses.join(' ');
+									parentLinkClasses = parentLinkClasses.join(' ');
+
+							li&attributes({"class": listItemClasses})
+								a(class=parentLinkClasses, href=contract.url)&attributes(parentLinkAttributes)
+									picture.teaser
 										img(src="/assets/images/portfolio/aspect-ratio-placeholder.gif", data-src=contract.image, data-lazyload-module="mod-image", data-inview)
-											
-								ul
-									li
-										strong= contract.companyName
-										= contract.jobTitle
-									li.role-type= contract.roleType
-									li
-										strong= global.strings.dates + ": "
-										= contract.contractDates
-									li
-										strong= global.strings.duration + ": "
-										= contract.duration
-									li
-										strong= global.strings.location + ": "
-										= contract.location
-									li.overview
-										p!= contract.overview
+												
+									ul
+										li
+											strong= contract.companyName
+											= contract.jobTitle
+										li.role-type= contract.roleType
+										li
+											strong= global.strings.dates + ": "
+											= contract.contractDates
+										li
+											strong= global.strings.duration + ": "
+											= contract.duration
+										li
+											strong= global.strings.location + ": "
+											= contract.location
+										li.overview
+											p!= contract.overview
+
+										if !contract.containsGallery
+											li.linkedin
+												strong= global.strings.linkedInRecommenations
+												p= linkedInRecommendationsReceived + " " + linkedInRecommendationsLinkText + "."
+										else
+											li.launch-gallery= global.strings.launchGallery
+
+									if contract.ndaRestrictions
+										div.nda
+											strong= global.strings.galleryNDARestrictions
 
 									if contract.containsGallery === false
-										li.linkedin
-											strong= global.strings.linkedInRecommenations
-
-											- 
-												var recommendationsFormatting = linkedInSuffixes(contract.linkedInRecommendations);												
-												var linkedInRecommendationsReceived = global.strings.linkedIn.recommendationsReceived.replace('{count}', recommendationsFormatting.count).replace('{recommendation/s}', recommendationsFormatting.recommendationSingularPlural);
-												var linkedInRecommendationsLinkText = global.strings.linkedIn.recommendationsRead.replace('{it-them}', recommendationsFormatting.itOrThem);
-
-											p= linkedInRecommendationsReceived + " "
-												a.linkedin-launch(href="linkedin-recommendations-" + (index+1), data-linked-container-class="no-gallery", data-linked-element=".linkedin-recommendations")= linkedInRecommendationsLinkText + "."
-									else
-										li
-											a.launch-gallery(href=contract.url)= global.strings.launchGallery
-
-								if contract.ndaRestrictions
-									div.nda
-										strong= global.strings.galleryNDARestrictions
-
-								if contract.containsGallery === false
-									div(id="linkedin-recommendations-" + (index+1), class="linkedin-recommendations")
-										h3= global.strings.recommendations
-										div.inner
-											+linkedinRecommendations(contract.linkedInRecommendations)
+										div(id="linkedin-recommendations-" + (index+1), class="linkedin-recommendations")
+											h3= global.strings.recommendations
+											div.inner
+												+linkedinRecommendations(contract.linkedInRecommendations)
 
 		script(src="/assets/scripts/app.min.js" + versionSuffix)

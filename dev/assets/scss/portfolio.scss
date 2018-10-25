@@ -156,9 +156,38 @@ a {
 .listing .thumbnail-listing {
 	ol {
 		>li {
+			padding-top: 0;
+
 			&:before {
 				@include left-to-right-gradient($listings-client-separator);
+				content: '';
 				top: 0;
+			}
+
+			* {
+				text-decoration: none;
+			}
+
+			&.non-responsive {
+				a {
+					padding-top: 15px;
+				}
+
+				ul {
+					padding-top: 0;
+				}
+			}
+
+			>a {
+				@include box-sizing;
+				cursor: default;
+				display: block;
+				overflow: hidden;
+
+				&:focus,
+				&:hover {
+					background: none;
+				}
 			}
 		}
 
@@ -170,28 +199,6 @@ a {
 	picture {
 		margin-bottom: 10px;
 
-		a {
-			@include border-radius(10px);
-			@include box-sizing;
-			border: 1px solid transparent;
-			height: 100%;
-			left: 0;
-			position: absolute;
-			top: 0;
-			transition: background 250ms ease-in-out, border-color 250ms ease-in-out;
-			width: 100%;
-			will-change: background, border-color;
-
-			&:focus {
-				background: rgba($white, 0.05);
-				border-color: rgba($white, 0.15);
-			}
-
-			&:hover {
-				background: none;
-			}
-		}
-
 		img {
 			@include border-radius(10px);
 
@@ -202,17 +209,21 @@ a {
 	}
 
 	.no-gallery {
-		padding-bottom: 15px;
+		>a {
+			padding-bottom: 15px;
+		}
 
 		.nda {
 			@include border-radius(10px);
+			@include icon-icomoon('warning', $white, 24, $position: 'before', $customSideOffset: 10px);
+			@include icon-icomoon('warning', $white, 24, $position: 'after', $customSideOffset: 10px);
 			@include shadowbox($glowColor: $white, $opacity: 0.25, $shadowSize: 1px);
 			background: rgba($red, 0.25);
 			clear: both;
-			color: $black;
-			margin: 15px 0 1px;
+			margin: 15px 10px 0;
 
 			strong {
+				cursor: default;
 				display: block;
 				font-family: 'expert-sans-light';
 				font-size: 0.9em;
@@ -229,6 +240,7 @@ a {
 					position: absolute;
 					top: 0;
 					width: 45px;
+					z-index: 1;
 				}
 
 				&:before {
@@ -245,7 +257,7 @@ a {
 					right: -34px;
 				}
 			}
-		}			
+		}
 
 		.linkedin {
 			padding-bottom: 10px;
@@ -258,22 +270,20 @@ a {
 				width: auto;
 			}
 
-			&-launch {
-				&:focus,
-				&:hover {
-					background: none;
+			p {
+				color: $link-color-light;
+				cursor: pointer;
+
+				&:hover,
+				&:focus {
+					text-decoration: underline;
 				}
 			}
-		}
-	}
 
-	.nda {
-		@include icon-icomoon('warning', $white, 24, $position: 'before', $customSideOffset: 10px);
-		@include icon-icomoon('warning', $white, 24, $position: 'after', $customSideOffset: 10px);
-
-		&:before,
-		&:after {
-			z-index: 1;
+			&-launch {
+				cursor: default;
+				text-decoration: none;
+			}
 		}
 	}
 }
@@ -349,14 +359,6 @@ a {
 					content: none;
 				}
 			}
-
-			&.non-responsive {
-				padding-top: 30px;
-
-				ul {
-					padding-top: 0;
-				}
-			}
 		}
 
 		ul {		
@@ -385,6 +387,7 @@ a {
 
 	picture {
 		@include icon-icomoon('camera', rgba($white, 0.2), 96, $position: 'before', $spaceToContent: 5, $customSideOffset: calc(50% - 48px));
+		cursor: pointer;
 		display: block;
 		padding-left: 0;
 		padding-top: 75%;
@@ -413,13 +416,15 @@ a {
 
 	.launch-gallery {
 		@include icon-icomoon('right-arrow-circular-button-outline', $link-color-light, 18, $position: 'before', $spaceToContent: 8);
+		color: $link-color-light;
+		cursor: pointer;
 		display: inline-block;		
 		font-size: 1.1em;
 		margin-top: 10px;
 
 		&:hover,
 		&:focus {
-			background: none;
+			text-decoration: underline;
 		}
 	}
 }
@@ -442,9 +447,9 @@ a {
 
 	.listing .thumbnail-listing {
 		ol ul {
-	    	transform: translateY(-25%);
-	    	top: 25%;
-	    }
+    		transform: translateY(-25%);
+    		top: 25%;
+    	}
 
 		.no-gallery {
 			.nda strong {
@@ -454,6 +459,7 @@ a {
 			ul {
 				float: right;
 				left: auto;
+				margin-top: 10px;
 				padding-bottom: 10px;
 				position: relative;
 				top: auto;
@@ -527,15 +533,21 @@ a {
 	// Portolio listing styles
 
 	.listing .thumbnail-listing {
-	 	ol ul {
-	 		padding-left: 50px;
-		    transform: none;
-	    	top: 0;
+	 	ol {
+	 		>li>a {
+				padding-right: 20px;
+	 		}
+
+	 		ul {
+		 		padding-left: 50px;
+			    transform: none;
+		    	top: 0;
+		    }
 	    }
 
-		.no-gallery {
-			padding-bottom: 20px;
-		}	    
+		.no-gallery .nda {
+			margin: 0 0 0 20px;
+		}
 	}
 
 	.thumbnail-listing { 
@@ -635,4 +647,16 @@ a {
 	#wrapper {
 		width: 1180px;
 	}
+
+	// Portolio listing styles
+
+	.listing .thumbnail-listing ol>li>a {
+		transition: background 250ms ease-in-out;
+		will-change: background;
+
+		&:focus,
+		&:hover {
+			background: rgba($white, 0.03);
+		}
+	 }
 }
