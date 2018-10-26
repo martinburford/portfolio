@@ -7,7 +7,9 @@
 	src: 	url('/assets/fonts/expert-sans-light/webfont.eot?#iefix') format('embedded-opentype'),
 			url('/assets/fonts/expert-sans-light/webfont.woff') format('woff'), 
 			url('/assets/fonts/expert-sans-light/webfont.ttf') format('truetype'), 
-			url('/assets/fonts/expert-sans-light/webfont.svg#webfont') format('svg');
+			url('/assets/fonts/expert-sans-light/webfont.svg#expert-sans-light') format('svg');
+			font-style: normal;
+			font-weight: normal;
 }
 
 @font-face {
@@ -16,7 +18,9 @@
 	src: 	url('/assets/fonts/expert-sans-regular/webfont.eot?#iefix') format('embedded-opentype'),
 			url('/assets/fonts/expert-sans-regular/webfont.woff') format('woff'), 
 			url('/assets/fonts/expert-sans-regular/webfont.ttf') format('truetype'), 
-			url('/assets/fonts/expert-sans-regular/webfont.svg#webfont') format('svg');
+			url('/assets/fonts/expert-sans-regular/webfont.svg#expert-sans-regular') format('svg');
+			font-style: normal;
+			font-weight: normal;
 }
 
 @font-face {
@@ -25,7 +29,9 @@
 	src: 	url('/assets/fonts/expert-sans-bold/webfont.eot?#iefix') format('embedded-opentype'),
 			url('/assets/fonts/expert-sans-bold/webfont.woff') format('woff'), 
 			url('/assets/fonts/expert-sans-bold/webfont.ttf') format('truetype'), 
-			url('/assets/fonts/expert-sans-bold/webfont.svg#webfont') format('svg');
+			url('/assets/fonts/expert-sans-bold/webfont.svg#expert-sans-bold') format('svg');
+			font-style: normal;
+			font-weight: normal;
 }
 
 @font-face {
@@ -34,5 +40,7 @@
 	src: 	url('/assets/fonts/icomoon/icomoon.eot?#iefix') format('embedded-opentype'),
 			url('/assets/fonts/icomoon/icomoon.woff') format('woff'), 
 			url('/assets/fonts/icomoon/icomoon.ttf') format('truetype'), 
-			url('/assets/fonts/icomoon/icomoon.svg#webfont') format('svg');
+			url('/assets/fonts/icomoon/icomoon.svg#icomoon') format('svg');
+			font-style: normal;
+			font-weight: normal;
 } 
