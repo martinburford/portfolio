@@ -170,7 +170,7 @@ a {
 
 			&.non-responsive {
 				a {
-					padding-top: 15px;
+					padding-top: 30px;
 				}
 
 				ul {
@@ -183,6 +183,8 @@ a {
 				cursor: default;
 				display: block;
 				overflow: hidden;
+				padding-bottom: 10px;
+				padding-top: 20px;
 
 				&:focus,
 				&:hover {
@@ -210,14 +212,14 @@ a {
 
 	.no-gallery {
 		>a {
-			padding-bottom: 15px;
+			padding-bottom: 30px;
 		}
 
 		.nda {
 			@include border-radius(10px);
 			@include icon-icomoon('warning', $white, 24, $position: 'before', $customSideOffset: 10px);
 			@include icon-icomoon('warning', $white, 24, $position: 'after', $customSideOffset: 10px);
-			@include shadowbox($glowColor: $white, $opacity: 0.25, $shadowSize: 1px);
+			@include shadowbox($glowColor: $white, $opacity: 0.1, $shadowSize: 1px);
 			background: rgba($red, 0.25);
 			clear: both;
 			margin: 15px 10px 0;
@@ -246,14 +248,14 @@ a {
 				&:before {
 					@include border-radius-top-left(10px);
 					@include border-radius-bottom-left(10px);
-					border-right: 1px solid rgba($white, 0.15);
+					border-right: 1px solid rgba($white, 0.1);
 					left: -34px;
 				}
 
 				&:after {
 					@include border-radius-top-right(10px);
 					@include border-radius-bottom-right(10px);
-					border-left: 1px solid rgba($white, 0.15);
+					border-left: 1px solid rgba($white, 0.1);
 					right: -34px;
 				}
 			}
