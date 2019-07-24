@@ -32,8 +32,8 @@
 			},
 			"main": {
 				"currentAvailability": {
-					"status": "available",
-					"text": "Currently {availability} for contract work"
+					"status": "unavailable",
+					"text": "Currently {availability} until Monday 12th August 2019"
 				},
 				"sections": [{
 					"heading": "About Me",
@@ -44,6 +44,65 @@
 					"TODO - takingTimeOut": "I am currently taking some time out of work, to spend some time with my recently born son, along with taking the opportunity to spend some time looking at some web technologies I haven't had time to look at over the last year or so (eg: Babel, React, Redux, Webpack) and technologies I've used, but would like to know more about (eg: Browserify, ES6, Gulp, Node). Whilst I'm studying, I am also happy to look at the possibility of starting a new Front-End development contract position. So please get in touch if you have anything which you think may be of interest."
 				},{
 					"heading": "Experience",
+					"experience": {				
+						"companyLogo": "/assets/images/portfolio/company-logos/edge-to-edge/lloyds-bank.png",
+						"summary": {
+							"jobTitle": "Creative Technologist / React Developer",
+							"companyName": "Lloyds Bank",
+							"contractDates": "January 2019 - July 2019",
+							"location": "London, UK"
+						},
+						"workHighlights": [{
+							"text": "I was the sole Front-End Developer on the Strong Customer Authentication<br />team."
+						},{
+							"text": "Created a single page React / Redux application which acted as a clickable prototype for user research sessions, to help determine which variants of multiple CX journeys were best received by members of the general public."
+						},{
+							"text": "8x separate journeys comprising of approximately 70 different steps were built into the SPA."
+						},{
+							"text": "6x separate languages (via i18Next) were supported."
+						},{
+							"text": "4x separate branding / styles were supported."
+						},{
+							"text": "2x separate ECMA Script modules were published as part of the project, 1 of which was consumed by an external team."
+						},{
+							"text": "I wrote a comprehensive styleguide (using Styleguidist) to compliment the React components of the project for both Developers to the project in the future along with the integration team who took the code and integrated in back-end functionality."
+						},{
+							"text": "I wrote a recursive screenshot generator, which took screenshots for each step (React route) in a given journey via a headless browser, before zipping up the screens and archiving them on GitHub."
+						},{
+							"text": "I wrote a comprehensive Excel export routine which generated JSON translation files automatically from an Excel spreadsheet. This was also built to fully support the concept of nested content within the Excel file. Upon export, the Excel data was then converted to nested JSON data."
+						}],
+						"technologiesUsed": [
+							"Babel",
+							"BEM",
+							"CSS4",
+							"Enzyme",
+							"ES6",
+							"Flexbox",
+							"HTML",
+							"Jest",
+							"JSON",
+							"LottieJS",
+							"MermaidJS",
+							"Node",
+							"NPM",
+							"Puppeteer",
+							"React",
+							"Redux",
+							"Snapshot testing",
+							"Styleguidist",
+							"Webpack"
+						],
+						"linkedInRecommendations": [{
+							"name": "Dan Kupfer",
+							"jobTitle": "Senior Creative Technology Lead",
+							"recommendation": "Martin is <em>an extremely competent and thorough</em> developer. Very <em>committed and reliable</em>, he's someone that will <em>get the job done efficiently, neatly, with a lot of care for the detail</em> but above all, very well thought through so it's <em>really well documented and well tested</em> making collaboration a seamless part of the agile workflow."
+						},{
+							"name": "Sam Kness",
+							"jobTitle": "UX Designer",
+							"recommendation": "I worked with Martin for close to 7 months at Lloyds. I’m a UX Designer and he was the developer in our team. He is <em>extremely knowledgeable in what he does</em> and also has the added bonus of writing code in the best way for the end user too, which is a rare talent amongst developers in my experience. <em>He is tenacious and hard working</em> in his approach to work and I <em>found him very easy to work with</em>. I really enjoyed working with Martin and would welcome the opportunity to work with him again in the future."
+						}]
+					}
+				},{
 					"experience": {				
 						"companyLogo": "/assets/images/portfolio/company-logos/edge-to-edge/biglight.png",
 						"summary": {
@@ -204,7 +263,7 @@
 					}
 				},{
 					"subHeading": "Other contracts",
-					"tableIntroduction": "Besides my most recent 3 contracts, as above, I have worked in many other companies, on a contract basis:",
+					"tableIntroduction": "Besides my most recent 4 contracts, as above, I have worked in many other companies, on a contract basis:",
 					"tableOfRoles": [{
 						"companyName": "HSBC (via Mansion House)",
 						"jobTitle": "Lead Web Developer",

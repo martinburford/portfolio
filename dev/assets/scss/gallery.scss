@@ -125,7 +125,10 @@ body:not(.has-touch) {
 	    	}
 	    }
 
+		&:focus,
 		&:hover {
+			background: none;
+			
 			span {
 				background: $link-color;	
 

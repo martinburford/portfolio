@@ -278,7 +278,7 @@ module.exports = function(grunt){
 		grunt.task.run(taskToRun);
 
 		done();
-	});	
+	});
 
 	/**
 	 * Each page requires unique configuration
