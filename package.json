@@ -29,7 +29,7 @@
     "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-watch": "^1.1.0",
     "grunt-sass": "^3.0.2",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-bump": "^2.7.0",
     "gulp-notify": "^3.0.0",
     "gulp-plumber": "^1.1.0",
