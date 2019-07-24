@@ -18,15 +18,15 @@
 		},
 		"body": {
 			"availability": {
-				"available": true,
+				"available": false,
 				"availableStatus": {
 					"leadInText": "Currently available for work",
 					"linkText": "Please get in touch",
 					"subText": " if you have any work requirements which you think I may be able to help out with"
 				},
 				"unavailableStatus": {
-					"leadInText": "Currently in a contract",
-					"subText": "Next availability: DD Month YYYY"
+					"leadInText": "Currently not available for work",
+					"subText": "Next availability: 12th August 2019"
 				}
 			},
 			"sectionLinks": [{
