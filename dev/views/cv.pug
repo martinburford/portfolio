@@ -84,7 +84,7 @@ html(prefix="og: http://ogp.me/ns#")
 								h5= section.experience.summary.companyName
 								time= section.experience.summary.contractDates
 								span= section.experience.summary.location
-							ul
+							ul.work-highlights
 								each highlight, index in section.experience.workHighlights
 									li!= highlight.text
 

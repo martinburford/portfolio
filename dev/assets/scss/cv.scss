@@ -536,6 +536,11 @@ aside {
 			top: 15px;
 			width: 200px;
 		}
+
+		.work-highlights > li:first-child {
+			box-sizing: border-box;
+			padding-right: 210px;
+		}
 	}
 
 	aside {
