@@ -93,6 +93,10 @@
 							"Webpack"
 						],
 						"linkedInRecommendations": [{
+							"name": "Andrea Agueci",
+							"jobTitle": "UX Researcher",
+							"recommendation": "I had the pleasure of working with Martin on the Strong Customer Authentication programme at Lloyds Banking Group. <em>He was instrumental</em> in the creation and maintenance of several customer research prototypes and I particularly appreciated <em>his ability to quickly produce multiple iterations</em> in response to user feedback. When required, <em>Martin also delivered bespoke solutions</em> to address specific project challenges like copy management and prototype archiving. <em>The quality of his documentation</em> and his ability to keep the team up to date about the state of the codebase were equally <em>impressive.</em>"
+						},{
 							"name": "Dan Kupfer",
 							"jobTitle": "Senior Creative Technology Lead",
 							"recommendation": "Martin is <em>an extremely competent and thorough</em> developer. Very <em>committed and reliable</em>, he's someone that will <em>get the job done efficiently, neatly, with a lot of care for the detail</em> but above all, very well thought through so it's <em>really well documented and well tested</em> making collaboration a seamless part of the agile workflow."
