@@ -51,26 +51,7 @@
 	}],
 	"gitHubCodeSamples": "https://github.com/martinburford/code-samples/tree/master/filtered-by-contract/2017-08-2017-11%20-%20Bond%20%26%20Coyne%20(Pearson)",
 	"media": {
-		"available": ["video","mobile","tablet","desktop"],
-		"video": [{
-			"image": "/assets/images/portfolio/galleries/2013-07-2014-08-trinity-mirror/match-centre/screens/thumbnails/videos/01-websocket-updates.png",
-			"height": 627,
-			"width": 271,
-			"label": "Mobile navigation",
-			"videoSrc": "//www.youtube.com/embed/zD76YGEg9Nk/?vq=hd1080&autoplay=1&controls=1&showinfo=0&rel=0"
-		},{
-			"image": "/assets/images/portfolio/galleries/2013-07-2014-08-trinity-mirror/match-centre/screens/thumbnails/videos/01-websocket-updates.png",
-			"height": 768,
-			"width": 576,
-			"label": "Tablet navigation",
-			"videoSrc": "//www.youtube.com/embed/yY2Up8bJEQ4/?vq=hd1080&autoplay=1&controls=1&showinfo=0&rel=0"
-		},{
-			"image": "/assets/images/portfolio/galleries/2013-07-2014-08-trinity-mirror/match-centre/screens/thumbnails/videos/01-websocket-updates.png",
-			"height": 540,
-			"width": 960,
-			"label": "Desktop navigation",
-			"videoSrc": "//www.youtube.com/embed/Pqnay3MyFhM/?vq=hd1080&autoplay=1&controls=1&showinfo=0&rel=0"
-		}],
+		"available": ["mobile","tablet","desktop"],
 		"mobile": [{
 			"image": "/assets/images/portfolio/galleries/2017-08-2017-11-bond-and-coyne/screens/thumbnails/mobile/01-homepage.png",
 			"width": 311,

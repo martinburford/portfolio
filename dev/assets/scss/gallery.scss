@@ -228,7 +228,6 @@ body:not(.has-touch) {
 		font-family: 'expert-sans-regular';
 		font-size: 1.4em;
 		left: calc(35% + 20px);
-		padding-right: 10px;
 	    position: absolute;
     	top: 50%;
     	transform: translateY(-50%);
@@ -681,6 +680,7 @@ body:not(.has-touch) {
 
 	img {
 		display: block;
+		width: 100%;
 	}
 
 	&.scaled {
@@ -774,7 +774,6 @@ body:not(.has-touch) {
 			font-size: 1.1em;
 			left: calc(35% + 20px);
 			margin-top: 0;
-			padding-right: 10px;
 		    position: absolute;
 		    top: 50%;
 		    transform: translateY(-50%);
