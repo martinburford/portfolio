@@ -35,6 +35,11 @@
 		"thumbnail": "/assets/images/portfolio/galleries/2019-01-2019-07-lloyds/styleguide.jpg",
 		"url": "/portfolio/gallery/2019-01-2019-07-lloyds/sca-styleguide",
 		"label": "Styleguide"
+	},{
+		"isActive": false,
+		"thumbnail": "/assets/images/portfolio/galleries/2019-01-2019-07-lloyds/svg-flowcharts.jpg",
+		"url": "/portfolio/gallery/2019-01-2019-07-lloyds/svg-flowcharts",
+		"label": "SVG flowcharts"
 	}],
 	"summary": "My role at Lloyds was based on Strong Customer Authentication. Due to regulatory requirements, new methods need to be added to numerous banking platforms in order to support an increased level of security to the login process. I worked for 6 months in the role taking the WIP from a minimal MVP to a fully functional suite of components published across 2x separate private ECMA Script modules. There were many other areas to this project, including (but not limited to) the creation of a React component styleguide, a recursive screenshot generator via a headless browser, an Excel to JSON export utility and programmatically generated (interactive) SVG flows charts.",
 	"technologiesUsed": [

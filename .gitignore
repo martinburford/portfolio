@@ -2,3 +2,12 @@
 .sass-cache
 node_modules
 web
+
+// Screenshot output
+output
+
+// Portfolio-specific
+dev/data/portfolio-ndas.json
+
+// NDA-specific contracts
+dev/data/galleries/2019-01-2019-07-lloyds/
