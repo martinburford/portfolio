@@ -1,0 +1,178 @@
+{
+	"head": {
+		"title": "Portfolio",
+		"stylesheets": [{			
+			"path": "site.min.css",
+			"media": "all"
+		},{			
+			"path": "portfolio.min.css",
+			"media": "all"
+		},{			
+			"path": "gallery.min.css",
+			"media": "all"
+		}]
+	},
+	"client": "HSBC",
+	"project": "Connect",
+	"dates": "Jan 2017 - Feb 2017",
+	"summary": "I was hired via Mansion House Consulting for HSBC, to bring to life a conceptual project, in the form of a fully working prototype. The project was an XHR driven interface, integrated alongside a fully functional API, built to be responsive across a number of breakpoints. Once the prototype was completed and the concept was successfully proven to the relevant business units, it was handed over to an existing development team to drive the longer-term piece of work forward.",
+	"linkedInRecommendations": [{
+		"name": "Sebastien Rousseau",
+		"jobTitle": "Head of Digital and Mobile Banking Development",
+		"recommendation": "Martin is <em>an exceptional lead web developer</em>, very passionate, extremely focused in his approach to his work <em>with a remarkable attention to detail</em>. He was able to jump in on a very complex project, communicated efficiently technical blockers and <em>delivered creative solutions</em>. He gave <em>excellent feedback</em> to the UX/Design team, took active interest in the overall development process and <em>wrote clean, well documented and highly maintainable code</em> with an end-result that always has been better than we had imagined. I was glad to work with him and would be happy to do so again -- Highly recommended."
+	},{
+		"name": "Ritu Arora",
+		"jobTitle": "Senior Test Strategist",
+		"recommendation": "Martin is <em>the complete package for any front-end development</em> work. He <em>knows his job inside</em> out and is happy to work with multiple different technologies. <em>He goes the extra mile in order to deliver top class solutions</em> within project time frames. When you work with him, it's impossible to not notice <em>his vast experience in the industry</em> and the reputation he has gained over many years. He has an <em>unstoppable source of energy and passion</em> towards the success of the program he works on. I have seen him spend time to analyse the work and requirements at hand, before jumping straight to a solution or implementation. <em>He is a team player and a fun loving guy to work with</em>. I would have no hesitation in recommending him to any employer who are seeking <em>a top notch front-end developer</em>. Undoubtedly, he would be a great asset to any team."
+	}],
+	"media": {
+		"available": ["mobile","tablet","desktop"],
+		"mobile": [{
+			"image": "/assets/images/portfolio/galleries/2017-01-2017-02-hsbc/screens/thumbnails/mobile/01-login.png",
+			"width": 311,
+			"label": "Login"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-01-2017-02-hsbc/screens/thumbnails/mobile/02-homepage.png",
+			"width": 311,
+			"label": "Homepage"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-01-2017-02-hsbc/screens/thumbnails/mobile/03-add-client.png",
+			"width": 311,
+			"label": "Add client"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-01-2017-02-hsbc/screens/thumbnails/mobile/04-add-accounts.png",
+			"width": 311,
+			"label": "Add accounts"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-01-2017-02-hsbc/screens/thumbnails/mobile/05-client-list.png",
+			"width": 311,
+			"label": "Client list"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-01-2017-02-hsbc/screens/thumbnails/mobile/06-client-profile.png",
+			"width": 311,
+			"label": "Client profile"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-01-2017-02-hsbc/screens/thumbnails/mobile/07-full-journey-connection-name.png",
+			"width": 311,
+			"label": "Full journey connection name"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-01-2017-02-hsbc/screens/thumbnails/mobile/08-full-journey-contact-details.png",
+			"width": 311,
+			"label": "Full journey contact details"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-01-2017-02-hsbc/screens/thumbnails/mobile/09-full-journey-transmission-protocol.png",
+			"width": 311,
+			"label": "Full journey transmission protocol"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-01-2017-02-hsbc/screens/thumbnails/mobile/10-full-journey-file-transfer.png",
+			"width": 311,
+			"label": "Full journey file transfer"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-01-2017-02-hsbc/screens/thumbnails/mobile/11-full-journey-server-details.png",
+			"width": 311,
+			"label": "Full journey server details"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-01-2017-02-hsbc/screens/thumbnails/mobile/12-connection-details.png",
+			"width": 311,
+			"label": "Connection details"
+		}],
+		"tablet": [{
+			"image": "/assets/images/portfolio/galleries/2017-01-2017-02-hsbc/screens/thumbnails/tablet/01-login.png",
+			"width": 504,
+			"label": "Login"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-01-2017-02-hsbc/screens/thumbnails/tablet/02-homepage.png",
+			"width": 504,
+			"label": "Homepage"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-01-2017-02-hsbc/screens/thumbnails/tablet/03-add-client.png",
+			"width": 504,
+			"label": "Add client"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-01-2017-02-hsbc/screens/thumbnails/tablet/04-add-accounts.png",
+			"width": 504,
+			"label": "Add accounts"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-01-2017-02-hsbc/screens/thumbnails/tablet/05-client-list.png",
+			"width": 504,
+			"label": "Client list"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-01-2017-02-hsbc/screens/thumbnails/tablet/06-client-profile.png",
+			"width": 504,
+			"label": "Client profile"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-01-2017-02-hsbc/screens/thumbnails/tablet/07-full-journey-connection-name.png",
+			"width": 504,
+			"label": "Full journey connection name"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-01-2017-02-hsbc/screens/thumbnails/tablet/08-full-journey-contact-details.png",
+			"width": 504,
+			"label": "Full journey contact details"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-01-2017-02-hsbc/screens/thumbnails/tablet/09-full-journey-transmission-protocol.png",
+			"width": 504,
+			"label": "Full journey transmission protocol"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-01-2017-02-hsbc/screens/thumbnails/tablet/10-full-journey-file-transfer.png",
+			"width": 504,
+			"label": "Full journey file transfer"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-01-2017-02-hsbc/screens/thumbnails/tablet/11-full-journey-server-details.png",
+			"width": 504,
+			"label": "Full journey server details"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-01-2017-02-hsbc/screens/thumbnails/tablet/12-connection-details.png",
+			"width": 504,
+			"label": "Connection details"
+		}],
+		"desktop": [{
+			"image": "/assets/images/portfolio/galleries/2017-01-2017-02-hsbc/screens/thumbnails/desktop/01-login.png",
+			"width": 960,
+			"label": "Login"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-01-2017-02-hsbc/screens/thumbnails/desktop/02-homepage.png",
+			"width": 960,
+			"label": "Homepage"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-01-2017-02-hsbc/screens/thumbnails/desktop/03-add-client.png",
+			"width": 960,
+			"label": "Add client"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-01-2017-02-hsbc/screens/thumbnails/desktop/04-add-accounts.png",
+			"width": 960,
+			"label": "Add accounts"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-01-2017-02-hsbc/screens/thumbnails/desktop/05-client-list.png",
+			"width": 960,
+			"label": "Client list"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-01-2017-02-hsbc/screens/thumbnails/desktop/06-client-profile.png",
+			"width": 960,
+			"label": "Client profile"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-01-2017-02-hsbc/screens/thumbnails/desktop/07-full-journey-connection-name.png",
+			"width": 960,
+			"label": "Full journey connection name"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-01-2017-02-hsbc/screens/thumbnails/desktop/08-full-journey-contact-details.png",
+			"width": 960,
+			"label": "Full journey contact details"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-01-2017-02-hsbc/screens/thumbnails/desktop/09-full-journey-transmission-protocol.png",
+			"width": 960,
+			"label": "Full journey transmission protocol"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-01-2017-02-hsbc/screens/thumbnails/desktop/10-full-journey-file-transfer.png",
+			"width": 960,
+			"label": "Full journey file transfer"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-01-2017-02-hsbc/screens/thumbnails/desktop/11-full-journey-server-details.png",
+			"width": 960,
+			"label": "Full journey server details"
+		},{
+			"image": "/assets/images/portfolio/galleries/2017-01-2017-02-hsbc/screens/thumbnails/desktop/12-connection-details.png",
+			"width": 960,
+			"label": "Connection details"
+		}]
+	}
+}

@@ -95,26 +95,18 @@
 				"overview": "As a developer, I've always found that I'm far too busy to put together a website for myself, including my CV, online portfolio, screenshots, videos, LinkedIn recomemendations, GitHub code samples etc, which I feel truly represents the work that I do. In mid-2017, I decided to take some time off from work to put it all together. I also took the opportunity to ensure that my social channels were fully synchronized, in terms of the information the new website contained.",
 				"url": "/portfolio/gallery/2017-05-2017-06-martin-burford/personal-portfolio"
 			},{
-				"containsGallery": false,
-				"ndaRestrictions": true,
+				"containsGallery": true,
+				"ndaRestrictions": false,
 				"responsive": true,
-				"image": "/assets/images/portfolio/listing-thumbnails/mansion-house-consulting.png",
-				"companyName": "Mansion House Consulting",
+				"image": "/assets/images/portfolio/listing-thumbnails/hsbc.png",
+				"companyName": "HSBC",
 				"jobTitle": "Lead Web Developer",
 				"roleType": "Contract",
 				"contractDates": "Jan 2017 - Feb 2017",
 				"duration": "2 months",
 				"location": "London, UK",
 				"overview": "I was hired via Mansion House Consulting, for one of the UKs main high street banks, to bring to life a conceptual project, in the form of a fully working prototype. The project was an <em>XHR driven interface</em>, integrated alongside a fully functional API, built to be <em>responsive across a number of breakpoints</em>. Once the prototype was completed and the concept was successfully proven to the relevant business units, it was handed over to an existing development team to drive the longer-term piece of work forward.",
-				"linkedInRecommendations": [{
-					"name": "Ritu Arora",
-					"jobTitle": "Java/Ruby Automation Test Analyst (Frontend/Backend), REST, Serenity, Selenium, IAM, OAuth, SSO, IDP, CRM, SalesForce",
-					"recommendation": "Martin is the complete package for any front-end development work. <em>He knows his job inside out</em> and is happy to work with multiple different technologies. <em>He goes the extra mile</em> in order to deliver top class solutions within project time frames. When you work with him, it's impossible to not notice his vast experience in the industry and the reputation he has gained over many years. <em>He has an unstoppable source of energy and passion</em> towards the success of the program he works on. I have seen him spend time to analyse the work and requirements at hand, before jumping straight to a solution or implementation. <em>He is a team player</em> and a fun loving guy to work with. I would have no hesitation in recommending him to any employer who are seeking a top notch front-end developer. Undoubtedly, he would be a great asset to any team."
-				},{
-					"name": "Sebastien Rousseau",
-					"jobTitle": "Senior Product Manager, Project Manager, Technical Lead and Solution Architect, Digital and Mobile Payments",
-					"recommendation": "Martin is an exceptional lead web developer, very passionate, extremely focused in his approach to his work with <em>a remarkable attention to detail</em>. He was able to jump in on a very complex project, communicated efficiently technical blockers and delivered creative solutions. He gave excellent feedback to the UX/Design team, took active interest in the overall development process and <em>wrote clean, well documented and highly maintainable code</em> with an end-result that always has been better than we had imagined. I was glad to work with him and would be happy to do so again. Highly recommended."
-				}]
+				"url": "/portfolio/gallery/2017-01-2017-02-hsbc/connect"
 			},{
 				"containsGallery": true,
 				"ndaRestrictions": false,
