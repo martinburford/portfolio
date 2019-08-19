@@ -6,6 +6,9 @@ web
 // Screenshot output
 output
 
+// Portfolio technology logos
+dev/assets/images/logos
+
 // Portfolio-specific
 dev/data/portfolio-ndas.json
 
