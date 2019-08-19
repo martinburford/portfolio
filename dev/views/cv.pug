@@ -130,6 +130,13 @@ html(prefix="og: http://ogp.me/ns#")
 						each strength, index in aside.strengths.listedStrengths
 							li= strength
 
+					//- Currently coding with
+					h3= aside.currentlyCodingWith.heading
+					ol
+						each language, index in aside.currentlyCodingWith.listedExperience
+							li= language.language
+								em=language.experience
+
 					//- Coding experience
 					h3= aside.codingExperience.heading
 					ol

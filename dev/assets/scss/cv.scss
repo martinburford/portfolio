@@ -7,6 +7,10 @@
 @import "utilities/_variables";
 @import "utilities/_extends";
 
+// Import "Work" styles
+
+@import "work";
+
 // Global CV styles
 
 body {
@@ -370,7 +374,7 @@ aside {
 				right: 0;
 				text-align: right;
 				top: 0;
-				width: 60px;
+				width: 65px;
 			}
 		}
 	}

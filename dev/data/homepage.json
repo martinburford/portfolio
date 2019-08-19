@@ -18,7 +18,7 @@
 		},
 		"body": {
 			"availability": {
-				"available": false,
+				"available": true,
 				"availableStatus": {
 					"leadInText": "Currently available for work",
 					"linkText": "Please get in touch",

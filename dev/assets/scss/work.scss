@@ -1,0 +1,49 @@
+// File: /assets/css/work.scss
+// Author: Martin Burford (martin@martinburford.co.uk)
+
+// Import utility files
+
+@import "utilities/_mixins";
+@import "utilities/_variables";
+
+#work {
+    .technologies {
+        background: #f6f6f6;
+        border-bottom: 1px solid #dedede;
+        border-top: 1px solid #dedede;
+        box-sizing: border-box;
+        display: flex;   
+        flex-wrap: wrap; 
+        justify-content: center;
+        padding: 10px;
+
+        img {
+            $imageInPixels: calc((100% / 4) - 2px);
+
+            border-bottom: 1px solid #dedede;
+            box-sizing: border-box;
+            height: $imageInPixels;
+            margin: 1px;
+            width: $imageInPixels;
+        }
+    }
+}
+
+// Breakpoints override CV styles
+// 'mobile-large-upwards' || 'tablet-portrait-upwards' || 'tablet-landscape-upwards' || 'desktop-upwards'
+@include breakpoint-specific('tablet-portrait-upwards') {
+    #work .technologies {
+        padding: 20px;
+
+        img {
+            height: 80px;
+            width: 80px;
+        }
+    }
+}
+
+@include breakpoint-specific('desktop-upwards') {
+    #work .technologies img {
+        margin: 0;
+    }
+}

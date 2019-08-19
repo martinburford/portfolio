@@ -32,8 +32,8 @@
 			},
 			"main": {
 				"currentAvailability": {
-					"status": "unavailable",
-					"text": "Currently {availability} until Monday 12th August 2019"
+					"status": "available",
+					"text": "Immediately {availability} for contract work in London, UK"
 				},
 				"sections": [{
 					"heading": "About Me",
@@ -484,41 +484,51 @@
 							"Cross-browser compliancy"
 						]
 					},
+					"currentlyCodingWith": {
+						"heading": "Currently using",
+						"listedExperience": [{
+							"language": "Node JS",
+							"experience": "5 years"
+						},{
+							"language": "React",
+							"experience": "1 year"
+						},{
+							"language": "Redux",
+							"experience": "1 year"
+						}]
+					},
 					"codingExperience": {
 						"heading": "Coding experience",
 						"listedExperience": [{
 							"language": "HTML 4/5",
-							"experience": "19 years"
+							"experience": "20 years"
 						},{
-							"language": "CSS 2/3",
-							"experience": "19 years"
+							"language": "CSS 2/3/4",
+							"experience": "20 years"
 						},{
 							"language": "JavaScript (native)",
 							"experience": "19 years"
 						},{
-							"language": "JavaScript (object-oriented)",
-							"experience": "19 years"
-						},{
 							"language": "AJAX",
-							"experience": "15 years"
+							"experience": "16 years"
 						},{
 							"language": "RESTful webservices",
-							"experience": "15 years"
+							"experience": "16 years"
 						},{
 							"language": "JSON",
-							"experience": "15 years"
+							"experience": "16 years"
 						},{
 							"language": "XML",
-							"experience": "15 years"
+							"experience": "16 years"
 						},{
 							"language": "Responsive web builds",
-							"experience": "12 years"
+							"experience": "14 years"
 						},{
-							"language": "jQuery base framework",
+							"language": "jQuery base framework / custom plugins",
 							"experience": "8 years"
 						},{
-							"language": "jQuery custom plugin writing",
-							"experience": "8 years"
+							"language": "SCSS",
+							"experience": "6 years"
 						}],
 						"footerText": "Whilst the above are a consolidated list of my main strengths, I have of course been exposed to countless technologies, too many to mention on a CV. For example, I am familiar with GIT and SVN, I am happy to work on either Macs or PCs. I have coded PHP before, a little Java, some Python. I've done quite a bit of working with SVG and data visualization too, plus much more besides. In a contract, I do whatever I have to do, and use whichever technologies I have to use. If that involves learning something new, then that's just fine by me."
 					},
