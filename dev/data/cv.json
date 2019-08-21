@@ -93,6 +93,10 @@
 							"Webpack"
 						],
 						"linkedInRecommendations": [{
+							"name": "Sharif Macky",
+							"jobTitle": "Senior Associate",
+							"recommendation": "A <em>highly organised developer</em> with good technical analytical skills. <em>Super attentive to details</em>. His insistence on getting things done right are second to none yet <em>always manages to deliver on time</em>. He also has a <em>keen willingness to help out</em>. Overall it was a pleasure working with Martin and someone I'd enjoy working with again."
+						},{
 							"name": "Andrea Agueci",
 							"jobTitle": "UX Researcher",
 							"recommendation": "I had the pleasure of working with Martin on the Strong Customer Authentication programme at Lloyds Banking Group. <em>He was instrumental</em> in the creation and maintenance of several customer research prototypes and I particularly appreciated <em>his ability to quickly produce multiple iterations</em> in response to user feedback. When required, <em>Martin also delivered bespoke solutions</em> to address specific project challenges like copy management and prototype archiving. <em>The quality of his documentation</em> and his ability to keep the team up to date about the state of the codebase were equally <em>impressive.</em>"
