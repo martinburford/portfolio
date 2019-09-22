@@ -1,0 +1,87 @@
+{
+	"head": {
+		"title": "Portfolio",
+		"stylesheets": [{			
+			"path": "site.min.css",
+			"media": "all"
+		},{			
+			"path": "portfolio.min.css",
+			"media": "all"
+		},{			
+			"path": "gallery.min.css",
+			"media": "all"
+		}]
+	},
+	"client": "Rehab",
+	"project": "Ripple",
+	"dates": "Sep 2019 - Sep 2019",
+	"summary": "I spent close to a month at Rehab, helping out on a project which provided walkthroughs of a clients product that revolved around Crypto Currency. The deliverable was a single page React/Redux application which could be used primarily at trade shows. The application allows potential clients to see entire user journeys, and by entering real-world data, could use a mock instance of the platform to see how their organisation could benefit from the services offered by the product. One particularly nice feature I wrote in this project was an extremely comprehensive KeyReplacement component which allowed static keys in any part of the application (including large JSON files) to be replaced with dynamic values from a collection of Redux reducers. In addition to many other key types, this involved a number of specific Crypto algorithms embedded deep into the clients product suite.",
+	"technologiesUsed": [
+        "Axios", 
+        "Babel", 
+        "BEM", 
+        "ES6", 
+        "Flexbox", 
+        "HTML", 
+        "JSON", 
+        "NPM", 
+        "React", 
+        "Redux", 
+        "Routing",
+        "SASS", 
+        "Webpack"
+	],
+	"gitHubCodeSamples": "https://github.com/martinburford/code-samples/tree/master/filtered-by-contract/2019-09-2019-09%20-%20Rehab%20(Ripple)",
+	"media": {
+		"available": ["desktop"],
+		"desktop": [{
+			"image": "/assets/images/portfolio/galleries/2019-09-2019-09-rehab/screens/thumbnails/desktop/01-setup-screen.png",
+			"width": 960,
+			"label": "Setup screen"
+		},{
+			"image": "/assets/images/portfolio/galleries/2019-09-2019-09-rehab/screens/thumbnails/desktop/02-setup-screen-errors.png",
+			"width": 960,
+			"label": "Setup screen (errors)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2019-09-2019-09-rehab/screens/thumbnails/desktop/03-device-calculator.png",
+			"width": 960,
+			"label": "Device calculator"
+		},{
+			"image": "/assets/images/portfolio/galleries/2019-09-2019-09-rehab/screens/thumbnails/desktop/04-device-summary-details.png",
+			"width": 960,
+			"label": "Device summary (details)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2019-09-2019-09-rehab/screens/thumbnails/desktop/05-device-summary-transaction.png",
+			"width": 960,
+			"label": "Device summary (transaction)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2019-09-2019-09-rehab/screens/thumbnails/desktop/06-flippable-card-json.png",
+			"width": 960,
+			"label": "Flippable card (JSON)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2019-09-2019-09-rehab/screens/thumbnails/desktop/07-flippable-card-json-debug.png",
+			"width": 960,
+			"label": "Flippable card (JSON) - debug"
+		},{
+			"image": "/assets/images/portfolio/galleries/2019-09-2019-09-rehab/screens/thumbnails/desktop/08-ledgers-2-wide.png",
+			"width": 960,
+			"label": "Ledgers (2-wide)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2019-09-2019-09-rehab/screens/thumbnails/desktop/09-ledgers-3-wide.png",
+			"width": 960,
+			"label": "Ledgers (3-wide)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2019-09-2019-09-rehab/screens/thumbnails/desktop/10-ledgers-right-align.png",
+			"width": 960,
+			"label": "Ledgers (right-align)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2019-09-2019-09-rehab/screens/thumbnails/desktop/11-final-screen.png",
+			"width": 960,
+			"label": "Final screen"
+		},{
+			"image": "/assets/images/portfolio/galleries/2019-09-2019-09-rehab/screens/thumbnails/desktop/12-side-navigation.png",
+			"width": 960,
+			"label": "Side navigation"
+		}]
+	}
+}

@@ -18,6 +18,19 @@
 		},
 		"body": {
 			"contracts": [{
+				"containsGallery": true,
+				"ndaRestrictions": false,
+				"responsive": false,
+				"image": "/assets/images/portfolio/listing-thumbnails/rehab.png",
+				"companyName": "Rehab",
+				"jobTitle": "React / Redux Developer",
+				"roleType": "Contract",
+				"contractDates": "September 2019",
+				"duration": "1 month",
+				"location": "London, UK",
+				"overview": "I spent close to a month at Rehab, helping out on a project which provided walkthroughs of a clients product that revolved around Crypto Currency. The deliverable was a single page React/Redux application which could be used primarily at trade shows. The application allows potential clients to see entire user journeys, and by entering real-world data, could use a mock instance of the platform to see how their organisation could benefit from the services offered by the product. One particularly nice feature I wrote in this project was an extremely comprehensive KeyReplacement component which allowed static keys in any part of the application (including large JSON files) to be replaced with dynamic values from a collection of Redux reducers. In addition to many other key types, this involved a number of specific Crypto algorithms embedded deep into the clients product suite.",
+				"url": "/portfolio/gallery/2019-09-2019-09-rehab/ripple"
+			},{
 				"containsGallery": false,
 				"ndaRestrictions": true,
 				"responsive": true,

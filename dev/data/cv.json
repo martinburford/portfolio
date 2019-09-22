@@ -45,6 +45,47 @@
 				},{
 					"heading": "Experience",
 					"experience": {				
+						"companyLogo": "/assets/images/portfolio/company-logos/edge-to-edge/rehab.png",
+						"summary": {
+							"jobTitle": "React / Redux Developer",
+							"companyName": "Rehab",
+							"contractDates": "September 2019 - September 2019",
+							"location": "London, UK"
+						},
+						"workHighlights": [{
+							"text": "I was one of two Developers on a Single Page Application build using both React and Redux."
+						},{
+							"text": "The application was built to demonstrate to potential clients the flows of an existing Crypto Currency platform. The initial delivery was for the application to be used as part of a trade show / expo."
+						},{
+							"text": "Clients were able to enter their own information, with the walkthroughs / demonstrations then using their information in real-time."
+						},{
+							"text": "Live APIs were consumed in order to pull down live conversion rates, which were then applied against a number of computations within the application."
+						},{
+							"text": "Content was dynamically assigned against a suite of custom-built tag names, allowing placeholder data to be updated with real-time information throughout the entire application walkthrough."
+						},{
+							"text": "Demonstrations of API endpoints are embedded into the application and rendered out via a tabbed syntax highlighter."
+						},{
+							"text": "I wrote a custom 3D flipping mechanism to incorporate more content into a single step of a unique journey flow. This was a suggestion I made to the client to better enhance the application. The idea was universally welcomed and liked."
+						}],
+						"technologiesUsed": [
+							"Axios", 
+							"Babel", 
+							"BEM", 
+							"ES6", 
+							"Flexbox", 
+							"HTML", 
+							"JSON", 
+							"NPM", 
+							"React", 
+							"Redux", 
+							"Routing", 
+							"SASS", 
+							"Webpack"
+						],
+						"gitHubCodeSamples": "https://github.com/martinburford/code-samples/tree/master/filtered-by-contract/2019-09-2019-09%20-%20Rehab%20(Ripple)"
+					}
+				},{
+					"experience": {				
 						"companyLogo": "/assets/images/portfolio/company-logos/edge-to-edge/lloyds-bank.png",
 						"summary": {
 							"jobTitle": "Creative Technologist / React Developer",
@@ -53,7 +94,7 @@
 							"location": "London, UK"
 						},
 						"workHighlights": [{
-							"text": "I was the sole Front-End Developer on the Strong Customer Authentication team"
+							"text": "I was the sole Front-End Developer on the Strong Customer Authentication team."
 						},{
 							"text": "Created a single page React / Redux application which acted as a clickable prototype for user research sessions, to help determine which variants of multiple CX journeys were best received by members of the general public."
 						},{
@@ -207,72 +248,19 @@
 						}]
 					}
 				},{
-					"experience": {				
-						"companyLogo": "/assets/images/portfolio/company-logos/edge-to-edge/bond-and-coyne.png",
-						"summary": {
-							"jobTitle": "Senior Front-End Developer",
-							"companyName": "Bond & Coyne",
-							"contractDates": "August 2017 - November 2017",
-							"location": "London, UK"
-						},
-						"workHighlights": [{
-							"text": "Built a greenfield single page website."
-						},{
-							"text": "Fully responsive across 5 breakpoints, mobile-first adoption."
-						},{
-							"text": "Site included a fully responsive Data Visualization feature representing approximately 175 million records."
-						},{
-							"text": "I had to write a number of NodeJS scripts in order to extract and format the data into extremely bespoke formats prior to attaching the data to the SVH graphing components within the site."
-						},{
-							"text": "Project was delivered on time, on budget, and the client were delighted with the end result."
-						}],
-						"technologiesUsed": [
-							"Babel", 
-							"Browserify", 
-							"CSS3", 
-							"ES6", 
-							"Grunt", 
-							"HTML5", 
-							"icoMoon", 
-							"JSON", 
-							"Native JavaScript", 
-							"Node", 
-							"NPM", 
-							"OO JavaScript", 
-							"Responsive front-end", 
-							"SASS"
-						],
-						"gitHubCodeSamples": "https://github.com/martinburford/code-samples/tree/master/filtered-by-contract/2017-08-2017-11%20-%20Bond%20%26%20Coyne%20(Pearson)",
-						"linkedInRecommendations": [{
-							"name": "Martin Coyne",
-							"jobTitle": "Creative Director / Owner",
-							"recommendation": "Martin has been an invaluable member of our extended team helping to deliver an elegant solution on time and on budget but more importantly one that has <em>exceeded our client expectation</em>. Having worked with many developers I can honestly say that <em>I have never worked with one as methodical as Martin</em>. This installed a great level of confidence in the studio and enabled him to become quickly embedded as part of our team. I would not hesitate to recommend Martin and hope to work with him again soon. Highly recommend."
-						},{
-							"name": "Jason Hancock",
-							"jobTitle": "Digital Director",
-							"recommendation": "Martins extensive knowledge of front-end development and process made sure that we weren't restricted when it came to design or creative within a tight timeline. <em>He doesn't just know one way of doing things, he knows many</em> and will happily share the options, the impact and accurate timelines for each. This allowed us to clearly communicate with the client and manage expectations throughout an ever changing project that concluded in us <em>delivering a solid build above client expectations, on time and on budget</em>. We can recommend Martin without hesitation and will hopefully get to work with him again in future on further development of this project or any other challenging builds that need that higher level of expertise Martin offers."
-						},{
-							"name": "Nick Yorke",
-							"jobTitle": "Recruiter",
-							"recommendation": "Martin recently completed a 3 month project for a client of mine, which has been <em>a very smooth process with excellent results</em>. Martins organisation, communication and overall technical delivery has been brilliant, providing daily updates on progress as well as forecasted plans has given the client and myself absolute clarity, proving to be assuring for all parties involved. Moreover, <em>Martins timekeeping and punctuality is second to none</em>, and his collaborative and personable approach has allowed for a very successful project in which he has worked closely with both internal and external stakeholders. I highly recommend Martin and look forward to working with him again."
-						}]
-					}
-				},{
-					"experience": {
-						"summary": {
-							"jobTitle": "Cereer Break",
-							"companyName": "Parental Leave",
-							"contractDates": "March 2017 - July 2017",
-							"location": "London, UK"
-						},
-						"workHighlights": [{
-							"text": "I took 5 months off from work to spend some time with my son who was born in March 2017."
-						}]
-					}
-				},{
 					"subHeading": "Other contracts",
 					"tableIntroduction": "Besides my most recent 4 contracts, as above, I have worked in many other companies, on a contract basis:",
 					"tableOfRoles": [{
+						"companyName": "Bond & Coyne",
+						"jobTitle": "Senior Front-End Developer",
+						"contractFrom": "Aug 2017",
+						"contractTo": "Nov 2017"
+					},{
+						"companyName": "Career Break",
+						"jobTitle": "Becoming a Daddy :)",
+						"contractFrom": "Mar 2017",
+						"contractTo": "Jul 2017"
+					},{
 						"companyName": "HSBC",
 						"jobTitle": "Lead Web Developer",
 						"contractFrom": "Jan 2017",
