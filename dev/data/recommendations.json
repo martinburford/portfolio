@@ -146,7 +146,6 @@
                         "location": "London, UK"
                     },
                     "linkedInRecommendations": [{
-                        "noAlias": true,
                         "name": "Muhammad Moazzam Humayun",
                         "jobTitle": "Manager, Technology",
                         "recommendation": "Martin is a very detail-oriented individual and <em>is extremely hands-on</em> regarding the technologies he works with. He produced great work for the project we were both recently involved with. The best thing he does is the notes he writes for the whole days activities which gives a very detailed picture of all of his amazing work. He <em>helped fellow colleagues on numerous occasions</em>. I have found out that <em>he is an expert in JavaScript, HTML5 and responsive web development</em>. I can simply say \"Martin knows his stuff!!!\""
@@ -385,6 +384,10 @@
                         "location": "London, UK"
                     },
                     "linkedInRecommendations": [{
+                        "name": "Paul Worrall",
+                        "jobTitle": "Programme Manager",
+                        "recommendation": "I had the pleasure of working with Martin for just over 3 months on a technically challenging, multi-platform development project. Martin joined as the lead Interface Developer, managing a team of 4. <em>The breadth and depth of Martin's technical skills were hugely valuable</em> to the team that he lead as well as the Java developers that used the QA approved code that Martin and his team produced. This was of particular benefit on this specific project due to the broad range of devices and browsers within the approved matrix. The project that we worked on a time sensitive and <em>Martin worked extra hours, both in to the night and weekends to ensure that tight deadline was adhered to</em>. Although Martin worked extra hours, the quality of his output did not drop. Martin took extra time to ensure that all of the code provided by the team was of the required standard and fit for purpose. Martin's <em>excellent attention to detail and analytical approach</em> provided clarity in structure that will ensure that <em>the project is extensible and adaptable in future iterations</em>. This robust approach will stand the permanent development team, and therefore the client relationship, in good stead for many months to come. If the chance rose again, <em>I would not hesitate in re-hiring Martin</em>. I hope our professional paths cross again in the not too distant future."
+                    },{
                         "name": "Andres Gutierrez",
                         "jobTitle": "Project Manager",
                         "recommendation": "Martin was recommended by the technical lead on the project. At the time we were struggling for time and <em>when Martin came in he made an immediate impact to the project</em>. He worked on a JavaScript heavy component of the GP2 and GP3 sites; <em>he didn't struggle at all where previous developers did</em>. He showed superior knowledge of JavaScript and <em>tremendous work ethic in order to get the job done</em>. He was passionate for this project and he went that extra mile, which for a freelancer is rare. Without doubt I would recommend Martin as a solid senior front-end developer."
@@ -488,6 +491,27 @@
                         "recommendation": "During the concepting stage of the project, it quickly became clear that we would need <em>somebody with serious JavaScript skills</em> to even get this app built, let alone within the timeframes and to the levels of performance we required. Martin was the first person to spring to mind and he didn't let us down. Professional, flexible, great communicator and above all a superb coder - I can't wait to have him back for phase II."
                     }]
 				},{
+                    "companyLogo": "/assets/images/portfolio/company-logos/edge-to-edge/wunderman.png",
+                    "summary": {
+                        "jobTitle": "Senior JavaScript Engineer",
+                        "companyName": "Wunderman",
+                        "contractDates": "Dec 2010 - Jan 2011",
+                        "location": "London, UK"
+                    },
+                    "linkedInRecommendations": [{
+                        "name": "Dev Bhukya",
+                        "jobTitle": "Senior Project Manager",
+                        "recommendation": "It is my pleasure to recommend Martin to any organisation, <em>he is technically very strong</em> and did a great job on a web-analytics migration project whilst working at Wunderman."
+                    },{
+                        "name": "Charles Head",
+                        "jobTitle": "Account Director",
+                        "recommendation": "<em>Martin did an exceptional job</em> on a recent web metrics project. He is a responsible and insightful developer with <em>a great skill to analyze and summarize ideas</em>."
+                    },{
+                        "name": "Graham Warren",
+                        "jobTitle": "Internal Recruiter",
+                        "recommendation": "Martin is <em>a developer who always exceeds and constantly delivers great work</em>, on time and as per the spec. <em>A real talent and a safe pair of hands to have around</em>."
+                    }]
+				},{
                     "companyLogo": "/assets/images/portfolio/company-logos/edge-to-edge/rga.png",
                     "summary": {
                         "jobTitle": "Senior Developer",
@@ -562,13 +586,30 @@
                         "name": "Bahareh Boostani",
                         "jobTitle": ".Net Developer",
                         "recommendation": "Martin did a fantastic job during his time at LBi. His understanding of the UI development technologies and deep interest in the latest programming techniques contributed to major achievement in the working practices of the development team of the HoP project, particularly with regards to his effort in developing reusable modules and facilitating integration with back end code. His sound knowledge coupled with an easy-going and friendly outlook, made him a joy to work with."
+                    },{
+                        "name": "Natalie Morrish",
+                        "jobTitle": "Recruiter",
+                        "recommendation": "I can 100% recommend Martin as <em>an excellent technologist</em>. He is <em>a highly knowledgable individual in the digital media industry</em>. He is a top guy with <em>great experience in what he does</em> and I hope to have the opportunity to continue working with him over the next few years."
+                    }]
+				},{
+                    "companyLogo": "/assets/images/portfolio/company-logos/edge-to-edge/vml.png",
+                    "summary": {
+                        "jobTitle": "Senior Interactive Developer",
+                        "companyName": "VML",
+                        "contractDates": "Nov 2009 - Dec 2009",
+                        "location": "London, UK"
+                    },
+                    "linkedInRecommendations": [{
+                        "name": "Sam Carrington",
+                        "jobTitle": "Head of Interactive Development",
+                        "recommendation": "Martin was <em>a very capable, detail oriented developer</em>, he delivered fast and <em>accurate work</em> and was a pleasure to work with."
                     }]
 				},{
                     "companyLogo": "/assets/images/portfolio/company-logos/edge-to-edge/autoquake.png",
                     "summary": {
                         "jobTitle": "Lead Client-side Developer",
                         "companyName": "Autoquake",
-                        "contractDates": "",
+                        "contractDates": "Aug 2009 - Nov 2009",
                         "location": "London, UK"
                     },
                     "linkedInRecommendations": [{
@@ -599,11 +640,71 @@
                         "recommendation": "Martins straight talking and professional approach to web development was a real asset to a project well executed. I would rate <em>his knowledge of javascript, json, ajax, css and html as exceptional</em>. The project was delivered on time and surpassed my original expectations."
                     }]
 				},{
+                    "companyLogo": "/assets/images/portfolio/company-logos/edge-to-edge/euro-rscg.png",
+                    "summary": {
+                        "jobTitle": "Chief Technical Architect",
+                        "companyName": "Euro RSCG 4D",
+                        "contractDates": "Feb 2009 - Apr 2009",
+                        "location": "London, UK"
+                    },
+                    "linkedInRecommendations": [{
+                        "name": "Chris Minas",
+                        "jobTitle": "Technical Director",
+                        "recommendation": "Martin worked for me as a Senior Technical Architect and <em>always impressed me with his attention to detail and innovation</em> when designing digital solutions for our clients. In addition to his broad knowledge of internet technologies <em>Martin is one of the best client side developers I have had the pleasure to work with</em>. Very hands on...I could trust Martin to <em>code anything and everything with confidence</em>. A great Creative Technologist whom I would be happy to recommend to any organization."
+                    },{
+                        "name": "Marek Karwowski",
+                        "jobTitle": "Flash Developer",
+                        "recommendation": "It was a pleasure to work with Martin. All the time, he was involved in every stage of project development always sharing his thoughts and bringing alternative solutions. <em>He was an ideal bridge between the development team and managers</em>. It is a pleasure to recommend him as a well skilled IT person."
+                    }]
+				},{
+                    "companyLogo": "/assets/images/portfolio/company-logos/edge-to-edge/futurebranc.png",
+                    "summary": {
+                        "jobTitle": "PHP Developer",
+                        "companyName": "Futurebrand",
+                        "contractDates": "Jan 2009 - Feb 2009",
+                        "location": "London, UK"
+                    },
+                    "linkedInRecommendations": [{
+                        "name": "Luke Christison",
+                        "jobTitle": "Senior Digital Consultant",
+                        "recommendation": "<em>Martin is a valuable asset to any company</em> whether it be for a short or long term basis. Martin's <em>dedication to deliver quality work is his greatest attribute</em>; this coupled with his <em>professional approach and friendly nature</em> makes Martin an excellent resource to have in the office. I strongly recommend Martin and should you wish to discuss further please don't hesitate to contact me."
+                    },{
+                        "name": "Bridget Barton",
+                        "jobTitle": "Head of User Experience",
+                        "recommendation": "Martin is <em>logical, fast and professional</em> in the work he does. He examines problems from many angles, and can <em>provide innovative technical solutions</em>."
+                    }]
+				},{
+                    "companyLogo": "/assets/images/portfolio/company-logos/edge-to-edge/full-six.png",
+                    "summary": {
+                        "jobTitle": "Technical Director",
+                        "companyName": "Grand Union / Full Six",
+                        "contractDates": "Sep 2008 - Jan 2009",
+                        "location": "London, UK"
+                    },
+                    "linkedInRecommendations": [{
+                        "noAlias": true,
+                        "name": "Rolo Mawlabaux",
+                        "jobTitle": ".Net Developer",
+                        "recommendation": "Martin was a great person to work with, <em>possesing that not so common mix of both excellent interpersonal skills and deep technical expertise</em>. He has an <em>excellent knowledge of the intricacies of standards compliant client side development</em>, XHTML and jQuery, and <em>his markup is among the cleanest I've seen</em>. I've already worked with Martin again since GU and definitely hope to again."
+                    },{
+                        "name": "Rich Mumford",
+                        "jobTitle": "Head of User Experience",
+                        "recommendation": "Martin's a top chap. He has the <em>ability to see through the tech fog with speed</em> and gets to the crux of the problem with great efficiency. <em>A confident sort who knows his stuff</em>, speaks his truth with clarity and would be a welcome addition to any team."
+                    },{
+                        "name": "Andrew White",
+                        "jobTitle": "Web Developer",
+                        "recommendation": "I enjoyed working with Martin. I would describe Martin's <em>approach to managing as collaborative and focused on developing his team's strengths</em>. Martin's technical approach is focused on the practical application of new technologies. He extended this approach across the internal team, and brought it to client relationships as well. It would be a pleasure to work with him again."
+                    },{
+                        "name": "Steve Aubrey Bradshaw",
+                        "jobTitle": "IT Support Specialist",
+                        "recommendation": "Great guy to work with. <em>Martin is a team player</em>, very easy to get on with and <em>has wide technical knowledge</em>. I really enjoyed working with him at Grand Union. I thoroughly recommend him."
+                    }]
+				},{
                     "companyLogo": "/assets/images/portfolio/company-logos/edge-to-edge/digitas-lbi.png",
                     "summary": {
                         "jobTitle": "Principle Software Engineer",
                         "companyName": "Digitas",
-                        "contractDates": "Jul 2004 - Aug 2008",
+                        "contractDates": "Sep 2004 - Aug 2008",
                         "location": "London, UK"
                     },
                     "linkedInRecommendations": [{
@@ -611,7 +712,6 @@
                         "jobTitle": "Project Director",
                         "recommendation": "Martin writes <em>code that contains remarkably few bugs</em>, you watch and see."
                     },{
-                        "noAlias": true,
                         "name": "Micha de Vries",
                         "jobTitle": "Head of QA",
                         "recommendation": "I have pleasantly worked together with Martin at Digitas. Martin impressed me because of his knowledge and drive to mature software engineering: <em>Martin always put coding standards and practices first</em> ensuring high quality source code that was easy to maintain, extend and reuse. He also developed tools that would make his source code easy to test both from a development but also from a QA perspective. In addition Martin always impressed me with his knowledge about modern web technologies, both front as well as back-end related. Martin is a pleasant colleague with a good sense of humor and a no nonsense approach when it comes down to his professionalism. I would recommend Martin to any company looking for a driving and innovative force in their media and web development department."
@@ -649,7 +749,6 @@
                         "jobTitle": "Lead Client-Side Developer",
                         "recommendation": "I have worked closely with Martin on two very high-profile deadline driven web redesign projects, and on both occasions it was a challenging and pleasurable assignment. Martin is driven by a sense of craftsmanship which manifest itself in <em>terrific attention to detail</em>, technical competence, and a focused work ethic. I wouldn't hesitate to recommend him professionally or personally to a potential employer or business partner."
                     },{
-                        "noAlias": true,
                         "name": "Bernardo Carvalho Wertheim",
                         "jobTitle": "Project Co-ordinator",
                         "recommendation": "Whilst working with Martin at Digitas I was always impressed by his knowledge depth. There was never a moment where the guy didn't have an answer and when the job was tough there was <em>simply no one else I could trust</em>. Martin helped us launching the massive Shell.com website project, a £1.7M monster, CMS-driven, global solution that involved hundreds of stakeholders. Easy to manage and to be managed by, always a cool cat, Martin knows his stuff and would be a huge help to any digital team. Highly recommended."
@@ -670,6 +769,19 @@
                         "name": "Bharat Trivedi",
                         "jobTitle": "Associate Director",
                         "recommendation": "Martin was an outstanding senior software engineer with skills that spanned a variety of front and back-end technologies. I managed Martin at Modem Media / Digitas where he was lead developer on a variety of high profile projects for the likes of GSK, Samsung, Scottish Widows, Lloyds TSB and Unilever. Martin was <em>a real team player</em> and was comfortable taking ownership of tech projects from scoping right through to delivery. <em>The quality of Martins work was consistently high</em> and he was never afraid to embrace a new technology or process. He was a confident communicator and was ever dependable in client situations. Martins strong technical skills allied with professionalism made him <em>one of the real stars of the tech team</em> and it was a real pleasure to work with him. I wholeheartedly recommend Martin and believe he'd be an invaluable asset to any organisation."
+                    }]
+				},{
+                    "companyLogo": "/assets/images/portfolio/company-logos/edge-to-edge/volt-europe.png",
+                    "summary": {
+                        "jobTitle": "Trainee Developer",
+                        "companyName": "Volt Europe",
+                        "contractDates": "Jun 2001 - Jun 2002",
+                        "location": "London, UK"
+                    },
+                    "linkedInRecommendations": [{
+                        "name": "Chris Williams",
+                        "jobTitle": "Senior Tester",
+                        "recommendation": "<em>Martin is one of the most talented people I have worked with</em>. Martin is highly professional, <em>knowledgeable and experienced in his domain</em>, very well-organized, a hard-worker who <em>aims at only top quality deliverables</em> I highly recommend him and it was great working with him I hope I have the opportunity to work with him again."
                     }]
 				}]
 			}

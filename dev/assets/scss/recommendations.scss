@@ -28,6 +28,7 @@ main {
 }
 
 section {
+    border-top: 0;
     margin-bottom: 0;
     margin-top: 20px;
     padding-top: 0;
@@ -58,8 +59,20 @@ section {
     margin-top: 5px;
 }
 
-.linkedin-recommendations li:after {
-    display: none;
+.linkedin-recommendations {
+    margin-top: 15px;
+    
+    h3 {
+        display: none;
+    }
+
+    ul {
+        margin-top: 0;
+    }
+
+    li:after {
+        display: none;
+    }
 }
 
 // Breakpoints override CV styles
