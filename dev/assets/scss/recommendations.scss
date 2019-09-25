@@ -38,7 +38,7 @@ section {
 
     img {
         align-self: center;
-        display: block;
+        display: none;
         margin-left: auto;
         position: relative;
         width: 100px;
@@ -51,11 +51,11 @@ section {
         time {
             margin-top: 0;
         }
-
-        span {
-            margin-left: 10px;
-        }
     }
+}
+
+.dates-location {
+    margin-top: 5px;
 }
 
 .linkedin-recommendations li:after {
@@ -64,6 +64,22 @@ section {
 
 // Breakpoints override CV styles
 // 'mobile-large-upwards' || 'tablet-portrait-upwards' || 'tablet-landscape-upwards' || 'desktop-upwards'
+@include breakpoint-specific('tablet-portrait-upwards') {
+    section {
+        img {
+            display: block;
+        }
+
+        .summary span {
+            margin-left: 10px;
+        }
+    }
+
+    .dates-location {
+        margin-top: 0;
+    }
+}
+
 @include breakpoint-specific('desktop-upwards') {
     main {
         padding-right: 20px;
