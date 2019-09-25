@@ -62,6 +62,10 @@
                         "location": "London, UK"
                     },
                     "linkedInRecommendations": [{
+                        "name": "Richard Woods",
+                        "jobTitle": "Senior Back-End Developer",
+                        "recommendation": "I worked with Martin as part of a 6-month project developing a new internal business system, with him handling the entire front-end code. <em>His attention to detail is second to none</em>, both in the specification of the work and the communication about it. Despite a tight timescale, we produced a highly successful application. On a professional level <em>he is completely focused on the task</em>, but still always had time to offer support and advice when there were issues, but also <em>personally I very much enjoyed working with him</em> from the start. It’s fair to say that <em>his level of commitment in striving for perfection really shows</em> on the end product."
+                    },{
                         "name": "Chris Haslam",
                         "jobTitle": "Talent Acquisition",
                         "recommendation": "Martin backed up everything that was said about him prior to him joining Biglight. <em>He's professional, fast and there’s no BS</em>. It's not the first time we have worked together and it won't be the last."
@@ -159,6 +163,10 @@
                         "name": "Robyn Backhouse",
                         "jobTitle": "Scrum Master/Project Manager",
                         "recommendation": "Martin is a really <em>motivated, passionate developer</em> who is always looking for ways to improve performance and maintainability of the product. He is <em>great fun to have in a team</em>, keeping a smile on his face even when under pressure and keeping the mood light with his dry sense of humour. He <em>loves nothing more than a challenge</em> to which he can put his awesome mind to solve in the best possible way. <em>Always very productive</em>, Martin is hardworking, broad-minded and very forward thinking. Intelligent, ambitious and energetic, he's a real asset on any team, <em>always ready and willing to help others</em> whenever he can. I can't recommend him highly enough."
+                    },{
+                        "name": "Kolade Salami",
+                        "jobTitle": "Scrum Master",
+                        "recommendation": "Where do I start ... <em>Martin is simply exceptional in every way and a true professional in every sense</em>. I met and worked alongside Martin on the most complex yet business critical projects at Trinity Mirror. <em>Martin was a key part to the overall success of the project</em>. Martins <em>commitment to the team and project is amazing</em>. I've worked with many developers as a contractor for over 15 years and <em>this man stands out</em>. A brilliant mentor to both senior and junior developers alike. He's a solutions provider, a problem solver, a team player, a stakeholder manager and <em>a truly magnificent senior developer and a great guy</em>. I highly recommend him and he will be number 1 on my list in the near future."
                     },{
                         "name": "Tracey Bryant",
                         "jobTitle": "Project Manager",
@@ -526,7 +534,8 @@
                         "jobTitle": "Head of Delivery",
                         "recommendation": "I have worked with Martin on several occasions in several agencies and I believe that it is fair to say that we have mutual respect and admiration for each other. <em>Martin values people who work hard alongside him</em> and likewise, he gives the same dedication and commitment to all of the projects he is involved with. I have no idea how to translate most of the mumbo jumbo tech stuff Martin talks to me about, but one thing is for sure, no stone goes unturned when you work with him. I found him extremely effective and valuable in helping me pinpoint many of the project risks early on in the planning process as well as finding him to be <em>a tremendous support during the critical path of delivery</em>. He just makes sense in planning out the approach of delivery and seeing it through. <em>He is definitely a leader in his domain</em> with the ability to manage people as well as rapidly and effectively firefight the burning issues. <em>I love working with him as he gets the job done</em> and does not suffer fools in the process. He is also funny, amiable and just a pleasure to engage with, even when it is the 11th hour and the sky is falling. I always feel confident with Martin working alongside me."
                     }]
-				},{			
+				},{
+                    "companyLogo": "/assets/images/portfolio/company-logos/edge-to-edge/digitas-lbi.png",
                     "summary": {
                         "jobTitle": "Lead Internet Engineer",
                         "companyName": "LBi",
