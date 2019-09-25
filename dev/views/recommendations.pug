@@ -1,0 +1,43 @@
+include ./../../dev/src/components/head/pug/head.pug
+include ./../../dev/src/components/linkedin-recommendations/pug/linkedin-recommendations.pug
+
+doctype html
+html(prefix="og: http://ogp.me/ns#")
+
+	+head(recommendations.head, versionSuffix, false)
+				
+	body
+		div#wrapper
+
+			//- Header
+			header
+				h5= recommendations.header.title
+				p= recommendations.header.introduction
+
+			//- Loop through all sections
+			main
+				each company, index in recommendations.body.main.companies
+					section
+						//- Contract details
+						div.summary
+							div.company
+								h4= company.summary.jobTitle
+								h5
+									| -&nbsp;
+									= company.summary.companyName
+
+								div.dates-location
+									time= company.summary.contractDates
+									span= company.summary.location
+
+							if company.companyLogo
+								img(src=company.companyLogo, alt=company.summary.companyName)
+
+						//- LinkedIn recommendations
+						if company.linkedInRecommendations
+							- var avatar = {};
+
+							div.linkedin-recommendations
+								h3= global.strings.recommendations
+								div.inner
+									+linkedinRecommendations(company.linkedInRecommendations)

@@ -186,6 +186,10 @@ module.exports = function(grunt){
 			"folder": "portfolio",
 			"file": "index.html"
 		},{
+			"id": "recommendations",
+			"folder": "recommendations",
+			"file": "index.html"
+		},{
 			"id": "videos",
 			"folder": "portfolio/videos",
 			"file": "index.html"

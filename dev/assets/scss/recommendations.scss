@@ -1,0 +1,75 @@
+// File: /assets/css/recommendations.scss
+// Author: Martin Burford (martin@martinburford.co.uk)
+
+// Import utility files
+
+@import "utilities/_mixins";  
+@import "utilities/_variables";
+@import "utilities/_extends";
+
+// Global Recommendations styles
+
+header {
+    text-align: left;
+}
+
+h4,
+h5 {
+    display: inline;
+    font-size: 1.4em;
+}
+
+h5:after {
+    display: block;
+}
+
+main {
+    padding-top: 20px;
+}
+
+section {
+    margin-bottom: 0;
+    margin-top: 20px;
+    padding-top: 0;
+
+    &:nth-of-type(1) {
+        margin-top: 0;
+    }
+
+    img {
+        align-self: center;
+        display: block;
+        margin-left: auto;
+        position: relative;
+        width: 100px;
+    }
+
+    .summary {
+        display: flex;
+        justify-content: space-between;
+
+        time {
+            margin-top: 0;
+        }
+
+        span {
+            margin-left: 10px;
+        }
+    }
+}
+
+.linkedin-recommendations li:after {
+    display: none;
+}
+
+// Breakpoints override CV styles
+// 'mobile-large-upwards' || 'tablet-portrait-upwards' || 'tablet-landscape-upwards' || 'desktop-upwards'
+@include breakpoint-specific('desktop-upwards') {
+    main {
+        padding-right: 20px;
+        
+        &:before {
+    		display: none;
+    	}
+    }
+}
