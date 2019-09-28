@@ -82,7 +82,12 @@
 							"SASS", 
 							"Webpack"
 						],
-						"gitHubCodeSamples": "https://github.com/martinburford/code-samples/tree/master/filtered-by-contract/2019-09-2019-09%20-%20Rehab%20(Ripple)"
+						"gitHubCodeSamples": "https://github.com/martinburford/code-samples/tree/master/filtered-by-contract/2019-09-2019-09%20-%20Rehab%20(Ripple)",
+						"linkedInRecommendations": [{
+							"name": "Gary Button",
+							"jobTitle": "Senior Back-End Developer",
+							"recommendation": "Martin is <em>one of the most organised and on the ball developers I've worked with</em>. Produces <em>clean, well written code</em> as well as documenting and clearly explaining his approach. <em>Confident in raising issues and asking questions</em> whilst keeping calm and collected with clients. <em>10/10!</em>"
+						}]
 					}
 				},{
 					"experience": {				
