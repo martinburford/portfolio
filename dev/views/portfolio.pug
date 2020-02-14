@@ -24,21 +24,24 @@ html(prefix="og: http://ogp.me/ns#")
 								var listItemClasses = [];
 								var parentLinkClasses = [];
 								var parentLinkAttributes = {};
+								var containsLinkedInRecommendations = contract.linkedInRecommendations;
 
 							//- If the contract has no gallery
 							if contract.containsGallery === false
 								-
 									listItemClasses.push('no-gallery');
 									parentLinkClasses.push('linkedin-launch');
-
-									//- Generate the text for contract with no gallery (but LinkedIn recommendations)
-									var recommendationsFormatting = linkedInSuffixes(contract.linkedInRecommendations);												
-									var linkedInRecommendationsReceived = global.strings.linkedIn.recommendationsReceived.replace('{count}', recommendationsFormatting.count).replace('{recommendation/s}', recommendationsFormatting.recommendationSingularPlural);
-									var linkedInRecommendationsLinkText = global.strings.linkedIn.recommendationsRead.replace('{it-them}', recommendationsFormatting.itOrThem);
-
-									parentLinkAttributes.href = "linkedin-recommendations-" + (index+1);
 									parentLinkAttributes["data-linked-container-class"] = "no-gallery";
-									parentLinkAttributes["data-linked-element"] = ".linkedin-recommendations";
+
+									if(containsLinkedInRecommendations){
+										//- Generate the text for contract with no gallery (but LinkedIn recommendations)
+										var recommendationsFormatting = linkedInSuffixes(contract.linkedInRecommendations);												
+										var linkedInRecommendationsReceived = global.strings.linkedIn.recommendationsReceived.replace('{count}', recommendationsFormatting.count).replace('{recommendation/s}', recommendationsFormatting.recommendationSingularPlural);
+										var linkedInRecommendationsLinkText = global.strings.linkedIn.recommendationsRead.replace('{it-them}', recommendationsFormatting.itOrThem);
+
+										parentLinkAttributes.href = "linkedin-recommendations-" + (index+1);
+										parentLinkAttributes["data-linked-element"] = ".linkedin-recommendations";
+									}
 
 							//- If the contract is not responsive
 							if contract.responsive === false
@@ -70,9 +73,10 @@ html(prefix="og: http://ogp.me/ns#")
 											p!= contract.overview
 
 										if !contract.containsGallery
-											li.linkedin
-												strong= global.strings.linkedInRecommenations
-												p= linkedInRecommendationsReceived + " " + linkedInRecommendationsLinkText + "."
+											if containsLinkedInRecommendations
+												li.linkedin
+													strong= global.strings.linkedInRecommenations
+													p= linkedInRecommendationsReceived + " " + linkedInRecommendationsLinkText + "."
 										else
 											li.launch-gallery= global.strings.launchGallery
 
@@ -80,7 +84,7 @@ html(prefix="og: http://ogp.me/ns#")
 										div.nda
 											strong= global.strings.galleryNDARestrictions
 
-									if contract.containsGallery === false
+									if !contract.containsGallery && containsLinkedInRecommendations
 										div(id="linkedin-recommendations-" + (index+1), class="linkedin-recommendations")
 											h3= global.strings.recommendations
 											div.inner

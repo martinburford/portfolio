@@ -45,6 +45,41 @@
 				},{
 					"heading": "Experience",
 					"experience": {				
+						"companyLogo": "/assets/images/portfolio/company-logos/edge-to-edge/somo-global.png",
+						"summary": {
+							"jobTitle": "React Developer",
+							"companyName": "Somo Global",
+							"contractDates": "December 2019 - February 2020",
+							"location": "London, UK"
+						},
+						"workHighlights": [{
+							"text": "I was one of two Front-End Developers working on a Single Page Application build using both React and Redux."
+						},{
+							"text": "The application allowed for a website to be built and subsequently configured using a bespoke suite of components and templates. My involvement related to adjusting existing websites."
+						},{
+							"text": "This was achieved by accessing the configurable options of each component making up a websites page, getting both existing and setting new configuration values."
+						},{
+							"text": "On saving any configuration changes, the website was automatically updated, reflecting the changes made."
+						}],
+						"technologiesUsed": [
+							"Ant Design System", 
+							"CSS Modules", 
+							"ES6", 
+							"Flexbox", 
+							"HTML", 
+							"JSON", 
+							"NPM", 
+							"PostCSS", 
+							"React", 
+							"React Hooks", 
+							"Redux", 
+							"Selectors", 
+							"TypeScript", 
+							"Webpack"
+						]
+					}
+				},{
+					"experience": {				
 						"companyLogo": "/assets/images/portfolio/company-logos/edge-to-edge/rehab.png",
 						"summary": {
 							"jobTitle": "React / Redux Developer",
@@ -53,7 +88,7 @@
 							"location": "London, UK"
 						},
 						"workHighlights": [{
-							"text": "I was one of two Developers on a Single Page Application build using both React and Redux."
+							"text": "I was one of two Developers working on a Single Page Application build using both React and Redux."
 						},{
 							"text": "The application was built to demonstrate to potential clients the flows of an existing Crypto Currency platform. The initial delivery was for the application to be used as part of a trade show / expo."
 						},{
@@ -207,53 +242,6 @@
 							"name": "Paul Finan",
 							"jobTitle": "Director",
 							"recommendation": "<em>Martin is the epitome of professionalism</em>. Very detail orientated, Martin provided step-by-step documentation to work completed for the client and of course, he delivered when he said he would. In all my years of me doing this, <em>I hold Martin in very high regard when it comes to work ethic, technical knowledge, approach and his overall professionalism</em> when tasked with a project. I'll be looking him up again soon."
-						}]
-					}
-				},{
-					"experience": {				
-						"companyLogo": "/assets/images/portfolio/company-logos/edge-to-edge/tangent.png",
-						"summary": {
-							"jobTitle": "Senior Front-End Developer",
-							"companyName": "Tangent",
-							"contractDates": "January 2018 - March 2018",
-							"location": "London, UK"
-						},
-						"workHighlights": [{
-							"text": "Bought in to help with the second phase of work for Tangents largest client."
-						},{
-							"text": "Fully responsive website across 3 breakpoints, mobile-first adoption."
-						},{
-							"text": "Component-based site development, which was subsequently handed over to a Sitecore integration company."
-						},{
-							"text": "Over 100+ new components built within 12 weeks."
-						}],
-						"technologiesUsed": [
-							"Babel",
-							"BEM",
-							"Bootstrap Grid",
-							"CSS3",
-							"ES6",
-							"Flexbox",
-							"Gulp",
-							"HTML5",
-							"JSON",
-							"Node",
-							"Responsive front-end",
-							"SASS",
-							"Yarn"
-						],
-						"linkedInRecommendations": [{
-							"name": "Anders Jensen",
-							"jobTitle": "Front-End Developer",
-							"recommendation": "I really enjoyed working with Martin at Tangent! <em>He's a great Developer and a really funny guy</em>. We worked together on a project for a big client, which had a tight deadline plus an incredible workload and <em>I can't thank him enough for his help</em>. More than anything, I am grateful for Martins ability to take on a brief and deliver quality results. I had to oversee a few other projects at the same time, so I wasn't always present, but I knew that I could trust Martin with whatever task he'd get. He is perfectly able to work independently and will make sure to eliminate any wrong assumptions or ambiguities. This is really important in my opinion. Likewise he is also a great sport when working in a team, and <em>he was always happy to help any of the other team members</em>. Martin is a top professional. He keeps track of all tasks and <em>is incredibly informative</em>, writing documentation and a daily note of what he has completed. <em>I hope I'll get the pleasure of working with him again, because that’s what it was ... a real pleasure.</em>"
-						},{
-							"name": "Louise Simpson",
-							"jobTitle": "Senior Project Manager",
-							"recommendation": "Martin joined our project team at a critical point in delivery and <em>without him we would not have been able to deliver our project</em>. <em>He worked brilliantly as part of the team</em> and under extreme time pressures, with the added complexity of joining in the second phase of the project. <em>His extensive knowledge of front-end development was absolutely vital</em> in finding solutions to complex conditional forms and many other key components. His documentation and explanation of his work not only benefited our team but also our partner, and will benefit future teams supporting the project. He was also <em>very able and willing to lead and guide other members of the team</em>. He is very well organized and fully responsible for his own workload. As a Project Manager I did not once have to worry about Martin delivering on time or the quality of his work. I would recommend Martin to anyone looking for a highly skilled Developer and I would work with him again without hesitation. <em>He is a brilliant asset to any project team.</em>"
-						},{
-							"name": "Iustin Daniel Balta Cojocaru Stan",
-							"jobTitle": "QA/Web Manager",
-							"recommendation": "Martin was one of the first contractors I have had the pleasure to work with on a project with a very important client. The project was very time critical, and I have to say that, <em>hands down, Martin is one of the best Developers I have encountered</em>. For me, <em>he shattered the idea that some people have about contractors where they do not care about the projects they are working on</em>. He was more involved and interested in the project than people who were actually fully employed on the project. He is a highly skilled Developer who never takes a back seat or cannot be bothered to help, explain or fix an issue. He is a very detailed person who doesn't crack under pressure and <em>he knows how to explain something so that everyone understands</em> (be it on a ticket or verbally). He also takes the time to make sure that the same point of view is reached by all in the end. <em>He has some of the cleanest code I have ever come across</em>. Couple this with the high level of details he provides in Jira tickets, and it made checking and testing a breeze. <em>Working with Martin was a joy</em> not only because he was a devoted worker who gave his time for anybody that needed it, but also due to the fact that <em>he is a very interesting and fun person with a lovely personality that made it a treat to be around</em>. I truly hope to work alongside him again. Highly recommended for any type of project, big or small."
 						}]
 					}
 				},{

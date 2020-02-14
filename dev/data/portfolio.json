@@ -18,6 +18,18 @@
 		},
 		"body": {
 			"contracts": [{
+				"containsGallery": false,
+				"ndaRestrictions": true,
+				"responsive": true,
+				"image": "/assets/images/portfolio/listing-thumbnails/somo-global.png",
+				"companyName": "Somo Global",
+				"jobTitle": "React Developer",
+				"roleType": "Contract",
+				"contractDates": "December 2019 - February 2020",
+				"duration": "3 months",
+				"location": "London, UK",
+				"overview": "I was hired by Somo to work on a greenfield project which focused on building a tool enabling a website to be constructed from scratch, from a collection of custom written re-usable React components. These components could then be edited and configured in a variety of different ways. On top of this, a range of themes, layouts, templates, fonts etc. were also created, in order to offer yet more customization options to each unique website."
+			},{
 				"containsGallery": true,
 				"ndaRestrictions": false,
 				"responsive": false,
