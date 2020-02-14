@@ -248,6 +248,11 @@
 					"subHeading": "Other contracts",
 					"tableIntroduction": "Besides my most recent 4 contracts, as above, I have worked in many other companies, on a contract basis:",
 					"tableOfRoles": [{
+						"companyName": "Tangent",
+						"jobTitle": "Senior Front-End Developer",
+						"contractFrom": "Jan 2018",
+						"contractTo": "Mar 2018"
+					},{
 						"companyName": "Bond & Coyne",
 						"jobTitle": "Senior Front-End Developer",
 						"contractFrom": "Aug 2017",
