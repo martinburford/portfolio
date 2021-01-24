@@ -33,7 +33,7 @@
 			"main": {
 				"currentAvailability": {
 					"status": "available",
-					"text": "Immediately {availability} for contract work in London, UK"
+					"text": "Immediately {availability} for contract or permanent work in London, UK"
 				},
 				"sections": [{
 					"heading": "About Me",
@@ -44,6 +44,56 @@
 					"TODO - takingTimeOut": "I am currently taking some time out of work, to spend some time with my recently born son, along with taking the opportunity to spend some time looking at some web technologies I haven't had time to look at over the last year or so (eg: Babel, React, Redux, Webpack) and technologies I've used, but would like to know more about (eg: Browserify, ES6, Gulp, Node). Whilst I'm studying, I am also happy to look at the possibility of starting a new Front-End development contract position. So please get in touch if you have anything which you think may be of interest."
 				},{
 					"heading": "Experience",
+					"experience": {				
+						"companyLogo": "/assets/images/portfolio/company-logos/edge-to-edge/zellar.png",
+						"summary": {
+							"jobTitle": "Senior React / Redux Developer",
+							"companyName": "Zellar",
+							"contractDates": "February 2020 - Present day",
+							"location": "London, UK"
+						},
+						"workHighlights": [{
+							"text": "I am the sole Front-End Developer working on a Server-side rendered / re-hydrated React application built using React, Redux, TypeScript and Sass."
+						},{
+							"text": "The application provides the ability for companies to register and become part of a wider online community related to energy consumption, carbon emissions and ultimately, energy switching."
+						},{
+							"text": "The Front-End works hand-in-hand with a custom built back-end, providing around 50 endpoints, catering for Authentication through to Registration, Signin in, Account playback etc."
+						},{
+							"text": "Extensive documentation of the project is built via a heavily customised Storybook, which I built from the ground up."
+						}],
+						"technologiesUsed": [
+							"Ant Design System", 
+							"Axios",
+							"CSS Modules", 
+							"ES6", 
+							"Flexbox", 
+							"HTML", 
+							"JSON", 
+							"Mermaid",
+							"NPM", 
+							"React", 
+							"React Hooks", 
+							"Redux", 
+							"Sass",
+							"Storybook",
+							"TypeScript", 
+							"Webpack"
+						],
+						"linkedInRecommendations": [{
+							"name": "Alex Kickham",
+							"jobTitle": "Product Designer",
+							"recommendation": "<em>Working with Martin at Zellar was a breath of fresh air</em>, he came highly recommended and didn’t disappoint. <em>Always striving for better</em>, challenging design, suggesting improvements, making sure that <em>everything he creates is of the highest quality</em> - highly recommended"
+						},{
+							"name": "Adam Scott",
+							"jobTitle": "Chief Product Officer",
+							"recommendation": "Martin joined the team to lead our Front-End software engineering capability. For a tech start-up helping to define how society and communities learn and utilise data to become sustainable, <em>Martin's cross industry experience</em> together with modern practices and <em>skills helped us establish stable, efficient technologies and services</em>. This mind and skillset was key in our ability to build greenfield digital products and services - Building fast is key, however, Martin's <em>ability to have immensely practical conversations</em> with the wider engineering, design and product teams allowed true value creation from the get go. Martin <em>cares deeply about the customer experience and product performance</em>. He is a modern, reliable and disciplined lead developer who I would not hesitate to recommend to any customer centric, data led, beautiful UI focused organisation. I look forward to working with you again Martin."
+						},{
+							"name": "Eren Gokcek",
+							"jobTitle": "Product Manager",
+							"recommendation": "I worked with Martin at Zellar. <em>He's an incredibly accountable, proficient & diligent developer</em> who deeply cares about all aspects of the product. He laser focuses on the task at hand and delivers it to <em>the highest quality without wasting a second</em>. Martin doesn't hesitate to put his ideas forward to make the product even better, in a way that's backed up with data or user insight. I highly recommend him to any modern engineering team."
+						}]
+					}
+				},{
 					"experience": {				
 						"companyLogo": "/assets/images/portfolio/company-logos/edge-to-edge/somo-global.png",
 						"summary": {
@@ -73,10 +123,23 @@
 							"React", 
 							"React Hooks", 
 							"Redux", 
-							"Selectors", 
+							"Sass",
 							"TypeScript", 
 							"Webpack"
-						]
+						],
+						"linkedInRecommendations": [{
+							"name": "Robin Lewis",
+							"jobTitle": "Scrum Master",
+							"recommendation": "I was recently lucky enough to have Martin join a team for which I am the ScrumMaster. Martin joined the project mid-way through, and <em>had no problem in quickly getting himself up to speed on the work required of him</em>. More than that though, from my point of view as a ScrumMaster, <em>I was very impressed</em> with how Martin always made sure to keep me up to date with the status of his work and any impediments he could foresee that I could help to remove. In my opinion, <em>Martin is a dedicated and thorough developer</em>, and I would be more than happy to work with him again in the future!"
+						},{
+							"name": "Todd Francis",
+							"jobTitle": "Technical Development Lead",
+							"recommendation": "<em>Martin picked up the project really quickly</em> and was making valuable commits from the get go. <em>He was great to work with, very personable</em> and I'd be happy to work with him again on future projects."
+						},{
+							"name": "Marta Moskwa",
+							"jobTitle": "Product Designer",
+							"recommendation": "I can highly recommend Martin to you. <em>He cares about the details of UI component design</em> and makes sure they look just like they've been designed. <em>He represents both the technical and artistic sides of development</em>, making it easy to explain design ideas to him. Martin <em>showed a very positive attitude during our collaboration</em> and I hope to work with him again in the future."
+						}]
 					}
 				},{
 					"experience": {				
@@ -121,7 +184,7 @@
 						"linkedInRecommendations": [{
 							"name": "Gary Button",
 							"jobTitle": "Senior Back-End Developer",
-							"recommendation": "Martin is <em>one of the most organised and on the ball developers I've worked with</em>. Produces <em>clean, well written code</em> as well as documenting and clearly explaining his approach. <em>Confident in raising issues and asking questions</em> whilst keeping calm and collected with clients. <em>10/10!</em>"
+							"recommendation": "Martin is <Martin>one of the most organised and on the ball developers I've worked with</Martin>. Produces <em>clean, well written code</em> as well as documenting and clearly explaining his approach. <em>Confident in raising issues and asking questions</em> whilst keeping calm and collected with clients. <em>10/10!</em>"
 						}]
 					}
 				},{
@@ -192,62 +255,14 @@
 						}]
 					}
 				},{
-					"experience": {				
-						"companyLogo": "/assets/images/portfolio/company-logos/edge-to-edge/biglight.png",
-						"summary": {
-							"jobTitle": "Senior Front-End Developer",
-							"companyName": "Biglight",
-							"contractDates": "May 2018 - October 2018",
-							"location": "London, UK"
-						},
-						"workHighlights": [{
-							"text": "I was the sole Front-End Developer on a greenfield component-based internal reporting suite."
-						},{
-							"text": "Created an interactive dashboard for accessing hundreds of previous tests with<br />advanced filtering."
-						},{
-							"text": "Interactive forms allowed for the creation of entirely new tests."
-						},{
-							"text": "The website I built replaced the previous much-used, but ageing spreadsheets based solution."
-						},{
-							"text": "Full user-management built in, to enable hierarchical admin and read-only user groups."
-						},{
-							"text": "The data to include within the site was structurally complex, so a number of mechanisms were concepted, prototyped, and ultimately built, covering data visualization, contextual forms, progressive saving, localStorge data management and many more."
-						}],
-						"technologiesUsed": [
-							".net Core", 
-							"Babel", 
-							"BEM", 
-							"CSS3", 
-							"ES6", 
-							"Fetch", 
-							"Flexbox", 
-							"Grunt", 
-							"HTML5", 
-							"JSON", 
-							"Node", 
-							"NPM", 
-							"RESTful API", 
-							"SASS"
-						],
-						"gitHubCodeSamples": "https://github.com/martinburford/code-samples/tree/master/filtered-by-contract/2018-05-2018-10%20-%20Biglight%20(CXODB)",
-						"linkedInRecommendations": [{
-							"name": "Richard Woods",
-							"jobTitle": "Senior Back-End Developer",
-							"recommendation": "I worked with Martin as part of a 6-month project developing a new internal business system, with him handling the entire front-end code. <em>His attention to detail is second to none</em>, both in the specification of the work and the communication about it. Despite a tight timescale, we produced a highly successful application. On a professional level <em>he is completely focused on the task</em>, but still always had time to offer support and advice when there were issues, but also <em>personally I very much enjoyed working with him</em> from the start. It’s fair to say that <em>his level of commitment in striving for perfection really shows</em> on the end product."
-						},{
-							"name": "Chris Haslam",
-							"jobTitle": "Talent Acquisition",
-							"recommendation": "Martin backed up everything that was said about him prior to him joining Biglight. <em>He's professional, fast and there’s no BS</em>. It's not the first time we have worked together and it won't be the last."
-						},{
-							"name": "Paul Finan",
-							"jobTitle": "Director",
-							"recommendation": "<em>Martin is the epitome of professionalism</em>. Very detail orientated, Martin provided step-by-step documentation to work completed for the client and of course, he delivered when he said he would. In all my years of me doing this, <em>I hold Martin in very high regard when it comes to work ethic, technical knowledge, approach and his overall professionalism</em> when tasked with a project. I'll be looking him up again soon."
-						}]
-					}
-				},{
 					"subHeading": "Other contracts",
 					"tableIntroduction": "Besides my most recent 4 contracts, as above, I have worked in many other companies, on a contract basis:",
 					"tableOfRoles": [{
+						"companyName": "Biglight",
+						"jobTitle": "Senior Front-End Developer",
+						"contractFrom": "May 2018",
+						"contractTo": "October 2018"
+					},{
 						"companyName": "Tangent",
 						"jobTitle": "Senior Front-End Developer",
 						"contractFrom": "Jan 2018",
@@ -482,12 +497,15 @@
 						"heading": "Currently using",
 						"listedExperience": [{
 							"language": "Node JS",
-							"experience": "5 years"
+							"experience": "6 years"
 						},{
 							"language": "React",
-							"experience": "1 year"
+							"experience": "2 years"
 						},{
 							"language": "Redux",
+							"experience": "2 years"
+						},{
+							"language": "TypeScript",
 							"experience": "1 year"
 						}]
 					},
@@ -495,34 +513,34 @@
 						"heading": "Coding experience",
 						"listedExperience": [{
 							"language": "HTML 4/5",
-							"experience": "20 years"
+							"experience": "22 years"
 						},{
 							"language": "CSS 2/3/4",
-							"experience": "20 years"
+							"experience": "22 years"
 						},{
 							"language": "JavaScript (native)",
-							"experience": "19 years"
+							"experience": "21 years"
 						},{
 							"language": "AJAX",
-							"experience": "16 years"
+							"experience": "18 years"
 						},{
 							"language": "RESTful webservices",
-							"experience": "16 years"
+							"experience": "18 years"
 						},{
 							"language": "JSON",
-							"experience": "16 years"
+							"experience": "18 years"
 						},{
 							"language": "XML",
-							"experience": "16 years"
+							"experience": "18 years"
 						},{
 							"language": "Responsive web builds",
-							"experience": "14 years"
+							"experience": "16 years"
 						},{
 							"language": "jQuery base framework / custom plugins",
 							"experience": "8 years"
 						},{
-							"language": "SCSS",
-							"experience": "6 years"
+							"language": "Sass",
+							"experience": "8 years"
 						}],
 						"footerText": "Whilst the above are a consolidated list of my main strengths, I have of course been exposed to countless technologies, too many to mention on a CV. For example, I am familiar with GIT and SVN, I am happy to work on either Macs or PCs. I have coded PHP before, a little Java, some Python. I've done quite a bit of working with SVG and data visualization too, plus much more besides. In a contract, I do whatever I have to do, and use whichever technologies I have to use. If that involves learning something new, then that's just fine by me."
 					},

@@ -29,6 +29,48 @@
 		"body": {
 			"main": {
 				"companies": [{
+                    "companyLogo": "/assets/images/portfolio/company-logos/edge-to-edge/zellar.png",
+                    "summary": {
+                        "jobTitle": "Senior React / Redux Developer",
+                        "companyName": "Zellar",
+                        "contractDates": "February 2020 - Present day",
+                        "location": "London, UK"
+                    },
+                    "linkedInRecommendations": [{
+                        "name": "Alex Kickham",
+                        "jobTitle": "Product Designer",
+                        "recommendation": "<em>Working with Martin at Zellar was a breath of fresh air</em>, he came highly recommended and didn’t disappoint. <em>Always striving for better</em>, challenging design, suggesting improvements, making sure that <em>everything he creates is of the highest quality</em> - highly recommended"
+                    },{
+                        "name": "Adam Scott",
+                        "jobTitle": "Chief Product Officer",
+                        "recommendation": "Martin joined the team to lead our Front-End software engineering capability. For a tech start-up helping to define how society and communities learn and utilise data to become sustainable, <em>Martin's cross industry experience</em> together with modern practices and <em>skills helped us establish stable, efficient technologies and services</em>. This mind and skillset was key in our ability to build greenfield digital products and services - Building fast is key, however, Martin's <em>ability to have immensely practical conversations</em> with the wider engineering, design and product teams allowed true value creation from the get go. Martin <em>cares deeply about the customer experience and product performance</em>. He is a modern, reliable and disciplined lead developer who I would not hesitate to recommend to any customer centric, data led, beautiful UI focused organisation. I look forward to working with you again Martin."
+                    },{
+                        "name": "Eren Gokcek",
+                        "jobTitle": "Product Manager",
+                        "recommendation": "I worked with Martin at Zellar. <em>He's an incredibly accountable, proficient & diligent developer</em> who deeply cares about all aspects of the product. He laser focuses on the task at hand and delivers it to <em>the highest quality without wasting a second</em>. Martin doesn't hesitate to put his ideas forward to make the product even better, in a way that's backed up with data or user insight. I highly recommend him to any modern engineering team."
+                    }]
+				},{
+                    "companyLogo": "/assets/images/portfolio/company-logos/edge-to-edge/somo-global.png",
+                    "summary": {
+                        "jobTitle": "React Developer",
+                        "companyName": "Somo Global",
+                        "contractDates": "December 2019 - February 2020",
+                        "location": "London, UK"
+                    },
+                    "linkedInRecommendations": [{
+                        "name": "Robin Lewis",
+                        "jobTitle": "Scrum Master",
+                        "recommendation": "I was recently lucky enough to have Martin join a team for which I am the ScrumMaster. Martin joined the project mid-way through, and <em>had no problem in quickly getting himself up to speed on the work required of him</em>. More than that though, from my point of view as a ScrumMaster, <em>I was very impressed</em> with how Martin always made sure to keep me up to date with the status of his work and any impediments he could foresee that I could help to remove. In my opinion, <em>Martin is a dedicated and thorough developer</em>, and I would be more than happy to work with him again in the future!"
+                    },{
+                        "name": "Todd Francis",
+                        "jobTitle": "Technical Development Lead",
+                        "recommendation": "<em>Martin picked up the project really quickly</em> and was making valuable commits from the get go. <em>He was great to work with, very personable</em> and I'd be happy to work with him again on future projects."
+                    },{
+                        "name": "Marta Moskwa",
+                        "jobTitle": "Product Designer",
+                        "recommendation": "I can highly recommend Martin to you. <em>He cares about the details of UI component design</em> and makes sure they look just like they've been designed. <em>He represents both the technical and artistic sides of development</em>, making it easy to explain design ideas to him. Martin <em>showed a very positive attitude during our collaboration</em> and I hope to work with him again in the future."
+                    }]
+				},{
                     "companyLogo": "/assets/images/portfolio/company-logos/edge-to-edge/rehab.png",
                     "summary": {
                         "jobTitle": "React / Redux Developer",

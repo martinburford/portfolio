@@ -1,0 +1,109 @@
+{
+	"head": {
+		"title": "Portfolio",
+		"stylesheets": [{			
+			"path": "site.min.css",
+			"media": "all"
+		},{			
+			"path": "portfolio.min.css",
+			"media": "all"
+		},{			
+			"path": "gallery.min.css",
+			"media": "all"
+		}]
+	},
+	"client": "Somo Global",
+	"project": "Mettrr",
+	"dates": "Dec 2019 - Feb 2020",
+	"summary": "I was hired by Somo to work on a greenfield project which focused on building a tool enabling a website to be constructed from scratch, from a collection of custom written re-usable React components. These components could then be edited and configured in a variety of different ways. On top of this, a range of themes, layouts, templates, fonts etc. were also created, in order to offer yet more customization options to each unique website.",
+	"technologiesUsed": [
+        "Ant Design System", 
+        "CSS Modules", 
+        "ES6", 
+        "Flexbox", 
+        "HTML", 
+        "JSON", 
+        "NPM", 
+        "PostCSS", 
+        "React", 
+        "React Hooks", 
+		"Redux",
+		"Sass",
+        "TypeScript", 
+        "Webpack"
+	],
+	"linkedInRecommendations": [{
+		"name": "Robin Lewis",
+		"jobTitle": "Scrum Master",
+		"recommendation": "I was recently lucky enough to have Martin join a team for which I am the ScrumMaster. Martin joined the project mid-way through, and <em>had no problem in quickly getting himself up to speed on the work required of him</em>. More than that though, from my point of view as a ScrumMaster, <em>I was very impressed</em> with how Martin always made sure to keep me up to date with the status of his work and any impediments he could foresee that I could help to remove. In my opinion, <em>Martin is a dedicated and thorough developer</em>, and I would be more than happy to work with him again in the future!"
+	},{
+		"name": "Todd Francis",
+		"jobTitle": "Technical Development Lead",
+		"recommendation": "<em>Martin picked up the project really quickly</em> and was making valuable commits from the get go. <em>He was great to work with, very personable</em> and I'd be happy to work with him again on future projects."
+	},{
+		"name": "Marta Moskwa",
+		"jobTitle": "Product Designer",
+		"recommendation": "I can highly recommend Martin to you. <em>He cares about the details of UI component design</em> and makes sure they look just like they've been designed. <em>He represents both the technical and artistic sides of development</em>, making it easy to explain design ideas to him. Martin <em>showed a very positive attitude during our collaboration</em> and I hope to work with him again in the future."
+	}],
+	"media": {
+        "available": ["mobile","desktop"],
+        "mobile": [{
+			"image": "/assets/images/portfolio/galleries/2019-12-2020-02-somo-global/screens/thumbnails/mobile/01-default.png",
+			"width": 375,
+			"label": "Pages (default view)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2019-12-2020-02-somo-global/screens/thumbnails/mobile/02-drawer.png",
+			"width": 375,
+			"label": "Drawer"
+		},{
+			"image": "/assets/images/portfolio/galleries/2019-12-2020-02-somo-global/screens/thumbnails/mobile/03-drawer-expanded.png",
+			"width": 375,
+			"label": "Drawer (expanded)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2019-12-2020-02-somo-global/screens/thumbnails/mobile/04-sortable-list.png",
+			"width": 375,
+			"label": "Sortable list"
+		},{
+			"image": "/assets/images/portfolio/galleries/2019-12-2020-02-somo-global/screens/thumbnails/mobile/05-modal.png",
+			"width": 375,
+			"label": "Modal"
+		},{
+			"image": "/assets/images/portfolio/galleries/2019-12-2020-02-somo-global/screens/thumbnails/mobile/06-page-components.png",
+			"width": 375,
+			"label": "Page components"
+		},{
+			"image": "/assets/images/portfolio/galleries/2019-12-2020-02-somo-global/screens/thumbnails/mobile/07-page-component-configuration.png",
+			"width": 375,
+			"label": "Page component configuration"
+		},{
+			"image": "/assets/images/portfolio/galleries/2019-12-2020-02-somo-global/screens/thumbnails/mobile/08-editable-page-title.png",
+			"width": 375,
+			"label": "Editable page title"
+		}],
+		"desktop": [{
+			"image": "/assets/images/portfolio/galleries/2019-12-2020-02-somo-global/screens/thumbnails/desktop/01-default.png",
+			"width": 960,
+			"label": "Pages (default view)"
+		},{
+			"image": "/assets/images/portfolio/galleries/2019-12-2020-02-somo-global/screens/thumbnails/desktop/02-sortable-list.png",
+			"width": 960,
+			"label": "Sortable list"
+		},{
+			"image": "/assets/images/portfolio/galleries/2019-12-2020-02-somo-global/screens/thumbnails/desktop/03-modal.png",
+			"width": 960,
+			"label": "Modal"
+		},{
+			"image": "/assets/images/portfolio/galleries/2019-12-2020-02-somo-global/screens/thumbnails/desktop/04-page-components.png",
+			"width": 960,
+			"label": "Page components"
+		},{
+			"image": "/assets/images/portfolio/galleries/2019-12-2020-02-somo-global/screens/thumbnails/desktop/05-page-component-configuration.png",
+			"width": 960,
+			"label": "Page component configuration"
+		},{
+			"image": "/assets/images/portfolio/galleries/2019-12-2020-02-somo-global/screens/thumbnails/desktop/06-editable-page-title.png",
+			"width": 960,
+			"label": "Editable page title"
+        }]
+	}
+}
